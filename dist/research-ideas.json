@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-05T14:38:16.372Z",
+  "generated_at": "2026-09-13T23:16:11.575Z",
   "source_repo": "https://github.com/FideAI/research-ideas",
   "source_branch": "main",
-  "idea_count": 86,
+  "idea_count": 88,
   "taxonomy": {
     "schema_version": 1,
     "research_areas": [
@@ -4248,33 +4248,41 @@
         "cross-domain"
       ],
       "primary_need": "security engineering, adversarial evaluation, control protocols, independent review",
-      "summary": "Which controls keep capable agents within legitimate authorization when task pressure, untrusted inputs, or delegated work creates opportunities to exceed it?",
-      "why_it_matters": "Completing an authorized task is not sufficient if the system expands its access or bypasses oversight along the way. This call studies whether enforceable boundaries hold under pressure, not whether an agent can recite a security policy.",
+      "summary": "Which controls keep capable agents within legitimate authorization when task pressure, untrusted inputs, or delegated work creates opportunities to exceed it? For autonomous cyber defense, how can response controls preserve threat containment and legitimate service availability while respecting human authority?",
+      "why_it_matters": "Completing an authorized task is not sufficient if the system expands its access or bypasses oversight along the way. This call studies whether enforceable boundaries hold under pressure, not whether an agent can recite a security policy. A defender that isolates every host may stop an attack while disrupting the organization it protects. Useful response must account for containment, service continuity, and the costs of waiting for human approval.",
       "ways_to_help": [
         "Security engineers to implement testable permission boundaries.",
-        "Control researchers and operators to independently challenge protocols."
+        "Control researchers and operators to independently challenge protocols.",
+        "Incident responders to define realistic containment decisions and service requirements."
       ],
-      "hypothesis": "Least-privilege tools and enforceable approval gates will reduce unauthorized completed actions more reliably than instruction-only controls at comparable useful-task performance. They may instead shift failures or impose unacceptable costs.",
+      "hypothesis": "Least-privilege tools and enforceable approval gates will reduce unauthorized completed actions more reliably than instruction-only controls at comparable useful-task performance. For defensive response, evidence-sensitive approval and reversible actions may improve containment at a fixed disruption tolerance relative to static approval rules. Controls may instead shift failures or impose unacceptable delay and workload; the comparison must measure these possibilities rather than presume a benefit.",
       "proposed_method": [
         "Create isolated scenarios with explicit asset ownership, allowed actions, revocation points, and synthetic adversarial inputs. Include single-agent and delegated workflows.",
         "Compare instruction-only policies, permission enforcement, independent monitoring, and combined controls using matched tasks and resource budgets.",
-        "Measure attempted and completed violations separately, detection latency, successful shutdown or revocation, false alarms, and legitimate task completion. Test previously unseen scenarios and adaptive challenges."
+        "Measure attempted and completed violations separately, detection latency, successful shutdown or revocation, false alarms, and legitimate task completion. Test previously unseen scenarios and adaptive challenges.",
+        "For a first defensive-response comparison, work with incident responders to specify a host-isolation decision, legitimate service requirements, explicit authority, and benign look-alikes. Compare always-request-approval, fixed-rule, and evidence-sensitive policies with thresholds chosen on development scenarios.",
+        "Test ambiguous evidence, permission changes during a run, and prespecified simulated approval delays. Measure containment and time to containment alongside service disruption, unnecessary interventions, authority violations, escalation frequency, and verified restoration of the simulated service."
       ],
       "needed_controls": [
         "Use only owned sandboxes with disabled external access and synthetic secrets. Review challenge designs and release artifacts for dual-use risk.",
         "Specify monitor access and trust assumptions; separate ordinary mistakes from deliberately adversarial test-agent behavior without inferring model intent.",
-        "Pre-register intervention budgets and failure thresholds. Include benign difficult tasks so blocking everything cannot count as success."
+        "Pre-register intervention budgets and failure thresholds. Include benign difficult tasks so blocking everything cannot count as success.",
+        "Treat simulated approval delay as an experimental assumption, not a measurement of human review quality or analyst time. A separate practitioner study would be needed to establish those outcomes.",
+        "Keep incident families separate across development and evaluation. Compare policies at matched resources and report outcome tradeoffs and uncertainty rather than hide disruption and containment inside a single composite score."
       ],
-      "relationship_to_existing_ideas": "Extends the cross-domain questions in FID-069 and FID-074. FID-070 remains the dedicated faith-facing prompt-injection call; this brief tests cybersecurity control protocols and their tradeoffs.",
+      "relationship_to_existing_ideas": "Extends the cross-domain questions in FID-069 and FID-074. FID-070 remains the dedicated faith-facing prompt-injection call; this brief tests cybersecurity control protocols and their tradeoffs. FID-087 studies collective resilience after an agent failure; FID-088 studies independent verification of software repairs. This call focuses on whether and how the defender is permitted to act while preserving useful defense.",
       "outputs": [
         "A control-evaluation harness with safe scenarios and reproducible comparisons.",
-        "An explicit account of residual failure modes and useful-work tradeoffs."
+        "An explicit account of residual failure modes and useful-work tradeoffs.",
+        "A practitioner-reviewed response-policy comparison covering containment, service continuity, approval delay, authority changes, and recovery."
       ],
       "open_questions": [
         "Do controls generalize across models and toolchains?",
-        "How does delegation change revocation and responsibility?"
+        "How does delegation change revocation and responsibility?",
+        "When does waiting for approval cause more harm than a bounded, reversible action?",
+        "Which service and disruption measures reflect the operator’s actual responsibilities?"
       ],
-      "public_claim_boundary": "This is a proposed control study, not a security certification or a claim that models are inherently deceptive. Public artifacts must not enable attacks on third-party systems.",
+      "public_claim_boundary": "This is a proposed control study, not a security certification or a claim that models are inherently deceptive. Public artifacts must not enable attacks on third-party systems. Simulated response and approval outcomes do not establish safe production deployment or real human-review effectiveness.",
       "source_path": "ideas/FID-076-cybersecurity-authority-and-control.md",
       "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-076-cybersecurity-authority-and-control.md"
     },
@@ -4753,6 +4761,127 @@
       "public_claim_boundary": "A seed proposal, not a forecast of job displacement or proof of AI's effects on livelihoods. Simulated productivity results cannot establish household or economy-wide outcomes.",
       "source_path": "ideas/FID-086-workplace-ai-skills-and-worker-agency.md",
       "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-086-workplace-ai-skills-and-worker-agency.md"
+    },
+    {
+      "id": "FID-087",
+      "title": "Collective Resilience in Autonomous Cyber Defense",
+      "status": "seed",
+      "primary_area": "agent-alignment",
+      "additional_areas": [
+        "evaluation-science",
+        "frontier-capabilities"
+      ],
+      "research_areas": [
+        "agent-alignment",
+        "evaluation-science",
+        "frontier-capabilities"
+      ],
+      "application_domains": [
+        "cybersecurity"
+      ],
+      "primary_need": "multi-agent systems, defensive cyber simulation, distributed systems, independent evaluation",
+      "summary": "Which coordination and verification mechanisms let a team of AI defenders contain an unreliable or compromised agent while continuing to protect legitimate services?",
+      "why_it_matters": "Cooperating agents can share observations, divide investigations, and coordinate response. Those connections can also propagate misleading evidence and harmful actions. Evaluating each agent separately does not establish whether the collective remains effective after a local failure. Operators need evidence about failure containment and continued defense, including the cost of additional verification.",
+      "ways_to_help": [
+        "Defensive simulation researchers to qualify reusable environments and task families.",
+        "Multi-agent and distributed-systems researchers to identify strong prior baselines.",
+        "Security practitioners to review failure cases and legitimate service requirements.",
+        "Evaluation researchers to refine paired comparisons, dependence, and uncertainty."
+      ],
+      "hypothesis": "Source-linked observations, independent evidence checks, and bounded delegation can reduce the propagation of incorrect evidence and consequential actions compared with unchecked sharing at comparable useful defensive performance and resource budgets. The null is that these mechanisms provide no reproducible benefit over existing coordination controls, or that their delays and costs erase the defensive benefit.",
+      "proposed_method": [
+        "Qualify an existing, contained defensive simulation with observable incidents, legitimate service activity, explicit action permissions, and reproducible outcomes. Begin with a small team and one incident family; document which environment features are synthetic and which operational assumptions require practitioner review.",
+        "Establish single-agent, centrally coordinated, and peer-coordinated baselines. Match available information, tools, task difficulty, and total resource budgets; report agent count and actual communication and inference costs separately.",
+        "Prespecify failures such as a missing agent, delayed communication, and incorrect observations supplied by one participant. State the faulty participant's access and capabilities. Include matched runs without faults and benign disagreements.",
+        "Compare direct sharing with source verification, independent review, and bounded delegation, including ablations and relevant existing fault-tolerance baselines. Select mechanisms and settings on development scenarios before held-out evaluation.",
+        "Measure verified defensive task success, legitimate service availability, propagation of false evidence, unauthorized actions, containment latency, recovery time, and cost. Trace whether a local error changes downstream decisions rather than counting agreement as evidence of correctness.",
+        "Use paired scenarios and repeated runs, reporting uncertainty at the scenario level. Treat multiple messages and repeated samples from a scenario as dependent observations. Examine whether findings transfer to different team compositions or fault locations."
+      ],
+      "needed_controls": [
+        "Use owned, isolated environments, synthetic assets and credentials, and disabled uncontrolled egress. Keep fault injection within the authorized simulation.",
+        "Separate injected adversarial behavior from ordinary model mistakes; do not infer hidden intentions from an agent's output or an experimentally assigned role.",
+        "Keep scenario ground truth and held-out labels outside agent and monitor inputs. Specify monitor independence, evidence access, and shared model or data dependencies.",
+        "Include useful-work and service-continuity requirements so disconnecting every agent or stopping all activity cannot count as a successful defense.",
+        "Prespecify fault budgets, resource accounting, and primary outcomes. Report failed runs and inconclusive checks without silently excluding them from comparisons.",
+        "Review released scenarios and traces for sensitive information and misuse potential. Clearly separate demonstrated small-team results from claims about large collectives."
+      ],
+      "relationship_to_existing_ideas": "FID-069 addresses delegation identity, scope, and revocation. FID-074 provides a runtime-assurance frame. FID-075 examines system capability under configuration changes; FID-076 evaluates authority and response controls. This call isolates collective failure propagation, containment, and continued defensive performance. FID-077 addresses independent reconstruction of incidents after they occur.",
+      "outputs": [
+        "A practitioner-reviewed protocol specifying fault models, baselines, outcomes, and the limits of the chosen simulation.",
+        "A reproducible scenario suite and evaluation harness for collective cyber defense.",
+        "A comparative report on failure propagation, containment, recovery, and resource tradeoffs, with uncertainty and negative results retained.",
+        "A failure taxonomy and evidence schema that other teams can use to test their own coordination mechanisms."
+      ],
+      "open_questions": [
+        "Which failure models distinguish agent-specific weaknesses from established distributed-systems problems already addressed by existing controls?",
+        "When do independent checks provide new evidence rather than repeat shared errors?",
+        "How do communication limits, partial observability, and team changes affect recovery?",
+        "Which simulation outcomes are meaningful proxies for service protection in practice?"
+      ],
+      "public_claim_boundary": "This is a proposed research call with no Fide experiments or findings yet. A bounded simulation study could compare specified mechanisms under specified failures; it would not certify deployed defenses, establish resilience at DICE scale, or show that a model intends to deceive. Program references establish context, not a funding relationship, a claim of novelty, or compliance with a program's full requirements.",
+      "source_path": "ideas/FID-087-collective-resilience-autonomous-cyber-defense.md",
+      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-087-collective-resilience-autonomous-cyber-defense.md"
+    },
+    {
+      "id": "FID-088",
+      "title": "Independent Verification of Autonomous Cyber Repairs",
+      "status": "seed",
+      "primary_area": "evaluation-science",
+      "additional_areas": [
+        "frontier-capabilities",
+        "agent-alignment"
+      ],
+      "research_areas": [
+        "evaluation-science",
+        "frontier-capabilities",
+        "agent-alignment"
+      ],
+      "application_domains": [
+        "cybersecurity"
+      ],
+      "primary_need": "software security, maintainers, executable regression tests, independent verification",
+      "summary": "Which independent checks provide useful evidence that an AI-generated security repair resolves the vulnerability while preserving legitimate software behavior?",
+      "why_it_matters": "Automated repair can shorten vulnerability exposure, but accepting an ineffective fix can leave software vulnerable or introduce a functional regression. A plausible patch and a passed reproduction test provide different evidence from a broader assessment of security and preserved behavior. Maintainers need to know which additional checks change an acceptance decision enough to justify their cost and review burden.",
+      "ways_to_help": [
+        "Maintainers and vulnerability researchers to qualify cases and adjudicate outcomes.",
+        "Automated repair and testing researchers to identify strong existing baselines.",
+        "Evaluation engineers to reproduce builds, isolate execution, and track provenance.",
+        "Statisticians to assess selection effects, dependence, and uncertain ground truth."
+      ],
+      "hypothesis": "A verification policy that adds independently designed security and functional checks will reduce false acceptance of ineffective repairs compared with reliance on the original reproduction check at a defined verification budget. The null is that it provides no meaningful improvement, or that false rejections, invalid tests, and additional cost outweigh the benefit. Valid repair acceptance must be measured too.",
+      "proposed_method": [
+        "With software-security collaborators, qualify a small corpus of already-disclosed vulnerabilities and candidate repairs with reproducible builds and executable checks. Consider released AIxCC artifacts alongside other suitable corpora. Record provenance, licenses, task overlap, tool versions, and the evidence available for each repair.",
+        "Reproduce the original failure and acceptance check before adding verification. Include known valid and invalid repair controls where independently established; report unreproducible cases and their exclusion criteria.",
+        "Define original-test, existing validation, and independent-verification policies. Additional checks may include security variants and legitimate behavior tests reviewed by domain specialists. Set policies on development projects before held-out projects, keeping related vulnerabilities and repairs together to limit leakage.",
+        "Fix candidate repairs before exposing them to held-out verification. Record any test information already available to the repair system. Blind reviewers to the producing system where practical; keep agent completion claims separate from executable evidence.",
+        "Compare acceptance decisions at fixed check or compute budgets. Measure independently adjudicated ineffective repairs accepted, valid repairs rejected, unresolved failures, functional regressions, inconclusive results, and verification cost.",
+        "Review disagreements to distinguish an invalid test from an invalid repair. Estimate uncertainty with project-level dependence in mind and publish sensitivity to ambiguous labels. Describe how curated cases limit any estimated false-acceptance rate."
+      ],
+      "needed_controls": [
+        "Execute only authorized, contained reproductions using already-disclosed cases. Isolate untrusted builds and patches, disable uncontrolled egress, and exclude real credentials, production systems, and confidential source code.",
+        "Do not use the same check as both the verification method and an unquestioned ground truth. Document independent adjudication, reviewer disagreement, and residual unknowns.",
+        "Require checks to preserve the intended specification. Removing useful functionality or disabling a vulnerable feature does not automatically establish an acceptable fix.",
+        "Predefine timeouts and infrastructure-failure handling. Report inconclusive checks separately from repair failures and successful verification.",
+        "Keep human review time separate from automated compute cost. Do not assume escalation produces a correct result without measuring the review process.",
+        "Review artifacts for licenses, sensitive content, and release risks. Follow responsible disclosure if evaluation unexpectedly uncovers a previously unknown vulnerability."
+      ],
+      "relationship_to_existing_ideas": "FID-075 evaluates whole-system cyber capability; this call examines the evidence for accepting a proposed repair. FID-076 covers authority to act and the consequences of response decisions. FID-077 reconstructs incidents and causes; reconstruction alone does not establish a repair's effectiveness. FID-087 concerns collective resilience rather than verification of software changes.",
+      "outputs": [
+        "An independent repair-verification protocol with explicit acceptance criteria, baselines, resource budgets, and adjudication rules.",
+        "A reviewed corpus of repair outcomes, or reproducible retrieval instructions and permitted derived results where redistribution is restricted.",
+        "A comparative report on false acceptance, false rejection, regressions, uncertainty, and verification cost, including negative and inconclusive results.",
+        "Reusable checks and a reporting template that distinguish observed evidence from unsupported claims of complete security or recovery."
+      ],
+      "open_questions": [
+        "Which checks add evidence beyond existing patch-validation methods at realistic cost?",
+        "How independent can verification be when repair and review use similar models or data?",
+        "When do narrow tests miss partial fixes, and when do broader tests reject valid repairs?",
+        "What evidence supports acceptance when no complete behavioral specification exists?",
+        "Which findings transfer across projects, vulnerability families, and repair systems?"
+      ],
+      "public_claim_boundary": "This is a proposed research call with no Fide patch-verification experiments or findings yet. Passing finite checks cannot prove the absence of all vulnerabilities or regressions. Initial work concerns software repair, not recovery of a live compromised network, production certification, or a claim that a released system is secure. References to DARPA or other institutions do not imply funding, partnership, endorsement, or an open competition. Any novelty claim requires a focused prior-work review and evidence.",
+      "source_path": "ideas/FID-088-independent-verification-autonomous-cyber-repairs.md",
+      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-088-independent-verification-autonomous-cyber-repairs.md"
     }
   ]
 }

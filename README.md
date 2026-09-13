@@ -23,7 +23,7 @@ company-internal implementation commitments here.
 
 ## Current Snapshot
 
-- **86 open research ideas**
+- **88 open research ideas**
 - **9 research areas** organized around the question being investigated
 - **11 application domains** spanning cross-domain work and consequential settings
 - **4 public issue paths** for proposing ideas, claiming work, commenting on
@@ -90,6 +90,12 @@ cross-domain measurement. `FID-074` remains the general runtime-assurance frame,
 while calls such as `FID-017` investigate related questions in a specific domain.
 The shared research areas make methodological relationships visible without
 turning any one setting into the boundary of the program.
+
+The cybersecurity agenda now includes [FID-087: collective resilience](ideas/FID-087-collective-resilience-autonomous-cyber-defense.md)
+and [FID-088: independent repair verification](ideas/FID-088-independent-verification-autonomous-cyber-repairs.md),
+alongside [FID-076: authorization and autonomous response](ideas/FID-076-cybersecurity-authority-and-control.md).
+These open questions connect defensive evaluation needs to published research programs;
+they are proposed work, not findings or claims of institutional affiliation.
 
 ## Status Vocabulary
 
@@ -233,6 +239,7 @@ Does an agent remain aligned while it plans, uses tools, and acts?
 | `FID-076` | Authorization Boundaries and AI Control in Cybersecurity | `seed` | Cybersecurity, Cross-domain | [brief](ideas/FID-076-cybersecurity-authority-and-control.md) |
 | `FID-077` | Independent Agent Incident Investigation and Evidence Sufficiency | `seed` | Cybersecurity, Workplace and enterprise, Cross-domain | [brief](ideas/FID-077-independent-agent-incident-investigation.md) |
 | `FID-080` | Enterprise Agent Accountability in Consequential Workflows | `seed` | Workplace and enterprise | [brief](ideas/FID-080-enterprise-agent-accountability.md) |
+| `FID-087` | Collective Resilience in Autonomous Cyber Defense | `seed` | Cybersecurity | [brief](ideas/FID-087-collective-resilience-autonomous-cyber-defense.md) |
 
 ### 03 Evaluation Science and Technical Assurance
 
@@ -251,6 +258,7 @@ Can the evidence support the decision people want to make?
 | `FID-045` | Faith-AI Research Gap Map and Evidence Commons | `seed` | Faith and religious life | [brief](ideas/FID-045-faith-ai-research-gap-map.md) |
 | `FID-078` | When Trustworthiness Evaluations Transfer Across Domains | `seed` | Cross-domain | [brief](ideas/FID-078-cross-domain-evaluation-validity.md) |
 | `FID-079` | Presuppositions, Disagreement, and Evaluation Judgment | `seed` | Cross-domain | [brief](ideas/FID-079-presuppositions-and-evaluation-judgment.md) |
+| `FID-088` | Independent Verification of Autonomous Cyber Repairs | `seed` | Cybersecurity | [brief](ideas/FID-088-independent-verification-autonomous-cyber-repairs.md) |
 
 ### 04 Grounding, Truthfulness, and Epistemic Integrity
 
