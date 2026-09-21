@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
-import { validateCatalog, renderIndex } from "../scripts/build-publications.mjs";
+import { validateCatalog, renderIndex, renderCatalogReadme } from "../scripts/build-publications.mjs";
 const catalog = JSON.parse(await readFile(new URL("../publications/catalog.json", import.meta.url)));
 const taxonomy = JSON.parse(await readFile(new URL("../research/taxonomy.json", import.meta.url)));
 const check = (value) => validateCatalog(value, taxonomy, new Set(["FID-002"]));
@@ -17,6 +17,11 @@ test("released catalog validates and keeps publication and review status visible
 });
 test("unreleased work cannot enter the publication feed", () => {
   assert.throws(() => check(modified((r) => r.publication_status = "draft")), /released work/);
+  const future = modified((r, c) => {
+    r.published_on = "2099-01-01";
+    r.verified_on = c.updated_on = "2099-01-02";
+  });
+  assert.throws(() => validateCatalog(future, taxonomy, new Set(), "2026-09-21"), /future/);
 });
 test("unknown domains, calls and internal fields fail validation", () => {
   assert.throws(() => check(modified((r) => r.application_domains = ["made-up"])), /application_domains/);
@@ -38,4 +43,12 @@ test("withdrawal requires a notice that remains visible", () => {
   const corrected = modified((r) => { r.publication_status = "withdrawn"; r.corrections.push({ date: r.verified_on, note: "Withdrawn pending correction." }); });
   check(corrected);
   assert.match(renderIndex(corrected.publications), /Withdrawn pending correction/);
+});
+
+test("generated index preserves dollar notation and surrounding guide text", () => {
+  const sample = modified((r) => r.summary = "Costs: $$ per run; literal $&, $` and $' notation.");
+  const readme = "Before\n<!-- PUBLICATION_INDEX_START -->old<!-- PUBLICATION_INDEX_END -->\nAfter";
+  const rendered = renderCatalogReadme(readme, sample.publications);
+  assert.equal(rendered, `Before\n<!-- PUBLICATION_INDEX_START -->\n${renderIndex(sample.publications)}\n<!-- PUBLICATION_INDEX_END -->\nAfter`);
+  assert.equal(renderCatalogReadme(rendered, sample.publications), rendered);
 });

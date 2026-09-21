@@ -30,9 +30,10 @@ function list(values, allowed, label, { empty = false } = {}) {
   requireValue(values.every((value) => text(value) && (!allowed || allowed.has(value))), `${label}: unknown or empty value`);
 }
 
-export function validateCatalog(catalog, taxonomy, ideaIds) {
+export function validateCatalog(catalog, taxonomy, ideaIds, today = new Date().toISOString().slice(0, 10)) {
   requireValue(catalog?.schema_version === 1, "Unsupported catalog schema");
   requireValue(date(catalog.updated_on), "Invalid catalog updated_on");
+  requireValue(catalog.updated_on <= today, "Catalog updated_on cannot be in the future");
   requireValue(Array.isArray(catalog.publications), "Expected publications array");
   const areas = new Set(taxonomy.research_areas.map((x) => x.id));
   const domains = new Set(taxonomy.application_domains.map((x) => x.id));
@@ -83,6 +84,12 @@ export function renderIndex(publications) {
   }).join("\n\n");
 }
 
+export function renderCatalogReadme(readme, publications) {
+  const pattern = /<!-- PUBLICATION_INDEX_START -->[\s\S]*?<!-- PUBLICATION_INDEX_END -->/;
+  requireValue(pattern.test(readme), "Missing publication index markers");
+  return readme.replace(pattern, () => `<!-- PUBLICATION_INDEX_START -->\n${renderIndex(publications)}\n<!-- PUBLICATION_INDEX_END -->`);
+}
+
 async function main() {
   const catalog = JSON.parse(await readFile(path.join(root, "publications/catalog.json"), "utf8"));
   const taxonomy = JSON.parse(await readFile(path.join(root, "research/taxonomy.json"), "utf8"));
@@ -92,9 +99,7 @@ async function main() {
   const feed = { schema_version: 1, updated_on: catalog.updated_on, source_repo: sourceRepo, publication_count: publications.length, publications };
   const readmePath = path.join(root, "publications/README.md");
   const readme = await readFile(readmePath, "utf8");
-  const pattern = /<!-- PUBLICATION_INDEX_START -->[\s\S]*?<!-- PUBLICATION_INDEX_END -->/;
-  requireValue(pattern.test(readme), "Missing publication index markers");
-  const updatedReadme = readme.replace(pattern, `<!-- PUBLICATION_INDEX_START -->\n${renderIndex(publications)}\n<!-- PUBLICATION_INDEX_END -->`);
+  const updatedReadme = renderCatalogReadme(readme, publications);
   const outputs = [[path.join(root, "dist/publications.json"), JSON.stringify(feed, null, 2) + "\n"], [readmePath, updatedReadme]];
   if (process.argv.includes("--check")) {
     for (const [file, expected] of outputs) {
