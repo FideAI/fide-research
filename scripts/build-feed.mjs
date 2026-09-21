@@ -8,7 +8,7 @@ const taxonomyFile = path.join(repoRoot, "research", "taxonomy.json");
 const readmeFile = path.join(repoRoot, "README.md");
 
 const sourceRepo =
-  process.env.RESEARCH_IDEAS_SOURCE_REPO ?? "https://github.com/FideAI/research-ideas";
+  process.env.RESEARCH_IDEAS_SOURCE_REPO ?? "https://github.com/FideAI/fide-research";
 const sourceBranch = process.env.RESEARCH_IDEAS_SOURCE_BRANCH ?? "main";
 const taxonomy = JSON.parse(await readFile(taxonomyFile, "utf8"));
 const researchAreas = new Map(taxonomy.research_areas.map((area) => [area.id, area]));

@@ -1,25 +1,39 @@
-# Fide AI Research Ideas
+# Fide AI Research
 
-This repository is Fide AI's public research commons: a place to propose,
-review, claim, and track research ideas about trustworthy AI and its use in
-high-trust domains.
+Fide AI's public research agenda and record of released work on trustworthy AI
+in consequential settings. Browse the [publication catalog](publications/README.md),
+explore the [research calls](#idea-index), or [contribute](CONTRIBUTING.md).
 
-Calls are organized first by the problem they investigate, including evaluation
-science, agent systems, grounding, governance, work, human agency, and emerging
-risks. Application-domain metadata then identifies where the question should be
-studied. Faith and religious life is one domain among several, and a specific
-religious or institutional context is named only when it matters to the method.
+This is the existing research commons, formerly named `research-ideas`. Its
+research calls, FID identifiers, issue discussions and contribution workflows
+continue here. Cybersecurity, faith and religious life, healthcare, education and
+other application domains share the same research taxonomy.
 
-The companion website publishes a readable snapshot of these ideas at
-`fideai.org/research/calls`. This repository remains the source of truth for the
-research backlog, issue discussions, pull requests, and generated JSON feed.
+## What Lives Here
+
+| Section | Purpose |
+|---|---|
+| [Publications](publications/README.md) | Released papers, investigations, reports and briefs, with links to methods and supporting artifacts |
+| [Research calls](#idea-index) | Questions, proposed methods and opportunities to collaborate |
+| [Evidence commons](research/README.md) | Sources, literature reviews and the shared taxonomy |
+
+A call is a question, not a finding. A catalog entry records a released work;
+it does not imply peer review, independent replication or complete reproducibility.
+Each entry states its publication and review status and the limits of its evidence.
+
+The website presents the work at [fideai.org/research](https://fideai.org/research)
+and publishes the calls at [fideai.org/research/calls](https://fideai.org/research/calls).
+Substantial studies keep their reports, data and executable analysis in dedicated
+public artifact repositories. This catalog links to those sources rather than
+copying their contents.
 
 ## Public Scope
 
-Keep this repository focused on research ideas, public methodology, source
-reviews, collaboration needs, and claim boundaries. Do not include
-product-specific plans, customer or partner work, private GTM strategy, or
-company-internal implementation commitments here.
+Include public research questions, released work, methods, source reviews and
+collaboration opportunities. Keep research development, private evidence,
+reviewer notes, credentials and internal operating plans in their owning private
+workspaces. Public artifact repositories must explain what readers can reproduce
+without access to Fide's private infrastructure.
 
 ## Current Snapshot
 
@@ -28,8 +42,10 @@ company-internal implementation commitments here.
 - **11 application domains** spanning cross-domain work and consequential settings
 - **4 public issue paths** for proposing ideas, claiming work, commenting on
   methodology, and volunteering as a reviewer
-- **1 generated feed** at `dist/research-ideas.json` for the website and other
-  downstream uses
+- **2 separate feeds:** `dist/research-ideas.json` for calls and
+  `dist/publications.json` for registered releases
+- An initial [publication catalog](publications/README.md), expanded as released
+  work is checked and registered; it is not an exhaustive publication history
 
 ## Who This Is For
 
@@ -112,7 +128,10 @@ they are proposed work, not findings or claims of institutional affiliation.
 ## Repository Structure
 
 ```text
-README.md                     # Public orientation and idea index
+README.md                     # Public research home and idea index
+publications/catalog.json     # Canonical publication records
+publications/README.md        # Release catalog and registration guide
+dist/publications.json        # Generated publication feed
 CONTRIBUTING.md                # Detailed contributor and maintainer guide
 CLAIMS_POLICY.md               # How to avoid overstating research ideas
 CODE_OF_CONDUCT.md             # Community expectations
