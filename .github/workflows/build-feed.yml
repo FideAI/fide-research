@@ -1,4 +1,4 @@
-name: Build research ideas feed
+name: Verify research catalogs
 
 on:
   push:
@@ -14,5 +14,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
+      - run: npm test
+      - run: npm run verify:publications
       - run: npm run verify:feed
       - run: git diff --exit-code README.md dist/research-ideas.json

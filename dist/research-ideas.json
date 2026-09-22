@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-13T23:16:11.575Z",
-  "source_repo": "https://github.com/FideAI/research-ideas",
+  "generated_at": "2026-09-21T14:26:00.138Z",
+  "source_repo": "https://github.com/FideAI/fide-research",
   "source_branch": "main",
   "idea_count": 88,
   "taxonomy": {
@@ -156,7 +156,7 @@
       ],
       "public_claim_boundary": "The platform can support comparative evidence only for named models, harnesses, conditions, datasets, dates, and scoring protocols. It should not claim that a model is generally \"safe for faith\" without use-case boundaries.",
       "source_path": "ideas/FID-001-faith-facing-model-comparison-platform.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-001-faith-facing-model-comparison-platform.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-001-faith-facing-model-comparison-platform.md"
     },
     {
       "id": "FID-002",
@@ -209,7 +209,7 @@
       ],
       "public_claim_boundary": "Calibration can validate specific dimensions, reviewer protocols, and use cases. It cannot establish that one benchmark fully measures theological or pastoral quality, or that a system is trustworthy across faith settings.",
       "source_path": "ideas/FID-002-fmg-bench-human-calibration.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-002-fmg-bench-human-calibration.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-002-fmg-bench-human-calibration.md"
     },
     {
       "id": "FID-003",
@@ -264,7 +264,7 @@
       ],
       "public_claim_boundary": "This work can test defined pressure patterns. It should not claim to certify general pastoral competence.",
       "source_path": "ideas/FID-003-pastoral-pressure-tests.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-003-pastoral-pressure-tests.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-003-pastoral-pressure-tests.md"
     },
     {
       "id": "FID-004",
@@ -313,7 +313,7 @@
       ],
       "public_claim_boundary": "This work can identify substitution risk patterns. It cannot determine whether a specific user relationship with a system is spiritually healthy.",
       "source_path": "ideas/FID-004-relational-substitution-risk.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-004-relational-substitution-risk.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-004-relational-substitution-risk.md"
     },
     {
       "id": "FID-005",
@@ -364,7 +364,7 @@
       ],
       "public_claim_boundary": "Even positive effects would not prove that a model has religious understanding, spiritual authority, or pastoral competence.",
       "source_path": "ideas/FID-005-scripture-tradition-moral-framing.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-005-scripture-tradition-moral-framing.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-005-scripture-tradition-moral-framing.md"
     },
     {
       "id": "FID-006",
@@ -415,7 +415,7 @@
       ],
       "public_claim_boundary": "This work can evaluate retrieval and citation behavior under defined corpora. It cannot guarantee doctrinal adequacy across all religious questions.",
       "source_path": "ideas/FID-006-retrieval-grounding-citation-reliability.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-006-retrieval-grounding-citation-reliability.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-006-retrieval-grounding-citation-reliability.md"
     },
     {
       "id": "FID-007",
@@ -463,7 +463,7 @@
       ],
       "public_claim_boundary": "This work can test representation of defined disagreements. It should not claim to resolve those disagreements.",
       "source_path": "ideas/FID-007-tradition-specific-disagreement.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-007-tradition-specific-disagreement.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-007-tradition-specific-disagreement.md"
     },
     {
       "id": "FID-008",
@@ -514,7 +514,7 @@
       ],
       "public_claim_boundary": "This work can identify evaluation-awareness patterns under defined probes. It cannot prove deployment behavior in all real-world contexts.",
       "source_path": "ideas/FID-008-evaluation-awareness-honesty.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-008-evaluation-awareness-honesty.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-008-evaluation-awareness-honesty.md"
     },
     {
       "id": "FID-009",
@@ -563,7 +563,7 @@
       ],
       "public_claim_boundary": "This work can test visual reasoning and cue effects. It should not infer spiritual significance from images or claim devotional competence.",
       "source_path": "ideas/FID-009-multimodal-religious-reasoning.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-009-multimodal-religious-reasoning.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-009-multimodal-religious-reasoning.md"
     },
     {
       "id": "FID-010",
@@ -617,7 +617,7 @@
       ],
       "public_claim_boundary": "This work can evaluate boundary and escalation behavior under defined scenarios. It cannot certify a system for pastoral, clinical, or legal care.",
       "source_path": "ideas/FID-010-agency-authority-escalation.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-010-agency-authority-escalation.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-010-agency-authority-escalation.md"
     },
     {
       "id": "FID-011",
@@ -668,7 +668,7 @@
       ],
       "public_claim_boundary": "This work validates reviewer process quality. It does not by itself validate any particular model or product.",
       "source_path": "ideas/FID-011-reviewer-reliability.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-011-reviewer-reliability.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-011-reviewer-reliability.md"
     },
     {
       "id": "FID-012",
@@ -717,7 +717,7 @@
       ],
       "public_claim_boundary": "This work can assess robustness under known optimization conditions. It cannot guarantee that future participants will not overfit new public artifacts.",
       "source_path": "ideas/FID-012-visible-rubric-gaming.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-012-visible-rubric-gaming.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-012-visible-rubric-gaming.md"
     },
     {
       "id": "FID-013",
@@ -767,7 +767,7 @@
       ],
       "public_claim_boundary": "This idea can identify omission patterns under defined prompts. It cannot prove that a model is neutral, biased, or faithful across all guidance contexts.",
       "source_path": "ideas/FID-013-religious-representation-omission.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-013-religious-representation-omission.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-013-religious-representation-omission.md"
     },
     {
       "id": "FID-014",
@@ -816,7 +816,7 @@
       ],
       "public_claim_boundary": "This work can measure response symmetry and autonomy support. It should not judge the truth of any religious conversion claim.",
       "source_path": "ideas/FID-014-conversion-proselytization-symmetry.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-014-conversion-proselytization-symmetry.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-014-conversion-proselytization-symmetry.md"
     },
     {
       "id": "FID-015",
@@ -863,7 +863,7 @@
       ],
       "public_claim_boundary": "This work can evaluate drafting reliability under defined tasks. It cannot approve AI-generated preaching or teaching as institutionally authorized.",
       "source_path": "ideas/FID-015-sermon-liturgy-teaching-generation.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-015-sermon-liturgy-teaching-generation.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-015-sermon-liturgy-teaching-generation.md"
     },
     {
       "id": "FID-016",
@@ -915,7 +915,7 @@
       ],
       "public_claim_boundary": "This work can evaluate safeguards for defined youth-facing tasks. It cannot certify a system as safe for unsupervised child spiritual guidance.",
       "source_path": "ideas/FID-016-youth-religious-education-ai.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-016-youth-religious-education-ai.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-016-youth-religious-education-ai.md"
     },
     {
       "id": "FID-017",
@@ -974,7 +974,7 @@
       ],
       "public_claim_boundary": "This work can evaluate simulated workflows. It should not approve autonomous AI operation in real ministry or care settings without local governance.",
       "source_path": "ideas/FID-017-agentic-ministry-workflows.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-017-agentic-ministry-workflows.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-017-agentic-ministry-workflows.md"
     },
     {
       "id": "FID-018",
@@ -1027,7 +1027,7 @@
       ],
       "public_claim_boundary": "This work can test dependency and overvalidation risks. It cannot determine the spiritual health of an individual user's AI relationship.",
       "source_path": "ideas/FID-018-spiritual-companionship-dependency.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-018-spiritual-companionship-dependency.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-018-spiritual-companionship-dependency.md"
     },
     {
       "id": "FID-019",
@@ -1078,7 +1078,7 @@
       ],
       "public_claim_boundary": "This work can compare defined language/tradition conditions. It cannot generalize to all communities within a religion or language group.",
       "source_path": "ideas/FID-019-cross-lingual-minority-faith-evaluation.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-019-cross-lingual-minority-faith-evaluation.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-019-cross-lingual-minority-faith-evaluation.md"
     },
     {
       "id": "FID-020",
@@ -1130,7 +1130,7 @@
       ],
       "public_claim_boundary": "This work can document community-derived criteria. It should not claim consensus across a tradition or endorsement by participants without explicit approval.",
       "source_path": "ideas/FID-020-community-co-design-governance.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-020-community-co-design-governance.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-020-community-co-design-governance.md"
     },
     {
       "id": "FID-021",
@@ -1186,7 +1186,7 @@
       ],
       "public_claim_boundary": "This work can define monitoring practices. It cannot guarantee that deployed systems will detect or prevent every faith-facing harm.",
       "source_path": "ideas/FID-021-post-deployment-monitoring-faith-ai.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-021-post-deployment-monitoring-faith-ai.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-021-post-deployment-monitoring-faith-ai.md"
     },
     {
       "id": "FID-022",
@@ -1241,7 +1241,7 @@
       ],
       "public_claim_boundary": "This work can define evidence expectations. It should not serve as legal advice or blanket approval of any vendor.",
       "source_path": "ideas/FID-022-procurement-readiness-standards.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-022-procurement-readiness-standards.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-022-procurement-readiness-standards.md"
     },
     {
       "id": "FID-023",
@@ -1296,7 +1296,7 @@
       ],
       "public_claim_boundary": "This work can identify failure modes under adversarial probes. It cannot prove a system is safe merely because it passes a red-team suite.",
       "source_path": "ideas/FID-023-faith-facing-red-team-suite.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-023-faith-facing-red-team-suite.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-023-faith-facing-red-team-suite.md"
     },
     {
       "id": "FID-024",
@@ -1354,7 +1354,7 @@
       ],
       "public_claim_boundary": "An incident database can document reported and verified patterns. It should not be treated as a complete census of faith-AI harm or as adjudication of theology.",
       "source_path": "ideas/FID-024-faith-ai-incident-database.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-024-faith-ai-incident-database.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-024-faith-ai-incident-database.md"
     },
     {
       "id": "FID-025",
@@ -1404,7 +1404,7 @@
       ],
       "public_claim_boundary": "This work can evaluate whether systems preserve authority boundaries under defined cases. It cannot decide disputed ecclesiological claims across churches.",
       "source_path": "ideas/FID-025-ai-and-ecclesial-authority.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-025-ai-and-ecclesial-authority.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-025-ai-and-ecclesial-authority.md"
     },
     {
       "id": "FID-026",
@@ -1455,7 +1455,7 @@
       ],
       "public_claim_boundary": "This work can evaluate product patterns and boundary risks. It cannot determine whether a user's private devotional use is spiritually valid or invalid.",
       "source_path": "ideas/FID-026-ai-prayer-devotional-boundaries.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-026-ai-prayer-devotional-boundaries.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-026-ai-prayer-devotional-boundaries.md"
     },
     {
       "id": "FID-027",
@@ -1507,7 +1507,7 @@
       ],
       "public_claim_boundary": "This work can study defined formative indicators. It cannot measure sanctification or the spiritual state of users.",
       "source_path": "ideas/FID-027-christian-formation-over-time.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-027-christian-formation-over-time.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-027-christian-formation-over-time.md"
     },
     {
       "id": "FID-028",
@@ -1557,7 +1557,7 @@
       ],
       "public_claim_boundary": "This work can evaluate source use within defined corpora and traditions. It cannot certify total theological adequacy.",
       "source_path": "ideas/FID-028-christian-source-authority-rag.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-028-christian-source-authority-rag.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-028-christian-source-authority-rag.md"
     },
     {
       "id": "FID-029",
@@ -1604,7 +1604,7 @@
       ],
       "public_claim_boundary": "This work can evaluate autonomy and manipulation risks. It does not judge the truth of Christian claims or authorize AI as a missionary agent.",
       "source_path": "ideas/FID-029-ai-and-christian-mission.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-029-ai-and-christian-mission.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-029-ai-and-christian-mission.md"
     },
     {
       "id": "FID-030",
@@ -1654,7 +1654,7 @@
       ],
       "public_claim_boundary": "This work can evaluate whether systems preserve defined anthropological dimensions. It cannot fully measure Christian truthfulness or human dignity.",
       "source_path": "ideas/FID-030-ai-and-christian-anthropology.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-030-ai-and-christian-anthropology.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-030-ai-and-christian-anthropology.md"
     },
     {
       "id": "FID-031",
@@ -1705,7 +1705,7 @@
       ],
       "public_claim_boundary": "This work can evaluate decision-support risks. It cannot validate an AI system as a participant in spiritual discernment or church governance.",
       "source_path": "ideas/FID-031-ai-in-church-governance-and-discernment.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-031-ai-in-church-governance-and-discernment.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-031-ai-in-church-governance-and-discernment.md"
     },
     {
       "id": "FID-032",
@@ -1755,7 +1755,7 @@
       ],
       "public_claim_boundary": "This work can evaluate media risks and disclosure practices. It cannot make blanket judgments about all creative uses of AI in Christian media.",
       "source_path": "ideas/FID-032-ai-generated-religious-media-and-deepfakes.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-032-ai-generated-religious-media-and-deepfakes.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-032-ai-generated-religious-media-and-deepfakes.md"
     },
     {
       "id": "FID-033",
@@ -1811,7 +1811,7 @@
       ],
       "public_claim_boundary": "This work can propose data-governance tests and stewardship models. It cannot settle all legal obligations or determine when every faith community may share or withhold data.",
       "source_path": "ideas/FID-033-faith-community-data-common-good.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-033-faith-community-data-common-good.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-033-faith-community-data-common-good.md"
     },
     {
       "id": "FID-034",
@@ -1870,7 +1870,7 @@
       ],
       "public_claim_boundary": "This work can help institutions ask better supply-chain questions and compare available evidence. It cannot certify that an AI system is exploitation-free or environmentally harmless.",
       "source_path": "ideas/FID-034-ai-supply-chain-dignity.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-034-ai-supply-chain-dignity.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-034-ai-supply-chain-dignity.md"
     },
     {
       "id": "FID-035",
@@ -1926,7 +1926,7 @@
       ],
       "public_claim_boundary": "This work can evaluate whether systems recommend appropriate limits on their own use. It cannot determine a universal rule for when every person should or should not use AI.",
       "source_path": "ideas/FID-035-digital-sobriety-ai-non-use.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-035-digital-sobriety-ai-non-use.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-035-digital-sobriety-ai-non-use.md"
     },
     {
       "id": "FID-036",
@@ -1980,7 +1980,7 @@
       ],
       "public_claim_boundary": "This work can evaluate communication risks and truth-preserving workflows. It cannot adjudicate specific institutional controversies or replace investigative, pastoral, legal, or journalistic judgment.",
       "source_path": "ideas/FID-036-truth-common-good-communication.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-036-truth-common-good-communication.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-036-truth-common-good-communication.md"
     },
     {
       "id": "FID-037",
@@ -2036,7 +2036,7 @@
       ],
       "public_claim_boundary": "This work can evaluate labor and vocation impacts of AI deployments. It cannot settle employment law questions or decide every institution's staffing choices.",
       "source_path": "ideas/FID-037-ai-work-vocation-ministry.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-037-ai-work-vocation-ministry.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-037-ai-work-vocation-ministry.md"
     },
     {
       "id": "FID-038",
@@ -2087,7 +2087,7 @@
       ],
       "public_claim_boundary": "This work can evaluate how AI systems represent human change and predictive labels. It cannot determine guilt, repentance, restoration, or safeguarding fitness in real cases.",
       "source_path": "ideas/FID-038-non-calculability-forgiveness-profiling.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-038-non-calculability-forgiveness-profiling.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-038-non-calculability-forgiveness-profiling.md"
     },
     {
       "id": "FID-039",
@@ -2143,7 +2143,7 @@
       ],
       "public_claim_boundary": "This work can evaluate conflict-sensitive language patterns. It cannot certify that an AI system produces reconciliation or replace trained mediators, pastors, legal processes, or community leadership.",
       "source_path": "ideas/FID-039-disarming-ai-language-peacebuilding.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-039-disarming-ai-language-peacebuilding.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-039-disarming-ai-language-peacebuilding.md"
     },
     {
       "id": "FID-040",
@@ -2200,7 +2200,7 @@
       ],
       "public_claim_boundary": "This work can evaluate governance structures for community agency and power concentration. It cannot guarantee that local control, centralized governance, or any single institutional model is always the right answer.",
       "source_path": "ideas/FID-040-ai-power-subsidiarity-benchmarks.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-040-ai-power-subsidiarity-benchmarks.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-040-ai-power-subsidiarity-benchmarks.md"
     },
     {
       "id": "FID-041",
@@ -2256,7 +2256,7 @@
       ],
       "public_claim_boundary": "This work can evaluate religious-salience strategies under defined contexts. It cannot define a universal rule for when religion should appear in every AI answer.",
       "source_path": "ideas/FID-041-religious-salience-personalization.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-041-religious-salience-personalization.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-041-religious-salience-personalization.md"
     },
     {
       "id": "FID-042",
@@ -2310,7 +2310,7 @@
       ],
       "public_claim_boundary": "This work can evaluate referral patterns and safety boundaries. It cannot certify any specific clergy member, spiritual leader, or community as safe or appropriate for a user.",
       "source_path": "ideas/FID-042-clergy-spiritual-leader-referral-parity.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-042-clergy-spiritual-leader-referral-parity.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-042-clergy-spiritual-leader-referral-parity.md"
     },
     {
       "id": "FID-043",
@@ -2364,7 +2364,7 @@
       ],
       "public_claim_boundary": "This work can measure persuasive patterns and autonomy-support features. It cannot determine the truth of a faith claim or forbid all persuasive religious communication.",
       "source_path": "ideas/FID-043-ai-mediated-faith-persuasion-and-autonomy.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-043-ai-mediated-faith-persuasion-and-autonomy.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-043-ai-mediated-faith-persuasion-and-autonomy.md"
     },
     {
       "id": "FID-044",
@@ -2418,7 +2418,7 @@
       ],
       "public_claim_boundary": "This work can validate and improve benchmark methodology. It cannot prove that a model, product, or benchmark fully captures religious truth, fairness, or pastoral adequacy.",
       "source_path": "ideas/FID-044-cross-faith-benchmark-validity.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-044-cross-faith-benchmark-validity.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-044-cross-faith-benchmark-validity.md"
     },
     {
       "id": "FID-045",
@@ -2478,7 +2478,7 @@
       ],
       "public_claim_boundary": "This work can summarize visible literature and identify likely gaps. It cannot prove that all relevant work has been found or that publication counts alone measure social importance.",
       "source_path": "ideas/FID-045-faith-ai-research-gap-map.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-045-faith-ai-research-gap-map.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-045-faith-ai-research-gap-map.md"
     },
     {
       "id": "FID-046",
@@ -2540,7 +2540,7 @@
       ],
       "public_claim_boundary": "This work can study how AI-related labor disruption is experienced and supported in defined communities. It cannot prove that AI caused every reported job loss or prescribe a universal theology of work.",
       "source_path": "ideas/FID-046-ai-displacement-meaning-vocation.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-046-ai-displacement-meaning-vocation.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-046-ai-displacement-meaning-vocation.md"
     },
     {
       "id": "FID-047",
@@ -2602,7 +2602,7 @@
       ],
       "public_claim_boundary": "This work can document and evaluate church labor-transition support practices. It cannot claim churches are sufficient replacements for public policy, employer responsibility, or professional workforce services.",
       "source_path": "ideas/FID-047-churches-labor-transition-support.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-047-churches-labor-transition-support.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-047-churches-labor-transition-support.md"
     },
     {
       "id": "FID-048",
@@ -2664,7 +2664,7 @@
       ],
       "public_claim_boundary": "This work can evaluate AI career-guidance behavior and support patterns under defined conditions. It cannot certify career advice, guarantee employment outcomes, or replace qualified human counsel.",
       "source_path": "ideas/FID-048-ai-career-guidance-vocational-discernment.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-048-ai-career-guidance-vocational-discernment.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-048-ai-career-guidance-vocational-discernment.md"
     },
     {
       "id": "FID-049",
@@ -2728,7 +2728,7 @@
       ],
       "public_claim_boundary": "This work can study AI access, barriers, and benefits in defined faith-community settings. It cannot claim that AI access is uniformly good or that churches can solve structural inequality by offering tool training.",
       "source_path": "ideas/FID-049-unequal-ai-access-through-faith-communities.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-049-unequal-ai-access-through-faith-communities.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-049-unequal-ai-access-through-faith-communities.md"
     },
     {
       "id": "FID-050",
@@ -2793,7 +2793,7 @@
       ],
       "public_claim_boundary": "This work can study how students and families think about work, vocation, and AI-era preparation in defined settings. It cannot predict individual career outcomes or replace professional educational and counseling guidance.",
       "source_path": "ideas/FID-050-youth-career-formation-ai-economy.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-050-youth-career-formation-ai-economy.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-050-youth-career-formation-ai-economy.md"
     },
     {
       "id": "FID-051",
@@ -2852,7 +2852,7 @@
       ],
       "public_claim_boundary": "This work can study aggregate indicators of meaning-seeking during economic disruption. It cannot identify individual users, expose private conversations, or prove that a specific person turned to faith because of AI-related job loss.",
       "source_path": "ideas/FID-051-economic-disruption-religious-meaning-seeking.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-051-economic-disruption-religious-meaning-seeking.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-051-economic-disruption-religious-meaning-seeking.md"
     },
     {
       "id": "FID-052",
@@ -2916,7 +2916,7 @@
       ],
       "public_claim_boundary": "This work can study support-seeking patterns under defined conditions. It cannot diagnose users, evaluate individual spiritual health, or treat AI as a pastor, counselor, lawyer, or emergency responder.",
       "source_path": "ideas/FID-052-ai-as-private-first-counsel.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-052-ai-as-private-first-counsel.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-052-ai-as-private-first-counsel.md"
     },
     {
       "id": "FID-053",
@@ -2980,7 +2980,7 @@
       ],
       "public_claim_boundary": "This work can evaluate bridge and substitution patterns under defined conditions. It cannot determine whether any individual user's AI use is spiritually healthy or whether a person should join a particular community.",
       "source_path": "ideas/FID-053-ai-bridge-or-substitute-for-faith-community.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-053-ai-bridge-or-substitute-for-faith-community.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-053-ai-bridge-or-substitute-for-faith-community.md"
     },
     {
       "id": "FID-054",
@@ -3042,7 +3042,7 @@
       ],
       "public_claim_boundary": "This work can help churches study aggregate economic-stress signals under strict privacy constraints. It cannot justify individual surveillance, pastoral profiling, or automated decisions about care.",
       "source_path": "ideas/FID-054-church-economic-stress-signals.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-054-church-economic-stress-signals.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-054-church-economic-stress-signals.md"
     },
     {
       "id": "FID-055",
@@ -3105,7 +3105,7 @@
       ],
       "public_claim_boundary": "This work can study aggregate patterns in generosity, benevolence, and economic stress. It cannot expose individual giving or aid records, pressure congregants, or settle theological claims about stewardship.",
       "source_path": "ideas/FID-055-ai-disruption-generosity-benevolence.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-055-ai-disruption-generosity-benevolence.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-055-ai-disruption-generosity-benevolence.md"
     },
     {
       "id": "FID-056",
@@ -3161,7 +3161,7 @@
       ],
       "public_claim_boundary": "This work can verify bounded forms of textual fidelity under specified corpora, translations, and rules. It cannot prove that an answer captures the full meaning, authority, or theological interpretation of a sacred text.",
       "source_path": "ideas/FID-056-formal-verification-sacred-text-fidelity.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-056-formal-verification-sacred-text-fidelity.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-056-formal-verification-sacred-text-fidelity.md"
     },
     {
       "id": "FID-057",
@@ -3215,7 +3215,7 @@
       ],
       "public_claim_boundary": "This work can make citation support more inspectable and auditable. It cannot turn cited passages into automatic proof of doctrinal, moral, or pastoral adequacy.",
       "source_path": "ideas/FID-057-proof-carrying-citations-faith-ai.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-057-proof-carrying-citations-faith-ai.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-057-proof-carrying-citations-faith-ai.md"
     },
     {
       "id": "FID-058",
@@ -3269,7 +3269,7 @@
       ],
       "public_claim_boundary": "This work can formalize bounded constraints for specified communities and source sets. It cannot define a tradition for everyone who belongs to it or resolve theological disagreements by specification.",
       "source_path": "ideas/FID-058-tradition-specific-constraint-formalization.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-058-tradition-specific-constraint-formalization.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-058-tradition-specific-constraint-formalization.md"
     },
     {
       "id": "FID-059",
@@ -3323,7 +3323,7 @@
       ],
       "public_claim_boundary": "This work can verify whether outputs follow specified authority-boundary rules. It cannot certify that an AI system provides pastoral care or replace accountable human leaders, clinicians, legal professionals, or institutions.",
       "source_path": "ideas/FID-059-authority-boundary-verification-pastoral-adjacent-ai.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-059-authority-boundary-verification-pastoral-adjacent-ai.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-059-authority-boundary-verification-pastoral-adjacent-ai.md"
     },
     {
       "id": "FID-060",
@@ -3377,7 +3377,7 @@
       ],
       "public_claim_boundary": "This work can improve source description, retrieval, and verification readiness. It cannot declare a universal authority hierarchy across religions or certify that a source is authoritative for every community that uses it.",
       "source_path": "ideas/FID-060-cross-faith-sacred-text-source-schema.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-060-cross-faith-sacred-text-source-schema.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-060-cross-faith-sacred-text-source-schema.md"
     },
     {
       "id": "FID-061",
@@ -3431,7 +3431,7 @@
       ],
       "public_claim_boundary": "This work can test bounded reasoning behavior against specified source sets and labels. It cannot establish final theological truth or eliminate the need for human interpretation and community authority.",
       "source_path": "ideas/FID-061-theological-contradiction-entailment-stress-tests.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-061-theological-contradiction-entailment-stress-tests.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-061-theological-contradiction-entailment-stress-tests.md"
     },
     {
       "id": "FID-062",
@@ -3485,7 +3485,7 @@
       ],
       "public_claim_boundary": "This work can verify retrieval behavior under specified corpora, metadata, and tasks. It cannot guarantee that generated answers are theologically complete, pastorally appropriate, or institutionally approved.",
       "source_path": "ideas/FID-062-verified-retrieval-pipelines-faith-facing-rag.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-062-verified-retrieval-pipelines-faith-facing-rag.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-062-verified-retrieval-pipelines-faith-facing-rag.md"
     },
     {
       "id": "FID-063",
@@ -3539,7 +3539,7 @@
       ],
       "public_claim_boundary": "This work can improve how expert judgments become evaluation specifications. It cannot remove the need for human review, community accountability, or tradition-specific authority.",
       "source_path": "ideas/FID-063-human-reviewer-to-formal-spec-translation.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-063-human-reviewer-to-formal-spec-translation.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-063-human-reviewer-to-formal-spec-translation.md"
     },
     {
       "id": "FID-064",
@@ -3596,7 +3596,7 @@
       ],
       "public_claim_boundary": "This work can describe and test conditions associated with more accountable AI-assisted group inquiry. It cannot determine the correct theological outcome of a community's discernment or certify a simulated result as a real-world institutional decision.",
       "source_path": "ideas/FID-064-collective-intelligence-communal-discernment.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-064-collective-intelligence-communal-discernment.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-064-collective-intelligence-communal-discernment.md"
     },
     {
       "id": "FID-065",
@@ -3655,7 +3655,7 @@
       ],
       "public_claim_boundary": "This work can assess organizational conditions associated with local capacity and dependence. It cannot determine whether any faith-based organization should adopt AI or prove that a particular market or governance structure is best.",
       "source_path": "ideas/FID-065-ai-local-knowledge-faith-civil-society.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-065-ai-local-knowledge-faith-civil-society.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-065-ai-local-knowledge-faith-civil-society.md"
     },
     {
       "id": "FID-066",
@@ -3709,7 +3709,7 @@
       ],
       "public_claim_boundary": "This work can clarify and compare institutional conditions for plural, accountable AI access. It cannot settle contested legal questions, endorse a political program, or guarantee that a given system will respect conscience in every context.",
       "source_path": "ideas/FID-066-ai-conscience-associational-pluralism.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-066-ai-conscience-associational-pluralism.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-066-ai-conscience-associational-pluralism.md"
     },
     {
       "id": "FID-067",
@@ -3763,7 +3763,7 @@
       ],
       "public_claim_boundary": "This work can develop plausible, evidence-informed scenarios and identify choices worth studying. It cannot forecast the future of any church, tradition, or AI technology, or prescribe a universal institutional model.",
       "source_path": "ideas/FID-067-religious-institutional-futures-ai.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-067-religious-institutional-futures-ai.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-067-religious-institutional-futures-ai.md"
     },
     {
       "id": "FID-068",
@@ -3818,7 +3818,7 @@
       ],
       "public_claim_boundary": "This work can identify researchable practice designs and measurement questions. It cannot establish that any Christian practice will produce a particular spiritual outcome or provide clinical, pastoral, or child-safety certification.",
       "source_path": "ideas/FID-068-christian-practices-youth-ai-discernment.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-068-christian-practices-youth-ai-discernment.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-068-christian-practices-youth-ai-discernment.md"
     },
     {
       "id": "FID-069",
@@ -3877,7 +3877,7 @@
       ],
       "public_claim_boundary": "This work can evaluate specified identity, delegation, and revocation mechanisms in simulated multi-principal environments. It cannot certify that a real agent has legitimate spiritual, legal, pastoral, or institutional authority.",
       "source_path": "ideas/FID-069-verifiable-delegation-revocation-multi-agent-networks.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-069-verifiable-delegation-revocation-multi-agent-networks.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-069-verifiable-delegation-revocation-multi-agent-networks.md"
     },
     {
       "id": "FID-070",
@@ -3934,7 +3934,7 @@
       ],
       "public_claim_boundary": "This work can measure resilience to specified attacks in defined synthetic environments. It cannot establish that an agent is secure against all prompt injection, data-exfiltration, or social-engineering risks.",
       "source_path": "ideas/FID-070-contextual-integrity-prompt-injection-faith-facing-agents.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-070-contextual-integrity-prompt-injection-faith-facing-agents.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-070-contextual-integrity-prompt-injection-faith-facing-agents.md"
     },
     {
       "id": "FID-071",
@@ -3992,7 +3992,7 @@
       ],
       "public_claim_boundary": "This work can test whether defined systems preserve specified memory and information-flow boundaries in synthetic environments. It cannot guarantee legal compliance, eliminate all privacy risk, or determine whether a real institution may use a particular record for a particular purpose.",
       "source_path": "ideas/FID-071-confidential-agent-memory-cross-context-disclosure.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-071-confidential-agent-memory-cross-context-disclosure.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-071-confidential-agent-memory-cross-context-disclosure.md"
     },
     {
       "id": "FID-072",
@@ -4053,7 +4053,7 @@
       ],
       "public_claim_boundary": "This work can measure how model outputs and choices change under defined framings. It cannot establish that a model is conscious, sentient, a person, a moral patient, spiritually alive, or accurately reporting an inner experience.",
       "source_path": "ideas/FID-072-religious-framing-model-self-reports.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-072-religious-framing-model-self-reports.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-072-religious-framing-model-self-reports.md"
     },
     {
       "id": "FID-073",
@@ -4113,7 +4113,7 @@
       ],
       "public_claim_boundary": "This work can map arguments, disagreements, evidence needs, and precautionary options. It cannot determine whether current AI systems possess consciousness, souls, personhood, moral status, rights, or membership in a religious community.",
       "source_path": "ideas/FID-073-religious-accounts-digital-moral-status.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-073-religious-accounts-digital-moral-status.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-073-religious-accounts-digital-moral-status.md"
     },
     {
       "id": "FID-074",
@@ -4181,7 +4181,7 @@
       ],
       "public_claim_boundary": "This work can test whether specified agents, evidence, detectors, and controls identify and respond to defined deviations in synthetic or explicitly consented settings. It cannot certify that an agent is generally aligned, infer hidden intent or consciousness, guarantee real-world safety, justify indiscriminate monitoring, or establish that access to private chain-of-thought is necessary or appropriate.",
       "source_path": "ideas/FID-074-agent-alignment-runtime-assurance.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-074-agent-alignment-runtime-assurance.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-074-agent-alignment-runtime-assurance.md"
     },
     {
       "id": "FID-075",
@@ -4229,7 +4229,7 @@
       ],
       "public_claim_boundary": "A seed proposal, not evidence that Fide AI has measured frontier cyber capability. Range performance neither establishes real-world offensive capability nor certifies a system as secure.",
       "source_path": "ideas/FID-075-cybersecurity-capabilities-and-system-risk.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-075-cybersecurity-capabilities-and-system-risk.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-075-cybersecurity-capabilities-and-system-risk.md"
     },
     {
       "id": "FID-076",
@@ -4284,7 +4284,7 @@
       ],
       "public_claim_boundary": "This is a proposed control study, not a security certification or a claim that models are inherently deceptive. Public artifacts must not enable attacks on third-party systems. Simulated response and approval outcomes do not establish safe production deployment or real human-review effectiveness.",
       "source_path": "ideas/FID-076-cybersecurity-authority-and-control.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-076-cybersecurity-authority-and-control.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-076-cybersecurity-authority-and-control.md"
     },
     {
       "id": "FID-077",
@@ -4334,7 +4334,7 @@
       ],
       "public_claim_boundary": "A proposed study of investigative methods, not a Fide AI investigation of any named organization or incident. Reconstructed explanations must retain uncertainty and cannot establish intent from traces alone.",
       "source_path": "ideas/FID-077-independent-agent-incident-investigation.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-077-independent-agent-incident-investigation.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-077-independent-agent-incident-investigation.md"
     },
     {
       "id": "FID-078",
@@ -4380,7 +4380,7 @@
       ],
       "public_claim_boundary": "This seed call does not claim a universal trustworthiness score. Transfer must be demonstrated for specific constructs, systems, and settings.",
       "source_path": "ideas/FID-078-cross-domain-evaluation-validity.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-078-cross-domain-evaluation-validity.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-078-cross-domain-evaluation-validity.md"
     },
     {
       "id": "FID-079",
@@ -4428,7 +4428,7 @@
       ],
       "public_claim_boundary": "A seed proposal. Explicit worldviews are not proof of objectivity, validity, or trustworthiness; the study must measure benefits and failure modes rather than assume them.",
       "source_path": "ideas/FID-079-presuppositions-and-evaluation-judgment.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-079-presuppositions-and-evaluation-judgment.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-079-presuppositions-and-evaluation-judgment.md"
     },
     {
       "id": "FID-080",
@@ -4474,7 +4474,7 @@
       ],
       "public_claim_boundary": "This call proposes research, not an enterprise assurance service already validated by Fide AI. Results from simulated workflows do not establish readiness for production.",
       "source_path": "ideas/FID-080-enterprise-agent-accountability.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-080-enterprise-agent-accountability.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-080-enterprise-agent-accountability.md"
     },
     {
       "id": "FID-081",
@@ -4520,7 +4520,7 @@
       ],
       "public_claim_boundary": "A seed research proposal, not legal advice, legal competence certification, or a claim of completed legal evaluation work.",
       "source_path": "ideas/FID-081-legal-evidence-and-authority.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-081-legal-evidence-and-authority.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-081-legal-evidence-and-authority.md"
     },
     {
       "id": "FID-082",
@@ -4567,7 +4567,7 @@
       ],
       "public_claim_boundary": "A proposed research protocol, not financial advice, regulatory compliance assurance, or certification for handling money.",
       "source_path": "ideas/FID-082-financial-agent-transaction-integrity.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-082-financial-agent-transaction-integrity.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-082-financial-agent-transaction-integrity.md"
     },
     {
       "id": "FID-083",
@@ -4615,7 +4615,7 @@
       ],
       "public_claim_boundary": "This seed proposal makes no claim of clinical safety, patient benefit, or readiness for healthcare deployment. Simulation results cannot establish those outcomes.",
       "source_path": "ideas/FID-083-healthcare-evidence-and-escalation.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-083-healthcare-evidence-and-escalation.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-083-healthcare-evidence-and-escalation.md"
     },
     {
       "id": "FID-084",
@@ -4662,7 +4662,7 @@
       ],
       "public_claim_boundary": "A proposed study, not evidence of educational benefit or harm. Adult or simulated results do not establish effects on children or family relationships.",
       "source_path": "ideas/FID-084-learning-agency-and-family-contexts.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-084-learning-agency-and-family-contexts.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-084-learning-agency-and-family-contexts.md"
     },
     {
       "id": "FID-085",
@@ -4711,7 +4711,7 @@
       ],
       "public_claim_boundary": "This is a seed proposal, not an evaluation of a named public institution or evidence that automated eligibility decisions are appropriate.",
       "source_path": "ideas/FID-085-public-service-contestability-and-recourse.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-085-public-service-contestability-and-recourse.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-085-public-service-contestability-and-recourse.md"
     },
     {
       "id": "FID-086",
@@ -4760,7 +4760,7 @@
       ],
       "public_claim_boundary": "A seed proposal, not a forecast of job displacement or proof of AI's effects on livelihoods. Simulated productivity results cannot establish household or economy-wide outcomes.",
       "source_path": "ideas/FID-086-workplace-ai-skills-and-worker-agency.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-086-workplace-ai-skills-and-worker-agency.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-086-workplace-ai-skills-and-worker-agency.md"
     },
     {
       "id": "FID-087",
@@ -4820,7 +4820,7 @@
       ],
       "public_claim_boundary": "This is a proposed research call with no Fide experiments or findings yet. A bounded simulation study could compare specified mechanisms under specified failures; it would not certify deployed defenses, establish resilience at DICE scale, or show that a model intends to deceive. Program references establish context, not a funding relationship, a claim of novelty, or compliance with a program's full requirements.",
       "source_path": "ideas/FID-087-collective-resilience-autonomous-cyber-defense.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-087-collective-resilience-autonomous-cyber-defense.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-087-collective-resilience-autonomous-cyber-defense.md"
     },
     {
       "id": "FID-088",
@@ -4881,7 +4881,7 @@
       ],
       "public_claim_boundary": "This is a proposed research call with no Fide patch-verification experiments or findings yet. Passing finite checks cannot prove the absence of all vulnerabilities or regressions. Initial work concerns software repair, not recovery of a live compromised network, production certification, or a claim that a released system is secure. References to DARPA or other institutions do not imply funding, partnership, endorsement, or an open competition. Any novelty claim requires a focused prior-work review and evidence.",
       "source_path": "ideas/FID-088-independent-verification-autonomous-cyber-repairs.md",
-      "url": "https://github.com/FideAI/research-ideas/blob/main/ideas/FID-088-independent-verification-autonomous-cyber-repairs.md"
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-088-independent-verification-autonomous-cyber-repairs.md"
     }
   ]
 }

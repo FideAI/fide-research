@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "updated_on": "2026-09-21",
+  "source_repo": "https://github.com/FideAI/fide-research",
+  "publication_count": 1,
+  "publications": [
+    {
+      "id": "fmg-bench",
+      "title": "When AI Is Your Pastor: A Benchmark for Theological Triage and Pastoral Guidance in Large Language Models",
+      "authors": [
+        "Alex Chao"
+      ],
+      "published_on": "2026-05-29",
+      "format": "paper",
+      "publication_status": "preprint",
+      "review_status": "not_peer_reviewed",
+      "research_areas": [
+        "evaluation-science",
+        "faith-religious-life"
+      ],
+      "application_domains": [
+        "faith-and-religious-life"
+      ],
+      "related_ideas": [],
+      "summary": "Introduces FMG-Bench to study how instruction settings affect model responses to theological and pastoral guidance questions.",
+      "limitations": "An English-language benchmark in Christian theological and pastoral contexts; its results do not establish pastoral competence or endorse models as pastoral authorities.",
+      "reproducibility": "The public FMG-Bench repository provides paper sources, benchmark data, a reference runner and scoring code. This catalog entry does not certify independent replication.",
+      "links": {
+        "publication": "https://arxiv.org/abs/2608.12324",
+        "article": "https://fideai.org/research/fmg-bench",
+        "repository": "https://github.com/FideAI/fmg-bench",
+        "data": "https://huggingface.co/datasets/FideAI/fmg-bench"
+      },
+      "verified_on": "2026-09-21",
+      "corrections": []
+    }
+  ]
+}

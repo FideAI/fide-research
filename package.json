@@ -1,11 +1,14 @@
 {
-  "name": "@fideai/research-ideas",
+  "name": "@fideai/fide-research",
   "version": "0.1.0",
   "private": true,
   "license": "Apache-2.0",
   "type": "module",
   "scripts": {
     "build:feed": "node scripts/build-feed.mjs",
-    "verify:feed": "node scripts/verify-feed.mjs"
+    "verify:feed": "node scripts/verify-feed.mjs",
+    "build:publications": "node scripts/build-publications.mjs",
+    "verify:publications": "node scripts/build-publications.mjs --check",
+    "test": "node --test tests/*.test.mjs"
   }
 }

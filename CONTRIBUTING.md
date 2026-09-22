@@ -1,12 +1,24 @@
-# Contributing to Fide AI Research Ideas
+# Contributing to Fide AI Research
 
 Fide AI welcomes public research ideas, methodology comments, replication plans,
 reviewer interest, implementation help, and institutional use cases.
 
-This repository is a research backlog, not a publication venue. Ideas here are
-hypotheses and collaboration invitations until a separate report, benchmark
-release, paper, or evidence artifact is published with methods, limitations, and
-evaluation conditions.
+This repository maintains research calls and a catalog of released work. Calls
+remain hypotheses and collaboration invitations until a report, benchmark,
+paper or evidence artifact supports specific findings. Catalog entries link to
+the released work; they do not turn its associated call into a proven claim.
+
+## Register a publication
+
+Follow the [publication guide](publications/README.md). Add a record to
+`publications/catalog.json` only after checking its public release and links.
+Record the authors, release date, domain, methods and evidence limitations,
+publication status, review status and any related FID calls. An artifact repository
+is optional; never substitute a private workspace link for a public artifact.
+
+Run `npm run build:publications` and `npm test`, and include the source record,
+generated catalog and feed in the same pull request. Corrections and withdrawals
+remain visible in the catalog. The instructions below govern research calls.
 
 ## Good First Paths
 

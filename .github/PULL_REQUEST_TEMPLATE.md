@@ -2,6 +2,7 @@
 
 ## Type of Change
 
+- [ ] Publication registration or correction
 - [ ] New research idea
 - [ ] Idea revision
 - [ ] Status update
