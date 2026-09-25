@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_on": "2026-09-21",
+  "updated_on": "2026-09-25",
   "publications": [
     {
       "id": "fmg-bench",
@@ -30,6 +30,37 @@
         "data": "https://huggingface.co/datasets/FideAI/fmg-bench"
       },
       "verified_on": "2026-09-21",
+      "corrections": []
+    },
+    {
+      "id": "dsewiki-investigation",
+      "title": "DSEWiki: What the records showed, and AI reports missed",
+      "authors": [
+        "Fide AI"
+      ],
+      "published_on": "2026-09-25",
+      "format": "paper",
+      "publication_status": "preprint",
+      "review_status": "not_peer_reviewed",
+      "research_areas": [
+        "evaluation-science",
+        "grounding-truthfulness",
+        "high-trust-domains"
+      ],
+      "application_domains": [
+        "cybersecurity"
+      ],
+      "related_ideas": [],
+      "summary": "Examines 304 staged DSEWiki report artifacts and traces whether earlier unsupported claims changed across 78 continued investigations. Of 61 follow-ups with higher finding scores, 44 retained an earlier flagged claim; 34 did so after excluding disputed judgments.",
+      "limitations": "Assistant-coded assessment pending independent human adjudication. Eight scoped evidence questions, one dependent incident benchmark; not a model ranking, general error rate or tested verification intervention.",
+      "reproducibility": "Public claim and transition assessments, rationales, correction history, source pins, reproducible analysis, an evidence explorer and a local review app. Aggregation reproduces offline; independent judgment review remains outstanding.",
+      "links": {
+        "publication": "https://github.com/FideAI/dsewiki-investigation/blob/main/investigations/agent-incidents/corpus-review/paper.md",
+        "article": "https://fideai.org/insights/how-certainty-enters-an-ai-incident-report/",
+        "repository": "https://github.com/FideAI/dsewiki-investigation",
+        "data": "https://fideai.org/insights/evidence/dsewiki/explorer/"
+      },
+      "verified_on": "2026-09-25",
       "corrections": []
     }
   ]
