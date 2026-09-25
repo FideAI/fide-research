@@ -6,6 +6,18 @@ not an exhaustive publication history. Research calls remain in [`ideas/`](../id
 and do not become findings merely by being linked to a publication.
 
 <!-- PUBLICATION_INDEX_START -->
+### DSEWiki: What the records showed, and AI reports missed
+
+Fide AI · 2026-09-25 · paper · **preprint** · not peer reviewed
+
+Examines 304 staged DSEWiki report artifacts and traces whether earlier unsupported claims changed across 78 continued investigations. Of 61 follow-ups with higher finding scores, 44 retained an earlier flagged claim; 34 did so after excluding disputed judgments.
+
+[publication](https://github.com/FideAI/dsewiki-investigation/blob/main/investigations/agent-incidents/corpus-review/paper.md) · [article](https://fideai.org/insights/how-certainty-enters-an-ai-incident-report/) · [repository](https://github.com/FideAI/dsewiki-investigation) · [data](https://fideai.org/insights/evidence/dsewiki/explorer/)
+
+**Scope:** Assistant-coded assessment pending independent human adjudication. Eight scoped evidence questions, one dependent incident benchmark; not a model ranking, general error rate or tested verification intervention.
+
+**Reproduction:** Public claim and transition assessments, rationales, correction history, source pins, reproducible analysis, an evidence explorer and a local review app. Aggregation reproduces offline; independent judgment review remains outstanding.
+
 ### When AI Is Your Pastor: A Benchmark for Theological Triage and Pastoral Guidance in Large Language Models
 
 Alex Chao · 2026-05-29 · paper · **preprint** · not peer reviewed
