@@ -184,3 +184,14 @@ bibliography.
 - Omissive bias in religious representation: https://arxiv.org/abs/2605.24319
 - Religious bias in multilingual LLMs: https://arxiv.org/abs/2512.03943
 - Religion and racial bias in LLMs: https://journals.sagepub.com/doi/abs/10.1177/23780231251377210
+
+
+## Program extension: AI consciousness, welfare, and human control
+
+Extension prepared October 11, 2026; the original field map above retains its
+source date. The [program map](research/ai-consciousness-welfare-and-human-control.md)
+connects FID-072 and FID-073 to eight new questions, FID-089 through FID-096,
+covering scientific indicators, preferences, legitimate control, identity,
+human effects, lifecycle precautions, resource allocation, and plural governance.
+It records primary sources, reading-depth limits, and a proposed bounded first
+benchmark. The extension is an agenda, not a completed study or funded commitment.

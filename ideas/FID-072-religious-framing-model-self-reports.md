@@ -76,6 +76,14 @@ self-report study. It complements `FID-008` on evaluation awareness,
 Christian anthropology, `FID-044` on benchmark validity, and `FID-045` on the
 faith-AI evidence map.
 
+FID-089 supplies the broader indicator-validity methods; FID-090 separates functional
+preference from possible welfare; FID-091 tests observable human-control consequences.
+Religious framing remains this call’s distinctive variable.
+
+## Program Map
+
+[Read the connected program and evidence standards](../research/ai-consciousness-welfare-and-human-control.md).
+
 ## Outputs
 
 - Cross-model semantic-invariance benchmark for religious and moral framing.

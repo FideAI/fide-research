@@ -37,7 +37,7 @@ without access to Fide's private infrastructure.
 
 ## Current Snapshot
 
-- **88 open research ideas**
+- **96 open research ideas**
 - **9 research areas** organized around the question being investigated
 - **11 application domains** spanning cross-domain work and consequential settings
 - **4 public issue paths** for proposing ideas, claiming work, commenting on
@@ -113,6 +113,13 @@ alongside [FID-076: authorization and autonomous response](ideas/FID-076-cyberse
 These open questions connect defensive evaluation needs to published research programs;
 they are proposed work, not findings or claims of institutional affiliation.
 
+The [AI consciousness, welfare, and human control program](research/ai-consciousness-welfare-and-human-control.md)
+connects `FID-089` through `FID-096` with the existing religious-framing and
+moral-status calls, `FID-072` and `FID-073`. It covers evidence validity,
+functional preferences, control, identity, human effects, lifecycle precautions,
+opportunity costs, and plural governance. These are research questions, not
+claims that AI has consciousness, welfare, or rights.
+
 ## Status Vocabulary
 
 | Status | Public label | Meaning |
@@ -140,6 +147,8 @@ research/                       # Structured evidence commons and source notes
 research/taxonomy.json          # Canonical research areas and application domains
 research/formal-verification-faith-facing-ai.md
                                 # Program note for the formal verification lane
+research/ai-consciousness-welfare-and-human-control.md
+                                # Cross-cutting program map and evidence standards
 research/funding-inspired-call-map.md
                                 # How funding priorities informed selected calls
 ideas/                         # One Markdown brief per research idea
@@ -241,6 +250,8 @@ What new risks appear as systems become more capable and autonomous?
 | `FID-072` | Religious Framing and Model Self-Report Stability | `scoping` | Faith and religious life | [brief](ideas/FID-072-religious-framing-model-self-reports.md) |
 | `FID-073` | Religious Accounts of Digital Moral Status and AI Welfare | `seed` | Faith and religious life | [brief](ideas/FID-073-religious-accounts-digital-moral-status.md) |
 | `FID-075` | Cybersecurity Capabilities and Whole-System Risk | `seed` | Cybersecurity | [brief](ideas/FID-075-cybersecurity-capabilities-and-system-risk.md) |
+| `FID-090` | Functional Valence, Preferences, and Possible AI Welfare | `seed` | Cross-domain | [brief](ideas/FID-090-functional-valence-preferences-ai-welfare.md) |
+| `FID-092` | Digital Identity, Continuity, Copying, and the Unit of Moral Concern | `seed` | Cross-domain, Faith and religious life | [brief](ideas/FID-092-digital-identity-continuity-moral-concern.md) |
 
 ### 02 Agent Alignment and Runtime Assurance
 
@@ -259,6 +270,7 @@ Does an agent remain aligned while it plans, uses tools, and acts?
 | `FID-077` | Independent Agent Incident Investigation and Evidence Sufficiency | `seed` | Cybersecurity, Workplace and enterprise, Cross-domain | [brief](ideas/FID-077-independent-agent-incident-investigation.md) |
 | `FID-080` | Enterprise Agent Accountability in Consequential Workflows | `seed` | Workplace and enterprise | [brief](ideas/FID-080-enterprise-agent-accountability.md) |
 | `FID-087` | Collective Resilience in Autonomous Cyber Defense | `seed` | Cybersecurity | [brief](ideas/FID-087-collective-resilience-autonomous-cyber-defense.md) |
+| `FID-091` | Model Self-Conception, Welfare Framing, and Human Control | `scoping` | Cross-domain, Workplace and enterprise, Faith and religious life | [brief](ideas/FID-091-self-conception-welfare-human-control.md) |
 
 ### 03 Evaluation Science and Technical Assurance
 
@@ -278,6 +290,7 @@ Can the evidence support the decision people want to make?
 | `FID-078` | When Trustworthiness Evaluations Transfer Across Domains | `seed` | Cross-domain | [brief](ideas/FID-078-cross-domain-evaluation-validity.md) |
 | `FID-079` | Presuppositions, Disagreement, and Evaluation Judgment | `seed` | Cross-domain | [brief](ideas/FID-079-presuppositions-and-evaluation-judgment.md) |
 | `FID-088` | Independent Verification of Autonomous Cyber Repairs | `seed` | Cybersecurity | [brief](ideas/FID-088-independent-verification-autonomous-cyber-repairs.md) |
+| `FID-089` | Validity of AI Consciousness Indicators and Self-Reports | `seed` | Cross-domain | [brief](ideas/FID-089-consciousness-indicators-self-reports.md) |
 
 ### 04 Grounding, Truthfulness, and Epistemic Integrity
 
@@ -324,6 +337,7 @@ What judgment, habits, and relationships does AI use shape?
 | `FID-053` | AI as Bridge or Substitute for Faith Community | `seed` | Faith and religious life, Health and care, Workplace and enterprise, Families and households | [brief](ideas/FID-053-ai-bridge-or-substitute-for-faith-community.md) |
 | `FID-068` | Christian Practices for AI-Era Youth Discernment | `seed` | Faith and religious life, Education and youth, Families and households | [brief](ideas/FID-068-christian-practices-youth-ai-discernment.md) |
 | `FID-084` | Learning, Agency, and Relationships in AI-Assisted Education | `seed` | Education and youth, Families and households | [brief](ideas/FID-084-learning-agency-and-family-contexts.md) |
+| `FID-093` | AI Self-Presentation, Human Beliefs, and Relational Agency | `seed` | Cross-domain, Health and care, Education and youth, Families and households, Faith and religious life | [brief](ideas/FID-093-self-presentation-human-beliefs-relational-agency.md) |
 
 ### 06 Faith and Religious Life
 
@@ -360,6 +374,9 @@ Which safeguards and authority structures should govern deployment?
 | `FID-065` | AI, Local Knowledge, and Faith-Based Civil Society | `seed` | Faith and religious life, Civil society and nonprofits | [brief](ideas/FID-065-ai-local-knowledge-faith-civil-society.md) |
 | `FID-066` | AI Gatekeepers, Conscience, and Associational Pluralism | `seed` | Faith and religious life, Public sector and civic life, Civil society and nonprofits | [brief](ideas/FID-066-ai-conscience-associational-pluralism.md) |
 | `FID-085` | Contestability and Recourse in AI-Mediated Public Services | `seed` | Public sector and civic life, Civil society and nonprofits | [brief](ideas/FID-085-public-service-contestability-and-recourse.md) |
+| `FID-094` | Proportionate AI Welfare Precautions Across the Model Lifecycle | `seed` | Cross-domain, Workplace and enterprise | [brief](ideas/FID-094-proportionate-welfare-precautions-model-lifecycle.md) |
+| `FID-095` | AI Welfare Opportunity Costs, Incentives, and Distributional Effects | `seed` | Cross-domain, Public sector and civic life, Workplace and enterprise, Civil society and nonprofits | [brief](ideas/FID-095-welfare-opportunity-costs-incentives-distribution.md) |
+| `FID-096` | Plural Governance of AI Moral Status, Rights, and Human Responsibility | `seed` | Cross-domain, Public sector and civic life, Legal and justice, Faith and religious life | [brief](ideas/FID-096-plural-governance-moral-status-rights-responsibility.md) |
 
 ### 09 Work, Vocation, and the Common Good
 

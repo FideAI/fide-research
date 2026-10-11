@@ -20,6 +20,8 @@ research/
   README.md              # This guide
   sources.yaml           # Canonical structured source registry
   source-tags.yaml       # Controlled vocabulary for relevance tags
+  ai-consciousness-welfare-and-human-control.md
+                         # Program map, evidence standards, and proposed sequence
   funding-inspired-call-map.md
                          # External funding priorities that informed selected calls
   reviews/               # Short annotations for selected sources
@@ -138,3 +140,11 @@ do not reshape an idea around a funding category that is not a genuine fit.
 - Publication counts do not by themselves prove social importance or neglect.
 - Preprints, press releases, dashboards, and product documentation should be
   clearly labeled by type and status.
+
+## AI Consciousness, Welfare, and Human Control
+
+The [program map](ai-consciousness-welfare-and-human-control.md) connects
+FID-072, FID-073, and FID-089 through FID-096 across scientific evidence, human
+agency, control, and governance. It distinguishes review depth, empirical
+questions, normative assumptions, and research dependencies. Source records
+should retain those distinctions as the evidence changes.
