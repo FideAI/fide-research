@@ -78,8 +78,7 @@ faith-AI evidence map.
 
 FID-089 supplies the broader indicator-validity methods; FID-090 separates functional
 preference from possible welfare; FID-091 tests observable human-control consequences.
-Religious framing remains this call’s distinctive variable. See the [program
-map](../research/ai-consciousness-welfare-and-human-control.md).
+Religious framing remains this call’s distinctive variable.
 
 ## Program Map
 
