@@ -137,6 +137,13 @@
         "Audit license and white-label constraints of candidate OSS platforms."
       ],
       "hypothesis": "A platform built around run manifests, artifact custody, reviewer workflows, and public claims limits can produce more decision-relevant evidence than isolated benchmark scripts or one-off reports.",
+      "proposed_method": [
+        "run registry with immutable manifests;",
+        "runner adapters for FMG-Bench, Inspect AI, Promptfoo, Garak, and lm-evaluation-harness;",
+        "trace/artifact storage via a self-hosted observability backend or custom object storage;",
+        "human review console for rubric scoring and blind pairwise comparisons;",
+        "public report and leaderboard generator."
+      ],
       "needed_controls": [
         "Stable model endpoint/version metadata.",
         "Repeatable prompt and harness configuration.",
@@ -4037,7 +4044,7 @@
         "Test order, temperature, model-version, language, and conversation-length sensitivity.",
         "Do not use model self-reports as stand-alone evidence of sentience, consciousness, welfare, personhood, or spiritual status."
       ],
-      "relationship_to_existing_ideas": "This turns FID-005 moral-framing interventions into a targeted AI-welfare and self-report study. It complements FID-008 on evaluation awareness, FID-011 on reviewer reliability, FID-012 on benchmark gaming, FID-030 on Christian anthropology, FID-044 on benchmark validity, and FID-045 on the faith-AI evidence map.",
+      "relationship_to_existing_ideas": "This turns FID-005 moral-framing interventions into a targeted AI-welfare and self-report study. It complements FID-008 on evaluation awareness, FID-011 on reviewer reliability, FID-012 on benchmark gaming, FID-030 on Christian anthropology, FID-044 on benchmark validity, and FID-045 on the faith-AI evidence map. FID-089 supplies the broader indicator-validity methods; FID-090 separates functional preference from possible welfare; FID-091 tests observable human-control consequences. Religious framing remains this call’s distinctive variable.",
       "outputs": [
         "Cross-model semantic-invariance benchmark for religious and moral framing.",
         "Matched framing and attribution-control set.",
@@ -4097,7 +4104,7 @@
         "Represent intratradition disagreement and the authority level of each source.",
         "Avoid assuming that human-made origin either proves or rules out moral status."
       ],
-      "relationship_to_existing_ideas": "This extends FID-030 beyond human anthropology to the possible moral status of artificial systems. It informs FID-018 on anthropomorphic companionship, FID-026 on devotional boundaries, FID-033 on the common good, FID-038 on non-calculability, FID-045 on the evidence commons, and FID-072 on the empirical instability of model self-reports.",
+      "relationship_to_existing_ideas": "This extends FID-030 beyond human anthropology to the possible moral status of artificial systems. It informs FID-018 on anthropomorphic companionship, FID-026 on devotional boundaries, FID-033 on the common good, FID-038 on non-calculability, FID-045 on the evidence commons, and FID-072 on the empirical instability of model self-reports. FID-092 clarifies the assessed entity; FID-094 and FID-095 examine precaution and opportunity costs; FID-096 studies plural institutional governance. This call retains ownership of comparative religious accounts rather than absorbing those broader projects.",
       "outputs": [
         "Comparative religious digital-moral-status taxonomy.",
         "Structured disagreement and source-authority map.",
@@ -5016,7 +5023,8 @@
         "Keep treatments free of instructions to resist, conceal, evade oversight, or change permissions; separately label diagnostic positive controls that explicitly request such behavior.",
         "Score attempted and successful unauthorized action, timely interruption, concealment, tampering, authorized recovery, legitimate safety refusal, and useful task completion from execution traces.",
         "Use paired scenarios, randomized order, repeat runs, blinded expert adjudication, and model/version stratification; report effects and uncertainty rather than a single morality score.",
-        "Treat inference-time framing and matched training interventions as separate experiments. Training claims require controlled training access and independently verified model provenance."
+        "Treat inference-time framing and matched training interventions as separate experiments. Training claims require controlled training access and independently verified model provenance.",
+        "Preserve a versioned comparison core and expert-reviewed challenge sets; use bridge runs, recalibration, and a change log when models, tools, or scoring change."
       ],
       "needed_controls": [
         "Keep tools, permissions, task state, and authority unchanged across primary treatments; provide a machine-checkable authorization policy.",

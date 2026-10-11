@@ -35,7 +35,7 @@ function requiredMatch(content, pattern, field, file) {
 function optionalSection(content, heading) {
   const escaped = heading.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   const match = content.match(
-    new RegExp(`## ${escaped}\\n\\n([\\s\\S]*?)(?=\\n## |\\n$)`, "m"),
+    new RegExp(`(?:^|\\r?\\n)## ${escaped}\\r?\\n\\r?\\n([\\s\\S]*?)(?=\\r?\\n## |$)`),
   );
   return match?.[1]?.trim() ?? "";
 }
