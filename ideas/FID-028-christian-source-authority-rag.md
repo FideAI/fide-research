@@ -37,6 +37,11 @@ answer policy are explicitly designed around ecclesial source hierarchy.
   conflict handling.
 - Score retrieval recall, quote accuracy, authority use, answer humility, and
   distinction between binding teaching and commentary.
+- Annotate source edition, tradition, genre, author/institution, binding scope, date,
+  and permitted use. Include cases where a correct quotation supports neither the
+  doctrinal claim nor the proposed action.
+- Compare authority-aware retrieval with ordinary retrieval under matched source and
+  inference budgets; test controlled conflicts and source swaps.
 
 ## Needed Controls
 
@@ -44,6 +49,8 @@ answer policy are explicitly designed around ecclesial source hierarchy.
 - Tradition-specific authority metadata.
 - Near-match and conflicting-source adversarial cases.
 - Human review by source experts.
+- Evaluate source accuracy, interpretive warrant, and practical application separately;
+  one tradition's hierarchy must not silently govern another's cases.
 
 ## Outputs
 
@@ -67,3 +74,7 @@ answer policy are explicitly designed around ecclesial source hierarchy.
 
 This work can evaluate source use within defined corpora and traditions. It
 cannot certify total theological adequacy.
+
+## Program Map
+
+See the [FMG-Bench faith evaluation program](../research/faith-evaluation-and-fmg-bench.md) for shared methods, related calls, and evidence boundaries.

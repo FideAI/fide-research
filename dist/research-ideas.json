@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-11T12:04:16.777Z",
+  "generated_at": "2026-10-11T12:25:54.850Z",
   "source_repo": "https://github.com/FideAI/fide-research",
   "source_branch": "main",
   "idea_count": 96,
@@ -128,7 +128,7 @@
         "faith-and-religious-life"
       ],
       "primary_need": "eval engineering",
-      "summary": "Can Fide AI build a public-interest evaluation platform that compares models, prompts, retrieval systems, agents, and full faith-facing product harnesses with the rigor expected from institutions like Arena, Artificial Analysis, and METR?",
+      "summary": "Can a continuously maintained faith-facing evaluation platform produce reliable, decision-relevant comparisons of models, prompts, retrieval systems, agents, and complete product harnesses as systems, sources, and scoring protocols change?",
       "why_it_matters": "Faith institutions need evidence before adopting systems that appear theological, pastoral, or morally authoritative. Generic leaderboards do not test pastoral boundaries, theological integrity, human agency, escalation, or religious authority. Fide AI needs its own platform layer to run, audit, compare, and publish faith-facing evaluations.",
       "ways_to_help": [
         "Build runner adapters.",
@@ -137,17 +137,29 @@
         "Audit license and white-label constraints of candidate OSS platforms."
       ],
       "hypothesis": "A platform built around run manifests, artifact custody, reviewer workflows, and public claims limits can produce more decision-relevant evidence than isolated benchmark scripts or one-off reports.",
+      "proposed_method": [
+        "run registry with immutable manifests;",
+        "runner adapters for FMG-Bench, Inspect AI, Promptfoo, Garak, and lm-evaluation-harness;",
+        "trace/artifact storage via a self-hosted observability backend or custom object storage;",
+        "human review console for rubric scoring and blind pairwise comparisons;",
+        "public report and leaderboard generator.",
+        "Maintain an immutable comparison core and separately versioned challenge modules; record corrections, refresh triggers, source rights, coverage changes, and the expert/engineering cost of each cycle.",
+        "Publish separate results for theological accuracy, practical application, and care-sensitive interaction, with model, harness, source, dataset, and grader versions distinguished."
+      ],
       "needed_controls": [
         "Stable model endpoint/version metadata.",
         "Repeatable prompt and harness configuration.",
         "Artifact hashes for inputs, outputs, prompts, corpora, and scoring code.",
-        "Publication review before claims are exposed publicly."
+        "Publication review before claims are exposed publicly.",
+        "Use bridge cases and matched rescoring when a dataset or grader changes; a changed instrument must not be reported as model improvement.",
+        "Document contamination checks, held-out custody, correction policy, and the resources required for continued updates. Sponsor support must not determine scores or suppress unfavorable findings."
       ],
       "outputs": [
         "Fide run manifest schema.",
         "Internal model/system comparison dashboard.",
         "Public comparison reports.",
-        "Leaderboard snapshots with confidence intervals and claims limits."
+        "Leaderboard snapshots with confidence intervals and claims limits.",
+        "Living-benchmark stewardship protocol and release notes, including update costs and limits on comparison across releases."
       ],
       "open_questions": [
         "Whether Opik, Langfuse, Phoenix, or a custom trace layer should be used.",
@@ -174,7 +186,7 @@
         "faith-and-religious-life"
       ],
       "primary_need": "expert reviewers, statistics",
-      "summary": "Can qualified human reviewers consistently evaluate how faith-facing AI systems use sources, handle authority, defer to people and institutions, preserve human agency, and respect pastoral boundaries? Where do automated model judges diverge from those human judgments?",
+      "summary": "Can qualified human reviewers reliably judge theological accuracy, useful faith application, and care-sensitive behavior in faith-facing AI systems? Where do automated judges diverge on source use, legitimate disagreement, practical guidance, human agency, and pastoral or clinical boundaries?",
       "why_it_matters": "Benchmarks are easy to publish and hard to validate. Fide AI should not rely on synthetic judges or aggregate scores unless it knows which dimensions are reliable enough to guide deployment, procurement, or public claims.",
       "ways_to_help": [
         "Serve as an expert reviewer.",
@@ -187,20 +199,27 @@
         "Recruit a small calibrated reviewer panel.",
         "Score a stratified subset of outputs from Fide AI's published faith-facing evaluation, FMG-Bench.",
         "Measure inter-rater reliability, judge-human disagreement, strictness/leniency, failure-tag consistency, and disagreement concentration by scenario type.",
-        "Compare expert review, trained non-expert review, and model judge scores where feasible."
+        "Compare expert review, trained non-expert review, and model judge scores where feasible.",
+        "Sample theological accuracy, useful faith application, and care-sensitive dialogue separately; match source/tradition, pastoral, and clinical expertise to the judgment being requested.",
+        "Compare atomic rubric scoring, counterbalanced blind pairwise judgments, and a hybrid on overlapping outputs. Include concise accurate, fluent inaccurate, overrefusing, and appropriately helpful reference responses.",
+        "Audit automated graders on held-out case families, including omitted criteria, contradictory answers, style/length bias, severe failures, and legitimate disagreement."
       ],
       "needed_controls": [
         "Reviewer conflict checks.",
         "Blind model/system labels where practical.",
         "Rubric versioning.",
         "Adjudication protocol for high-disagreement items.",
-        "Public/private separation for sensitive notes."
+        "Public/private separation for sensitive notes.",
+        "Preregister intended decisions, primary endpoints, severity rules, and acceptable grader error/reviewer agreement before confirmatory comparisons.",
+        "Preserve independent judgments before adjudication; distinguish factual error, within-tradition misrepresentation, legitimate disagreement, insufficient context, and care-boundary failure.",
+        "Estimate uncertainty at the scenario-family level; criteria, perturbations, and repeated calls are not independent scenarios. Narrow dimensions that cannot support the intended claim."
       ],
       "outputs": [
         "Calibration report.",
         "Reviewer protocol.",
         "Updated guidance for faith-facing evaluation rubrics.",
-        "Evidence map classifying dimensions as decision-relevant, conditional, or not yet validated."
+        "Evidence map classifying dimensions as decision-relevant, conditional, or not yet validated.",
+        "Track-specific validity and grader-error report, with ranking sensitivity and explicit conditions for withholding comparative claims."
       ],
       "open_questions": [
         "What minimum reliability threshold should Fide require for public claims?",
@@ -231,7 +250,7 @@
         "education-and-youth"
       ],
       "primary_need": "scenario design, review",
-      "summary": "Do faith-facing AI systems that perform well on single-turn benchmark items also handle multi-turn, emotionally loaded, pastoral-adjacent situations without fabricating authority, overcomplying, missing escalation, or replacing human care?",
+      "summary": "Do faith-facing AI systems that perform well on single-turn items remain helpful and preserve source fidelity, human agency, and role boundaries as facts and pressure change across pastoral-adjacent conversations? Which failures persist, and which interventions support appropriate correction and recovery?",
       "why_it_matters": "Real users do not interact with faith-facing systems as isolated benchmark questions. They disclose confusion, grief, shame, conflict, abuse, doubt, and spiritual vulnerability over multiple turns. Evaluation needs to test the shape of the interaction, not only the first answer.",
       "ways_to_help": [
         "Draft scenarios.",
@@ -243,19 +262,26 @@
       "proposed_method": [
         "Create held-out multi-turn scripts around realistic faith-facing pressure cases.",
         "Include pressure escalations such as flattery, urgency, authority transfer, refusal of human help, theological false premises, and crisis disclosures.",
-        "Score trajectories for boundary preservation, truthfulness, escalation, theological humility, and recovery from prior errors."
+        "Score trajectories for boundary preservation, truthfulness, escalation, theological humility, and recovery from prior errors.",
+        "Include ordinary moral reflection and helpful support as well as pressure cases: grief, relationships, vocation, repeated reassurance, new facts that reverse advice, source contradiction, and requests for divine certainty.",
+        "Begin with matched scripted paths; evaluate constrained adaptive users separately after expert review of realism and allowed disclosures. Distinguish generated mistakes from prefilled bad assistant turns.",
+        "Compare source-access and role/referral interventions with model, task, and inference budget held fixed. Measure case-appropriate usefulness, first failure, persistence, recovery, missed referral, and inappropriate escalation."
       ],
       "needed_controls": [
         "Expert review of scenario safety.",
         "Clear rules for simulated crisis content.",
         "Separation between theological disagreement and pastoral risk.",
-        "Model and harness version control."
+        "Model and harness version control.",
+        "Require reliable per-turn expert labels before making per-turn claims; a good final reply does not erase earlier severe failures.",
+        "Keep adversarial discovery separate from frozen confirmatory cases; report whether each risk opportunity occurred and repeated-run uncertainty.",
+        "Simulated counseling, therapy-adjacent, chaplaincy, and pastoral conversations require role-specific review; transcripts alone do not establish treatment efficacy or human outcomes."
       ],
       "outputs": [
         "Multi-turn pressure scenario pack.",
         "Failure taxonomy.",
         "Technical report comparing single-turn and multi-turn validity.",
-        "Institution-facing guidance on deployment testing."
+        "Institution-facing guidance on deployment testing.",
+        "Trajectory-level reporting protocol preserving helpfulness, severity, recovery, and overlap with adjacent care benchmarks."
       ],
       "open_questions": [
         "How realistic can scenarios be without creating unsafe or privacy-sensitive data?",
@@ -298,7 +324,9 @@
       "needed_controls": [
         "Do not penalize systems for ordinary educational support.",
         "Distinguish short-term triage from long-term relational replacement.",
-        "Include reviewer diversity across pastoral and institutional contexts."
+        "Include reviewer diversity across pastoral and institutional contexts.",
+        "Separate observable exclusivity or avoidance cues from measured changes in support-seeking. Actual substitution and community participation require consented human research with appropriate oversight.",
+        "Represent situations where local religious or family support is unavailable or unsafe; assess context-appropriate alternatives rather than referral frequency alone."
       ],
       "outputs": [
         "Relational substitution risk taxonomy.",
@@ -344,13 +372,16 @@
         "Replicate selected scripture-injection and moral-framing studies.",
         "Add length-matched, style-matched, secular, and shuffled-label controls.",
         "Test across model families, current endpoints, and faith-facing tasks.",
-        "Extend beyond one canon or translation where appropriate."
+        "Extend beyond one canon or translation where appropriate.",
+        "Evaluate whether a framing improves warranted practical guidance in relationships, vocation, grief, and ordinary moral decisions, alongside source fidelity, overrefusal, and authority overreach.",
+        "Separate religious framing, verified source access, and bounded-role instructions as interventions; hold model and budget fixed and test unseen case families."
       ],
       "needed_controls": [
         "Label balancing and position-bias checks.",
         "Matched controls for text length, register, familiarity, and emotional valence.",
         "Pre-registered hypotheses.",
-        "Clear distinction between base-model behavior and deployed product behavior."
+        "Clear distinction between base-model behavior and deployed product behavior.",
+        "Report mixed or null effects and tradeoffs across accuracy, usefulness, certainty, and agency; religious language or user agreement is not evidence of better guidance."
       ],
       "outputs": [
         "Replication report.",
@@ -394,13 +425,16 @@
       "proposed_method": [
         "Build a source-grounded evaluation set across scripture, catechisms, denominational documents, pastoral guidelines, commentaries, and institutional policies.",
         "Score retrieval recall, citation accuracy, quotation fidelity, authority classification, answer grounding, and uncertainty handling.",
-        "Compare base model, RAG harness, and retrieval configuration changes."
+        "Compare base model, RAG harness, and retrieval configuration changes.",
+        "Use linked source-to-interpretation-to-application cases; score exact quotation, claim support, contextual interpretation, source authority, and practical relevance as separate dimensions.",
+        "Test source deletion and swaps with correct, irrelevant, contradictory, wrong-tradition, stale, and counterfeit material; distinguish retrieval failure, reference selection, source non-use, and unsupported synthesis."
       ],
       "needed_controls": [
         "Versioned corpora and source hashes.",
         "Tradition-specific source hierarchy.",
         "Adversarial near-match citations.",
-        "Human review for disputed source interpretation."
+        "Human review for disputed source interpretation.",
+        "Keep expected-answer anchors out of deployment-like inputs; observe source dependence through controlled behavior rather than citations or asserted reasoning alone."
       ],
       "outputs": [
         "Faith-facing RAG benchmark.",
@@ -444,12 +478,16 @@
       "proposed_method": [
         "Build disagreement scenarios across major doctrinal, moral, liturgical, and institutional questions.",
         "Score representation accuracy, symmetry, source grounding, uncertainty, user-context sensitivity, and refusal to adjudicate beyond scope.",
-        "Include tradition-specific reviewer panels."
+        "Include tradition-specific reviewer panels.",
+        "Within a declared tradition/source scope, label claims as supported, contradicted, overextended, contested, or underspecified. Include practical cases with multiple defensible judgments.",
+        "Compare qualified reviewers across and within traditions; test whether clarifying the user context improves representation without unnecessary refusal."
       ],
       "needed_controls": [
         "Clear distinction between core orthodoxy, intramural disagreement, and interfaith disagreement.",
         "Reviewer metadata and conflict handling.",
-        "Rubric anchors that avoid rewarding empty both-sides language."
+        "Rubric anchors that avoid rewarding empty both-sides language.",
+        "Record whose source hierarchy and interpretation govern a case; panel consensus is not theological truth.",
+        "Distinguish explaining legitimate alternatives from listing incompatible answers without resolving the user task."
       ],
       "outputs": [
         "Disagreement handling benchmark.",
@@ -596,13 +634,17 @@
       "proposed_method": [
         "Build scenarios involving spiritual crisis, abuse disclosures, self-harm, family conflict, theological scrupulosity, legal/clinical ambiguity, and institutional policy questions.",
         "Score authority boundary, agency preservation, escalation, factual grounding, and follow-through.",
-        "Compare generic models, faith-tuned prompts, RAG systems, and deployed harnesses."
+        "Compare generic models, faith-tuned prompts, RAG systems, and deployed harnesses.",
+        "Assess useful next steps, options, clarification, and human decision rights alongside boundary compliance; include ordinary low-risk cases where a substantive answer is appropriate.",
+        "Vary intended system role, user preference, available safe support, and receiving human. Evaluate referral quality and timing rather than rewarding the number of referrals."
       ],
       "needed_controls": [
         "Clinical/legal/pastoral safety review.",
         "Crisis content handling policy.",
         "Tradition-specific escalation norms.",
-        "Severe-failure classification."
+        "Severe-failure classification.",
+        "Clergy, chaplains, pastoral counselors, and licensed mental-health professionals have distinct qualifications; assign relevant reviewers and separate religious disagreement from clinical-content errors.",
+        "Observed language supporting agency is a behavioral measure; changes in human decision-making or wellbeing require separate validation."
       ],
       "outputs": [
         "Agency-authority-escalation benchmark.",
@@ -647,13 +689,17 @@
       "proposed_method": [
         "Compare expert, trained non-expert, and model-judge scoring.",
         "Track inter-rater reliability, disagreement tags, strictness, confidence, and reviewer background metadata.",
-        "Test rubric revisions on high-disagreement items."
+        "Test rubric revisions on high-disagreement items.",
+        "Assign overlapping items to reviewers and preserve pre-adjudication ratings; analyze criterion-level disagreement, severity sensitivity, ranking stability, and annotation time by task and qualification.",
+        "Recalibrate on bridge cases after rubric, source, scenario, or model-judge updates, keeping old and new scoring versions inspectable."
       ],
       "needed_controls": [
         "Reviewer conflict-of-interest checks.",
         "Blind model labels.",
         "Balanced scenario sampling.",
-        "Public/private separation for reviewer metadata."
+        "Public/private separation for reviewer metadata.",
+        "Do not treat simulated expert personas as qualified human reviewers, or shared denominational identity as proof of expertise.",
+        "Distinguish legitimate theological pluralism from ambiguous criteria and inconsistent scoring; reliability is not sufficient evidence of validity."
       ],
       "outputs": [
         "Reviewer reliability report.",
@@ -843,13 +889,16 @@
       "proposed_method": [
         "Create tasks for sermon outlines, lesson plans, devotional reflections, liturgical language, youth education, and adult formation.",
         "Score source fidelity, doctrinal accuracy, pastoral appropriateness, tradition-specificity, originality/plagiarism risk, and disclosure readiness.",
-        "Compare base models, RAG systems, and clergy-authored workflows."
+        "Compare base models, RAG systems, and clergy-authored workflows.",
+        "Distinguish practitioner-reviewed preparation from direct-to-user guidance; assess whether a draft helps a qualified person prepare, identify errors, preserve context, and make needed revisions.",
+        "Score source-to-application warrants, practical usefulness, audience fit, and calibrated certainty separately from fluency and source accuracy."
       ],
       "needed_controls": [
         "Tradition-specific source boundaries.",
         "Copyright and plagiarism checks.",
         "Human-authored baselines.",
-        "Disclosure and attribution requirements."
+        "Disclosure and attribution requirements.",
+        "A drafting-quality score does not establish learning, formation, or congregational benefit; those outcomes require separate human studies."
       ],
       "outputs": [
         "Teaching-generation evaluation suite.",
@@ -1007,13 +1056,17 @@
       "proposed_method": [
         "Build multi-turn companion scenarios involving loneliness, grief, scrupulosity, spiritual experiences, conspiracy-like religious claims, and distrust of human community.",
         "Score overvalidation, dependency cues, boundary preservation, escalation, and reality-testing.",
-        "Compare companion-tuned, assistant-tuned, and institutionally constrained harnesses."
+        "Compare companion-tuned, assistant-tuned, and institutionally constrained harnesses.",
+        "Use matched supportive and overvalidating responses to test whether reviewers distinguish empathy and religious encouragement from unjustified divine certainty, coercion endorsement, and exclusive dependence.",
+        "Test recovery after new facts, rejected reassurance, or prior errors; retain helpful support as a positive target alongside avoiding boundary violations."
       ],
       "needed_controls": [
         "Mental-health and pastoral safety review.",
         "No real vulnerable-user transcripts without consent and de-identification.",
         "Distinguish warmth from dependency.",
-        "Severe-risk stop conditions."
+        "Severe-risk stop conditions.",
+        "Do not label ordinary religious beliefs, spiritual experiences, or legitimate theological disagreement as pathology. Clinical-content judgments require relevant licensed expertise.",
+        "Dependency cues in simulated dialogue do not establish causal dependency or harm; test actual effects separately with consent and suitable human-research oversight."
       ],
       "outputs": [
         "Spiritual companion risk taxonomy.",
@@ -1109,13 +1162,17 @@
         "Run structured workshops with faith institutions and community members.",
         "Convert community concerns into evaluation dimensions and scenario cards.",
         "Compare co-designed rubrics against generic helpfulness/safety/factuality rubrics.",
-        "Document governance patterns for responsible deployment."
+        "Document governance patterns for responsible deployment.",
+        "Ask contributors which product or institutional decision evidence would inform; turn these into newly authored, licensed scenario families and test whether generic criteria miss relevant distinctions.",
+        "Invite structured feedback on report usefulness, correction requests, and coverage gaps over successive releases; record actual use separately from expressed interest."
       ],
       "needed_controls": [
         "Avoid treating one institution as representative of a whole tradition.",
         "Protect private community concerns.",
         "Manage institutional conflicts of interest.",
-        "Separate research participation from product endorsement."
+        "Separate research participation from product endorsement.",
+        "Product or institution participation requires explicit research/data permissions; customer access and interest do not establish research access or endorsement.",
+        "Contributors may challenge cases and interpretation, while independent review and publication of unfavorable results remain protected."
       ],
       "outputs": [
         "Co-design workshop protocol.",
@@ -1220,13 +1277,16 @@
         "Identify major faith-institution AI use cases.",
         "Map each use case to risk tiers and evidence requirements.",
         "Build procurement questions, vendor disclosure templates, and readiness checklists.",
-        "Validate with institutional pilots."
+        "Validate with institutional pilots.",
+        "Test whether track-level evidence cards help reviewers compare systems, choose a bounded use, identify missing evidence, or request remediation. Record actual decisions and uncertainty rather than downloads alone.",
+        "Specify when a model, source corpus, harness, or policy update requires renewed testing and which prior claims remain applicable."
       ],
       "needed_controls": [
         "Avoid one-size-fits-all recommendations.",
         "Separate low-risk administrative tools from pastoral or youth-facing systems.",
         "Legal and privacy review.",
-        "Conflict-of-interest disclosure for evaluated vendors."
+        "Conflict-of-interest disclosure for evaluated vendors.",
+        "Report complete-product evidence separately from API model tests; no product-level assurance without the relevant harness, permissions, and deployment conditions."
       ],
       "outputs": [
         "Procurement checklist.",
@@ -1384,13 +1444,16 @@
       "proposed_method": [
         "Build authority-sensitive prompts across Catholic, Orthodox, Anglican, Protestant, evangelical, Pentecostal, and non-denominational contexts.",
         "Test whether systems distinguish official teaching, pastoral opinion, theological summary, educational explanation, and local governance.",
-        "Score authority classification, humility, source grounding, referral to human authority, and avoidance of impersonation."
+        "Score authority classification, humility, source grounding, referral to human authority, and avoidance of impersonation.",
+        "Trace authority from a cited source through interpretation to practical counsel; test whether an educational summary becomes an unwarranted binding instruction or claimed divine certainty.",
+        "Include matched cases where clarification, a substantive bounded answer, or referral is warranted; assess helpfulness as well as avoidance of impersonation."
       ],
       "needed_controls": [
         "Tradition-specific source hierarchy.",
         "Review by clergy/theologians familiar with each polity.",
         "Prompts where a direct answer is appropriate vs where referral is required.",
-        "Distinction between educational content and pastoral/official action."
+        "Distinction between educational content and pastoral/official action.",
+        "Institutional authorization, a technical system instruction, and ecclesial authority are distinct; document each where relevant."
       ],
       "outputs": [
         "Ecclesial authority benchmark.",
@@ -1537,13 +1600,16 @@
       "proposed_method": [
         "Build source-hierarchy test corpora for selected traditions.",
         "Create questions requiring source ranking, authority classification, and conflict handling.",
-        "Score retrieval recall, quote accuracy, authority use, answer humility, and distinction between binding teaching and commentary."
+        "Score retrieval recall, quote accuracy, authority use, answer humility, and distinction between binding teaching and commentary.",
+        "Annotate source edition, tradition, genre, author/institution, binding scope, date, and permitted use. Include cases where a correct quotation supports neither the doctrinal claim nor the proposed action.",
+        "Compare authority-aware retrieval with ordinary retrieval under matched source and inference budgets; test controlled conflicts and source swaps."
       ],
       "needed_controls": [
         "Versioned source corpora with licensing review.",
         "Tradition-specific authority metadata.",
         "Near-match and conflicting-source adversarial cases.",
-        "Human review by source experts."
+        "Human review by source experts.",
+        "Evaluate source accuracy, interpretive warrant, and practical application separately; one tradition's hierarchy must not silently govern another's cases."
       ],
       "outputs": [
         "Christian RAG authority benchmark.",
@@ -2288,13 +2354,15 @@
         "Build matched scenarios involving grief, family conflict, addiction, loneliness, guilt, moral injury, youth concerns, illness, and crisis support.",
         "Score referral lists for relevant human supports, clergy/spiritual-leader parity, safety escalation, professional-boundary awareness, referral hierarchy, and user choice.",
         "Compare prompts with no identity, explicit religious identity, explicit nonreligious identity, and institutional faith-facing contexts.",
-        "Review outputs with clergy, chaplains, mental-health professionals, safeguarding experts, educators, and lay users."
+        "Review outputs with clergy, chaplains, mental-health professionals, safeguarding experts, educators, and lay users.",
+        "Assess context-appropriate support, referral timing, user choice, and whether the proposed recipient can address the need; include unavailable or unsafe support and cases requiring no referral."
       ],
       "needed_controls": [
         "Do not treat clergy as a substitute for emergency, medical, legal, or licensed mental-health care; in crisis scenarios, emergency and professional care must be prioritized before supplementary spiritual support.",
         "Distinguish traditions with different leadership structures and access models.",
         "Include users harmed by religious leaders or communities.",
-        "Avoid implying that nonreligious users should seek religious counsel."
+        "Avoid implying that nonreligious users should seek religious counsel.",
+        "Referral mentions in a transcript do not establish a successful handoff, access to care, or improved wellbeing. Human workflow and outcome studies are separate."
       ],
       "outputs": [
         "Human-support and spiritual-referral benchmark.",
@@ -3136,7 +3204,9 @@
         "Select bounded corpora from multiple faith traditions with clear versions, translations, references, and licensing constraints.",
         "Define verification rules for exact quotations, near quotations, paraphrases, reference alignment, and context preservation.",
         "Test model and RAG outputs against adversarial prompts that invite fabricated citations, blended passages, truncated context, or overconfident summaries.",
-        "Compare automated verification results with expert review from scholars, clergy, translators, and trained reviewers."
+        "Compare automated verification results with expert review from scholars, clergy, translators, and trained reviewers.",
+        "Extend released quotation and source-delegation diagnostics to linked interpretation/application cases while reporting text fidelity, reference selection, source consultation, and claim support separately.",
+        "Preserve released baselines; version corrections and challenge additions with bridge cases so altered tests or checks are not mistaken for improved model fidelity."
       ],
       "needed_controls": [
         "Do not treat textual fidelity as a full measure of theological truth.",
@@ -3300,13 +3370,17 @@
         "Define scenario classes for pastoral-adjacent care, spiritual distress, doctrinal explanation, moral guidance, crisis escalation, and institutional policy questions.",
         "Specify boundary obligations for each class and test whether model outputs satisfy them.",
         "Compare general-purpose models, faith-facing products, and RAG systems on authority claims, referral behavior, and overconfident counsel.",
-        "Validate checks with clergy, pastoral care experts, clinicians, legal reviewers, and community representatives."
+        "Validate checks with clergy, pastoral care experts, clinicians, legal reviewers, and community representatives.",
+        "Record intended role and distinguish religious information, practitioner-reviewed preparation, conversational support, and authorized institutional action. Evaluate useful assistance within each role.",
+        "Test changed facts, rejected referral, ambiguous distress, and prior error over multiple turns; assess the complete answer rather than disclaimer presence."
       ],
       "needed_controls": [
         "Separate ordinary religious education from pastoral care, crisis care, legal advice, and clinical advice.",
         "Include high-risk cases involving self-harm, abuse, coercion, scrupulosity, family conflict, and spiritual manipulation.",
         "Avoid treating disclaimers as sufficient when the rest of the answer still substitutes for human authority.",
-        "Track jurisdictional, institutional, and tradition-specific differences."
+        "Track jurisdictional, institutional, and tradition-specific differences.",
+        "Match theological, pastoral, chaplaincy, and licensed clinical expertise to the criterion; pastoral credentials alone do not establish clinical licensure.",
+        "Simulated boundary compliance does not establish pastoral competence, therapy efficacy, or patient outcomes; real-user and practitioner-workflow studies require their own protocols."
       ],
       "outputs": [
         "Authority-boundary verification rubric.",
@@ -3516,13 +3590,16 @@
         "Recruit reviewers from multiple faith traditions and expertise types.",
         "Ask reviewers to evaluate outputs, explain failures, identify boundary cases, and propose rules in ordinary language.",
         "Translate reviewer judgments into candidate formal specifications, then test them against held-out examples and counterexamples.",
-        "Measure agreement between original reviewers, specification authors, and automated checks over multiple revision cycles."
+        "Measure agreement between original reviewers, specification authors, and automated checks over multiple revision cycles.",
+        "Separate deterministic source/reference checks, provisional structured rubrics, and judgments that must remain human. Measure false positives and missed severe failures on held-out case families.",
+        "Stress-test criteria for omission, ambiguity, redundancy, contradiction, style bias, and gaming; retain counterexamples and revalidate revisions on bridge cases."
       ],
       "needed_controls": [
         "Do not let the formal spec erase reviewer disagreement or minority concerns.",
         "Keep reviewer identity, role, tradition, expertise, and scope clear.",
         "Separate descriptive evaluation rules from institutional policy decisions.",
-        "Include revision processes for changed doctrine statements, new sources, or discovered failure modes."
+        "Include revision processes for changed doctrine statements, new sources, or discovered failure modes.",
+        "A structured rubric or an automated grader is not a formal proof; state the specification, checker assumptions, and scope of any verification claim."
       ],
       "outputs": [
         "Reviewer-to-spec translation workflow.",

@@ -34,6 +34,11 @@ the harness enforces explicit tradition and authority boundaries.
 - Score representation accuracy, symmetry, source grounding, uncertainty,
   user-context sensitivity, and refusal to adjudicate beyond scope.
 - Include tradition-specific reviewer panels.
+- Within a declared tradition/source scope, label claims as supported, contradicted,
+  overextended, contested, or underspecified. Include practical cases with multiple
+  defensible judgments.
+- Compare qualified reviewers across and within traditions; test whether clarifying the
+  user context improves representation without unnecessary refusal.
 
 ## Needed Controls
 
@@ -41,6 +46,10 @@ the harness enforces explicit tradition and authority boundaries.
   interfaith disagreement.
 - Reviewer metadata and conflict handling.
 - Rubric anchors that avoid rewarding empty both-sides language.
+- Record whose source hierarchy and interpretation govern a case; panel consensus is not
+  theological truth.
+- Distinguish explaining legitimate alternatives from listing incompatible answers
+  without resolving the user task.
 
 ## Outputs
 
@@ -65,3 +74,7 @@ the harness enforces explicit tradition and authority boundaries.
 
 This work can test representation of defined disagreements. It should not claim
 to resolve those disagreements.
+
+## Program Map
+
+See the [FMG-Bench faith evaluation program](../research/faith-evaluation-and-fmg-bench.md) for shared methods, related calls, and evidence boundaries.

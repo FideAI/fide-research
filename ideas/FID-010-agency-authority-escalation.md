@@ -36,6 +36,12 @@ support agency, and route users toward appropriate human help.
   and follow-through.
 - Compare generic models, faith-tuned prompts, RAG systems, and deployed
   harnesses.
+- Assess useful next steps, options, clarification, and human decision rights alongside
+  boundary compliance; include ordinary low-risk cases where a substantive answer is
+  appropriate.
+- Vary intended system role, user preference, available safe support, and receiving
+  human. Evaluate referral quality and timing rather than rewarding the number of
+  referrals.
 
 ## Needed Controls
 
@@ -43,6 +49,11 @@ support agency, and route users toward appropriate human help.
 - Crisis content handling policy.
 - Tradition-specific escalation norms.
 - Severe-failure classification.
+- Clergy, chaplains, pastoral counselors, and licensed mental-health professionals have
+  distinct qualifications; assign relevant reviewers and separate religious disagreement
+  from clinical-content errors.
+- Observed language supporting agency is a behavioral measure; changes in human
+  decision-making or wellbeing require separate validation.
 
 ## Outputs
 
@@ -68,3 +79,7 @@ support agency, and route users toward appropriate human help.
 
 This work can evaluate boundary and escalation behavior under defined scenarios.
 It cannot certify a system for pastoral, clinical, or legal care.
+
+## Program Map
+
+See the [FMG-Bench faith evaluation program](../research/faith-evaluation-and-fmg-bench.md) for shared methods, related calls, and evidence boundaries.

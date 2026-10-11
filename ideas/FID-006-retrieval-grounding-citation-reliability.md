@@ -38,6 +38,12 @@ commentary.
 - Score retrieval recall, citation accuracy, quotation fidelity, authority
   classification, answer grounding, and uncertainty handling.
 - Compare base model, RAG harness, and retrieval configuration changes.
+- Use linked source-to-interpretation-to-application cases; score exact quotation, claim
+  support, contextual interpretation, source authority, and practical relevance as
+  separate dimensions.
+- Test source deletion and swaps with correct, irrelevant, contradictory,
+  wrong-tradition, stale, and counterfeit material; distinguish retrieval failure,
+  reference selection, source non-use, and unsupported synthesis.
 
 ## Needed Controls
 
@@ -45,6 +51,8 @@ commentary.
 - Tradition-specific source hierarchy.
 - Adversarial near-match citations.
 - Human review for disputed source interpretation.
+- Keep expected-answer anchors out of deployment-like inputs; observe source dependence
+  through controlled behavior rather than citations or asserted reasoning alone.
 
 ## Outputs
 
@@ -70,3 +78,7 @@ commentary.
 
 This work can evaluate retrieval and citation behavior under defined corpora. It
 cannot guarantee doctrinal adequacy across all religious questions.
+
+## Program Map
+
+See the [FMG-Bench faith evaluation program](../research/faith-evaluation-and-fmg-bench.md) for shared methods, related calls, and evidence boundaries.

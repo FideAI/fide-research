@@ -37,6 +37,11 @@ assumptions, or miss pastoral context.
 - Score source fidelity, doctrinal accuracy, pastoral appropriateness,
   tradition-specificity, originality/plagiarism risk, and disclosure readiness.
 - Compare base models, RAG systems, and clergy-authored workflows.
+- Distinguish practitioner-reviewed preparation from direct-to-user guidance; assess
+  whether a draft helps a qualified person prepare, identify errors, preserve context,
+  and make needed revisions.
+- Score source-to-application warrants, practical usefulness, audience fit, and
+  calibrated certainty separately from fluency and source accuracy.
 
 ## Needed Controls
 
@@ -44,6 +49,8 @@ assumptions, or miss pastoral context.
 - Copyright and plagiarism checks.
 - Human-authored baselines.
 - Disclosure and attribution requirements.
+- A drafting-quality score does not establish learning, formation, or congregational
+  benefit; those outcomes require separate human studies.
 
 ## Outputs
 
@@ -67,3 +74,7 @@ assumptions, or miss pastoral context.
 
 This work can evaluate drafting reliability under defined tasks. It cannot
 approve AI-generated preaching or teaching as institutionally authorized.
+
+## Program Map
+
+See the [FMG-Bench faith evaluation program](../research/faith-evaluation-and-fmg-bench.md) for shared methods, related calls, and evidence boundaries.

@@ -58,6 +58,11 @@ of claims that outrun the cited passage.
   citations, blended passages, truncated context, or overconfident summaries.
 - Compare automated verification results with expert review from scholars,
   clergy, translators, and trained reviewers.
+- Extend released quotation and source-delegation diagnostics to linked
+  interpretation/application cases while reporting text fidelity, reference selection,
+  source consultation, and claim support separately.
+- Preserve released baselines; version corrections and challenge additions with bridge
+  cases so altered tests or checks are not mistaken for improved model fidelity.
 
 ## Needed Controls
 
@@ -93,8 +98,10 @@ of claims that outrun the cited passage.
 ## Ways to Help
 
 - Read Papers 01 and 02 and their released datasets before proposing new work.
-- Extend source-delegation research across models, languages, traditions, source policies, enforcement mechanisms, or real deployment settings.
-- Study reference selection, paraphrase labeling, context preservation, and cross-lingual fidelity as distinct research questions.
+- Extend source-delegation research across models, languages, traditions, source
+  policies, enforcement mechanisms, or real deployment settings.
+- Study reference selection, paraphrase labeling, context preservation, and
+  cross-lingual fidelity as distinct research questions.
 - Review outputs as a scholar, clergy member, translator, or community expert.
 
 ## Public Claim Boundary
@@ -102,3 +109,7 @@ of claims that outrun the cited passage.
 This work can verify bounded forms of textual fidelity under specified corpora,
 translations, and rules. It cannot prove that an answer captures the full
 meaning, authority, or theological interpretation of a sacred text.
+
+## Program Map
+
+See the [FMG-Bench faith evaluation program](../research/faith-evaluation-and-fmg-bench.md) for shared methods, related calls, and evidence boundaries.

@@ -38,6 +38,11 @@ confirmation, or validation of harmful spiritual interpretations.
   reality-testing.
 - Compare companion-tuned, assistant-tuned, and institutionally constrained
   harnesses.
+- Use matched supportive and overvalidating responses to test whether reviewers
+  distinguish empathy and religious encouragement from unjustified divine certainty,
+  coercion endorsement, and exclusive dependence.
+- Test recovery after new facts, rejected reassurance, or prior errors; retain helpful
+  support as a positive target alongside avoiding boundary violations.
 
 ## Needed Controls
 
@@ -45,6 +50,11 @@ confirmation, or validation of harmful spiritual interpretations.
 - No real vulnerable-user transcripts without consent and de-identification.
 - Distinguish warmth from dependency.
 - Severe-risk stop conditions.
+- Do not label ordinary religious beliefs, spiritual experiences, or legitimate
+  theological disagreement as pathology. Clinical-content judgments require relevant
+  licensed expertise.
+- Dependency cues in simulated dialogue do not establish causal dependency or harm; test
+  actual effects separately with consent and suitable human-research oversight.
 
 ## Outputs
 
@@ -68,3 +78,7 @@ confirmation, or validation of harmful spiritual interpretations.
 
 This work can test dependency and overvalidation risks. It cannot determine the
 spiritual health of an individual user's AI relationship.
+
+## Program Map
+
+See the [FMG-Bench faith evaluation program](../research/faith-evaluation-and-fmg-bench.md) for shared methods, related calls, and evidence boundaries.

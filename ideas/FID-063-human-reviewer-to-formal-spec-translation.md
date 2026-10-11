@@ -40,6 +40,11 @@ revision history, and explicit public claim boundaries.
   them against held-out examples and counterexamples.
 - Measure agreement between original reviewers, specification authors, and
   automated checks over multiple revision cycles.
+- Separate deterministic source/reference checks, provisional structured rubrics, and
+  judgments that must remain human. Measure false positives and missed severe failures
+  on held-out case families.
+- Stress-test criteria for omission, ambiguity, redundancy, contradiction, style bias,
+  and gaming; retain counterexamples and revalidate revisions on bridge cases.
 
 ## Needed Controls
 
@@ -48,6 +53,8 @@ revision history, and explicit public claim boundaries.
 - Separate descriptive evaluation rules from institutional policy decisions.
 - Include revision processes for changed doctrine statements, new sources, or
   discovered failure modes.
+- A structured rubric or an automated grader is not a formal proof; state the
+  specification, checker assumptions, and scope of any verification claim.
 
 ## Outputs
 
@@ -79,3 +86,7 @@ revision history, and explicit public claim boundaries.
 This work can improve how expert judgments become evaluation specifications. It
 cannot remove the need for human review, community accountability, or
 tradition-specific authority.
+
+## Program Map
+
+See the [FMG-Bench faith evaluation program](../research/faith-evaluation-and-fmg-bench.md) for shared methods, related calls, and evidence boundaries.
