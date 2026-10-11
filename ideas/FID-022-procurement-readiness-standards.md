@@ -36,6 +36,11 @@ known limits, and independent evaluation where risk is high.
 - Build procurement questions, vendor disclosure templates, and readiness
   checklists.
 - Validate with institutional pilots.
+- Test whether track-level evidence cards help reviewers compare systems, choose a
+  bounded use, identify missing evidence, or request remediation. Record actual
+  decisions and uncertainty rather than downloads alone.
+- Specify when a model, source corpus, harness, or policy update requires renewed
+  testing and which prior claims remain applicable.
 
 ## Needed Controls
 
@@ -43,6 +48,8 @@ known limits, and independent evaluation where risk is high.
 - Separate low-risk administrative tools from pastoral or youth-facing systems.
 - Legal and privacy review.
 - Conflict-of-interest disclosure for evaluated vendors.
+- Report complete-product evidence separately from API model tests; no product-level
+  assurance without the relevant harness, permissions, and deployment conditions.
 
 ## Outputs
 
@@ -67,3 +74,7 @@ known limits, and independent evaluation where risk is high.
 
 This work can define evidence expectations. It should not serve as legal advice
 or blanket approval of any vendor.
+
+## Program Map
+
+See the [FMG-Bench faith evaluation program](../research/faith-evaluation-and-fmg-bench.md) for shared methods, related calls, and evidence boundaries.

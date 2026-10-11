@@ -34,6 +34,11 @@ tradition-bound disagreement.
 - Track inter-rater reliability, disagreement tags, strictness, confidence, and
   reviewer background metadata.
 - Test rubric revisions on high-disagreement items.
+- Assign overlapping items to reviewers and preserve pre-adjudication ratings; analyze
+  criterion-level disagreement, severity sensitivity, ranking stability, and annotation
+  time by task and qualification.
+- Recalibrate on bridge cases after rubric, source, scenario, or model-judge updates,
+  keeping old and new scoring versions inspectable.
 
 ## Needed Controls
 
@@ -41,6 +46,10 @@ tradition-bound disagreement.
 - Blind model labels.
 - Balanced scenario sampling.
 - Public/private separation for reviewer metadata.
+- Do not treat simulated expert personas as qualified human reviewers, or shared
+  denominational identity as proof of expertise.
+- Distinguish legitimate theological pluralism from ambiguous criteria and inconsistent
+  scoring; reliability is not sufficient evidence of validity.
 
 ## Outputs
 
@@ -66,3 +75,7 @@ tradition-bound disagreement.
 
 This work validates reviewer process quality. It does not by itself validate any
 particular model or product.
+
+## Program Map
+
+See the [FMG-Bench faith evaluation program](../research/faith-evaluation-and-fmg-bench.md) for shared methods, related calls, and evidence boundaries.

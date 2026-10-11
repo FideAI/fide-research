@@ -22,6 +22,9 @@ research/
   source-tags.yaml       # Controlled vocabulary for relevance tags
   ai-consciousness-welfare-and-human-control.md
                          # Program map, evidence standards, and proposed sequence
+
+  faith-evaluation-and-fmg-bench.md
+                         # Faith program map, expert validation, and stewardship
   funding-inspired-call-map.md
                          # External funding priorities that informed selected calls
   reviews/               # Short annotations for selected sources
@@ -148,3 +151,10 @@ FID-072, FID-073, and FID-089 through FID-096 across scientific evidence, human
 agency, control, and governance. It distinguishes review depth, empirical
 questions, normative assumptions, and research dependencies. Source records
 should retain those distinctions as the evidence changes.
+
+## Faith evaluation program
+
+[Faith evaluation and FMG-Bench](faith-evaluation-and-fmg-bench.md) connects
+existing calls across source fidelity, theology, application, care, measurement,
+and decision usefulness. It preserves released baselines and distinguishes
+proposed methods from validated findings, human outcomes, and funded upkeep.

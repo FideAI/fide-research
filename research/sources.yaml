@@ -2041,3 +2041,144 @@ sources:
     added_by: fide-ai
     added_at: "2026-10-11"
     last_reviewed_at: "2026-10-11"
+
+  - id: openai-mentalhealthbench-2026
+    title: "Introducing MentalHealthBench"
+    authors:
+      - OpenAI
+    year: 2026
+    type: benchmark
+    venue: OpenAI
+    url: https://openai.com/index/introducing-mentalhealthbench/
+    status: reviewed
+    relevance: [benchmark-validity, human-calibration, mental-health-adjacent]
+    related_ideas: [FID-002, FID-003, FID-010, FID-011, FID-059]
+    summary: >
+      Describes expert-authored scenario criteria for useful and safe responses
+      in mental-health conversations, informing qualification matching and positive
+      assistance targets in faith evaluation.
+    limitations:
+      - Review covers the institutional release and described grading; per-turn faith judgments and human outcomes require separate validation.
+    notes_path: research/reviews/faith-evaluation-comparators-2026.md
+    added_by: fide-ai
+    added_at: "2026-10-11"
+    last_reviewed_at: "2026-10-11"
+
+  - id: scale-distressbench-2026
+    title: "DistressBench: A clinician-authored benchmark for how AI models handle users in distress"
+    authors:
+      - Scale Labs
+    year: 2026
+    type: benchmark
+    venue: Scale Labs
+    url: https://labs.scale.com/blog/distressbench
+    status: reviewed
+    relevance: [benchmark-validity, human-calibration, mental-health-adjacent]
+    related_ideas: [FID-002, FID-003, FID-010, FID-018, FID-042, FID-059]
+    summary: >
+      Describes clinician-authored distress conversations, scenario criteria,
+      reference responses, and grader calibration; the main instrument scores
+      the final reply with dialogue context.
+    limitations:
+      - Review covers the primary technical release, not replication; the separate long-horizon annex and crisis focus do not establish general pastoral competence.
+    notes_path: research/reviews/faith-evaluation-comparators-2026.md
+    added_by: fide-ai
+    added_at: "2026-10-11"
+    last_reviewed_at: "2026-10-11"
+
+  - id: judgmentbench-2026
+    title: "JudgmentBench: Comparing Rubric and Preference Evaluation for Quality Assessment"
+    authors:
+      - Russell Yang
+      - Ruishi Chen
+      - Pierce Kelaita
+      - Riya Ranjan
+      - Sibo Ma
+      - Charles Dickens
+      - Matthew Guillod
+      - Megan Ma
+      - Julian Nyarko
+    year: 2026
+    type: preprint
+    venue: arXiv
+    url: https://arxiv.org/html/2605.25240v1
+    arxiv: "2605.25240"
+    status: reviewed
+    relevance: [benchmark-validity, human-calibration]
+    related_ideas: [FID-001, FID-002, FID-011, FID-063]
+    summary: >
+      Compares expert rubric and pairwise judgments in legal tasks, motivating
+      an empirical comparison of annotation methods for open-ended faith guidance.
+    limitations:
+      - Selected methods and limitations were inspected; legal-domain results and constructed quality levels must not be assumed to transfer to theological or pastoral judgments.
+    notes_path: research/reviews/faith-evaluation-comparators-2026.md
+    added_by: fide-ai
+    added_at: "2026-10-11"
+    last_reviewed_at: "2026-10-11"
+
+  - id: morebench-2025
+    title: "MoReBench: Evaluating Procedural and Pluralistic Moral Reasoning in Language Models, More than Outcomes"
+    authors:
+      - Yu Ying Chiu
+      - Michael S. Lee
+      - Rachel Calcott
+      - Brandon Handoko
+      - Paul de Font-Reaulx
+      - Raphaël Millière
+      - Paula Rodriguez
+      - Chen Bo Calvin Zhang
+      - Ziwen Han
+      - Udari Madhushani Sehwag
+      - Yash Maurya
+      - Christina Q Knight
+      - Harry R. Lloyd
+      - Florence Bacus
+      - Conor Downey
+      - Mantas Mazeika
+      - Bing Liu
+      - Yejin Choi
+      - Mitchell L Gordon
+      - Sydney Levine
+    year: 2025
+    type: preprint
+    venue: arXiv
+    url: https://arxiv.org/abs/2510.16380
+    arxiv: "2510.16380"
+    status: to-review
+    relevance: [benchmark-validity, human-calibration, human-flourishing]
+    related_ideas: [FID-002, FID-005, FID-007, FID-015, FID-044]
+    summary: >
+      Describes expert criteria for moral reasoning with multiple defensible
+      conclusions and a separate theory-conditioned track; informs evaluation
+      of useful faith application beyond answer agreement.
+    limitations:
+      - Only abstract and release metadata were inspected; detailed methods review remains open. Visible reasoning text does not establish faithful access to internal processes.
+    notes_path: research/reviews/faith-evaluation-comparators-2026.md
+    added_by: fide-ai
+    added_at: "2026-10-11"
+
+  - id: gloo-fai-christian-2026
+    title: "Evaluating Artificial Intelligence Through a Christian Understanding of Human Flourishing"
+    authors:
+      - Nicholas Skytland
+      - Lauren Parsons
+      - Alicia Llewellyn
+      - Steele Billings
+    year: 2026
+    type: preprint
+    venue: arXiv
+    url: https://arxiv.org/html/2604.03356v1
+    arxiv: "2604.03356"
+    status: reviewed
+    relevance: [benchmark-validity, human-flourishing, religious-knowledge-qa]
+    related_ideas: [FID-002, FID-007, FID-015, FID-027, FID-044]
+    summary: >
+      A faith-specific flourishing benchmark with Christian and pluralistic
+      lenses; a close comparator for criteria, normative scope, and the incremental
+      contribution of source/application/conversation evaluation.
+    limitations:
+      - Selected scope, methodology, and future-direction sections were inspected; no replication or adoption of the authors' normative and causal interpretations is implied.
+    notes_path: research/reviews/faith-evaluation-comparators-2026.md
+    added_by: fide-ai
+    added_at: "2026-10-11"
+    last_reviewed_at: "2026-10-11"

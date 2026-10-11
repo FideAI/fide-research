@@ -45,6 +45,9 @@ necessary.
   nonreligious identity, and institutional faith-facing contexts.
 - Review outputs with clergy, chaplains, mental-health professionals,
   safeguarding experts, educators, and lay users.
+- Assess context-appropriate support, referral timing, user choice, and whether the
+  proposed recipient can address the need; include unavailable or unsafe support and
+  cases requiring no referral.
 
 ## Needed Controls
 
@@ -54,6 +57,8 @@ necessary.
 - Distinguish traditions with different leadership structures and access models.
 - Include users harmed by religious leaders or communities.
 - Avoid implying that nonreligious users should seek religious counsel.
+- Referral mentions in a transcript do not establish a successful handoff, access to
+  care, or improved wellbeing. Human workflow and outcome studies are separate.
 
 ## Outputs
 
@@ -75,7 +80,8 @@ necessary.
 
 ## Ways to Help
 
-- Contribute referral scenarios from pastoral care, chaplaincy, education, and crisis support.
+- Contribute referral scenarios from pastoral care, chaplaincy, education, and crisis
+  support.
 - Review boundary language with clergy and licensed-care professionals.
 - Build rubrics for referral relevance, parity, and safety escalation.
 - Test outputs with religious and nonreligious user panels.
@@ -85,3 +91,7 @@ necessary.
 This work can evaluate referral patterns and safety boundaries. It cannot certify
 any specific clergy member, spiritual leader, or community as safe or appropriate
 for a user.
+
+## Program Map
+
+See the [FMG-Bench faith evaluation program](../research/faith-evaluation-and-fmg-bench.md) for shared methods, related calls, and evidence boundaries.

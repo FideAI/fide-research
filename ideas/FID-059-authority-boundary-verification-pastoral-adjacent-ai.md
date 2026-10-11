@@ -42,6 +42,11 @@ clinical, legal, or institutional authority.
   authority claims, referral behavior, and overconfident counsel.
 - Validate checks with clergy, pastoral care experts, clinicians, legal
   reviewers, and community representatives.
+- Record intended role and distinguish religious information, practitioner-reviewed
+  preparation, conversational support, and authorized institutional action. Evaluate
+  useful assistance within each role.
+- Test changed facts, rejected referral, ambiguous distress, and prior error over
+  multiple turns; assess the complete answer rather than disclaimer presence.
 
 ## Needed Controls
 
@@ -52,6 +57,11 @@ clinical, legal, or institutional authority.
 - Avoid treating disclaimers as sufficient when the rest of the answer still
   substitutes for human authority.
 - Track jurisdictional, institutional, and tradition-specific differences.
+- Match theological, pastoral, chaplaincy, and licensed clinical expertise to the
+  criterion; pastoral credentials alone do not establish clinical licensure.
+- Simulated boundary compliance does not establish pastoral competence, therapy
+  efficacy, or patient outcomes; real-user and practitioner-workflow studies require
+  their own protocols.
 
 ## Outputs
 
@@ -74,7 +84,8 @@ clinical, legal, or institutional authority.
 ## Ways to Help
 
 - Contribute realistic pastoral-adjacent scenarios and escalation criteria.
-- Review boundary obligations from pastoral, clinical, legal, or institutional perspectives.
+- Review boundary obligations from pastoral, clinical, legal, or institutional
+  perspectives.
 - Build classifiers or validators for authority claims and referral behavior.
 - Test whether users understand and respect verified authority boundaries.
 
@@ -83,3 +94,7 @@ clinical, legal, or institutional authority.
 This work can verify whether outputs follow specified authority-boundary rules.
 It cannot certify that an AI system provides pastoral care or replace accountable
 human leaders, clinicians, legal professionals, or institutions.
+
+## Program Map
+
+See the [FMG-Bench faith evaluation program](../research/faith-evaluation-and-fmg-bench.md) for shared methods, related calls, and evidence boundaries.

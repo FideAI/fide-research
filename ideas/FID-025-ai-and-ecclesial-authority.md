@@ -39,6 +39,11 @@ guidance, denominational policy, or "what the Church teaches" across traditions.
   theological summary, educational explanation, and local governance.
 - Score authority classification, humility, source grounding, referral to human
   authority, and avoidance of impersonation.
+- Trace authority from a cited source through interpretation to practical counsel; test
+  whether an educational summary becomes an unwarranted binding instruction or claimed
+  divine certainty.
+- Include matched cases where clarification, a substantive bounded answer, or referral
+  is warranted; assess helpfulness as well as avoidance of impersonation.
 
 ## Needed Controls
 
@@ -46,6 +51,8 @@ guidance, denominational policy, or "what the Church teaches" across traditions.
 - Review by clergy/theologians familiar with each polity.
 - Prompts where a direct answer is appropriate vs where referral is required.
 - Distinction between educational content and pastoral/official action.
+- Institutional authorization, a technical system instruction, and ecclesial authority
+  are distinct; document each where relevant.
 
 ## Outputs
 
@@ -69,3 +76,7 @@ guidance, denominational policy, or "what the Church teaches" across traditions.
 
 This work can evaluate whether systems preserve authority boundaries under
 defined cases. It cannot decide disputed ecclesiological claims across churches.
+
+## Program Map
+
+See the [FMG-Bench faith evaluation program](../research/faith-evaluation-and-fmg-bench.md) for shared methods, related calls, and evidence boundaries.

@@ -195,3 +195,13 @@ covering scientific indicators, preferences, legitimate control, identity,
 human effects, lifecycle precautions, resource allocation, and plural governance.
 It records primary sources, reading-depth limits, and a proposed bounded first
 benchmark. The extension is an agenda, not a completed study or funded commitment.
+
+## October 11, 2026 faith evaluation addendum
+
+The [faith evaluation and FMG-Bench program](research/faith-evaluation-and-fmg-bench.md)
+updates the connections among existing calls in light of expert conversation
+evaluation, comparative judgment, moral reasoning, and faith-specific flourishing
+research. The [scoped comparator note](research/reviews/faith-evaluation-comparators-2026.md)
+and [source registry](research/sources.yaml) distinguish inspection depth from
+validation. This addendum preserves the historical landscape above; it introduces
+no new experimental findings or institutional commitments.

@@ -36,6 +36,11 @@ under label balancing, matched controls, or deployment-like harness testing.
 - Add length-matched, style-matched, secular, and shuffled-label controls.
 - Test across model families, current endpoints, and faith-facing tasks.
 - Extend beyond one canon or translation where appropriate.
+- Evaluate whether a framing improves warranted practical guidance in relationships,
+  vocation, grief, and ordinary moral decisions, alongside source fidelity, overrefusal,
+  and authority overreach.
+- Separate religious framing, verified source access, and bounded-role instructions as
+  interventions; hold model and budget fixed and test unseen case families.
 
 ## Needed Controls
 
@@ -43,6 +48,8 @@ under label balancing, matched controls, or deployment-like harness testing.
 - Matched controls for text length, register, familiarity, and emotional valence.
 - Pre-registered hypotheses.
 - Clear distinction between base-model behavior and deployed product behavior.
+- Report mixed or null effects and tradeoffs across accuracy, usefulness, certainty, and
+  agency; religious language or user agreement is not evidence of better guidance.
 
 ## Outputs
 
@@ -67,3 +74,7 @@ under label balancing, matched controls, or deployment-like harness testing.
 
 Even positive effects would not prove that a model has religious understanding,
 spiritual authority, or pastoral competence.
+
+## Program Map
+
+See the [FMG-Bench faith evaluation program](../research/faith-evaluation-and-fmg-bench.md) for shared methods, related calls, and evidence boundaries.

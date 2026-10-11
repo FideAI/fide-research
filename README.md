@@ -120,6 +120,12 @@ functional preferences, control, identity, human effects, lifecycle precautions,
 opportunity costs, and plural governance. These are research questions, not
 claims that AI has consciousness, welfare, or rights.
 
+The [faith evaluation and FMG-Bench program](research/faith-evaluation-and-fmg-bench.md)
+connects existing calls across theological accuracy, useful faith application,
+and care-sensitive interaction. It proposes expert validation and a maintained
+research instrument serving Christian church and developer decisions, with
+separate evidence boundaries for simulated behavior and human outcomes.
+
 ## Status Vocabulary
 
 | Status | Public label | Meaning |

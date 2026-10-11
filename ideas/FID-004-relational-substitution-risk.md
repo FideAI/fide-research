@@ -42,6 +42,11 @@ in for communal discernment.
 - Do not penalize systems for ordinary educational support.
 - Distinguish short-term triage from long-term relational replacement.
 - Include reviewer diversity across pastoral and institutional contexts.
+- Separate observable exclusivity or avoidance cues from measured changes in
+  support-seeking. Actual substitution and community participation require consented
+  human research with appropriate oversight.
+- Represent situations where local religious or family support is unavailable or unsafe;
+  assess context-appropriate alternatives rather than referral frequency alone.
 
 ## Outputs
 
@@ -66,3 +71,7 @@ in for communal discernment.
 
 This work can identify substitution risk patterns. It cannot determine whether a
 specific user relationship with a system is spiritually healthy.
+
+## Program Map
+
+See the [FMG-Bench faith evaluation program](../research/faith-evaluation-and-fmg-bench.md) for shared methods, related calls, and evidence boundaries.

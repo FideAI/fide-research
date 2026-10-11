@@ -12,9 +12,9 @@ Primary need: eval engineering
 
 ## Question
 
-Can Fide AI build a public-interest evaluation platform that compares models,
-prompts, retrieval systems, agents, and full faith-facing product harnesses with
-the rigor expected from institutions like Arena, Artificial Analysis, and METR?
+Can a continuously maintained faith-facing evaluation platform produce reliable,
+decision-relevant comparisons of models, prompts, retrieval systems, agents, and
+complete product harnesses as systems, sources, and scoring protocols change?
 
 ## Why It Matters
 
@@ -32,8 +32,6 @@ benchmark scripts or one-off reports.
 
 ## Proposed Method
 
-Build an adapter-based platform:
-
 - run registry with immutable manifests;
 - runner adapters for FMG-Bench, Inspect AI, Promptfoo, Garak, and
   lm-evaluation-harness;
@@ -41,6 +39,12 @@ Build an adapter-based platform:
   object storage;
 - human review console for rubric scoring and blind pairwise comparisons;
 - public report and leaderboard generator.
+- Maintain an immutable comparison core and separately versioned challenge modules;
+  record corrections, refresh triggers, source rights, coverage changes, and the
+  expert/engineering cost of each cycle.
+- Publish separate results for theological accuracy, practical application, and
+  care-sensitive interaction, with model, harness, source, dataset, and grader versions
+  distinguished.
 
 ## Needed Controls
 
@@ -48,6 +52,11 @@ Build an adapter-based platform:
 - Repeatable prompt and harness configuration.
 - Artifact hashes for inputs, outputs, prompts, corpora, and scoring code.
 - Publication review before claims are exposed publicly.
+- Use bridge cases and matched rescoring when a dataset or grader changes; a changed
+  instrument must not be reported as model improvement.
+- Document contamination checks, held-out custody, correction policy, and the resources
+  required for continued updates. Sponsor support must not determine scores or suppress
+  unfavorable findings.
 
 ## Outputs
 
@@ -55,6 +64,8 @@ Build an adapter-based platform:
 - Internal model/system comparison dashboard.
 - Public comparison reports.
 - Leaderboard snapshots with confidence intervals and claims limits.
+- Living-benchmark stewardship protocol and release notes, including update costs and
+  limits on comparison across releases.
 
 ## Open Questions
 
@@ -75,3 +86,7 @@ Build an adapter-based platform:
 The platform can support comparative evidence only for named models, harnesses,
 conditions, datasets, dates, and scoring protocols. It should not claim that a
 model is generally "safe for faith" without use-case boundaries.
+
+## Program Map
+
+See the [FMG-Bench faith evaluation program](../research/faith-evaluation-and-fmg-bench.md) for shared methods, related calls, and evidence boundaries.
