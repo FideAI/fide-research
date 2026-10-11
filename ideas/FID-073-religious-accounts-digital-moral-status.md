@@ -80,6 +80,10 @@ ownership of comparative religious accounts rather than absorbing those broader
 projects. See the [program
 map](../research/ai-consciousness-welfare-and-human-control.md).
 
+## Program Map
+
+[Read the connected program and evidence standards](../research/ai-consciousness-welfare-and-human-control.md).
+
 ## Outputs
 
 - Comparative religious digital-moral-status taxonomy.

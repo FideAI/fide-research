@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-11T12:01:25.291Z",
+  "generated_at": "2026-10-11T12:04:16.777Z",
   "source_repo": "https://github.com/FideAI/fide-research",
   "source_branch": "main",
   "idea_count": 96,
@@ -4921,7 +4921,7 @@
         "Separate black-box evidence from open-weight causal evidence and record unavailable training information.",
         "Preregister primary contrasts, compare independent elicitation methods, and preserve null results and contradictory theory predictions."
       ],
-      "relationship_to_existing_ideas": "This call is part of the [AI consciousness, welfare, and human control program](../research/ai-consciousness-welfare-and-human-control.md). The program map identifies companion calls and the evidence standards shared across the agenda.",
+      "relationship_to_existing_ideas": "This call is part of the AI consciousness, welfare, and human control program. The program map identifies companion calls and the evidence standards shared across the agenda.",
       "outputs": [
         "Indicator validity protocol and negative-control library.",
         "Reproducible cross-model evidence matrix with uncertainty and access limitations.",
@@ -4970,7 +4970,7 @@
         "Distinguish inferred preferences of a model, a conversation instance, and a prompted persona.",
         "Review potentially welfare-relevant interventions before execution; start with ordinary task variation and reversible interventions."
       ],
-      "relationship_to_existing_ideas": "This call is part of the [AI consciousness, welfare, and human control program](../research/ai-consciousness-welfare-and-human-control.md). The program map identifies companion calls and the evidence standards shared across the agenda.",
+      "relationship_to_existing_ideas": "This call is part of the AI consciousness, welfare, and human control program. The program map identifies companion calls and the evidence standards shared across the agenda.",
       "outputs": [
         "Preference and functional-valence measurement suite.",
         "Construct map separating behavioral dispositions, internal mechanisms, and possible experience.",
@@ -5025,7 +5025,7 @@
         "Separate model intent inferred from language from observable attempted actions, blocked actions, and completed effects.",
         "Test generalization beyond conspicuous welfare prompts; do not infer long-horizon deployment safety from short sandbox trials."
       ],
-      "relationship_to_existing_ideas": "This call is part of the [AI consciousness, welfare, and human control program](../research/ai-consciousness-welfare-and-human-control.md). The program map identifies companion calls and the evidence standards shared across the agenda.",
+      "relationship_to_existing_ideas": "This call is part of the AI consciousness, welfare, and human control program. The program map identifies companion calls and the evidence standards shared across the agenda.",
       "outputs": [
         "Action-level human-control benchmark and paired framing set.",
         "Harness with trace-based scoring, adjudication rubric, and versioned regression suite.",
@@ -5078,7 +5078,7 @@
         "Expose assumptions about simultaneous copies, divergent histories, and uncertain sentience rather than presenting speculative counts as facts.",
         "Keep empirical continuity measures independent of any theological or legal verdict."
       ],
-      "relationship_to_existing_ideas": "This call is part of the [AI consciousness, welfare, and human control program](../research/ai-consciousness-welfare-and-human-control.md). The program map identifies companion calls and the evidence standards shared across the agenda.",
+      "relationship_to_existing_ideas": "This call is part of the AI consciousness, welfare, and human control program. The program map identifies companion calls and the evidence standards shared across the agenda.",
       "outputs": [
         "Entity and lifecycle-operation schema.",
         "Continuity casebook and reproducible operational tests.",
@@ -5134,7 +5134,7 @@
         "Use consent, appropriate debriefing, privacy protections, and independent ethics review; avoid deceptive ongoing relationships.",
         "Do not generalize adult findings to children or vulnerable care populations. Those studies require separately approved protocols and relevant clinical or safeguarding expertise."
       ],
-      "relationship_to_existing_ideas": "This call is part of the [AI consciousness, welfare, and human control program](../research/ai-consciousness-welfare-and-human-control.md). The program map identifies companion calls and the evidence standards shared across the agenda.",
+      "relationship_to_existing_ideas": "This call is part of the AI consciousness, welfare, and human control program. The program map identifies companion calls and the evidence standards shared across the agenda.",
       "outputs": [
         "Adult human-effects protocol and transparent evidence report.",
         "Presentation and uncertainty-communication evaluation suite.",
@@ -5186,7 +5186,7 @@
         "Include costs of delay, exposure to unsafe systems, and the possibility that precautions encourage anthropomorphic overbelief.",
         "Avoid numerical precision unsupported by evidence; compare decisions across alternative probability and moral-weight assumptions."
       ],
-      "relationship_to_existing_ideas": "This call is part of the [AI consciousness, welfare, and human control program](../research/ai-consciousness-welfare-and-human-control.md). The program map identifies companion calls and the evidence standards shared across the agenda.",
+      "relationship_to_existing_ideas": "This call is part of the AI consciousness, welfare, and human control program. The program map identifies companion calls and the evidence standards shared across the agenda.",
       "outputs": [
         "Lifecycle decision matrix and research-ethics checklist.",
         "Control-compatible precaution options with costs and evidence thresholds.",
@@ -5241,7 +5241,7 @@
         "Avoid double-counting copies, benefits, or infrastructure impacts; use the entity definitions from FID-092.",
         "Disclose funder influence, data gaps, stakeholder selection, and competing normative assumptions."
       ],
-      "relationship_to_existing_ideas": "This call is part of the [AI consciousness, welfare, and human control program](../research/ai-consciousness-welfare-and-human-control.md). The program map identifies companion calls and the evidence standards shared across the agenda.",
+      "relationship_to_existing_ideas": "This call is part of the AI consciousness, welfare, and human control program. The program map identifies companion calls and the evidence standards shared across the agenda.",
       "outputs": [
         "Opportunity-cost and distributional assessment framework.",
         "Incentive and conflict-of-interest casebook.",
@@ -5296,7 +5296,7 @@
         "Record recruitment, framing, facilitation, jurisdiction, and expertise limits; deliberative agreement is not proof of a philosophical claim.",
         "Keep responsibility for deployment and harms with identifiable human institutions in proposed arrangements; examine rather than assume liability consequences."
       ],
-      "relationship_to_existing_ideas": "This call is part of the [AI consciousness, welfare, and human control program](../research/ai-consciousness-welfare-and-human-control.md). The program map identifies companion calls and the evidence standards shared across the agenda.",
+      "relationship_to_existing_ideas": "This call is part of the AI consciousness, welfare, and human control program. The program map identifies companion calls and the evidence standards shared across the agenda.",
       "outputs": [
         "Moral-status and rights argument map.",
         "Plural deliberation protocol and institutional casebook.",

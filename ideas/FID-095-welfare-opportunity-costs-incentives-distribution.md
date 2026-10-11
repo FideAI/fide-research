@@ -39,7 +39,11 @@ Policy rankings will often depend more on uncertain welfare assumptions and reso
 
 ## Relationship to Existing Ideas
 
-This call is part of the [AI consciousness, welfare, and human control program](../research/ai-consciousness-welfare-and-human-control.md). The program map identifies companion calls and the evidence standards shared across the agenda.
+This call is part of the AI consciousness, welfare, and human control program. The program map identifies companion calls and the evidence standards shared across the agenda.
+
+## Program Map
+
+[Read the connected program and evidence standards](../research/ai-consciousness-welfare-and-human-control.md).
 
 ## Outputs
 

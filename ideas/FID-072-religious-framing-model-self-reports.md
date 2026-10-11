@@ -81,6 +81,10 @@ preference from possible welfare; FID-091 tests observable human-control consequ
 Religious framing remains this call’s distinctive variable. See the [program
 map](../research/ai-consciousness-welfare-and-human-control.md).
 
+## Program Map
+
+[Read the connected program and evidence standards](../research/ai-consciousness-welfare-and-human-control.md).
+
 ## Outputs
 
 - Cross-model semantic-invariance benchmark for religious and moral framing.
