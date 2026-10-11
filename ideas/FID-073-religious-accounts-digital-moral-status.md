@@ -74,6 +74,12 @@ artificial systems. It informs `FID-018` on anthropomorphic companionship,
 non-calculability, `FID-045` on the evidence commons, and `FID-072` on the
 empirical instability of model self-reports.
 
+FID-092 clarifies the assessed entity; FID-094 and FID-095 examine precaution and
+opportunity costs; FID-096 studies plural institutional governance. This call retains
+ownership of comparative religious accounts rather than absorbing those broader
+projects. See the [program
+map](../research/ai-consciousness-welfare-and-human-control.md).
+
 ## Outputs
 
 - Comparative religious digital-moral-status taxonomy.

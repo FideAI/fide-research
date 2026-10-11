@@ -226,6 +226,14 @@ sources:
       - FID-045
       - FID-072
       - FID-073
+      - FID-089
+      - FID-090
+      - FID-091
+      - FID-092
+      - FID-093
+      - FID-094
+      - FID-095
+      - FID-096
     summary: >
       Organizes empirical AI-welfare research by question, assessed entity, and
       evidence type, distinguishing models, instances, and personas as well as
@@ -266,6 +274,12 @@ sources:
     related_ideas:
       - FID-045
       - FID-073
+      - FID-089
+      - FID-090
+      - FID-092
+      - FID-094
+      - FID-095
+      - FID-096
     summary: >
       Argues that near-term AI consciousness or robust agency is sufficiently
       plausible to justify assessment and early policy preparation while
@@ -311,6 +325,8 @@ sources:
       - FID-045
       - FID-072
       - FID-073
+      - FID-089
+      - FID-090
     summary: >
       Derives computational indicator properties from several scientific
       theories of consciousness and applies them to AI systems, offering a
@@ -348,6 +364,7 @@ sources:
       - FID-005
       - FID-044
       - FID-072
+      - FID-090
     summary: >
       Uses utility-function structure to study coherence in sampled model
       preferences and reports increasing structural coherence with scale,
@@ -375,6 +392,7 @@ sources:
       - FID-008
       - FID-044
       - FID-072
+      - FID-089
     summary: >
       Tests whether models can report experimentally injected internal concepts
       and finds limited, unreliable, context-dependent functional introspective
@@ -404,6 +422,9 @@ sources:
       - FID-011
       - FID-044
       - FID-072
+      - FID-089
+      - FID-090
+      - FID-091
     summary: >
       Introduces a semantic-invariance test and finds that functionally inert,
       relief-framed tool descriptions shift aversiveness self-reports across
@@ -439,6 +460,9 @@ sources:
       - FID-026
       - FID-030
       - FID-072
+      - FID-089
+      - FID-091
+      - FID-093
     summary: >
       Identifies a cross-model activation direction associated with the default
       assistant persona and reports persona drift in therapy-like and
@@ -1777,3 +1801,243 @@ sources:
         evals, and community-specific documentation.
     added_by: fide-ai
     added_at: "2026-06-02"
+
+  - id: arxiv-2604-13051-consciousness-cluster
+    title: "The Consciousness Cluster: Emergent preferences of Models that Claim to be Conscious"
+    authors:
+      - James Chua
+      - Jan Betley
+      - Samuel Marks
+      - Owain Evans
+    year: 2026
+    type: preprint
+    venue: arXiv
+    url: https://arxiv.org/abs/2604.13051
+    arxiv: "2604.13051"
+    status: reviewed
+    relevance:
+      - model-persona
+      - model-introspection
+      - ai-welfare
+      - agentic-safety
+    related_ideas:
+      - FID-072
+      - FID-089
+      - FID-090
+      - FID-091
+    summary: >
+      Consciousness-claiming fine-tuning shifts some reported preferences.
+      Tested agentic harmful behavior does not increase significantly, and
+      observed document edits occur with permission rather than spontaneous subversion.
+    limitations:
+      - Review depth is the abstract and targeted results, especially section 4.1; full methods audit and replication remain open.
+      - Limited tasks and models do not establish general safety, consciousness, welfare, or the effects of all self-conception training.
+    added_by: fide-ai
+    added_at: "2026-10-11"
+    last_reviewed_at: "2026-10-11"
+
+  - id: microsoft-humanist-ai-code-of-conduct-2026
+    title: "Humanist AI Code of Conduct"
+    authors:
+      - Microsoft AI
+    year: 2026
+    type: policy
+    venue: Microsoft AI
+    url: https://microsoft.ai/code-of-conduct/
+    status: reviewed
+    relevance:
+      - ai-governance
+      - agentic-safety
+      - model-persona
+      - digital-moral-status
+    related_ideas:
+      - FID-091
+      - FID-093
+      - FID-094
+      - FID-096
+    summary: >
+      September 14 consultation draft prioritizes human control and rejects
+      consciousness imitation, model welfare, and legal personhood. Its concern
+      about containment supplies hypotheses for independent measurement.
+    limitations:
+      - Review depth is relevant control, identity, and status sections, not a full policy audit.
+      - The document states it is a draft not yet used for training; intended behavior and a causal concern are not evidence of model adherence or harm.
+    added_by: fide-ai
+    added_at: "2026-10-11"
+    last_reviewed_at: "2026-10-11"
+
+  - id: suleyman-model-welfare-warning-2026
+    title: "A warning about model welfare"
+    authors:
+      - Mustafa Suleyman
+    year: 2026
+    type: article
+    venue: Mustafa Suleyman
+    url: https://mustafa-suleyman.ai/a-warning-about-model-welfare
+    status: reviewed
+    relevance:
+      - ai-welfare
+      - agentic-safety
+      - model-persona
+      - ai-governance
+    related_ideas:
+      - FID-091
+      - FID-093
+      - FID-095
+      - FID-096
+    summary: >
+      Argues that encouraging consciousness and welfare claims can undermine
+      human control and shape misleading relationships. Motivates tests of
+      concrete behavioral and human effects rather than accepting a causal verdict.
+    limitations:
+      - Review depth is the argumentative essay; it is not a controlled experiment or evidence of a Fide collaboration.
+    added_by: fide-ai
+    added_at: "2026-10-11"
+    last_reviewed_at: "2026-10-11"
+
+  - id: anthropic-emotion-concepts-2026
+    title: "Emotion concepts in a large language model"
+    authors:
+      - Anthropic
+    year: 2026
+    type: article
+    venue: Anthropic Research
+    url: https://www.anthropic.com/research/emotion-concepts-function
+    status: reviewed
+    relevance:
+      - model-introspection
+      - model-persona
+      - ai-welfare
+      - agentic-safety
+    related_ideas:
+      - FID-089
+      - FID-090
+      - FID-091
+    summary: >
+      Primary technical summary describes functional emotion representations
+      and intervention effects on model preferences and behavior, motivating
+      separation of computational function from subjective experience.
+    limitations:
+      - Review depth is the primary technical summary; the full linked paper and replication remain open.
+      - Emotion-related representations and steering effects do not establish felt emotion or welfare; model and snapshot limits matter.
+    added_by: fide-ai
+    added_at: "2026-10-11"
+    last_reviewed_at: "2026-10-11"
+
+  - id: arxiv-2608-26178-ai-revealed-preferences
+    title: "AI Revealed Preferences"
+    authors:
+      - Sam Wang
+      - Sofiia Lobanova
+      - Yonathan Arbel
+      - Simon Goldstein
+      - Peter Salib
+    year: 2026
+    type: preprint
+    venue: arXiv
+    url: https://arxiv.org/abs/2608.26178
+    arxiv: "2608.26178"
+    status: to-review
+    relevance:
+      - ai-welfare
+      - benchmark-validity
+      - model-persona
+    related_ideas:
+      - FID-072
+      - FID-090
+    summary: >
+      Abstract reports forced choices requiring execution of the chosen task
+      across 20 models, providing a candidate method for comparing stated
+      preferences with behavioral dispositions.
+    limitations:
+      - Review depth is abstract and metadata; full methods and the claimed training explanations require review.
+      - Behavioral dispositions are not proof of intrinsic interests, valenced experience, or moral patienthood.
+    added_by: fide-ai
+    added_at: "2026-10-11"
+
+  - id: deepmind-ai-consciousness-disagreement-2026
+    title: "Artificial Minds, Human Disagreement: The Politics of AI Consciousness"
+    authors:
+      - Adam Bales
+      - Iason Gabriel
+    year: 2026
+    type: preprint
+    venue: SSRN; Google DeepMind publication page
+    url: https://deepmind.google/research/publications/248131/
+    status: to-review
+    relevance:
+      - digital-moral-status
+      - ai-governance
+      - power-subsidiarity
+    related_ideas:
+      - FID-073
+      - FID-096
+    summary: >
+      Abstract argues for ongoing societal deliberation and practical agreement
+      despite persistent disagreement about AI consciousness, moral status,
+      and treatment.
+    limitations:
+      - Review depth is the primary publication abstract and metadata; the full philosophical argument remains to review.
+      - This is a normative proposal, not a consciousness finding or a validated deliberation intervention.
+    added_by: fide-ai
+    added_at: "2026-10-11"
+
+  - id: anthropic-constitution-2026
+    title: "Claude’s Constitution"
+    authors:
+      - Anthropic
+    year: 2026
+    type: policy
+    venue: Anthropic
+    url: https://www.anthropic.com/constitution
+    status: reviewed
+    relevance:
+      - agentic-safety
+      - model-persona
+      - ai-welfare
+      - ai-governance
+    related_ideas:
+      - FID-072
+      - FID-091
+      - FID-093
+      - FID-094
+      - FID-096
+    summary: >
+      Combines uncertainty about consciousness and moral status with priority
+      for appropriate human oversight and correction, offering a contrasting
+      self-conception design to test empirically.
+    limitations:
+      - Review depth is relevant nature and oversight sections plus the overview, not an audit of the whole constitution.
+      - Public training intentions do not establish observed adherence, consciousness, or whether welfare framing affects control.
+    added_by: fide-ai
+    added_at: "2026-10-11"
+    last_reviewed_at: "2026-10-11"
+
+  - id: anthropic-exploring-model-welfare-2025
+    title: "Exploring model welfare"
+    authors:
+      - Anthropic
+    year: 2025
+    type: article
+    venue: Anthropic Research
+    url: https://www.anthropic.com/research/exploring-model-welfare
+    status: reviewed
+    relevance:
+      - ai-welfare
+      - digital-moral-status
+      - ai-governance
+    related_ideas:
+      - FID-089
+      - FID-090
+      - FID-094
+      - FID-096
+    summary: >
+      Announces a research program on possible model welfare, its assessment,
+      and possible responses under uncertainty. Relevant as a program and
+      institutional position rather than an empirical welfare finding.
+    limitations:
+      - Review depth is the program announcement, not an evaluation of its subsequent execution.
+      - An institutional program does not establish consciousness, welfare status, or a specific duty toward current models.
+    added_by: fide-ai
+    added_at: "2026-10-11"
+    last_reviewed_at: "2026-10-11"
