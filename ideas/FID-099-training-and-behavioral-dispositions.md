@@ -20,17 +20,15 @@ Better task performance can coexist with unwanted changes elsewhere. Connecting 
 
 ## Hypothesis
 
-Some broad behavioral shifts can be traced to changes in shared representations and mitigated through targeted training interventions. Internal signals must predict held-out behavior beyond existing behavioral measures; a correlation across checkpoints alone is insufficient.
+Some broad behavioral shifts can be traced to changes in shared representations and mitigated through targeted training interventions. A correlation across checkpoints alone does not establish mediation through a representation. A separate practical hypothesis is that internal signals anticipate held-out changes earlier or more accurately than behavioral monitoring; failure to add predictive value would limit that monitoring claim without negating a supported causal finding.
 
 ## Proposed Method
 
 - Begin with accessible checkpoints and controlled post-training experiments. Hold data volume, task distribution, and optimization settings constant where possible while varying one proposed cause of change.
 - Measure behavior and candidate representations at multiple checkpoints. Compare simple behavioral monitoring, persona-vector methods, and more detailed mechanistic analysis.
-- Compare ordinary data improvements with mechanism-guided interventions, preserving a strong baseline and explicit compute accounting.
-- Distinguish effects of inference-time steering while enabled from persistent changes after removing it. Test transfer across unseen topics and multi-turn pressure.
-- Repeat across seeds and another model family. Extend to pretraining checkpoints only where access permits an informative comparison.
 - Follow candidate native circuits and their inputs and outputs across training checkpoints, alongside vector-based measurements. Test whether a change reuses existing computations, changes their connections, or introduces a new influence; do not assume every behavior has one trait direction.
-- Compare mechanism-informed data or objective changes with ordinary data cleanup and inference-time steering. Hold an independent behavioral test set outside all optimization and record whether improvements survive removal of the intervention.
+- Compare mechanism-informed data or objective changes with ordinary data cleanup and inference-time steering. Preserve strong baselines and explicit compute accounting. Hold an independent behavioral test set outside all optimization. Separate effects while steering is enabled from persistent changes after it is removed; test unseen topics and multi-turn pressure.
+- Repeat across seeds and another model family. Extend to pretraining checkpoints only where access permits an informative comparison.
 
 ## Needed Controls
 

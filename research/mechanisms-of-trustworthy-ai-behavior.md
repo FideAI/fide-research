@@ -66,8 +66,10 @@ reference and disclose approximation errors, omitted computations, and model
 access requirements. Useful explanations may span several components and need
 not share the boundaries of human concepts such as honesty or character.
 
-For a first source-use study, distinguish remembering an answer, deciding to
-verify it, integrating retrieved evidence, and revising an earlier claim. Use
+For a first source-use study, distinguish answering without retrieval, deciding
+to check, integrating retrieved evidence, and revising an earlier claim. Define
+when consultation is required before labeling its absence a failure; correctness
+on a familiar passage alone does not identify a memory-based mechanism. Use
 familiar and newly constructed texts, valid and misleading sources, and cases
 where retrieval is unnecessary. Make predictions before testing new examples;
 compare mechanism-informed remedies with ordinary training, prompting, and
@@ -119,9 +121,13 @@ consciousness and welfare retain their separate evidence requirements in the
    can suggest a mechanism without showing that the model uses it.
 3. Test interventions for selectivity, collateral damage, and unusual activation
    states. Use matched controls and, where feasible, restoration experiments.
+   A changed or restored output does not alone validate a feature label or the
+   complete account of ordinary behavior; test competing explanations in the
+   original model.
 4. Separate discovery, tuning, and final evaluation. Report uncertainty, null
    results, and unsuccessful replications across tasks and model families.
-5. Measure the practical contribution. Internal evidence should earn its place
+   Separate an inconclusive result from evidence ruling out a meaningful benefit.
+5. When claiming practical benefit, measure the contribution. Internal evidence should earn its place
    through better predictions, remedies, or decisions under stated conditions.
 
 API-only models can supply behavioral comparisons. Internal causal studies

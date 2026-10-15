@@ -20,12 +20,12 @@ An internal explanation can sound convincing without helping an evaluator make a
 
 ## Hypothesis
 
-Internal evidence may improve some audit decisions, but the benefit depends on the method, task, and evaluator. No improvement over equally resourced behavioral investigation, or greater false reassurance, would count against its usefulness in the tested setting.
+Internal evidence may improve some audit decisions, but the benefit depends on the method, task, and evaluator. A sufficiently precise finding of negligible benefit over comparably resourced behavioral investigation, or greater false reassurance, would count against its usefulness in the tested setting. An underpowered or imprecise result would remain inconclusive.
 
 ## Proposed Method
 
 - Start with a reproducible technical audit comparing behavior-only access, behavior plus internal evidence, and additional behavioral testing with comparable resources.
-- Preregister held-out outcomes and scoring rules. Include known injected failures as positive controls and separately evaluate naturally arising failures.
+- Preregister held-out outcomes, scoring rules, a smallest practically meaningful benefit, and a sample-size or precision rationale. Include known injected failures as positive controls and separately evaluate naturally arising failures.
 - Compare internal evidence formats, including bounded causal findings and descriptive activation readouts. Keep explanation length and access conditions explicit.
 - Measure failure prediction, probability calibration, false reassurance, false alarms, time, and decision quality. Report sensitivity to the resource-matching choice.
 - After validating the technical task, test qualified human auditors with an appropriate participant protocol. Studies of public users are a separate stage requiring their own design and review.
@@ -37,8 +37,8 @@ Internal evidence may improve some audit decisions, but the benefit depends on t
 - Use capable behavioral baselines and held-out ground truth; do not treat an attractive model-generated explanation as the answer key.
 - Blind evaluators to the favored explanation and separate discovery cases from test cases. Assess whether explanations merely repeat evidence already visible in the transcript.
 - Do not generalize from deliberately injected failures to all deployment failures, or from agent evaluators to human auditors.
-- Report uncertainty, null results, and harms to calibration. Distinguish predictive value, causal understanding, and user confidence.
-- Give methods equivalent case information and competent implementation effort. Explanations must face plausible alternatives and counterexamples, not only examples selected to illustrate them.
+- Report uncertainty, null results, and harms to calibration. Distinguish absence of demonstrated benefit from evidence ruling out a meaningful benefit. Distinguish predictive value, causal understanding, and user confidence.
+- Give methods equivalent case information apart from the intended difference in internal access, and competent implementation effort. Explanations must face plausible alternatives and counterexamples, not only examples selected to illustrate them.
 - Do not reward the number of labeled neurons or the visual appeal of a graph as evidence of safer behavior. A useful negative result may identify where a readable mechanism fails to predict a consequential action.
 
 ## Relationship to Existing Ideas
