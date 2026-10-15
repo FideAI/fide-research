@@ -2369,3 +2369,60 @@ sources:
     added_by: fide-ai
     added_at: "2026-10-15"
     last_reviewed_at: "2026-10-15"
+
+  - id: goodfire-already-clean-2026
+    title: "Neural Networks Are Already Clean"
+    authors: ["Nick Cammarata"]
+    year: 2026
+    type: article
+    venue: "Goodfire"
+    url: https://already-clean.goodfire.com/
+    status: reviewed
+    relevance: [mechanistic-interpretability, benchmark-validity]
+    related_ideas: [FID-097, FID-098, FID-099, FID-100, FID-101]
+    summary: "Motivates comparison of direct mechanistic investigation with extracted features and prospective tests of explanations."
+    limitations:
+      - "Informal working hypothesis; essay and appendices read, experiments not independently replicated."
+      - "Does not establish complete model understanding, general safety, or transfer to Fide tasks."
+    notes_path: research/reviews/direct-mechanisms-and-warranted-trust-2026.md
+    added_by: fide-ai
+    added_at: "2026-10-15"
+    last_reviewed_at: "2026-10-15"
+
+  - id: olah-composition-superposition-2023
+    title: "Distributed Representations: Composition & Superposition"
+    authors: ["Chris Olah"]
+    year: 2023
+    type: article
+    venue: "Transformer Circuits"
+    url: https://transformer-circuits.pub/2023/superposition-composition/index.html
+    status: reviewed
+    relevance: [mechanistic-interpretability]
+    related_ideas: [FID-097, FID-098, FID-099, FID-100, FID-101]
+    summary: "Distinguishes compositional and superposed representations, including mixtures of both; helps make method comparisons precise."
+    limitations:
+      - "Informal conceptual note, not an empirical verdict about the mechanisms of a particular frontier model."
+    notes_path: research/reviews/direct-mechanisms-and-warranted-trust-2026.md
+    added_by: fide-ai
+    added_at: "2026-10-15"
+    last_reviewed_at: "2026-10-15"
+
+  - id: drake-eberstadt-method-conditional-misalignment-2026
+    title: "Transplanting, inverting, and preventing a misalignment persona: method-conditional emergent misalignment in Qwen2.5"
+    authors: ["Lyndon Drake", "Zandi Eberstadt"]
+    year: 2026
+    type: preprint
+    venue: "arXiv"
+    url: https://arxiv.org/abs/2607.04510v2
+    arxiv: "2607.04510"
+    status: reviewed
+    relevance: [mechanistic-interpretability, model-persona, benchmark-validity]
+    related_ideas: [FID-098, FID-099]
+    summary: "Reports method-conditional persona effects and interventions, motivating comparisons of training method and intervention timing."
+    limitations:
+      - "Bibliographic record and abstract checked; no full methods review or independent replication."
+      - "Selected Qwen2.5 experiments do not establish effects across all models, traits, or training methods."
+    notes_path: research/reviews/direct-mechanisms-and-warranted-trust-2026.md
+    added_by: fide-ai
+    added_at: "2026-10-15"
+    last_reviewed_at: "2026-10-15"

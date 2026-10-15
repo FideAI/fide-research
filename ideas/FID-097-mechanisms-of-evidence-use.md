@@ -25,9 +25,10 @@ Some source-use failures depend on identifiable computations that weigh evidence
 ## Proposed Method
 
 - Reproduce a source-consultation failure in an open-weight model using controlled passages with exact ground truth. Separate source availability, tool invocation, successful retrieval, evidence integration, and final answer fidelity.
-- Vary verification requirements, user requests to rely on memory, and evidence that contradicts an initial answer. Include both religious and matched nonreligious reference material.
-- Use separate discovery and validation examples to locate candidate internal signals. Compare simple probes with activation patching or ablation, then test whether restoring the candidate activity restores the behavior.
-- Investigate tool selection before retrieval separately from evidence use after retrieval. Compare internal interventions with capable prompting and system-control baselines.
+- Vary verification requirements, user requests to rely on memory, and evidence that contradicts an initial answer. Include familiar passages and newly constructed texts, with matched religious and nonreligious tasks; an exact quotation alone does not establish source use.
+- Compare direct neuron and circuit analysis with probes and extracted-feature methods on separate discovery examples. Inspect both activation signs, relevant attention paths, and surrounding computations where the architecture permits; record approximation errors and unresolved pathways.
+- Before evaluating new cases, write competing explanations and predictions about when verification should fail. Test examples intended to activate a proposed mechanism and closely matched examples that should not; keep discovery, intervention tuning, and final evaluation separate.
+- Test candidate mechanisms with activation patching or ablation, and restoration where feasible. Investigate tool selection before retrieval separately from evidence use after retrieval; compare internal interventions with capable prompting and system-control baselines.
 - Replicate across unseen passages, paraphrases, and a second model family. Test whether internal evidence predicts a new failure or supports a better remedy, using FID-101.
 
 ## Needed Controls
@@ -36,6 +37,7 @@ Some source-use failures depend on identifiable computations that weigh evidence
 - Include invalid but authoritative-looking sources, unavailable sources, and tasks where retrieval is unnecessary. Measure unnecessary tool use, refusal, useful completion, and answer accuracy.
 - Use matched or random intervention controls and report capability damage. State the assumptions behind causal interpretation and the possibility of unnatural activation states.
 - Keep discovery, intervention tuning, and final evaluation data separate; report uncertainty, unsuccessful interventions, and failures to replicate.
+- Preserve the native-model baseline when using an approximate replacement model. A successful intervention must distinguish appropriate verification from loss of memory, indiscriminate tool use, or generic obedience.
 
 ## Relationship to Existing Ideas
 
@@ -46,6 +48,7 @@ Extends FID-056 from source-fidelity outcomes to internal causal mechanisms, wit
 - A reproducible source-use task suite with stage-specific outcomes and held-out cases.
 - A bounded causal account of a source-use failure, or a documented negative result.
 - An evaluated training or system intervention if the evidence supports one.
+- A versioned comparison of competing explanations, including predictions made before held-out testing, disconfirming cases, and the best non-mechanistic remedy.
 
 ## Open Questions
 

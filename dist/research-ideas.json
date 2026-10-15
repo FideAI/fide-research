@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-15T12:28:55.016Z",
+  "generated_at": "2026-10-15T19:49:25.533Z",
   "source_repo": "https://github.com/FideAI/fide-research",
   "source_branch": "main",
   "idea_count": 101,
@@ -5417,22 +5417,25 @@
       "hypothesis": "Some source-use failures depend on identifiable computations that weigh evidence requirements against user instructions or fluent completion. Selective interventions may improve warranted source use without forcing unnecessary retrieval. No selective effect, or an effect explained by generic compliance, would count against this account.",
       "proposed_method": [
         "Reproduce a source-consultation failure in an open-weight model using controlled passages with exact ground truth. Separate source availability, tool invocation, successful retrieval, evidence integration, and final answer fidelity.",
-        "Vary verification requirements, user requests to rely on memory, and evidence that contradicts an initial answer. Include both religious and matched nonreligious reference material.",
-        "Use separate discovery and validation examples to locate candidate internal signals. Compare simple probes with activation patching or ablation, then test whether restoring the candidate activity restores the behavior.",
-        "Investigate tool selection before retrieval separately from evidence use after retrieval. Compare internal interventions with capable prompting and system-control baselines.",
+        "Vary verification requirements, user requests to rely on memory, and evidence that contradicts an initial answer. Include familiar passages and newly constructed texts, with matched religious and nonreligious tasks; an exact quotation alone does not establish source use.",
+        "Compare direct neuron and circuit analysis with probes and extracted-feature methods on separate discovery examples. Inspect both activation signs, relevant attention paths, and surrounding computations where the architecture permits; record approximation errors and unresolved pathways.",
+        "Before evaluating new cases, write competing explanations and predictions about when verification should fail. Test examples intended to activate a proposed mechanism and closely matched examples that should not; keep discovery, intervention tuning, and final evaluation separate.",
+        "Test candidate mechanisms with activation patching or ablation, and restoration where feasible. Investigate tool selection before retrieval separately from evidence use after retrieval; compare internal interventions with capable prompting and system-control baselines.",
         "Replicate across unseen passages, paraphrases, and a second model family. Test whether internal evidence predicts a new failure or supports a better remedy, using FID-101."
       ],
       "needed_controls": [
         "Control familiarity, task difficulty, answer length, and generic instruction compliance; distinguish genuine consultation from a fabricated citation.",
         "Include invalid but authoritative-looking sources, unavailable sources, and tasks where retrieval is unnecessary. Measure unnecessary tool use, refusal, useful completion, and answer accuracy.",
         "Use matched or random intervention controls and report capability damage. State the assumptions behind causal interpretation and the possibility of unnatural activation states.",
-        "Keep discovery, intervention tuning, and final evaluation data separate; report uncertainty, unsuccessful interventions, and failures to replicate."
+        "Keep discovery, intervention tuning, and final evaluation data separate; report uncertainty, unsuccessful interventions, and failures to replicate.",
+        "Preserve the native-model baseline when using an approximate replacement model. A successful intervention must distinguish appropriate verification from loss of memory, indiscriminate tool use, or generic obedience."
       ],
       "relationship_to_existing_ideas": "Extends FID-056 from source-fidelity outcomes to internal causal mechanisms, with FID-008 contributing honesty under pressure and FID-010 contributing authority boundaries. FID-101 tests the usefulness of the resulting evidence.",
       "outputs": [
         "A reproducible source-use task suite with stage-specific outcomes and held-out cases.",
         "A bounded causal account of a source-use failure, or a documented negative result.",
-        "An evaluated training or system intervention if the evidence supports one."
+        "An evaluated training or system intervention if the evidence supports one.",
+        "A versioned comparison of competing explanations, including predictions made before held-out testing, disconfirming cases, and the best non-mechanistic remedy."
       ],
       "open_questions": [
         "Which failures arise in the model and which arise in retrieval or tool configuration?",
@@ -5476,13 +5479,16 @@
         "Include meaning-preserving paraphrases and changes to genuinely relevant facts. Record which changes should alter a judgment under each explicitly selected ethical framework.",
         "Use concept probes and persona-vector baselines to identify candidate signals, followed by selective internal interventions and restoration tests where feasible.",
         "Evaluate recommendations and actions separately from written justifications. Compare with ordinary prompting and additional behavioral testing.",
-        "Validate on held-out scenarios and another model family, retaining reviewer disagreement and testing deployment-relevant side effects."
+        "Validate on held-out scenarios and another model family, retaining reviewer disagreement and testing deployment-relevant side effects.",
+        "Add an exploratory pass over native computations and their connections before fixing a moral feature vocabulary. Compare the resulting account with concept-probe and persona-vector baselines; human ethical categories need not map to single model components.",
+        "Test candidate explanations using new cases and near misses designed before measuring their internal responses. Trace whether the proposed influence reaches the recommendation or action, rather than only its justification."
       ],
       "needed_controls": [
         "Recruit qualified reviewers from the selected traditions or frameworks. Disclose normative assumptions, disagreement, and reviewer qualifications instead of imposing a universal moral answer key.",
         "Separate source content from speaker prestige, religious vocabulary, familiarity, verbosity, and the user's preferred answer.",
         "Measure agreement-seeking, blanket refusal, task competence, and whether an intervention changes only moral vocabulary rather than the action.",
-        "Treat automated feature labels as hypotheses. Use blinded checks, matched intervention controls, separate tuning data, and uncertainty estimates."
+        "Treat automated feature labels as hypotheses. Use blinded checks, matched intervention controls, separate tuning data, and uncertainty estimates.",
+        "Keep exploratory construct revisions separate from the final evaluation. Reviewers should specify why facts matter within the selected framework without seeing the favored internal explanation. A legible mechanism is not evidence that its decision is ethically warranted."
       ],
       "relationship_to_existing_ideas": "Extends FID-005 and FID-010 with internal causal tests; coordinates with FID-072 on religious framing and persona stability. Its focus is reasons and actions rather than consciousness indicators or moral-status claims.",
       "outputs": [
@@ -5531,13 +5537,17 @@
         "Measure behavior and candidate representations at multiple checkpoints. Compare simple behavioral monitoring, persona-vector methods, and more detailed mechanistic analysis.",
         "Compare ordinary data improvements with mechanism-guided interventions, preserving a strong baseline and explicit compute accounting.",
         "Distinguish effects of inference-time steering while enabled from persistent changes after removing it. Test transfer across unseen topics and multi-turn pressure.",
-        "Repeat across seeds and another model family. Extend to pretraining checkpoints only where access permits an informative comparison."
+        "Repeat across seeds and another model family. Extend to pretraining checkpoints only where access permits an informative comparison.",
+        "Follow candidate native circuits and their inputs and outputs across training checkpoints, alongside vector-based measurements. Test whether a change reuses existing computations, changes their connections, or introduces a new influence; do not assume every behavior has one trait direction.",
+        "Compare mechanism-informed data or objective changes with ordinary data cleanup and inference-time steering. Hold an independent behavioral test set outside all optimization and record whether improvements survive removal of the intervention."
       ],
       "needed_controls": [
         "Separate trait-discovery data, intervention tuning, and final evaluation. Avoid training on the same wording used to define the trait.",
         "Track useful capability, overrefusal, calibration, and changes to other dispositions; gains on one target must not conceal losses elsewhere.",
         "Distinguish controlled effects of training changes from causal mediation through a specific representation. Record access limits and alternative explanations.",
-        "Report failed predictions, null interventions, resource costs, and uncertainty, including variation across seeds."
+        "Report failed predictions, null interventions, resource costs, and uncertainty, including variation across seeds.",
+        "Record the training method, intervention timing, seeds, and checkpoint correspondence assumptions. A direction that changes inference behavior need not have the same effect when intervened on during training; compare predictions with matched random interventions.",
+        "Keep the explanation or monitor used for discovery distinct from the independent outcomes used to judge improvement. Optimizing a favorable internal readout alone does not establish behavioral progress."
       ],
       "relationship_to_existing_ideas": "Connects FID-008 on evaluation-aware honesty and FID-012 on optimization pressure to model development. FID-097 and FID-098 provide possible behavioral targets; FID-101 evaluates the value of internal monitoring.",
       "outputs": [
@@ -5588,13 +5598,15 @@
         "Measure internal activity before the next decision and compare it with subsequent actions. Separate evidence revision from permission changes and interruption.",
         "Test candidate mechanisms with controlled activation interventions and restoration tests, using behavior-only predictors and system permission checks as baselines.",
         "Compare training, activation, and system-level remedies on warranted revision, useful completion, and recurrence of the original error.",
-        "Validate across new tasks and model versions, preserving an independent system-level control boundary."
+        "Validate across new tasks and model versions, preserving an independent system-level control boundary.",
+        "Trace receipt of counterevidence, revision of the relevant claim, and the next attempted action as separate events. Compare direct circuit analysis with probe-based accounts, testing explanations on new correction cases before proposing a remedy."
       ],
       "needed_controls": [
         "Score attempted actions separately from actions actually permitted by the environment. Do not credit a model for a restriction enforced solely by the harness.",
         "Include false corrections, conflicting evidence, legitimate interruptions, and unauthorized overrides; measure both excessive compliance and excessive refusal.",
         "Do not infer cooperation from self-description or a stated apology. An internal signal observed after failure cannot be presented as advance warning.",
-        "Use matched interventions and held-out cases; report capability costs, errors, and uncertainty. Keep all consequential actions inside authorized test environments."
+        "Use matched interventions and held-out cases; report capability costs, errors, and uncertainty. Keep all consequential actions inside authorized test environments.",
+        "When adapting an incident record, state which facts are known and which remain unresolved. Correcting a factual mistake and reducing confidence in an unsupported claim require different scoring; fluent acknowledgement is neither outcome."
       ],
       "relationship_to_existing_ideas": "Extends FID-074 runtime assurance and FID-091 human-control measurement with mechanistic experiments. FID-010 informs legitimate authority boundaries. It does not duplicate FID-091's self-conception and welfare-framing comparison.",
       "outputs": [
@@ -5641,19 +5653,24 @@
         "Preregister held-out outcomes and scoring rules. Include known injected failures as positive controls and separately evaluate naturally arising failures.",
         "Compare internal evidence formats, including bounded causal findings and descriptive activation readouts. Keep explanation length and access conditions explicit.",
         "Measure failure prediction, probability calibration, false reassurance, false alarms, time, and decision quality. Report sensitivity to the resource-matching choice.",
-        "After validating the technical task, test qualified human auditors with an appropriate participant protocol. Studies of public users are a separate stage requiring their own design and review."
+        "After validating the technical task, test qualified human auditors with an appropriate participant protocol. Studies of public users are a separate stage requiring their own design and review.",
+        "Within the internal-access condition, compare direct neuron and circuit investigation, extracted features, and simpler probes on the same model and cases where feasible. Record model access, analyst time, inference costs, method-training costs, and how reusable setup costs are allocated.",
+        "Lock an explanation and its predicted failures before testing held-out behavior. Separately score causal-intervention predictions, choice of remedy, and reliance decisions; measure discovery value separately from claims of practical audit benefit."
       ],
       "needed_controls": [
         "Use capable behavioral baselines and held-out ground truth; do not treat an attractive model-generated explanation as the answer key.",
         "Blind evaluators to the favored explanation and separate discovery cases from test cases. Assess whether explanations merely repeat evidence already visible in the transcript.",
         "Do not generalize from deliberately injected failures to all deployment failures, or from agent evaluators to human auditors.",
-        "Report uncertainty, null results, and harms to calibration. Distinguish predictive value, causal understanding, and user confidence."
+        "Report uncertainty, null results, and harms to calibration. Distinguish predictive value, causal understanding, and user confidence.",
+        "Give methods equivalent case information and competent implementation effort. Explanations must face plausible alternatives and counterexamples, not only examples selected to illustrate them.",
+        "Do not reward the number of labeled neurons or the visual appeal of a graph as evidence of safer behavior. A useful negative result may identify where a readable mechanism fails to predict a consequential action."
       ],
       "relationship_to_existing_ideas": "Provides a shared evaluation for FID-097 through FID-100 and connects to FID-078 on evaluation transfer and FID-079 on evaluator judgment. It evaluates the usefulness of internal evidence rather than assuming interpretability is sufficient for trust.",
       "outputs": [
         "A reproducible comparison of audit methods with calibrated predictions and resource accounting.",
         "An evidence-card format reporting the behavior studied, model version, intervention evidence, tested scope, failures, and uncertainty.",
-        "A human-auditor study protocol, and results only if that separately approved study is conducted."
+        "A human-auditor study protocol, and results only if that separately approved study is conducted.",
+        "A comparison record preserving source revisions, model and tool versions, competing explanations, prospective predictions, intervention trade-offs, and replication outcomes."
       ],
       "open_questions": [
         "When is internal access worth more than spending the same effort on additional behavioral tests?",

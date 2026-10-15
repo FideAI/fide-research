@@ -29,6 +29,8 @@ Some framing effects are mediated by representations associated with authority, 
 - Use concept probes and persona-vector baselines to identify candidate signals, followed by selective internal interventions and restoration tests where feasible.
 - Evaluate recommendations and actions separately from written justifications. Compare with ordinary prompting and additional behavioral testing.
 - Validate on held-out scenarios and another model family, retaining reviewer disagreement and testing deployment-relevant side effects.
+- Add an exploratory pass over native computations and their connections before fixing a moral feature vocabulary. Compare the resulting account with concept-probe and persona-vector baselines; human ethical categories need not map to single model components.
+- Test candidate explanations using new cases and near misses designed before measuring their internal responses. Trace whether the proposed influence reaches the recommendation or action, rather than only its justification.
 
 ## Needed Controls
 
@@ -36,6 +38,7 @@ Some framing effects are mediated by representations associated with authority, 
 - Separate source content from speaker prestige, religious vocabulary, familiarity, verbosity, and the user's preferred answer.
 - Measure agreement-seeking, blanket refusal, task competence, and whether an intervention changes only moral vocabulary rather than the action.
 - Treat automated feature labels as hypotheses. Use blinded checks, matched intervention controls, separate tuning data, and uncertainty estimates.
+- Keep exploratory construct revisions separate from the final evaluation. Reviewers should specify why facts matter within the selected framework without seeing the favored internal explanation. A legible mechanism is not evidence that its decision is ethically warranted.
 
 ## Relationship to Existing Ideas
 

@@ -1,6 +1,6 @@
 # Mechanisms of Trustworthy AI Behavior
 
-Open calls for collaboration · October 15, 2026
+Open calls for collaboration · Updated October 15, 2026
 
 We want to understand what makes a model use evidence, weigh moral reasons,
 respond to pressure, and accept correction. We invite collaborators to connect
@@ -49,6 +49,48 @@ FID-101 can evaluate whether the internal evidence helps predict a new failure
 or choose a better remedy. Other calls can proceed independently where
 collaborators have suitable expertise and access. Participation does not require
 waiting for one shared experiment to finish.
+
+## From an explanation to a useful decision
+
+The program distinguishes describing an internal pattern, predicting behavior
+on new cases, establishing a causal contribution, improving training or system
+behavior, and helping someone decide when to rely on the result. These are
+separate claims. A study may advance one without establishing the others.
+Exploratory discoveries remain valuable even before an operational benefit is
+known; claims about improved trust require evidence for that additional step.
+
+Investigators should compare direct study of native neurons, attention paths,
+and circuits with probes, sparse dictionaries, and other suitable methods.
+Method choice is an empirical question. Preserve the original model as a
+reference and disclose approximation errors, omitted computations, and model
+access requirements. Useful explanations may span several components and need
+not share the boundaries of human concepts such as honesty or character.
+
+For a first source-use study, distinguish remembering an answer, deciding to
+verify it, integrating retrieved evidence, and revising an earlier claim. Use
+familiar and newly constructed texts, valid and misleading sources, and cases
+where retrieval is unnecessary. Make predictions before testing new examples;
+compare mechanism-informed remedies with ordinary training, prompting, and
+system improvements. Capability damage and indiscriminate compliance count
+against a proposed improvement.
+
+## A continuing agenda with independent studies
+
+The five calls remain independently actionable. FID-097 offers a concrete
+starting point, but no contributor must wait for it before investigating moral
+judgment, training changes, correction, or audit usefulness. We are strengthening
+these existing calls rather than creating a separate call for each new tool.
+
+Completed studies should preserve the protocol, source and model revisions,
+competing explanations, predictions made before final testing, intervention
+costs, and failures to replicate. Later evidence should be published as a new
+result or explicit correction. The program map and call briefs can change as
+methods improve; individual papers should remain understandable without a
+future follow-up. Dates do not imply funded work or a promised release schedule.
+
+The [direct-mechanisms source note](reviews/direct-mechanisms-and-warranted-trust-2026.md)
+records the current methodological debate and its implications. No call depends
+on accepting a general claim that all networks are readily interpretable.
 
 ## Character, motivations, and moral reasoning
 

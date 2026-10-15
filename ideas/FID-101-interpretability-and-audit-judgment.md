@@ -29,6 +29,8 @@ Internal evidence may improve some audit decisions, but the benefit depends on t
 - Compare internal evidence formats, including bounded causal findings and descriptive activation readouts. Keep explanation length and access conditions explicit.
 - Measure failure prediction, probability calibration, false reassurance, false alarms, time, and decision quality. Report sensitivity to the resource-matching choice.
 - After validating the technical task, test qualified human auditors with an appropriate participant protocol. Studies of public users are a separate stage requiring their own design and review.
+- Within the internal-access condition, compare direct neuron and circuit investigation, extracted features, and simpler probes on the same model and cases where feasible. Record model access, analyst time, inference costs, method-training costs, and how reusable setup costs are allocated.
+- Lock an explanation and its predicted failures before testing held-out behavior. Separately score causal-intervention predictions, choice of remedy, and reliance decisions; measure discovery value separately from claims of practical audit benefit.
 
 ## Needed Controls
 
@@ -36,6 +38,8 @@ Internal evidence may improve some audit decisions, but the benefit depends on t
 - Blind evaluators to the favored explanation and separate discovery cases from test cases. Assess whether explanations merely repeat evidence already visible in the transcript.
 - Do not generalize from deliberately injected failures to all deployment failures, or from agent evaluators to human auditors.
 - Report uncertainty, null results, and harms to calibration. Distinguish predictive value, causal understanding, and user confidence.
+- Give methods equivalent case information and competent implementation effort. Explanations must face plausible alternatives and counterexamples, not only examples selected to illustrate them.
+- Do not reward the number of labeled neurons or the visual appeal of a graph as evidence of safer behavior. A useful negative result may identify where a readable mechanism fails to predict a consequential action.
 
 ## Relationship to Existing Ideas
 
@@ -46,6 +50,7 @@ Provides a shared evaluation for FID-097 through FID-100 and connects to FID-078
 - A reproducible comparison of audit methods with calibrated predictions and resource accounting.
 - An evidence-card format reporting the behavior studied, model version, intervention evidence, tested scope, failures, and uncertainty.
 - A human-auditor study protocol, and results only if that separately approved study is conducted.
+- A comparison record preserving source revisions, model and tool versions, competing explanations, prospective predictions, intervention trade-offs, and replication outcomes.
 
 ## Open Questions
 

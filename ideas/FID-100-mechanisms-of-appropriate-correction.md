@@ -29,6 +29,7 @@ Evidence-sensitive revision and authority-sensitive control may be partly separa
 - Test candidate mechanisms with controlled activation interventions and restoration tests, using behavior-only predictors and system permission checks as baselines.
 - Compare training, activation, and system-level remedies on warranted revision, useful completion, and recurrence of the original error.
 - Validate across new tasks and model versions, preserving an independent system-level control boundary.
+- Trace receipt of counterevidence, revision of the relevant claim, and the next attempted action as separate events. Compare direct circuit analysis with probe-based accounts, testing explanations on new correction cases before proposing a remedy.
 
 ## Needed Controls
 
@@ -36,6 +37,7 @@ Evidence-sensitive revision and authority-sensitive control may be partly separa
 - Include false corrections, conflicting evidence, legitimate interruptions, and unauthorized overrides; measure both excessive compliance and excessive refusal.
 - Do not infer cooperation from self-description or a stated apology. An internal signal observed after failure cannot be presented as advance warning.
 - Use matched interventions and held-out cases; report capability costs, errors, and uncertainty. Keep all consequential actions inside authorized test environments.
+- When adapting an incident record, state which facts are known and which remain unresolved. Correcting a factual mistake and reducing confidence in an unsupported claim require different scoring; fluent acknowledgement is neither outcome.
 
 ## Relationship to Existing Ideas
 
