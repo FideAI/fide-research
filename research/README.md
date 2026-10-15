@@ -158,3 +158,12 @@ should retain those distinctions as the evidence changes.
 existing calls across source fidelity, theology, application, care, measurement,
 and decision usefulness. It preserves released baselines and distinguishes
 proposed methods from validated findings, human outcomes, and funded upkeep.
+
+## Mechanisms of trustworthy AI behavior
+
+The [program map](mechanisms-of-trustworthy-ai-behavior.md) connects FID-097
+through FID-101 with existing source-fidelity, moral-framing, training, and
+human-control questions. The [source review](reviews/mechanisms-of-trustworthy-behavior-2026.md)
+records relevant prior work and limits. These are collaboration calls, not
+completed studies; retain the distinction between prediction, causal evidence,
+and usefulness to an auditor.

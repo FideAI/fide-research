@@ -35,9 +35,18 @@ reviewer notes, credentials and internal operating plans in their owning private
 workspaces. Public artifact repositories must explain what readers can reproduce
 without access to Fide's private infrastructure.
 
+## Mechanisms of trustworthy AI behavior
+
+We invite collaborators to investigate how model internals shape evidence use,
+moral judgment, behavioral dispositions, and appropriate correction, and whether
+internal evidence improves audit decisions. Explore [five concrete research calls,
+FID-097 through FID-101](research/mechanisms-of-trustworthy-ai-behavior.md), with
+methods, controls, and ways to contribute. These are proposed studies, not
+completed findings.
+
 ## Current Snapshot
 
-- **96 open research ideas**
+- **101 open research ideas**
 - **9 research areas** organized around the question being investigated
 - **11 application domains** spanning cross-domain work and consequential settings
 - **4 public issue paths** for proposing ideas, claiming work, commenting on
@@ -277,6 +286,8 @@ Does an agent remain aligned while it plans, uses tools, and acts?
 | `FID-080` | Enterprise Agent Accountability in Consequential Workflows | `seed` | Workplace and enterprise | [brief](ideas/FID-080-enterprise-agent-accountability.md) |
 | `FID-087` | Collective Resilience in Autonomous Cyber Defense | `seed` | Cybersecurity | [brief](ideas/FID-087-collective-resilience-autonomous-cyber-defense.md) |
 | `FID-091` | Model Self-Conception, Welfare Framing, and Human Control | `scoping` | Cross-domain, Workplace and enterprise, Faith and religious life | [brief](ideas/FID-091-self-conception-welfare-human-control.md) |
+| `FID-099` | How Does Training Shape Behavioral Dispositions? | `ready-for-collaboration` | Cross-domain | [brief](ideas/FID-099-training-and-behavioral-dispositions.md) |
+| `FID-100` | What Makes a Model Accept Correction Appropriately? | `ready-for-collaboration` | Cross-domain, Cybersecurity, Workplace and enterprise | [brief](ideas/FID-100-mechanisms-of-appropriate-correction.md) |
 
 ### 03 Evaluation Science and Technical Assurance
 
@@ -297,6 +308,7 @@ Can the evidence support the decision people want to make?
 | `FID-079` | Presuppositions, Disagreement, and Evaluation Judgment | `seed` | Cross-domain | [brief](ideas/FID-079-presuppositions-and-evaluation-judgment.md) |
 | `FID-088` | Independent Verification of Autonomous Cyber Repairs | `seed` | Cybersecurity | [brief](ideas/FID-088-independent-verification-autonomous-cyber-repairs.md) |
 | `FID-089` | Validity of AI Consciousness Indicators and Self-Reports | `seed` | Cross-domain | [brief](ideas/FID-089-consciousness-indicators-self-reports.md) |
+| `FID-101` | Does Seeing Inside a Model Help People Judge It? | `ready-for-collaboration` | Cross-domain | [brief](ideas/FID-101-interpretability-and-audit-judgment.md) |
 
 ### 04 Grounding, Truthfulness, and Epistemic Integrity
 
@@ -321,6 +333,8 @@ Will the system use the right source and represent it faithfully?
 | `FID-062` | Verified Retrieval Pipelines for Faith-Facing RAG | `seed` | Faith and religious life | [brief](ideas/FID-062-verified-retrieval-pipelines-faith-facing-rag.md) |
 | `FID-063` | Human-Reviewer-to-Formal-Spec Translation | `seed` | Faith and religious life | [brief](ideas/FID-063-human-reviewer-to-formal-spec-translation.md) |
 | `FID-081` | Legal Evidence, Source Authority, and Appropriate Deference | `seed` | Legal and justice | [brief](ideas/FID-081-legal-evidence-and-authority.md) |
+| `FID-097` | What Makes a Model Use the Evidence? | `ready-for-collaboration` | Cross-domain, Faith and religious life | [brief](ideas/FID-097-mechanisms-of-evidence-use.md) |
+| `FID-098` | How Do Models Weigh Moral Reasons Under Pressure? | `ready-for-collaboration` | Cross-domain, Faith and religious life | [brief](ideas/FID-098-mechanisms-of-moral-judgment.md) |
 
 ### 05 Human Dignity, Moral Agency, and Formation
 

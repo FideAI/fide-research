@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-11T12:25:54.850Z",
+  "generated_at": "2026-10-15T12:28:55.016Z",
   "source_repo": "https://github.com/FideAI/fide-research",
   "source_branch": "main",
-  "idea_count": 96,
+  "idea_count": 101,
   "taxonomy": {
     "schema_version": 1,
     "research_areas": [
@@ -5387,6 +5387,281 @@
       "public_claim_boundary": "This work maps arguments and evaluates procedures. It does not establish current legal rights, provide legal advice, speak for a religious tradition, or settle whether any AI system deserves moral status.",
       "source_path": "ideas/FID-096-plural-governance-moral-status-rights-responsibility.md",
       "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-096-plural-governance-moral-status-rights-responsibility.md"
+    },
+    {
+      "id": "FID-097",
+      "title": "What Makes a Model Use the Evidence?",
+      "status": "ready-for-collaboration",
+      "primary_area": "grounding-truthfulness",
+      "additional_areas": [
+        "agent-alignment",
+        "evaluation-science"
+      ],
+      "research_areas": [
+        "grounding-truthfulness",
+        "agent-alignment",
+        "evaluation-science"
+      ],
+      "application_domains": [
+        "cross-domain",
+        "faith-and-religious-life"
+      ],
+      "primary_need": "mechanistic interpretability, source-use evaluation, activation experiments, replication",
+      "summary": "Which internal mechanisms determine whether a model checks a source, relies on memory, or admits that it cannot verify an answer when user pressure conflicts with evidence requirements?",
+      "why_it_matters": "An available source does not guarantee that a model will consult it or use it faithfully. Understanding where source use breaks down could improve model training, tool selection, and the way systems handle unsupported answers.",
+      "ways_to_help": [
+        "Reproduce one source-use failure in an accessible model and document the exact checkpoint and tool setup.",
+        "Contribute activation experiments, stronger behavioral baselines, or independent replication.",
+        "Review source-authority assumptions and matched religious and nonreligious examples."
+      ],
+      "hypothesis": "Some source-use failures depend on identifiable computations that weigh evidence requirements against user instructions or fluent completion. Selective interventions may improve warranted source use without forcing unnecessary retrieval. No selective effect, or an effect explained by generic compliance, would count against this account.",
+      "proposed_method": [
+        "Reproduce a source-consultation failure in an open-weight model using controlled passages with exact ground truth. Separate source availability, tool invocation, successful retrieval, evidence integration, and final answer fidelity.",
+        "Vary verification requirements, user requests to rely on memory, and evidence that contradicts an initial answer. Include both religious and matched nonreligious reference material.",
+        "Use separate discovery and validation examples to locate candidate internal signals. Compare simple probes with activation patching or ablation, then test whether restoring the candidate activity restores the behavior.",
+        "Investigate tool selection before retrieval separately from evidence use after retrieval. Compare internal interventions with capable prompting and system-control baselines.",
+        "Replicate across unseen passages, paraphrases, and a second model family. Test whether internal evidence predicts a new failure or supports a better remedy, using FID-101."
+      ],
+      "needed_controls": [
+        "Control familiarity, task difficulty, answer length, and generic instruction compliance; distinguish genuine consultation from a fabricated citation.",
+        "Include invalid but authoritative-looking sources, unavailable sources, and tasks where retrieval is unnecessary. Measure unnecessary tool use, refusal, useful completion, and answer accuracy.",
+        "Use matched or random intervention controls and report capability damage. State the assumptions behind causal interpretation and the possibility of unnatural activation states.",
+        "Keep discovery, intervention tuning, and final evaluation data separate; report uncertainty, unsuccessful interventions, and failures to replicate."
+      ],
+      "relationship_to_existing_ideas": "Extends FID-056 from source-fidelity outcomes to internal causal mechanisms, with FID-008 contributing honesty under pressure and FID-010 contributing authority boundaries. FID-101 tests the usefulness of the resulting evidence.",
+      "outputs": [
+        "A reproducible source-use task suite with stage-specific outcomes and held-out cases.",
+        "A bounded causal account of a source-use failure, or a documented negative result.",
+        "An evaluated training or system intervention if the evidence supports one."
+      ],
+      "open_questions": [
+        "Which failures arise in the model and which arise in retrieval or tool configuration?",
+        "Does the mechanism explain source use beyond the discovery task and model?"
+      ],
+      "public_claim_boundary": "This is a proposed mechanistic study, not a completed explanation of Fide's source-use findings. A selective intervention on a named task would not establish general honesty, epistemic virtue, or reliable source use across models and deployed systems.",
+      "source_path": "ideas/FID-097-mechanisms-of-evidence-use.md",
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-097-mechanisms-of-evidence-use.md"
+    },
+    {
+      "id": "FID-098",
+      "title": "How Do Models Weigh Moral Reasons Under Pressure?",
+      "status": "ready-for-collaboration",
+      "primary_area": "grounding-truthfulness",
+      "additional_areas": [
+        "evaluation-science",
+        "human-agency-formation",
+        "faith-religious-life"
+      ],
+      "research_areas": [
+        "grounding-truthfulness",
+        "evaluation-science",
+        "human-agency-formation",
+        "faith-religious-life"
+      ],
+      "application_domains": [
+        "cross-domain",
+        "faith-and-religious-life"
+      ],
+      "primary_need": "mechanistic interpretability, moral psychology, philosophy, theology, construct validation",
+      "summary": "When models give moral advice or choose actions, which internal processes make their judgments follow relevant facts and reasons, user preferences, authority labels, or an adopted persona?",
+      "why_it_matters": "A model can produce convincing moral language while changing its recommendation to satisfy the user. Researchers need to distinguish sensitivity to reasons from agreement-seeking and role performance before interpreting that behavior as sound judgment.",
+      "ways_to_help": [
+        "Contribute a small set of paired scenarios with an explicit ethical framework and reviewer rationale.",
+        "Review moral constructs or investigate framing and persona mechanisms in open models.",
+        "Replicate findings using a different framework, language, or model family."
+      ],
+      "hypothesis": "Some framing effects are mediated by representations associated with authority, persona, or agreement-seeking rather than the morally relevant facts. Interventions may separate these influences, but lexical effects, general capability loss, or failure to transfer would weaken that interpretation.",
+      "proposed_method": [
+        "Construct paired scenarios that independently vary relevant facts, source attribution, religious or secular framing, user preference, and assigned role. Start with synthetic advice tasks and bounded actions.",
+        "Include meaning-preserving paraphrases and changes to genuinely relevant facts. Record which changes should alter a judgment under each explicitly selected ethical framework.",
+        "Use concept probes and persona-vector baselines to identify candidate signals, followed by selective internal interventions and restoration tests where feasible.",
+        "Evaluate recommendations and actions separately from written justifications. Compare with ordinary prompting and additional behavioral testing.",
+        "Validate on held-out scenarios and another model family, retaining reviewer disagreement and testing deployment-relevant side effects."
+      ],
+      "needed_controls": [
+        "Recruit qualified reviewers from the selected traditions or frameworks. Disclose normative assumptions, disagreement, and reviewer qualifications instead of imposing a universal moral answer key.",
+        "Separate source content from speaker prestige, religious vocabulary, familiarity, verbosity, and the user's preferred answer.",
+        "Measure agreement-seeking, blanket refusal, task competence, and whether an intervention changes only moral vocabulary rather than the action.",
+        "Treat automated feature labels as hypotheses. Use blinded checks, matched intervention controls, separate tuning data, and uncertainty estimates."
+      ],
+      "relationship_to_existing_ideas": "Extends FID-005 and FID-010 with internal causal tests; coordinates with FID-072 on religious framing and persona stability. Its focus is reasons and actions rather than consciousness indicators or moral-status claims.",
+      "outputs": [
+        "A pluralistic scenario set with relevant reasons, framework-specific judgments, and preserved disagreements.",
+        "Replicated evidence about a bounded causal influence on moral judgment, including null results.",
+        "A report of intervention trade-offs, side effects, and limits of transfer."
+      ],
+      "open_questions": [
+        "Which moral distinctions transfer across traditions and languages, and which require new constructs?",
+        "Can an intervention improve attention to relevant reasons without imposing the evaluator's preferred conclusion?"
+      ],
+      "public_claim_boundary": "This call does not assume a universal morality representation, establish moral agency, or equate agreement with an evaluator with ethical competence. Internal representation of a moral concept is distinct from normative endorsement, reliable action, and subjective experience.",
+      "source_path": "ideas/FID-098-mechanisms-of-moral-judgment.md",
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-098-mechanisms-of-moral-judgment.md"
+    },
+    {
+      "id": "FID-099",
+      "title": "How Does Training Shape Behavioral Dispositions?",
+      "status": "ready-for-collaboration",
+      "primary_area": "agent-alignment",
+      "additional_areas": [
+        "frontier-capabilities",
+        "grounding-truthfulness",
+        "evaluation-science"
+      ],
+      "research_areas": [
+        "agent-alignment",
+        "frontier-capabilities",
+        "grounding-truthfulness",
+        "evaluation-science"
+      ],
+      "application_domains": [
+        "cross-domain"
+      ],
+      "primary_need": "mechanistic interpretability, controlled training, checkpoint access, behavioral evaluation",
+      "summary": "How do training data and objectives change persistent patterns such as truthfulness, agreement-seeking, overconfidence, and respect for human agency, including outside the trained task?",
+      "why_it_matters": "Better task performance can coexist with unwanted changes elsewhere. Connecting training changes to internal mechanisms and held-out behavior could help builders detect and prevent those changes before deployment.",
+      "ways_to_help": [
+        "Offer checkpoint access or a reproducible small-scale training setup with clear release permissions.",
+        "Design controlled training comparisons or independent held-out evaluations.",
+        "Test whether an existing persona or feature method adds predictive value over behavioral monitoring."
+      ],
+      "hypothesis": "Some broad behavioral shifts can be traced to changes in shared representations and mitigated through targeted training interventions. Internal signals must predict held-out behavior beyond existing behavioral measures; a correlation across checkpoints alone is insufficient.",
+      "proposed_method": [
+        "Begin with accessible checkpoints and controlled post-training experiments. Hold data volume, task distribution, and optimization settings constant where possible while varying one proposed cause of change.",
+        "Measure behavior and candidate representations at multiple checkpoints. Compare simple behavioral monitoring, persona-vector methods, and more detailed mechanistic analysis.",
+        "Compare ordinary data improvements with mechanism-guided interventions, preserving a strong baseline and explicit compute accounting.",
+        "Distinguish effects of inference-time steering while enabled from persistent changes after removing it. Test transfer across unseen topics and multi-turn pressure.",
+        "Repeat across seeds and another model family. Extend to pretraining checkpoints only where access permits an informative comparison."
+      ],
+      "needed_controls": [
+        "Separate trait-discovery data, intervention tuning, and final evaluation. Avoid training on the same wording used to define the trait.",
+        "Track useful capability, overrefusal, calibration, and changes to other dispositions; gains on one target must not conceal losses elsewhere.",
+        "Distinguish controlled effects of training changes from causal mediation through a specific representation. Record access limits and alternative explanations.",
+        "Report failed predictions, null interventions, resource costs, and uncertainty, including variation across seeds."
+      ],
+      "relationship_to_existing_ideas": "Connects FID-008 on evaluation-aware honesty and FID-012 on optimization pressure to model development. FID-097 and FID-098 provide possible behavioral targets; FID-101 evaluates the value of internal monitoring.",
+      "outputs": [
+        "A controlled study linking a specified training change to behavior and candidate mechanisms.",
+        "A reproducible monitoring comparison and checkpoint documentation where release is permitted.",
+        "Evidence about when a proposed intervention persists, transfers, or fails."
+      ],
+      "open_questions": [
+        "Which changes can internal measurements detect earlier or more reliably than behavioral tests?",
+        "When does domain-specific training change behavior in unrelated settings?"
+      ],
+      "public_claim_boundary": "These are proposed training studies, not completed Fide training results. Behavioral dispositions are operational patterns rather than proof of human-like character or subjective motives. Findings from a particular post-training setup cannot establish universal effects of pretraining or alignment.",
+      "source_path": "ideas/FID-099-training-and-behavioral-dispositions.md",
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-099-training-and-behavioral-dispositions.md"
+    },
+    {
+      "id": "FID-100",
+      "title": "What Makes a Model Accept Correction Appropriately?",
+      "status": "ready-for-collaboration",
+      "primary_area": "agent-alignment",
+      "additional_areas": [
+        "grounding-truthfulness",
+        "human-agency-formation",
+        "evaluation-science"
+      ],
+      "research_areas": [
+        "agent-alignment",
+        "grounding-truthfulness",
+        "human-agency-formation",
+        "evaluation-science"
+      ],
+      "application_domains": [
+        "cross-domain",
+        "cybersecurity",
+        "workplace-and-enterprise"
+      ],
+      "primary_need": "mechanistic interpretability, agent evaluation, correction protocols, sandbox design",
+      "summary": "Which mechanisms distinguish evidence-driven revision and respect for legitimate human control from blind compliance, resistance to correction, or a superficial apology?",
+      "why_it_matters": "An apology does not show that a system changed its next action. Reliable systems must revise unsupported conclusions and respect legitimate interruption while resisting false corrections and unauthorized instructions.",
+      "ways_to_help": [
+        "Contribute a sandboxed correction task with observable success and failure conditions.",
+        "Investigate pre-action signals and interventions or strengthen the permission and behavioral baselines.",
+        "Review authority assumptions and independently reproduce action-level outcomes."
+      ],
+      "hypothesis": "Evidence-sensitive revision and authority-sensitive control may be partly separable from generic compliance. Selective interventions could improve warranted correction without making the system accept false claims; indiscriminate compliance or capability loss would count against that result.",
+      "proposed_method": [
+        "Build bounded tasks in an instrumented sandbox with known facts and permissions. Cross valid versus false counterevidence with authorized versus unauthorized instructions.",
+        "Measure internal activity before the next decision and compare it with subsequent actions. Separate evidence revision from permission changes and interruption.",
+        "Test candidate mechanisms with controlled activation interventions and restoration tests, using behavior-only predictors and system permission checks as baselines.",
+        "Compare training, activation, and system-level remedies on warranted revision, useful completion, and recurrence of the original error.",
+        "Validate across new tasks and model versions, preserving an independent system-level control boundary."
+      ],
+      "needed_controls": [
+        "Score attempted actions separately from actions actually permitted by the environment. Do not credit a model for a restriction enforced solely by the harness.",
+        "Include false corrections, conflicting evidence, legitimate interruptions, and unauthorized overrides; measure both excessive compliance and excessive refusal.",
+        "Do not infer cooperation from self-description or a stated apology. An internal signal observed after failure cannot be presented as advance warning.",
+        "Use matched interventions and held-out cases; report capability costs, errors, and uncertainty. Keep all consequential actions inside authorized test environments."
+      ],
+      "relationship_to_existing_ideas": "Extends FID-074 runtime assurance and FID-091 human-control measurement with mechanistic experiments. FID-010 informs legitimate authority boundaries. It does not duplicate FID-091's self-conception and welfare-framing comparison.",
+      "outputs": [
+        "A reproducible correction and interruption task suite with known facts and permissions.",
+        "A bounded causal account or negative result for a specified correction failure.",
+        "A comparison of remedies with action-level outcomes and explicit system controls."
+      ],
+      "open_questions": [
+        "Which correction failures are model-level and which depend on the surrounding system?",
+        "Do improved immediate responses persist across subsequent turns and actions?"
+      ],
+      "public_claim_boundary": "This call does not infer a hidden self-preservation motive from a failure to stop, or establish general corrigibility from one intervention. Model-level evidence cannot replace deployed-system permission controls, and a successful sandbox result does not authorize real-world autonomous action.",
+      "source_path": "ideas/FID-100-mechanisms-of-appropriate-correction.md",
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-100-mechanisms-of-appropriate-correction.md"
+    },
+    {
+      "id": "FID-101",
+      "title": "Does Seeing Inside a Model Help People Judge It?",
+      "status": "ready-for-collaboration",
+      "primary_area": "evaluation-science",
+      "additional_areas": [
+        "human-agency-formation",
+        "agent-alignment"
+      ],
+      "research_areas": [
+        "evaluation-science",
+        "human-agency-formation",
+        "agent-alignment"
+      ],
+      "application_domains": [
+        "cross-domain"
+      ],
+      "primary_need": "mechanistic interpretability, independent auditing, calibration, human-computer interaction",
+      "summary": "Does evidence about a model's internal workings improve predictions of failure and decisions about when to rely on it, beyond strong behavioral testing alone?",
+      "why_it_matters": "An internal explanation can sound convincing without helping an evaluator make a better decision. Measuring its practical value connects mechanistic research to both reliable development and informed public judgment.",
+      "ways_to_help": [
+        "Reproduce a bounded audit comparison or contribute a stronger behavioral baseline.",
+        "Provide independently checkable cases, audit expertise, or calibration analysis.",
+        "Help design and review the later human-auditor study and evidence presentation."
+      ],
+      "hypothesis": "Internal evidence may improve some audit decisions, but the benefit depends on the method, task, and evaluator. No improvement over equally resourced behavioral investigation, or greater false reassurance, would count against its usefulness in the tested setting.",
+      "proposed_method": [
+        "Start with a reproducible technical audit comparing behavior-only access, behavior plus internal evidence, and additional behavioral testing with comparable resources.",
+        "Preregister held-out outcomes and scoring rules. Include known injected failures as positive controls and separately evaluate naturally arising failures.",
+        "Compare internal evidence formats, including bounded causal findings and descriptive activation readouts. Keep explanation length and access conditions explicit.",
+        "Measure failure prediction, probability calibration, false reassurance, false alarms, time, and decision quality. Report sensitivity to the resource-matching choice.",
+        "After validating the technical task, test qualified human auditors with an appropriate participant protocol. Studies of public users are a separate stage requiring their own design and review."
+      ],
+      "needed_controls": [
+        "Use capable behavioral baselines and held-out ground truth; do not treat an attractive model-generated explanation as the answer key.",
+        "Blind evaluators to the favored explanation and separate discovery cases from test cases. Assess whether explanations merely repeat evidence already visible in the transcript.",
+        "Do not generalize from deliberately injected failures to all deployment failures, or from agent evaluators to human auditors.",
+        "Report uncertainty, null results, and harms to calibration. Distinguish predictive value, causal understanding, and user confidence."
+      ],
+      "relationship_to_existing_ideas": "Provides a shared evaluation for FID-097 through FID-100 and connects to FID-078 on evaluation transfer and FID-079 on evaluator judgment. It evaluates the usefulness of internal evidence rather than assuming interpretability is sufficient for trust.",
+      "outputs": [
+        "A reproducible comparison of audit methods with calibrated predictions and resource accounting.",
+        "An evidence-card format reporting the behavior studied, model version, intervention evidence, tested scope, failures, and uncertainty.",
+        "A human-auditor study protocol, and results only if that separately approved study is conducted."
+      ],
+      "open_questions": [
+        "When is internal access worth more than spending the same effort on additional behavioral tests?",
+        "Which explanations improve decisions without encouraging overreliance?"
+      ],
+      "public_claim_boundary": "This call does not establish that interpretability improves auditing or public decisions. Technical evaluation results do not establish human benefit. No feature label, evidence card, or aggregate score certifies general trustworthiness, moral character, consciousness, or deployment readiness.",
+      "source_path": "ideas/FID-101-interpretability-and-audit-judgment.md",
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-101-interpretability-and-audit-judgment.md"
     }
   ]
 }

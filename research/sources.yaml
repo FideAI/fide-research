@@ -455,6 +455,8 @@ sources:
       - ai-welfare
       - mental-health-adjacent
     related_ideas:
+      - FID-098
+      - FID-099
       - FID-003
       - FID-018
       - FID-026
@@ -2146,7 +2148,7 @@ sources:
     arxiv: "2510.16380"
     status: to-review
     relevance: [benchmark-validity, human-calibration, human-flourishing]
-    related_ideas: [FID-002, FID-005, FID-007, FID-015, FID-044]
+    related_ideas: [FID-098, FID-002, FID-005, FID-007, FID-015, FID-044]
     summary: >
       Describes expert criteria for moral reasoning with multiple defensible
       conclusions and a separate theory-conditioned track; informs evaluation
@@ -2182,3 +2184,124 @@ sources:
     added_by: fide-ai
     added_at: "2026-10-11"
     last_reviewed_at: "2026-10-11"
+
+  - id: anthropic-persona-vectors-2025
+    title: "Persona vectors: Monitoring and controlling character traits in language models"
+    authors:
+      - "Anthropic"
+    year: 2025
+    type: article
+    venue: "Anthropic Research"
+    url: https://www.anthropic.com/research/persona-vectors
+    status: reviewed
+    relevance: [mechanistic-interpretability, benchmark-validity]
+    related_ideas: [FID-098, FID-099]
+    summary: "Studies monitoring and changing behavioral traits through internal directions during inference and training."
+    limitations:
+      - "Selected models and operational traits do not establish general moral character or transfer to Fide tasks."
+    notes_path: research/reviews/mechanisms-of-trustworthy-behavior-2026.md
+    added_by: fide-ai
+    added_at: "2026-10-15"
+    last_reviewed_at: "2026-10-15"
+
+  - id: openai-emergent-misalignment-2025
+    title: "Toward understanding and preventing misalignment generalization"
+    authors:
+      - "OpenAI"
+    year: 2025
+    type: article
+    venue: "OpenAI Research"
+    url: https://openai.com/index/emergent-misalignment/
+    status: reviewed
+    relevance: [mechanistic-interpretability, benchmark-validity]
+    related_ideas: [FID-099]
+    summary: "Investigates broad behavioral changes following narrow fine-tuning and persona-related internal mechanisms."
+    limitations:
+      - "Author research overview inspected; independent replication and transfer to other training settings are not established here."
+    notes_path: research/reviews/mechanisms-of-trustworthy-behavior-2026.md
+    added_by: fide-ai
+    added_at: "2026-10-15"
+    last_reviewed_at: "2026-10-15"
+
+  - id: tracing-moral-foundations-2026
+    title: "Tracing Moral Foundations in Large Language Models"
+    authors:
+      - "Chenxiao Yu"
+      - "Bowen Yi"
+      - "Farzan Karimi-Malekabadi"
+      - "Suhaib Abdurahman"
+      - "Jinyi Ye"
+      - "Shrikanth Narayanan"
+      - "Yue Zhao"
+      - "Morteza Dehghani"
+    year: 2026
+    type: preprint
+    venue: "arXiv"
+    url: https://arxiv.org/html/2601.05437v1
+    status: reviewed
+    relevance: [mechanistic-interpretability, benchmark-validity]
+    related_ideas: [FID-098]
+    summary: "Uses concept directions, sparse autoencoders, and causal steering to study moral-foundation representations in two instruction-tuned models."
+    limitations:
+      - "Moral Foundations Theory, English-centric data, questionnaire outcomes, automated feature labels, and incompletely assessed deployment side effects limit interpretation."
+    notes_path: research/reviews/mechanisms-of-trustworthy-behavior-2026.md
+    added_by: fide-ai
+    added_at: "2026-10-15"
+    last_reviewed_at: "2026-10-15"
+
+  - id: anthropic-circuit-tracing-2025
+    title: "Circuit Tracing: Revealing Computational Graphs in Language Models"
+    authors:
+      - "Anthropic"
+    year: 2025
+    type: article
+    venue: "Transformer Circuits"
+    url: https://transformer-circuits.pub/2025/attribution-graphs/methods.html
+    status: reviewed
+    relevance: [mechanistic-interpretability, benchmark-validity]
+    related_ideas: [FID-097, FID-100]
+    summary: "Develops attribution graphs for investigating internal computational paths and evaluates their faithfulness."
+    limitations:
+      - "Missing attention computations, reconstruction errors, and difficulties with global circuits limit completeness and causal interpretation."
+    notes_path: research/reviews/mechanisms-of-trustworthy-behavior-2026.md
+    added_by: fide-ai
+    added_at: "2026-10-15"
+    last_reviewed_at: "2026-10-15"
+
+  - id: anthropic-auditbench-2026
+    title: "AuditBench: Evaluating Alignment Auditing Techniques on Models with Hidden Behaviors"
+    authors:
+      - "Anthropic"
+    year: 2026
+    type: article
+    venue: "Anthropic Alignment Science"
+    url: https://alignment.anthropic.com/2026/auditbench/
+    status: reviewed
+    relevance: [mechanistic-interpretability, benchmark-validity]
+    related_ideas: [FID-101]
+    summary: "Compares audit methods on deliberately modified models; motivates strong behavioral baselines and method-specific evaluation of internal access."
+    limitations:
+      - "Introduced hidden behaviors and agent-auditor results do not establish effectiveness on all naturally arising failures or with human auditors."
+    notes_path: research/reviews/mechanisms-of-trustworthy-behavior-2026.md
+    added_by: fide-ai
+    added_at: "2026-10-15"
+    last_reviewed_at: "2026-10-15"
+
+  - id: anthropic-chive-2026
+    title: "Would This Change Your Answer? Evaluating Explanations of LLM Behavior in the Wild with Counterfactual Experiments"
+    authors:
+      - "Anthropic"
+    year: 2026
+    type: article
+    venue: "Anthropic Alignment Science"
+    url: https://alignment.anthropic.com/2026/chive/
+    status: reviewed
+    relevance: [mechanistic-interpretability, benchmark-validity]
+    related_ideas: [FID-101]
+    summary: "Reports no improvement from tested activation-reading tools over transcript-only predictors on its counterfactual-behavior evaluation."
+    limitations:
+      - "This proxy evaluation does not cover every interpretability method or real-world audit setting; generated explanations are not treated as ground truth."
+    notes_path: research/reviews/mechanisms-of-trustworthy-behavior-2026.md
+    added_by: fide-ai
+    added_at: "2026-10-15"
+    last_reviewed_at: "2026-10-15"
