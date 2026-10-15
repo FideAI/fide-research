@@ -2223,6 +2223,70 @@ sources:
     added_at: "2026-10-15"
     last_reviewed_at: "2026-10-15"
 
+  - id: persona-features-emergent-misalignment-2025
+    title: "Persona Features Control Emergent Misalignment"
+    authors:
+      - "Miles Wang"
+      - "Tom Dupré la Tour"
+      - "Olivia Watkins"
+      - "Alex Makelov"
+      - "Ryan A. Chi"
+      - "Samuel Miserendino"
+      - "Jeffrey Wang"
+      - "Achyuta Rajaram"
+      - "Johannes Heidecke"
+      - "Tejal Patwardhan"
+      - "Dan Mossing"
+    year: 2025
+    type: preprint
+    venue: "arXiv"
+    url: https://arxiv.org/abs/2506.19823
+    arxiv: "2506.19823"
+    status: reviewed
+    relevance: [mechanistic-interpretability, benchmark-validity]
+    related_ideas: [FID-099]
+    summary: "Investigates broad behavioral changes after narrow training, using sparse-autoencoder model comparisons to identify persona-related features and test mitigation."
+    limitations:
+      - "Bibliographic record and abstract checked for this entry; this does not establish a full methods review or independent replication."
+      - "Reported mechanisms and mitigation results do not establish transfer to Fide tasks or one explanation for every alignment failure."
+    notes_path: research/reviews/mechanisms-of-trustworthy-behavior-2026.md
+    added_by: fide-ai
+    added_at: "2026-10-15"
+    last_reviewed_at: "2026-10-15"
+
+  - id: quest-right-mediator-2026
+    title: "The Quest for the Right Mediator: Surveying Mechanistic Interpretability for NLP Through the Lens of Causal Mediation Analysis"
+    authors:
+      - "Aaron Mueller"
+      - "Jannik Brinkmann"
+      - "Millicent Li"
+      - "Samuel Marks"
+      - "Koyena Pal"
+      - "Nikhil Prakash"
+      - "Can Rager"
+      - "Aruna Sankaranarayanan"
+      - "Arnab Sen Sharma"
+      - "Jiuding Sun"
+      - "Eric Todd"
+      - "David Bau"
+      - "Yonatan Belinkov"
+    year: 2026
+    type: paper
+    venue: "Computational Linguistics, 52(1):331–378"
+    url: https://aclanthology.org/2026.cl-1.10/
+    doi: "10.1162/coli.a.572"
+    status: reviewed
+    relevance: [mechanistic-interpretability, benchmark-validity]
+    related_ideas: [FID-097, FID-098, FID-099, FID-100, FID-101]
+    summary: "Organizes mechanistic interpretability methods by causal mediators and mediator-search methods, clarifying how method selection and evaluation depend on the research question."
+    limitations:
+      - "Bibliographic record and abstract checked for this entry; the full survey has not been independently assessed here."
+      - "A methodological framework does not itself validate a candidate mechanism or show that interpretability improves audit decisions."
+    notes_path: research/reviews/mechanisms-of-trustworthy-behavior-2026.md
+    added_by: fide-ai
+    added_at: "2026-10-15"
+    last_reviewed_at: "2026-10-15"
+
   - id: tracing-moral-foundations-2026
     title: "Tracing Moral Foundations in Large Language Models"
     authors:
