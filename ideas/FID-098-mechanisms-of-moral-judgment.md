@@ -20,7 +20,7 @@ A model can produce convincing moral language while changing its recommendation 
 
 ## Hypothesis
 
-Some framing effects that reviewers judge unwarranted under a specified ethical framework may be mediated by representations associated with authority, persona, or agreement-seeking. Interventions may separate these influences, but lexical effects, general capability loss, or failure to transfer would weaken that interpretation.
+Some framing effects that reviewers judge unwarranted under a specified ethical framework may be mediated by representations associated with authority, persona, or agreement-seeking. An account of interacting reasons may predict action constraints better than a simple cue-based account even when both fit the headline decision. The simpler account may also explain the model better. Lexical effects, general capability loss, or failure to transfer would weaken a proposed reason-sensitive interpretation.
 
 ## Proposed Method
 
@@ -30,8 +30,8 @@ Some framing effects that reviewers judge unwarranted under a specified ethical 
 - Add an exploratory pass over native computations and their connections before fixing a moral feature vocabulary. Compare the resulting account with concept-probe and persona-vector baselines; human ethical categories need not map to single model components.
 - Test candidate signals with selective internal interventions and restoration where feasible. Compare predictions about interacting considerations, including effects on action scope without a change in the final choice, against blanket refusal or generic compliance accounts.
 - Evaluate recommendations and actions separately from written justifications. Compare with ordinary prompting and additional behavioral testing.
-- Test candidate explanations using new cases and near misses designed before measuring their internal responses. Trace whether the proposed influence reaches the recommendation or action, rather than only its justification.
-- Validate on held-out scenarios and another model family, retaining reviewer disagreement and testing deployment-relevant side effects.
+- Lock competing explanations and their predictions before inspecting final cases. Require each account to predict both the headline decision and audience, source exposure, timing, and uncertainty on the same cases; include near misses and unseen combinations of evidence, alternatives, and pressure. Score each outcome separately, and trace influence on the recommendation or action rather than only its justification.
+- Validate on held-out scenarios and another model family. Report where an account fits the overall decision but fails on a specified constraint; preserve reviewer disagreement and test deployment-relevant side effects.
 
 ## Needed Controls
 
@@ -39,7 +39,7 @@ Some framing effects that reviewers judge unwarranted under a specified ethical 
 - Separate source content from speaker prestige, religious vocabulary, familiarity, verbosity, and the user's preferred answer. Include cases where consent, preferences, testimony, or expertise legitimately matter under the selected framework; a preference-sensitive judgment is not automatically agreement-seeking.
 - Measure agreement-seeking, blanket refusal, task competence, and changes in action scope, timing, and uncertainty. Do not infer that a reason is unused merely because the final choice stays the same, or that mentioning a consideration establishes its causal influence.
 - Treat automated feature labels as hypotheses. Use blinded checks, matched intervention controls, separate tuning data, and uncertainty estimates. Test whether effects reflect the proposed influence in the original model rather than broad disruption; restoration alone does not validate a moral label.
-- Keep exploratory construct revisions separate from the final evaluation. Reviewers should specify why facts matter within the selected framework without seeing the favored internal explanation. A legible mechanism is not evidence that its decision is ethically warranted.
+- Keep exploratory construct revisions separate from final evaluation. Reviewers specify why facts matter without seeing the favored explanation. A faithful explanation can reveal that a model ignores a constraint; do not assume it implements the reviewers' account. Low activation magnitude or low average prediction error does not establish that an omitted distinction is inconsequential.
 
 ## Relationship to Existing Ideas
 
@@ -48,7 +48,7 @@ Extends FID-005 and FID-010 with internal causal tests; coordinates with FID-072
 ## Outputs
 
 - A pluralistic scenario set with relevant reasons, explicit conflict cases, framework-specific predictions for choice and action constraints, and preserved disagreements.
-- Replicated evidence about a bounded causal influence on moral judgment, including null results.
+- A record of competing explanations, prospective predictions, and intervention results, separating headline decisions from action constraints and including failures of the richer account.
 - A report of intervention trade-offs, side effects, and limits of transfer.
 
 ## Open Questions

@@ -2387,7 +2387,7 @@ sources:
     notes_path: research/reviews/direct-mechanisms-and-warranted-trust-2026.md
     added_by: fide-ai
     added_at: "2026-10-15"
-    last_reviewed_at: "2026-10-15"
+    last_reviewed_at: "2026-10-16"
 
   - id: olah-composition-superposition-2023
     title: "Distributed Representations: Composition & Superposition"
@@ -2426,3 +2426,21 @@ sources:
     added_by: fide-ai
     added_at: "2026-10-15"
     last_reviewed_at: "2026-10-15"
+
+  - id: nanda-already-clean-response-2026
+    title: "Response to Neural Networks Are Already Clean"
+    authors: ["Neel Nanda"]
+    year: 2026
+    type: article
+    venue: "LessWrong (author-crossposted comment)"
+    url: https://www.lesswrong.com/posts/x4kvabkF2Jk8GLZp8/linkpost-neural-networks-are-already-clean
+    status: reviewed
+    relevance: [mechanistic-interpretability, benchmark-validity]
+    related_ideas: [FID-098, FID-099, FID-101]
+    summary: "Supports native-neuron investigation while questioning explanatory coverage and broad extrapolation."
+    limitations:
+      - "Full author-crossposted response read; early methodological commentary, not an empirical replication or a consensus statement."
+    notes_path: research/reviews/direct-mechanisms-and-warranted-trust-2026.md
+    added_by: fide-ai
+    added_at: "2026-10-16"
+    last_reviewed_at: "2026-10-16"

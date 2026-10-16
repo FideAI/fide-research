@@ -30,7 +30,7 @@ Internal evidence may improve some audit decisions, but the benefit depends on t
 - Measure failure prediction, probability calibration, false reassurance, false alarms, time, and decision quality. Report sensitivity to the resource-matching choice.
 - After validating the technical task, test qualified human auditors with an appropriate participant protocol. Studies of public users are a separate stage requiring their own design and review.
 - Within the internal-access condition, compare direct neuron and circuit investigation, extracted features, and simpler probes on the same model and cases where feasible. Record model access, analyst time, inference costs, method-training costs, and how reusable setup costs are allocated.
-- Lock an explanation and its predicted failures before testing held-out behavior. Separately score causal-intervention predictions, choice of remedy, and reliance decisions; measure discovery value separately from claims of practical audit benefit.
+- Lock explanations and predicted failures before testing held-out behavior. Include cases with the same headline choice but different action constraints, such as disclosure with or without source protection. Score headline predictions, constraint-specific predictions, causal-intervention predictions, remedies, and reliance decisions separately. Measure discovery value separately from practical audit benefit.
 
 ## Needed Controls
 
@@ -39,7 +39,7 @@ Internal evidence may improve some audit decisions, but the benefit depends on t
 - Do not generalize from deliberately injected failures to all deployment failures, or from agent evaluators to human auditors.
 - Report uncertainty, null results, and harms to calibration. Distinguish absence of demonstrated benefit from evidence ruling out a meaningful benefit. Distinguish predictive value, causal understanding, and user confidence.
 - Give methods equivalent case information apart from the intended difference in internal access, and competent implementation effort. Explanations must face plausible alternatives and counterexamples, not only examples selected to illustrate them.
-- Do not reward the number of labeled neurons or the visual appeal of a graph as evidence of safer behavior. A useful negative result may identify where a readable mechanism fails to predict a consequential action.
+- Do not reward labeled-neuron counts, visual appeal, or low average error as evidence that an explanation preserves consequential distinctions. Assess failures on prespecified constraints alongside aggregate performance. A concise cue-based explanation can be faithful to a flawed model; distinguish explanatory accuracy from the ethical quality of the behavior explained.
 
 ## Relationship to Existing Ideas
 
@@ -48,7 +48,7 @@ Provides a shared evaluation for FID-097 through FID-100 and connects to FID-078
 ## Outputs
 
 - A reproducible comparison of audit methods with calibrated predictions and resource accounting.
-- An evidence-card format reporting the behavior studied, model version, intervention evidence, tested scope, failures, and uncertainty; include normative assumptions and unresolved disagreement where relevant.
+- An evidence-card format reporting the behavior studied, consequential distinctions tested, model version, intervention evidence, scope, failures, and uncertainty; include normative assumptions and unresolved disagreement where relevant.
 - A human-auditor study protocol, and results only if that separately approved study is conducted.
 - A comparison record preserving source revisions, model and tool versions, competing explanations, prospective predictions, intervention trade-offs, and replication outcomes.
 

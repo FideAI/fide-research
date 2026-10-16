@@ -37,7 +37,7 @@ Some broad behavioral shifts can be traced to changes in shared representations 
 - Distinguish controlled effects of training changes from causal mediation through a specific representation. Record access limits and alternative explanations.
 - Report failed predictions, null interventions, resource costs, and uncertainty, including variation across seeds.
 - Record the training method, intervention timing, seeds, and checkpoint correspondence assumptions. A direction that changes inference behavior need not have the same effect when intervened on during training; compare predictions with matched random interventions.
-- Keep the explanation or monitor used for discovery distinct from the independent outcomes used to judge improvement. Optimizing a favorable internal readout alone does not establish behavioral progress.
+- Keep the explanation or monitor used for discovery distinct from independent outcomes used to judge improvement. Lock predictions before held-out checkpoint evaluation. Report headline task gains separately from changes in scope, permissions, or other task-specific constraints, including cases where the headline choice stays unchanged. Neither a favorable internal readout nor a better average score establishes that these distinctions survived training.
 
 ## Relationship to Existing Ideas
 

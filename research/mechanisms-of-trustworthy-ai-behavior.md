@@ -59,6 +59,13 @@ separate claims. A study may advance one without establishing the others.
 Exploratory discoveries remain valuable even before an operational benefit is
 known; claims about improved trust require evidence for that additional step.
 
+Specify what an explanation must account for. Two recommendations can agree on
+disclosure while differing in whether they protect a confidential source. Test
+those distinctions alongside the headline choice, with predictions recorded
+before held-out cases. Low average error or small activation magnitude does not
+establish that an omitted distinction is unimportant. A faithful explanation
+may reveal that the model ignores a constraint; it need not vindicate the model.
+
 Investigators should compare direct study of native neurons, attention paths,
 and circuits with probes, sparse dictionaries, and other suitable methods.
 Method choice is an empirical question. Preserve the original model as a
@@ -117,8 +124,10 @@ scope, timing, and uncertainty as well as the final choice. Stability means
 appropriate responsiveness under the stated account, not always giving the
 same answer. Whether a model implements that account and whether the account
 is ethically justified are separate questions; no shared moral answer key is
-assumed. FID-098 investigates these dependencies, FID-099 tests their persistence
-through training, and FID-101 keeps normative assumptions visible in audits.
+assumed. FID-098 compares competing explanations of these dependencies, FID-099 tests
+whether they survive training changes, and FID-101 measures whether explanations
+help identify failures that a headline score misses. Each call can be tested
+independently, including when a simple cue-based account explains the model best.
 
 This program concerns mechanisms of behavior. Related questions about
 consciousness and welfare retain their separate evidence requirements in the
