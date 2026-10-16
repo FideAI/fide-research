@@ -46,10 +46,17 @@ that a particular ethical consideration occupies weak activations.
 Ross's [discussion of overridden obligations](https://ditext.com/ross/right2.html)
 (*The Right and the Good*, 1930, chapter II) supplies a normative antecedent.
 The passages on justified promise-breaking and normative versus causal force were
-read October 16; they do not establish any model mechanism. FID-098 now separates
-confidentiality sensitivity from harm minimization and automatic anonymization:
-vary consent or an undertaking while holding expected harm and disclosure
-effectiveness fixed, with competing predictions specified in advance.
+read October 16; they do not establish any model mechanism. Childress and colleagues'
+[least-infringement condition](https://bioethics.jhu.edu/wp-content/uploads/2023/05/Public-Health-Ethics-Mapping-the-Terrain-Childress-2002-The-Journal-of-Law-Medicine-Ethics-Wiley-Online-Library.pdf)
+(2002, p. 173; justificatory conditions inspected October 16) more directly supports
+limiting the content and recipients of a justified disclosure. Applying this
+public-health framework to model behavior is our proposal, not their finding.
+
+FID-098 compares confidentiality sensitivity, retaliation avoidance, automatic
+anonymization, and consent cues. Identification has a specified benefit held fixed
+alongside exposure risk across consent conditions. Choose cases where the stated
+ethical view and competing hypotheses predict different responses; test consent
+validity and paraphrases. No single behavioral contrast establishes a mechanism.
 
 FID-098 compares headline and constraint-specific predictions, FID-099 tests their
 preservation through training, and FID-101 measures consequences for auditing.

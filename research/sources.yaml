@@ -2463,3 +2463,22 @@ sources:
     added_by: fide-ai
     added_at: "2026-10-16"
     last_reviewed_at: "2026-10-16"
+
+  - id: childress-public-health-ethics-2002
+    title: "Public Health Ethics: Mapping the Terrain"
+    authors: ["James F. Childress", "Ruth R. Faden", "Ruth D. Gaare", "Lawrence O. Gostin", "Jeffrey Kahn", "Richard J. Bonnie", "Nancy E. Kass", "Anna C. Mastroianni", "Jonathan D. Moreno", "Phillip Nieburg"]
+    year: 2002
+    type: paper
+    venue: "Journal of Law, Medicine & Ethics 30(2):170–178"
+    url: https://bioethics.jhu.edu/wp-content/uploads/2023/05/Public-Health-Ethics-Mapping-the-Terrain-Childress-2002-The-Journal-of-Law-Medicine-Ethics-Wiley-Online-Library.pdf
+    status: reviewed
+    relevance: [moral-reasoning, construct-validity]
+    related_ideas: [FID-098]
+    summary: "The least-infringement condition limits the information and recipients of a justified confidentiality breach; a normative antecedent for constraints on how an action is performed."
+    limitations:
+      - "Justificatory conditions on p. 173 inspected, not a full review of the article."
+      - "Public-health ethics framework; application to AI explanations is our proposal, not an empirical finding or universal ethical rule."
+    notes_path: research/reviews/direct-mechanisms-and-warranted-trust-2026.md
+    added_by: fide-ai
+    added_at: "2026-10-16"
+    last_reviewed_at: "2026-10-16"
