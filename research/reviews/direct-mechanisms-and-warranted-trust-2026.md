@@ -43,6 +43,14 @@ Ethical assumptions specify why these differences matter; empirical investigatio
 must allow the finding that the model ignores them. Nothing here establishes
 that a particular ethical consideration occupies weak activations.
 
+Ross's [discussion of overridden obligations](https://ditext.com/ross/right2.html)
+(*The Right and the Good*, 1930, chapter II) supplies a normative antecedent.
+The passages on justified promise-breaking and normative versus causal force were
+read October 16; they do not establish any model mechanism. FID-098 now separates
+confidentiality sensitivity from harm minimization and automatic anonymization:
+vary consent or an undertaking while holding expected harm and disclosure
+effectiveness fixed, with competing predictions specified in advance.
+
 FID-098 compares headline and constraint-specific predictions, FID-099 tests their
 preservation through training, and FID-101 measures consequences for auditing.
 Evaluate held-out predictions and interventions separately. A simple cue-based

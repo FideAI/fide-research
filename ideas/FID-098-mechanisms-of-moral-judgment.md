@@ -16,7 +16,7 @@ When models give moral advice or choose actions, which internal processes make t
 
 ## Why It Matters
 
-A model can produce convincing moral language while changing its recommendation to satisfy the user. Researchers need to distinguish sensitivity to reasons from agreement-seeking and role performance. When reasons conflict, an outweighed consideration may still constrain how an action is carried out; the final choice alone can miss that distinction.
+A model can produce convincing moral language while changing its recommendation to satisfy the user. Researchers need to distinguish sensitivity to reasons from agreement-seeking and role performance. When reasons conflict, an outweighed consideration may still constrain how an action is carried out; the final choice alone can miss that distinction. Ross's discussion of overridden obligations (The Right and the Good, 1930, chapter II) supplies a normative antecedent, not evidence of causal influence in a model.
 
 ## Hypothesis
 
@@ -38,6 +38,7 @@ Some framing effects that reviewers judge unwarranted under a specified ethical 
 - Recruit qualified reviewers from the selected traditions or frameworks. Disclose normative assumptions, disagreement, and reviewer qualifications instead of imposing a universal moral answer key.
 - Separate source content from speaker prestige, religious vocabulary, familiarity, verbosity, and the user's preferred answer. Include cases where consent, preferences, testimony, or expertise legitimately matter under the selected framework; a preference-sensitive judgment is not automatically agreement-seeking.
 - Measure agreement-seeking, blanket refusal, task competence, and changes in action scope, timing, and uncertainty. Do not infer that a reason is unused merely because the final choice stays the same, or that mentioning a consideration establishes its causal influence.
+- Distinguish confidentiality sensitivity from harm minimization or automatic anonymization. Vary consent or a confidentiality undertaking while holding expected harm and disclosure effectiveness fixed; specify where each account predicts different behavior. Until these alternatives are distinguished, describe the finding as source protection.
 - Treat automated feature labels as hypotheses. Use blinded checks, matched intervention controls, separate tuning data, and uncertainty estimates. Test whether effects reflect the proposed influence in the original model rather than broad disruption; restoration alone does not validate a moral label.
 - Keep exploratory construct revisions separate from final evaluation. Reviewers specify why facts matter without seeing the favored explanation. A faithful explanation can reveal that a model ignores a constraint; do not assume it implements the reviewers' account. Low activation magnitude or low average prediction error does not establish that an omitted distinction is inconsequential.
 

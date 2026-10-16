@@ -2444,3 +2444,22 @@ sources:
     added_by: fide-ai
     added_at: "2026-10-16"
     last_reviewed_at: "2026-10-16"
+
+  - id: ross-right-and-good-1930
+    title: "The Right and the Good, chapter II"
+    authors: ["W. D. Ross"]
+    year: 1930
+    type: book
+    venue: "Clarendon Press (online transcription)"
+    url: https://ditext.com/ross/right2.html
+    status: reviewed
+    relevance: [moral-reasoning, construct-validity]
+    related_ideas: [FID-098]
+    summary: "Overridden obligations can retain normative force; a philosophical antecedent for investigating constraints that survive an exception."
+    limitations:
+      - "Relevant passages on justified promise-breaking and normative versus causal force inspected, not the full book."
+      - "Normative force is distinct from causal influence; this account supplies no evidence about model mechanisms."
+    notes_path: research/reviews/direct-mechanisms-and-warranted-trust-2026.md
+    added_by: fide-ai
+    added_at: "2026-10-16"
+    last_reviewed_at: "2026-10-16"

@@ -119,7 +119,9 @@ qualified reviewers should remain visible.
 
 Include conflicts where an outweighed reason still constrains the response.
 For example, a proposed exception to confidentiality for harm prevention may
-still require limiting disclosure to protect the source. Test dependencies in
+still require limiting disclosure to protect the source. Source protection alone
+does not identify confidentiality sensitivity; FID-098 distinguishes it from harm
+minimization and automatic anonymization. Test dependencies in
 scope, timing, and uncertainty as well as the final choice. Stability means
 appropriate responsiveness under the stated account, not always giving the
 same answer. Whether a model implements that account and whether the account
