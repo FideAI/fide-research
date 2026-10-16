@@ -34,7 +34,7 @@ Internal evidence may improve some audit decisions, but the benefit depends on t
 
 ## Needed Controls
 
-- Use capable behavioral baselines and held-out ground truth; do not treat an attractive model-generated explanation as the answer key.
+- Use capable behavioral baselines and independently checkable held-out outcomes; do not treat an attractive model-generated explanation as the answer key. Distinguish factual ground truth from framework-dependent ethical judgments. For moral tasks, preregister the normative assumptions, preserve reviewer disagreement, and score prediction of behavior separately from endorsement of the action.
 - Blind evaluators to the favored explanation and separate discovery cases from test cases. Assess whether explanations merely repeat evidence already visible in the transcript.
 - Do not generalize from deliberately injected failures to all deployment failures, or from agent evaluators to human auditors.
 - Report uncertainty, null results, and harms to calibration. Distinguish absence of demonstrated benefit from evidence ruling out a meaningful benefit. Distinguish predictive value, causal understanding, and user confidence.
@@ -48,7 +48,7 @@ Provides a shared evaluation for FID-097 through FID-100 and connects to FID-078
 ## Outputs
 
 - A reproducible comparison of audit methods with calibrated predictions and resource accounting.
-- An evidence-card format reporting the behavior studied, model version, intervention evidence, tested scope, failures, and uncertainty.
+- An evidence-card format reporting the behavior studied, model version, intervention evidence, tested scope, failures, and uncertainty; include normative assumptions and unresolved disagreement where relevant.
 - A human-auditor study protocol, and results only if that separately approved study is conducted.
 - A comparison record preserving source revisions, model and tool versions, competing explanations, prospective predictions, intervention trade-offs, and replication outcomes.
 

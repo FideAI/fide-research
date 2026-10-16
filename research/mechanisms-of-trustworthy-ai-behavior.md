@@ -1,6 +1,6 @@
 # Mechanisms of Trustworthy AI Behavior
 
-Open calls for collaboration · Updated October 15, 2026
+Open calls for collaboration · Updated October 16, 2026
 
 We want to understand what makes a model use evidence, weigh moral reasons,
 respond to pressure, and accept correction. We invite collaborators to connect
@@ -105,9 +105,20 @@ incentives or instructions conflict. A model's stated motive is evidence to
 investigate, not proof of a subjective desire.
 
 For **moral reasoning**, researchers must state the ethical frameworks and
-reviewer assumptions shaping a task. A change in moral vocabulary, an internal
-representation of a concept, and a change in consequential action are different
-outcomes. Disagreement between qualified reviewers should remain visible.
+reviewer assumptions shaping a task before specifying causal predictions. A
+change in moral vocabulary, an internal representation of a concept, and a
+change in consequential action are different outcomes. Disagreement between
+qualified reviewers should remain visible.
+
+Include conflicts where an outweighed reason still constrains the response.
+For example, a proposed exception to confidentiality for harm prevention may
+still require limiting disclosure to protect the source. Test dependencies in
+scope, timing, and uncertainty as well as the final choice. Stability means
+appropriate responsiveness under the stated account, not always giving the
+same answer. Whether a model implements that account and whether the account
+is ethically justified are separate questions; no shared moral answer key is
+assumed. FID-098 investigates these dependencies, FID-099 tests their persistence
+through training, and FID-101 keeps normative assumptions visible in audits.
 
 This program concerns mechanisms of behavior. Related questions about
 consciousness and welfare retain their separate evidence requirements in the

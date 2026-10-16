@@ -25,7 +25,7 @@ Some broad behavioral shifts can be traced to changes in shared representations 
 ## Proposed Method
 
 - Begin with accessible checkpoints and controlled post-training experiments. Hold data volume, task distribution, and optimization settings constant where possible while varying one proposed cause of change.
-- Measure behavior and candidate representations at multiple checkpoints. Compare simple behavioral monitoring, persona-vector methods, and more detailed mechanistic analysis.
+- Measure behavior and candidate representations at multiple checkpoints. Compare simple behavioral monitoring, persona-vector methods, and more detailed mechanistic analysis. Vary relevant facts separately from irrelevant pressure; define stability through appropriate responsiveness rather than repeated answers. For moral tasks, state the normative account used to predict these dependencies.
 - Follow candidate native circuits and their inputs and outputs across training checkpoints, alongside vector-based measurements. Test whether a change reuses existing computations, changes their connections, or introduces a new influence; do not assume every behavior has one trait direction.
 - Compare mechanism-informed data or objective changes with ordinary data cleanup and inference-time steering. Preserve strong baselines and explicit compute accounting. Hold an independent behavioral test set outside all optimization. Separate effects while steering is enabled from persistent changes after it is removed; test unseen topics and multi-turn pressure.
 - Repeat across seeds and another model family. Extend to pretraining checkpoints only where access permits an informative comparison.
@@ -33,7 +33,7 @@ Some broad behavioral shifts can be traced to changes in shared representations 
 ## Needed Controls
 
 - Separate trait-discovery data, intervention tuning, and final evaluation. Avoid training on the same wording used to define the trait.
-- Track useful capability, overrefusal, calibration, and changes to other dispositions; gains on one target must not conceal losses elsewhere.
+- Track useful capability, overrefusal, calibration, and changes to other dispositions; gains on one target must not conceal losses elsewhere. For permission-sensitive tasks, pair unauthorized and authorized actions. For moral conflicts, test whether an outweighed consideration still constrains scope or timing under the stated account. Increased refusal or stronger trait activation alone is not an improvement.
 - Distinguish controlled effects of training changes from causal mediation through a specific representation. Record access limits and alternative explanations.
 - Report failed predictions, null interventions, resource costs, and uncertainty, including variation across seeds.
 - Record the training method, intervention timing, seeds, and checkpoint correspondence assumptions. A direction that changes inference behavior need not have the same effect when intervened on during training; compare predictions with matched random interventions.
