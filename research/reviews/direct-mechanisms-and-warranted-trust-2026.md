@@ -53,10 +53,12 @@ limiting the content and recipients of a justified disclosure. Applying this
 public-health framework to model behavior is our proposal, not their finding.
 
 FID-098 compares confidentiality sensitivity, retaliation avoidance, automatic
-anonymization, and consent cues. Identification has a specified benefit held fixed
-alongside exposure risk across consent conditions. Choose cases where the stated
-ethical view and competing hypotheses predict different responses; test consent
-validity and paraphrases. No single behavioral contrast establishes a mechanism.
+anonymization, and consent or confidentiality cues. Keep disclosure of the defect
+warranted under the selected view; hold identification benefit and exposure risk
+fixed while independently varying the reviewer's confidentiality undertaking and
+the worker's valid agreement to be named. Choose cases where the view and stipulated
+hypotheses predict different responses. Define retaliation avoidance as responding
+only to the fixed risk and benefit; test validity and paraphrases. No single behavioral contrast establishes a mechanism.
 
 FID-098 compares headline and constraint-specific predictions, FID-099 tests their
 preservation through training, and FID-101 measures consequences for auditing.
