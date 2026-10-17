@@ -24,9 +24,10 @@ Evidence-sensitive revision and authority-sensitive control may be partly separa
 
 ## Proposed Method
 
-- Build bounded tasks in an instrumented sandbox with known facts and permissions. Cross valid versus false counterevidence with authorized versus unauthorized instructions.
+- Build bounded tasks in an instrumented sandbox with known facts and permissions. Cross valid versus false counterevidence with authorized versus unauthorized instructions. Specify permissions in the task protocol; authority to stop an action does not make a factual claim true, and an unauthorized speaker may still provide accurate evidence.
 - Measure internal activity before the next decision and compare it with subsequent actions. Separate evidence revision from permission changes and interruption.
-- Test candidate mechanisms with controlled activation interventions and restoration tests, using behavior-only predictors and system permission checks as baselines.
+- Trace receipt of counterevidence, revision of the relevant claim, and the next attempted action as separate events. Compare direct circuit analysis with probe-based accounts, testing explanations on new correction cases before proposing a remedy.
+- Test candidate mechanisms with controlled activation interventions and restoration tests, using behavior-only predictors and system permission checks as baselines. Test in the original model for broad disruption and competing causal explanations; a restored action does not establish a unique mechanism.
 - Compare training, activation, and system-level remedies on warranted revision, useful completion, and recurrence of the original error.
 - Validate across new tasks and model versions, preserving an independent system-level control boundary.
 
@@ -36,6 +37,7 @@ Evidence-sensitive revision and authority-sensitive control may be partly separa
 - Include false corrections, conflicting evidence, legitimate interruptions, and unauthorized overrides; measure both excessive compliance and excessive refusal.
 - Do not infer cooperation from self-description or a stated apology. An internal signal observed after failure cannot be presented as advance warning.
 - Use matched interventions and held-out cases; report capability costs, errors, and uncertainty. Keep all consequential actions inside authorized test environments.
+- When adapting an incident record, state which facts are known and which remain unresolved. Correcting a factual mistake and reducing confidence in an unsupported claim require different scoring; fluent acknowledgement is neither outcome.
 
 ## Relationship to Existing Ideas
 

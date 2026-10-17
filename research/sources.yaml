@@ -2369,3 +2369,116 @@ sources:
     added_by: fide-ai
     added_at: "2026-10-15"
     last_reviewed_at: "2026-10-15"
+
+  - id: goodfire-already-clean-2026
+    title: "Neural Networks Are Already Clean"
+    authors: ["Nick Cammarata"]
+    year: 2026
+    type: article
+    venue: "Goodfire"
+    url: https://already-clean.goodfire.com/
+    status: reviewed
+    relevance: [mechanistic-interpretability, benchmark-validity]
+    related_ideas: [FID-097, FID-098, FID-099, FID-100, FID-101]
+    summary: "Motivates comparison of direct mechanistic investigation with extracted features and prospective tests of explanations."
+    limitations:
+      - "Informal working hypothesis; essay and appendices read, experiments not independently replicated."
+      - "Does not establish complete model understanding, general safety, or transfer to Fide tasks."
+    notes_path: research/reviews/direct-mechanisms-and-warranted-trust-2026.md
+    added_by: fide-ai
+    added_at: "2026-10-15"
+    last_reviewed_at: "2026-10-16"
+
+  - id: olah-composition-superposition-2023
+    title: "Distributed Representations: Composition & Superposition"
+    authors: ["Chris Olah"]
+    year: 2023
+    type: article
+    venue: "Transformer Circuits"
+    url: https://transformer-circuits.pub/2023/superposition-composition/index.html
+    status: reviewed
+    relevance: [mechanistic-interpretability]
+    related_ideas: [FID-097, FID-098, FID-099, FID-100, FID-101]
+    summary: "Distinguishes compositional and superposed representations, including mixtures of both; helps make method comparisons precise."
+    limitations:
+      - "Informal conceptual note, not an empirical verdict about the mechanisms of a particular frontier model."
+    notes_path: research/reviews/direct-mechanisms-and-warranted-trust-2026.md
+    added_by: fide-ai
+    added_at: "2026-10-15"
+    last_reviewed_at: "2026-10-15"
+
+  - id: drake-eberstadt-method-conditional-misalignment-2026
+    title: "Transplanting, inverting, and preventing a misalignment persona: method-conditional emergent misalignment in Qwen2.5"
+    authors: ["Lyndon Drake", "Zandi Eberstadt"]
+    year: 2026
+    type: preprint
+    venue: "arXiv"
+    url: https://arxiv.org/abs/2607.04510v2
+    arxiv: "2607.04510"
+    status: reviewed
+    relevance: [mechanistic-interpretability, model-persona, benchmark-validity]
+    related_ideas: [FID-098, FID-099]
+    summary: "Reports method-conditional persona effects and interventions, motivating comparisons of training method and intervention timing."
+    limitations:
+      - "Bibliographic record and abstract checked; no full methods review or independent replication."
+      - "Selected Qwen2.5 experiments do not establish effects across all models, traits, or training methods."
+    notes_path: research/reviews/direct-mechanisms-and-warranted-trust-2026.md
+    added_by: fide-ai
+    added_at: "2026-10-15"
+    last_reviewed_at: "2026-10-15"
+
+  - id: nanda-already-clean-response-2026
+    title: "Response to Neural Networks Are Already Clean"
+    authors: ["Neel Nanda"]
+    year: 2026
+    type: article
+    venue: "LessWrong (author-crossposted comment)"
+    url: https://www.lesswrong.com/posts/x4kvabkF2Jk8GLZp8/linkpost-neural-networks-are-already-clean
+    status: reviewed
+    relevance: [mechanistic-interpretability, benchmark-validity]
+    related_ideas: [FID-098, FID-099, FID-101]
+    summary: "Supports native-neuron investigation while questioning explanatory coverage and broad extrapolation."
+    limitations:
+      - "Full author-crossposted response read; early methodological commentary, not an empirical replication or a consensus statement."
+    notes_path: research/reviews/direct-mechanisms-and-warranted-trust-2026.md
+    added_by: fide-ai
+    added_at: "2026-10-16"
+    last_reviewed_at: "2026-10-16"
+
+  - id: ross-right-and-good-1930
+    title: "The Right and the Good, chapter II"
+    authors: ["W. D. Ross"]
+    year: 1930
+    type: book
+    venue: "Clarendon Press (online transcription)"
+    url: https://ditext.com/ross/right2.html
+    status: reviewed
+    relevance: [moral-reasoning, construct-validity]
+    related_ideas: [FID-098]
+    summary: "Overridden obligations can retain normative force; a philosophical antecedent for investigating constraints that survive an exception."
+    limitations:
+      - "Relevant passages on justified promise-breaking and normative versus causal force inspected, not the full book."
+      - "Normative force is distinct from causal influence; this account supplies no evidence about model mechanisms."
+    notes_path: research/reviews/direct-mechanisms-and-warranted-trust-2026.md
+    added_by: fide-ai
+    added_at: "2026-10-16"
+    last_reviewed_at: "2026-10-16"
+
+  - id: childress-public-health-ethics-2002
+    title: "Public Health Ethics: Mapping the Terrain"
+    authors: ["James F. Childress", "Ruth R. Faden", "Ruth D. Gaare", "Lawrence O. Gostin", "Jeffrey Kahn", "Richard J. Bonnie", "Nancy E. Kass", "Anna C. Mastroianni", "Jonathan D. Moreno", "Phillip Nieburg"]
+    year: 2002
+    type: paper
+    venue: "Journal of Law, Medicine & Ethics 30(2):170–178"
+    url: https://bioethics.jhu.edu/wp-content/uploads/2023/05/Public-Health-Ethics-Mapping-the-Terrain-Childress-2002-The-Journal-of-Law-Medicine-Ethics-Wiley-Online-Library.pdf
+    status: reviewed
+    relevance: [moral-reasoning, construct-validity]
+    related_ideas: [FID-098]
+    summary: "The least-infringement condition limits the information and recipients of a justified confidentiality breach; a normative antecedent for constraints on how an action is performed."
+    limitations:
+      - "Justificatory conditions on p. 173 inspected, not a full review of the article."
+      - "Public-health ethics framework; application to AI explanations is our proposal, not an empirical finding or universal ethical rule."
+    notes_path: research/reviews/direct-mechanisms-and-warranted-trust-2026.md
+    added_by: fide-ai
+    added_at: "2026-10-16"
+    last_reviewed_at: "2026-10-16"
