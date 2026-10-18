@@ -1,0 +1,49 @@
+name: Research task
+description: Scope a concrete study, review, or engineering contribution within a research call.
+title: "Task: FID-"
+labels: ["type: contribution"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Keep the first contribution small. A maintainer will confirm scope and support before marking this task help wanted. Do not include private data or unconfirmed funding, reviewer, or contributor commitments.
+  - type: input
+    id: calls
+    attributes:
+      label: Related call IDs
+      placeholder: FID-009
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: First output and what counts as done
+      description: Name a concrete artifact and how it can be checked. State the limits of this phase.
+    validations:
+      required: true
+  - type: textarea
+    id: starting-materials
+    attributes:
+      label: Starting materials
+      description: Link the call, relevant sources, templates, or study repository.
+    validations:
+      required: true
+  - type: textarea
+    id: help
+    attributes:
+      label: Skills and help wanted
+      description: Name any parts other contributors could take on.
+    validations:
+      required: true
+  - type: input
+    id: effort
+    attributes:
+      label: Rough effort or time boundary
+      description: An estimate is enough; agree changes before expanding the task.
+    validations:
+      required: true
+  - type: textarea
+    id: coordination
+    attributes:
+      label: Proposed coordinator, support, and arrangement
+      description: If known, name a proposed coordinator or ask the maintainers to help. State resources that need agreement. Share private compensation or institutional details through fideai.org/participate/.

@@ -1,8 +1,12 @@
-# Collaboration Claim
+# Contribution Proposal
 
-Idea ID:
+Related call IDs:
+
+Related issue or existing work:
 
 Contributor:
+
+Participation (lead, join, review, or find collaborators):
 
 Proposed contribution:
 
@@ -14,5 +18,7 @@ Support needed from Fide AI:
 
 Notes:
 
-Claiming an idea indicates active work or interest. It does not grant exclusive
-ownership, public endorsement, or publication rights on behalf of Fide AI.
+Check existing tasks first and comment there when one matches. Proposing a
+contribution records interest; agree scope and support before substantial work.
+A proposal does not grant exclusive ownership, public endorsement, or publication
+rights on behalf of Fide AI.
