@@ -1,7 +1,8 @@
 # Fide AI Research
 
-Fide AI's public research agenda and record of released work on trustworthy AI
-in consequential settings. Browse the [publication catalog](publications/README.md),
+Fide AI is a lab researching and building more trustworthy AI across models,
+systems, and consequential settings. This is our public research agenda and
+record of released work. Browse the [publication catalog](publications/README.md),
 explore the [research calls](#idea-index), or [contribute](CONTRIBUTING.md).
 
 This is the existing research commons, formerly named `research-ideas`. Its
@@ -49,8 +50,8 @@ completed findings.
 - **101 open research ideas**
 - **9 research areas** organized around the question being investigated
 - **11 application domains** spanning cross-domain work and consequential settings
-- **4 public issue paths** for proposing ideas, claiming work, commenting on
-  methodology, and volunteering as a reviewer
+- **5 public issue paths** for proposing ideas, offering contributions, scoping
+  research tasks, commenting on methodology, and volunteering as a reviewer
 - **2 separate feeds:** `dist/research-ideas.json` for calls and
   `dist/publications.json` for registered releases
 - An initial [publication catalog](publications/README.md), expanded as released
@@ -72,19 +73,26 @@ completed findings.
 
 ## How to Participate
 
-Use the lowest-friction path that fits your contribution:
+- **[Find a task](https://github.com/FideAI/fide-research/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22):** browse concrete contributions with an output and support needs.
+- **[Start small](https://github.com/FideAI/fide-research/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22good%20first%20issue%22):** find bounded first contributions with starting materials.
+- **[Propose a contribution](https://github.com/FideAI/fide-research/issues/new?template=claim-research-idea.yml):** suggest work on a call when no matching task exists.
+- **[Find a fit or collaborators](https://github.com/FideAI/fide-research/issues/1):** introduce your interests and the help you can offer.
 
-- **Propose a new idea:** open a `Research idea` issue.
-- **Improve an existing idea:** comment on the issue or open a pull request
-  against the relevant file in `ideas/`.
-- **Claim or help with an idea:** open a `Claim or help with an idea` issue.
-- **Volunteer as a reviewer:** open a `Reviewer interest` issue.
-- **Suggest controls or related work:** open a `Comment on methodology` issue.
-- **Start privately first:** use the contact path on `fideai.org/participate`
-  if your context involves sensitive personal, institutional, community, or
-  operational information that should not start in a public GitHub issue.
+To join an existing task, comment with the piece you can take on, your rough
+availability, and a proposed first output. Alex Chao ([@alexchaomander](https://github.com/alexchaomander)) or the coordinator will
+check overlapping work and agree the first step. A claim is nonexclusive: it
+records a contribution, not ownership of an entire research call.
 
-See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the full contributor guide.
+GitHub holds task scope, responsibility, and outputs. We use a small, personally
+invited Discord group for conversation and collaboration; Alex reviews fit before
+sharing invitations. Public GitHub contributions do not require Discord membership.
+No repeat form is needed when we have already connected through an existing
+relationship. For private context, use the contact route on
+[fideai.org/participate](https://fideai.org/participate/).
+
+You can also propose a research idea, comment on methodology, volunteer as a
+reviewer, or improve a brief through the [issue chooser](https://github.com/FideAI/fide-research/issues/new/choose).
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the short task workflow and guidance.
 
 ## Research Taxonomy
 

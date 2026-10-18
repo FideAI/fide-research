@@ -1,7 +1,9 @@
 # Contributing to Fide AI Research
 
-Fide AI welcomes public research ideas, methodology comments, replication plans,
-reviewer interest, implementation help, and institutional use cases.
+Fide AI is a lab researching and building more trustworthy AI across models and
+systems. We welcome research ideas, methodology comments, replication plans,
+reviewer interest, implementation help, and institutional use cases across
+consequential domains, including faith and religious life.
 
 This repository maintains research calls and a catalog of released work. Calls
 remain hypotheses and collaboration invitations until a report, benchmark,
@@ -68,22 +70,60 @@ Use a `Comment on methodology` issue or open a pull request against a file in
 - clearer public claim boundaries;
 - more concrete outputs.
 
-### 3. Claim or help with an idea
+### 3. Find a task or propose a contribution
 
-Open a `Claim or help with an idea` issue when you want to actively contribute.
-Be specific about what you can do:
+Browse [tasks needing help](https://github.com/FideAI/fide-research/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22)
+or [small first contributions](https://github.com/FideAI/fide-research/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22good%20first%20issue%22).
+Research calls are broad questions; task issues describe a concrete study,
+review, tool, or contribution within one or more calls.
 
-- draft a protocol;
-- build an evaluation runner;
-- review prompts or outputs;
-- design a rubric;
-- run a replication;
-- analyze results;
-- recruit reviewers;
-- help write a report.
+1. **Join an existing task:** comment with the part you can help with, rough
+   availability, and a proposed first output. Check the issue's assignees and
+   named coordinator to see who is already involved.
+2. **Propose work:** if no matching task exists, use the `Propose a contribution`
+   form with the related FID ID, first output, and any support needed. You can
+   offer to lead, join, review, or find collaborators. An early proposal is welcome.
+3. **Agree a first step:** Alex Chao ([@alexchaomander](https://github.com/alexchaomander)) or the coordinator checks overlaps and confirms
+   scope and support in the issue. Before substantive work, agree the time
+   boundary, paid or volunteer arrangement, credit, and relevant ownership,
+   licensing, confidentiality, and publication expectations. Opening an issue
+   does not commit Fide to funding or supervision.
+4. **Coordinate and share:** use the same issue for scope decisions and outputs.
+   Link it from Discord if useful; a duplicate proposal or status report is not
+   required. Code and scientific artifacts belong in the appropriate study
+   repository, linked from the issue.
 
-Claiming an idea is not an exclusive ownership claim. It is a signal that you
-want to coordinate on a concrete piece of work.
+Claiming a task is nonexclusive and does not reserve the whole research call.
+Several people can contribute distinct pieces. To find collaborators, say what
+help remains useful in the issue. If you are still finding a direction, comment
+on [Start here](https://github.com/FideAI/fide-research/issues/1) or contact Alex
+privately through [Participate](https://fideai.org/participate/).
+
+Our Discord group grows through personal invitations after a review of fit.
+GitHub participation does not automatically grant server access, and Discord
+membership is optional for contributing here. Keep private contact details and
+sensitive context out of public issues.
+
+#### Publish and maintain a research task
+
+Use the `Research task` form or [task template](templates/research-task.md).
+Include the related calls, output and completion criterion, starting materials,
+useful skills, rough effort, open collaborator roles, and a coordinator or review
+route. A maintainer confirms the scope and support before adding `help wanted`.
+Start with a few useful tasks rather than creating an issue for every call.
+
+| Signal | Meaning |
+| --- | --- |
+| `type: contribution` | A proposed contribution or task; scope may still need agreement. |
+| `help wanted` | A specific contribution is open; the issue explains how to help. |
+| `good first issue` | A bounded newcomer task with starting materials and available support. |
+| `in progress` | Agreed work has actually begun. |
+| Assignee or named coordinator | Who owns the next step; additional contributors can be named in the thread. |
+| Closed issue | The agreed contribution ended; link its output, review status, and credit. |
+
+An active issue can retain `help wanted` if it names a useful unclaimed part.
+When work pauses, remove `in progress` and clarify the next step. A task label
+never changes the parent call's status or establishes a research finding.
 
 ### 4. Volunteer as a reviewer
 
