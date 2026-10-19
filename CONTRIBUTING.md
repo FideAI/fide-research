@@ -11,10 +11,12 @@ You can lead or co-lead work, join a project, review, or find collaborators.
 A complete research proposal or institutional affiliation is not required.
 
 1. **Introduce yourself once.** Use the [Fide AI Contributor Network interest form](https://forms.gle/XbpAFAy6No8WKcRMA)
-   to share your contact details privately, background, interests, and availability.
-   Include your GitHub profile under professional links so we can connect your
-   introduction with your research contributions. If you already have a contributor
-   record or have introduced yourself directly, confirm or update those details
+   with your name, email, and a sentence or two about your skills and what you'd
+   like to help with. Those are the only required answers. You can finish there
+   or choose to add optional details such as interests, availability, or a GitHub
+   profile. Tick the optional follow-up box if you would like us to contact you.
+   If you already have a contributor record or have introduced yourself directly,
+   confirm or update those details
    through [Participate](https://fideai.org/participate/) rather than submitting a
    duplicate. A GitHub comment alone does not register your contributor details.
 2. **Choose a starting point.** Browse [tasks needing help](https://github.com/FideAI/fide-research/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22)

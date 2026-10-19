@@ -74,7 +74,8 @@ completed findings.
 ## How to Participate
 
 Start with the [contributor guide](CONTRIBUTING.md#start-here-join-a-research-call)
-for a one-time Contributor Network introduction and a first research contribution.
+for a short Contributor Network introduction and a first research contribution.
+Only name, email, and a brief introduction are required; further detail is optional.
 
 - **[Find a task](https://github.com/FideAI/fide-research/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22):** browse concrete contributions with an output and support needs.
 - **[Start small](https://github.com/FideAI/fide-research/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22good%20first%20issue%22):** find bounded first contributions with starting materials.
