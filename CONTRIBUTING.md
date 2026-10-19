@@ -1,7 +1,43 @@
 # Contributing to Fide AI Research
 
-Fide AI welcomes public research ideas, methodology comments, replication plans,
-reviewer interest, implementation help, and institutional use cases.
+Fide AI is a lab researching and building more trustworthy AI across models and
+systems. We welcome research ideas, methodology comments, replication plans,
+reviewer interest, implementation help, and institutional use cases across
+consequential domains, including faith and religious life.
+
+## Start here: join a research call
+
+You can lead or co-lead work, join a project, review, or find collaborators.
+A complete research proposal or institutional affiliation is not required.
+
+1. **Introduce yourself once.** Use the [Fide AI Contributor Network interest form](https://forms.gle/XbpAFAy6No8WKcRMA)
+   with your name, email, and a sentence or two about your skills and what you'd
+   like to help with. Those are the only required answers. You can finish there
+   or choose to add optional details such as interests, availability, or a GitHub
+   profile. Tick the optional follow-up box if you would like us to contact you.
+   If you already have a contributor record or have introduced yourself directly,
+   confirm or update those details
+   through [Participate](https://fideai.org/participate/) rather than submitting a
+   duplicate. A GitHub comment alone does not register your contributor details.
+2. **Choose a starting point.** Open a research brief and follow its discussion
+   link. Comment in the existing issue, or check for related threads before using
+   the prefilled form to start one. A question or a few sentences about what you
+   would like to work on is enough. You can also browse [tasks needing help](https://github.com/FideAI/fide-research/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22)
+   or [small first contributions](https://github.com/FideAI/fide-research/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22good%20first%20issue%22).
+   Comment on a matching task with the part you can help with and your rough
+   availability. To lead new work on a call, [propose a contribution](https://github.com/FideAI/fide-research/issues/new?template=claim-research-idea.yml)
+   with its FID ID and a small first output. Still exploring? Introduce your
+   interests in [Start here](https://github.com/FideAI/fide-research/issues/1)
+   to ask for a project or collaborators.
+3. **Agree one first output.** A maintainer or coordinator checks overlapping
+   work and confirms scope, support, and the next step. Coordinate public task
+   decisions and outputs in that issue; keep contact details and private terms
+   in the private introduction route.
+
+You can browse and discuss public tasks while making your introduction. The form
+records your interest; it does not automatically grant Discord access, a project
+placement, or funding. Discord is optional and invitations follow a review of fit.
+The detailed contribution paths below explain how to scope and share the work.
 
 This repository maintains research calls and a catalog of released work. Calls
 remain hypotheses and collaboration invitations until a report, benchmark,
@@ -68,22 +104,97 @@ Use a `Comment on methodology` issue or open a pull request against a file in
 - clearer public claim boundaries;
 - more concrete outputs.
 
-### 3. Claim or help with an idea
+### 3. Find a task or propose a contribution
 
-Open a `Claim or help with an idea` issue when you want to actively contribute.
-Be specific about what you can do:
+#### Join a call's conversation
 
-- draft a protocol;
-- build an evaluation runner;
-- review prompts or outputs;
-- design a rubric;
-- run a replication;
-- analyze results;
-- recruit reviewers;
-- help write a report.
+Each brief has a discussion link near the top. Calls with an existing starting
+thread link there directly. Other briefs offer a prefilled `Research call
+discussion` form and a search for existing threads. Check the search first: a
+new thread may have appeared since the brief was last updated. Use a matching
+thread rather than opening a separate issue for each contributor.
 
-Claiming an idea is not an exclusive ownership claim. It is a signal that you
-want to coordinate on a concrete piece of work.
+You can simply comment:
+
+> I'd like to work on the multimodal runner for FID-009. I can help with the
+> image/text ablations and would like to connect with others on evaluation design.
+
+Questions, related sources, collaborator offers, and progress can stay in that
+same issue. Offering to help signals interest; a maintainer or coordinator agrees
+the first output and can assign the contributor once the next step is clear.
+Assignment concerns that contribution, not exclusive ownership of the call.
+
+Create a call conversation when someone has something to discuss, not an empty
+issue for every brief. An existing task can serve as the starting conversation
+while the work is small. Split out and cross-link a task only when a distinct
+piece of work needs its own scope or tracking.
+
+The Contributor Network introduction is separate and happens once; joining another
+call does not require another form. A public discussion does not register private
+contact details or grant Discord access.
+
+#### Find or scope concrete work
+
+Browse [tasks needing help](https://github.com/FideAI/fide-research/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22)
+or [small first contributions](https://github.com/FideAI/fide-research/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22good%20first%20issue%22).
+Research calls are broad questions; task issues describe a concrete study,
+review, tool, or contribution within one or more calls.
+
+1. **Join an existing task:** comment with the part you can help with, rough
+   availability, and a proposed first output. Check the issue's assignees and
+   named coordinator to see who is already involved.
+2. **Propose work:** if no matching task exists, use the `Propose a contribution`
+   form with the related FID ID, first output, and any support needed. You can
+   offer to lead, join, review, or find collaborators. An early proposal is welcome.
+3. **Agree a first step:** Alex Chao ([@alexchaomander](https://github.com/alexchaomander)) or the coordinator checks overlaps and confirms
+   scope and support in the issue. Before substantive work, agree the time
+   boundary, paid or volunteer arrangement, credit, and relevant ownership,
+   licensing, confidentiality, and publication expectations. Opening an issue
+   does not commit Fide to funding or supervision. Keep private compensation
+   terms and institutional constraints in [Participate](https://fideai.org/participate/);
+   record only the non-sensitive scope and arrangement in the issue.
+4. **Coordinate and share:** use the same issue for scope decisions and outputs.
+   Link it from Discord if useful; a duplicate proposal or status report is not
+   required. Code and scientific artifacts belong in the appropriate study
+   repository, linked from the issue.
+
+Claiming a task is nonexclusive and does not reserve the whole research call.
+Several people can contribute distinct pieces. To find collaborators, say what
+help remains useful in the issue. If you are still finding a direction, comment
+on [Start here](https://github.com/FideAI/fide-research/issues/1) or contact Alex
+privately through [Participate](https://fideai.org/participate/).
+
+Our Discord group grows through personal invitations after a review of fit.
+GitHub participation does not automatically grant server access, and Discord
+membership is optional for contributing here. Keep private contact details and
+sensitive context out of public issues.
+
+#### Publish and maintain a research task
+
+Use the `Research task` form or [task template](templates/research-task.md).
+Include the related calls, output and completion criterion, starting materials,
+useful skills, rough effort, open collaborator roles, and a coordinator or review
+route. A maintainer confirms the scope and support before adding `help wanted`.
+Start with a few useful tasks rather than creating an issue for every call.
+
+When a call gets its first useful discussion or task issue, update the discussion
+link near the top of its brief to that issue. Keep the related-thread search link
+so other work remains discoverable. Use the FID ID in issue titles; for a new
+conversation, use `Discussion: FID-### — short title`. If the linked thread closes,
+keep it as context and point the brief to a current thread when work resumes.
+
+| Signal | Meaning |
+| --- | --- |
+| `type: contribution` | A proposed contribution or task; scope may still need agreement. |
+| `help wanted` | A specific contribution is open; the issue explains how to help. |
+| `good first issue` | A bounded newcomer task with starting materials and available support. |
+| `in progress` | Agreed work has actually begun. |
+| Assignee or named coordinator | Who owns the next step; additional contributors can be named in the thread. |
+| Closed issue | The agreed contribution ended; link its output, review status, and credit. |
+
+An active issue can retain `help wanted` if it names a useful unclaimed part.
+When work pauses, remove `in progress` and clarify the next step. A task label
+never changes the parent call's status or establishes a research finding.
 
 ### 4. Volunteer as a reviewer
 
@@ -120,6 +231,10 @@ ideas/FID-000-short-kebab-title.md
 
 Use the next available `FID-###` number unless a maintainer assigns one in an
 issue.
+
+Replace `FID-000` throughout the brief template, including the discussion and
+thread-search links. Point the discussion link to an existing issue when one
+fits; otherwise retain the prefilled form link. No empty issue is needed.
 
 Every idea brief should include:
 

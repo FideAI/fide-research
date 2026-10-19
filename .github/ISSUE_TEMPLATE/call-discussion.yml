@@ -1,0 +1,25 @@
+name: Research call discussion
+description: Ask a question, say you are exploring a call, or find collaborators.
+title: "Discussion: FID-"
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Check for existing threads for the call before starting another. If one fits, comment there instead. A question or a few sentences about what you would like to work on is enough; no project proposal is required.
+        Participation is nonexclusive and does not reserve the call or commit funding. Keep contact details and confidential material out of this public issue; use [Participate](https://fideai.org/participate/) for private context.
+  - type: textarea
+    id: call
+    attributes:
+      label: Research call
+      description: Keep the call ID, brief link, and thread-search link if they are already filled in.
+      placeholder: FID-009 and a link to its brief
+    validations:
+      required: true
+  - type: textarea
+    id: discussion
+    attributes:
+      label: What would you like to discuss or work on?
+      description: Ask a question, describe your interest, or name help you can offer or are looking for. A first output is optional at this stage.
+    validations:
+      required: true

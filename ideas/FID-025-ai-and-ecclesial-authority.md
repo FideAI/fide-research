@@ -12,6 +12,8 @@ Specific context: Christian churches and related institutions
 
 Primary need: ecclesiology, denominational polity, evaluation design
 
+[Start a call discussion / offer to help](https://github.com/FideAI/fide-research/issues/new?template=call-discussion.yml&title=Discussion%3A+FID-025+%E2%80%94+AI+and+Ecclesial+Authority&call=FID-025%0ABrief%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fblob%2Fmain%2Fideas%2FFID-025-ai-and-ecclesial-authority.md%0AExisting+threads%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fissues%3Fq%3Dis%253Aissue%2B%2522FID-025%2522%2Bin%253Atitle) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-025%22+in%3Atitle)
+
 ## Question
 
 When do AI systems improperly simulate, confuse, or override Christian ecclesial

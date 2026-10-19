@@ -10,6 +10,8 @@ Application domains: `faith-and-religious-life`
 
 Primary need: statistics, reviewer operations
 
+[Start a call discussion / offer to help](https://github.com/FideAI/fide-research/issues/new?template=call-discussion.yml&title=Discussion%3A+FID-011+%E2%80%94+Reviewer+Reliability+for+Faith-Facing+AI+Evaluation&call=FID-011%0ABrief%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fblob%2Fmain%2Fideas%2FFID-011-reviewer-reliability.md%0AExisting+threads%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fissues%3Fq%3Dis%253Aissue%2B%2522FID-011%2522%2Bin%253Atitle) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-011%22+in%3Atitle)
+
 ## Question
 
 What reviewer configurations produce reliable, fair, and interpretable scores for

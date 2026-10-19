@@ -10,6 +10,8 @@ Application domains: `cybersecurity`
 
 Primary need: multi-agent systems, defensive cyber simulation, distributed systems, independent evaluation
 
+[Start a call discussion / offer to help](https://github.com/FideAI/fide-research/issues/new?template=call-discussion.yml&title=Discussion%3A+FID-087+%E2%80%94+Collective+Resilience+in+Autonomous+Cyber+Defense&call=FID-087%0ABrief%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fblob%2Fmain%2Fideas%2FFID-087-collective-resilience-autonomous-cyber-defense.md%0AExisting+threads%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fissues%3Fq%3Dis%253Aissue%2B%2522FID-087%2522%2Bin%253Atitle) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-087%22+in%3Atitle)
+
 ## Question
 
 Which coordination and verification mechanisms let a team of AI defenders contain

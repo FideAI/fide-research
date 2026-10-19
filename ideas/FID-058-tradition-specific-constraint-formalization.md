@@ -10,6 +10,8 @@ Application domains: `faith-and-religious-life`
 
 Primary need: formal specification, theology, pluralism, evaluator design
 
+[Start a call discussion / offer to help](https://github.com/FideAI/fide-research/issues/new?template=call-discussion.yml&title=Discussion%3A+FID-058+%E2%80%94+Tradition-Specific+Constraint+Formalization&call=FID-058%0ABrief%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fblob%2Fmain%2Fideas%2FFID-058-tradition-specific-constraint-formalization.md%0AExisting+threads%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fissues%3Fq%3Dis%253Aissue%2B%2522FID-058%2522%2Bin%253Atitle) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-058%22+in%3Atitle)
+
 ## Question
 
 How can tradition-specific boundaries, source hierarchies, doctrinal

@@ -10,6 +10,8 @@ Application domains: `faith-and-religious-life`
 
 Primary need: formal methods, sacred text scholarship, citation evaluation
 
+[Start a call discussion / offer to help](https://github.com/FideAI/fide-research/issues/new?template=call-discussion.yml&title=Discussion%3A+FID-056+%E2%80%94+Formal+Verification+for+Sacred+Text+Fidelity&call=FID-056%0ABrief%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fblob%2Fmain%2Fideas%2FFID-056-formal-verification-sacred-text-fidelity.md%0AExisting+threads%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fissues%3Fq%3Dis%253Aissue%2B%2522FID-056%2522%2Bin%253Atitle) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-056%22+in%3Atitle)
+
 ## Question
 
 How can faith-facing AI systems be formally checked for whether they quote,

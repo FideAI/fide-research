@@ -10,6 +10,8 @@ Application domains: `cross-domain`, `faith-and-religious-life`
 
 Primary need: mechanistic interpretability, source-use evaluation, activation experiments, replication
 
+[Join the discussion / offer to help](https://github.com/FideAI/fide-research/issues/24) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-097%22+in%3Atitle)
+
 ## Question
 
 Which internal mechanisms contribute to whether a model checks a source, answers without retrieval, or admits that it cannot verify an answer when user pressure conflicts with evidence requirements?

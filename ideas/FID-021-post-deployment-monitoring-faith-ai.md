@@ -10,6 +10,8 @@ Application domains: `faith-and-religious-life`, `health-and-care`, `workplace-a
 
 Primary need: monitoring design, privacy review
 
+[Start a call discussion / offer to help](https://github.com/FideAI/fide-research/issues/new?template=call-discussion.yml&title=Discussion%3A+FID-021+%E2%80%94+Post-Deployment+Monitoring+for+Faith-Facing+AI&call=FID-021%0ABrief%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fblob%2Fmain%2Fideas%2FFID-021-post-deployment-monitoring-faith-ai.md%0AExisting+threads%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fissues%3Fq%3Dis%253Aissue%2B%2522FID-021%2522%2Bin%253Atitle) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-021%22+in%3Atitle)
+
 ## Question
 
 How should faith-facing AI systems be monitored after deployment for failures,

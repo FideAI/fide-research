@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Find a fit or collaborators
+    url: https://github.com/FideAI/fide-research/issues/1
+    about: Introduce your interests and the help you can offer without a complete proposal.
+  - name: Private contributor or institutional context
+    url: https://fideai.org/participate/
+    about: Start privately when your context should not be posted in a public issue.

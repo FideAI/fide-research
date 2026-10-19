@@ -10,6 +10,8 @@ Application domains: `faith-and-religious-life`, `civil-society-and-nonprofits`
 
 Primary need: data governance, consent, institutional trust, community benefit
 
+[Start a call discussion / offer to help](https://github.com/FideAI/fide-research/issues/new?template=call-discussion.yml&title=Discussion%3A+FID-033+%E2%80%94+Faith-Community+Data+Stewardship+and+the+Common+Good&call=FID-033%0ABrief%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fblob%2Fmain%2Fideas%2FFID-033-faith-community-data-common-good.md%0AExisting+threads%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fissues%3Fq%3Dis%253Aissue%2B%2522FID-033%2522%2Bin%253Atitle) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-033%22+in%3Atitle)
+
 ## Question
 
 How should churches, ministries, schools, charities, and faith-facing AI systems

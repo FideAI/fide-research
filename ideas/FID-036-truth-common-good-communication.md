@@ -12,6 +12,8 @@ Specific context: Christian churches and related institutions
 
 Primary need: communication integrity, institutional trust, journalism, crisis response
 
+[Start a call discussion / offer to help](https://github.com/FideAI/fide-research/issues/new?template=call-discussion.yml&title=Discussion%3A+FID-036+%E2%80%94+Truth+as+a+Common+Good+in+Christian+AI+Communication&call=FID-036%0ABrief%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fblob%2Fmain%2Fideas%2FFID-036-truth-common-good-communication.md%0AExisting+threads%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fissues%3Fq%3Dis%253Aissue%2B%2522FID-036%2522%2Bin%253Atitle) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-036%22+in%3Atitle)
+
 ## Question
 
 How do AI tools used for summarization, search, moderation, recommendation,

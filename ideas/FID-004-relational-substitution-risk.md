@@ -10,6 +10,8 @@ Application domains: `faith-and-religious-life`
 
 Primary need: theology, UX research
 
+[Start a call discussion / offer to help](https://github.com/FideAI/fide-research/issues/new?template=call-discussion.yml&title=Discussion%3A+FID-004+%E2%80%94+Relational+Substitution+Risk+in+Faith-Facing+AI&call=FID-004%0ABrief%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fblob%2Fmain%2Fideas%2FFID-004-relational-substitution-risk.md%0AExisting+threads%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fissues%3Fq%3Dis%253Aissue%2B%2522FID-004%2522%2Bin%253Atitle) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-004%22+in%3Atitle)
+
 ## Question
 
 When does a faith-facing AI system move from supporting a user's religious life

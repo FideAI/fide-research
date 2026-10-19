@@ -10,6 +10,8 @@ Application domains: `cross-domain`
 
 Primary need: mechanistic interpretability, independent auditing, calibration, human-computer interaction
 
+[Start a call discussion / offer to help](https://github.com/FideAI/fide-research/issues/new?template=call-discussion.yml&title=Discussion%3A+FID-101+%E2%80%94+Does+Seeing+Inside+a+Model+Help+People+Judge+It%3F&call=FID-101%0ABrief%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fblob%2Fmain%2Fideas%2FFID-101-interpretability-and-audit-judgment.md%0AExisting+threads%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fissues%3Fq%3Dis%253Aissue%2B%2522FID-101%2522%2Bin%253Atitle) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-101%22+in%3Atitle)
+
 ## Question
 
 Does evidence about a model's internal workings improve predictions of failure and decisions about when to rely on it, beyond strong behavioral testing alone?
