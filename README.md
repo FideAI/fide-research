@@ -42,7 +42,9 @@ moral judgment, behavioral dispositions, and appropriate correction, and whether
 internal evidence improves audit decisions. Explore [five concrete research calls,
 FID-097 through FID-101](research/mechanisms-of-trustworthy-ai-behavior.md), with
 methods, controls, and ways to contribute. These are proposed studies, not
-completed findings.
+completed findings. The program now includes comparisons of native circuits and
+extracted features, prospective tests of explanations, and independent checks
+of whether an intervention improves behavior or reliance decisions.
 
 ## Current Snapshot
 

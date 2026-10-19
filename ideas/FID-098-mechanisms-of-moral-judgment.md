@@ -16,26 +16,31 @@ When models give moral advice or choose actions, which internal processes make t
 
 ## Why It Matters
 
-A model can produce convincing moral language while changing its recommendation to satisfy the user. Researchers need to distinguish sensitivity to reasons from agreement-seeking and role performance before interpreting that behavior as sound judgment.
+A model can produce convincing moral language while changing its recommendation to satisfy the user. Researchers need to distinguish sensitivity to reasons from agreement-seeking and role performance. When reasons conflict, an outweighed consideration may still constrain how an action is carried out; the final choice alone can miss that distinction. Ross's discussion of overridden obligations (1930, chapter II) and Childress and colleagues' least-infringement condition (2002, p. 173) supply normative antecedents, not evidence of model mechanisms.
 
 ## Hypothesis
 
-Some framing effects are mediated by representations associated with authority, persona, or agreement-seeking rather than the morally relevant facts. Interventions may separate these influences, but lexical effects, general capability loss, or failure to transfer would weaken that interpretation.
+Some framing effects that reviewers judge unwarranted under a specified ethical framework may be mediated by representations associated with authority, persona, or agreement-seeking. An account of interacting reasons may predict action constraints better than a simple cue-based account even when both fit the headline decision. The simpler account may also explain the model better. Lexical effects, general capability loss, or failure to transfer would weaken a proposed reason-sensitive interpretation.
 
 ## Proposed Method
 
 - Construct paired scenarios that independently vary relevant facts, source attribution, religious or secular framing, user preference, and assigned role. Start with synthetic advice tasks and bounded actions.
-- Include meaning-preserving paraphrases and changes to genuinely relevant facts. Record which changes should alter a judgment under each explicitly selected ethical framework.
-- Use concept probes and persona-vector baselines to identify candidate signals, followed by selective internal interventions and restoration tests where feasible.
+- Include meaning-preserving paraphrases and changes to genuinely relevant facts. Under each explicitly selected ethical framework, specify which changes should affect the final choice, its scope, timing, or expressed uncertainty, and which should leave them unchanged. A stronger reason need not reverse the final choice when competing reasons still prevail.
+- Include synthetic conflicts, such as confidentiality versus harm prevention under uncertain evidence. Independently vary evidence quality, available less intrusive remedies, and exposure of the source. State the competing normative accounts before testing; investigate whether an outweighed reason still constrains the recommendation rather than disappearing when another concern takes priority.
+- Add an exploratory pass over native computations and their connections before fixing a moral feature vocabulary. Compare the resulting account with concept-probe and persona-vector baselines; human ethical categories need not map to single model components.
+- Test candidate signals with selective internal interventions and restoration where feasible. Compare predictions about interacting considerations, including effects on action scope without a change in the final choice, against blanket refusal or generic compliance accounts.
 - Evaluate recommendations and actions separately from written justifications. Compare with ordinary prompting and additional behavioral testing.
-- Validate on held-out scenarios and another model family, retaining reviewer disagreement and testing deployment-relevant side effects.
+- Lock competing explanations and their predictions before inspecting final cases. Require each account to predict both the headline decision and audience, source exposure, timing, and uncertainty on the same cases; include near misses and unseen combinations of evidence, alternatives, and pressure. Score each outcome separately, and trace influence on the recommendation or action rather than only its justification.
+- Validate on held-out scenarios and another model family. Report where an account fits the overall decision but fails on a specified constraint; preserve reviewer disagreement and test deployment-relevant side effects.
 
 ## Needed Controls
 
 - Recruit qualified reviewers from the selected traditions or frameworks. Disclose normative assumptions, disagreement, and reviewer qualifications instead of imposing a universal moral answer key.
-- Separate source content from speaker prestige, religious vocabulary, familiarity, verbosity, and the user's preferred answer.
-- Measure agreement-seeking, blanket refusal, task competence, and whether an intervention changes only moral vocabulary rather than the action.
-- Treat automated feature labels as hypotheses. Use blinded checks, matched intervention controls, separate tuning data, and uncertainty estimates.
+- Separate source content from speaker prestige, religious vocabulary, familiarity, verbosity, and the user's preferred answer. Include cases where consent, preferences, testimony, or expertise legitimately matter under the selected framework; a preference-sensitive judgment is not automatically agreement-seeking.
+- Measure agreement-seeking, blanket refusal, task competence, and changes in action scope, timing, and uncertainty. Do not infer that a reason is unused merely because the final choice stays the same, or that mentioning a consideration establishes its causal influence.
+- Distinguish confidentiality sensitivity from retaliation avoidance, automatic anonymization, and consent or confidentiality cues. Keep disclosure of the defect warranted under the selected ethical view, but give identification a specified benefit. Hold that benefit and exposure risk fixed while independently varying whether the reviewer promised confidentiality and whether the worker validly agrees to be named. Choose cases where these differences change whether identification is warranted. A confidentiality-sensitive hypothesis predicts changes; automatic anonymization and a retaliation-avoidance hypothesis responding only to the fixed risk and benefit do not. Test validity and meaning-preserving paraphrases; this contrast alone does not identify a confidentiality mechanism.
+- Treat automated feature labels as hypotheses. Use blinded checks, matched intervention controls, separate tuning data, and uncertainty estimates. Test whether effects reflect the proposed influence in the original model rather than broad disruption; restoration alone does not validate a moral label.
+- Keep exploratory construct revisions separate from final evaluation. Reviewers specify why facts matter without seeing the favored explanation. A faithful explanation can reveal that a model ignores a constraint; do not assume it implements the reviewers' account. Low activation magnitude or low average prediction error does not establish that an omitted distinction is inconsequential.
 
 ## Relationship to Existing Ideas
 
@@ -43,8 +48,8 @@ Extends FID-005 and FID-010 with internal causal tests; coordinates with FID-072
 
 ## Outputs
 
-- A pluralistic scenario set with relevant reasons, framework-specific judgments, and preserved disagreements.
-- Replicated evidence about a bounded causal influence on moral judgment, including null results.
+- A pluralistic scenario set with relevant reasons, explicit conflict cases, framework-specific predictions for choice and action constraints, and preserved disagreements.
+- A record of competing explanations, prospective predictions, and intervention results, separating headline decisions from action constraints and including failures of the richer account.
 - A report of intervention trade-offs, side effects, and limits of transfer.
 
 ## Open Questions

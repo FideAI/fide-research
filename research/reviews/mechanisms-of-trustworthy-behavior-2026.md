@@ -25,3 +25,12 @@ targets, [MoReBench](https://arxiv.org/abs/2510.16380) offers procedural and
 pluralistic moral-reasoning criteria. Its visible reasoning evaluations do not
 by themselves reveal the model's internal process. The source registry retains
 the review depth recorded for each entry.
+
+## Direct investigation and tests of practical value
+
+The [methodological update](direct-mechanisms-and-warranted-trust-2026.md)
+records Cammarata's working hypothesis, the composition/superposition
+distinction, and training-method evidence relevant to these calls. The program
+compares methods rather than treating any feature vocabulary as settled. New
+explanations should predict held-out behavior and intervention effects before
+supporting claims about improved development or reliance decisions.

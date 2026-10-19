@@ -1,6 +1,6 @@
 # Mechanisms of Trustworthy AI Behavior
 
-Open calls for collaboration · October 15, 2026
+Open calls for collaboration · Updated October 16, 2026
 
 We want to understand what makes a model use evidence, weigh moral reasons,
 respond to pressure, and accept correction. We invite collaborators to connect
@@ -50,6 +50,57 @@ or choose a better remedy. Other calls can proceed independently where
 collaborators have suitable expertise and access. Participation does not require
 waiting for one shared experiment to finish.
 
+## From an explanation to a useful decision
+
+The program distinguishes describing an internal pattern, predicting behavior
+on new cases, establishing a causal contribution, improving training or system
+behavior, and helping someone decide when to rely on the result. These are
+separate claims. A study may advance one without establishing the others.
+Exploratory discoveries remain valuable even before an operational benefit is
+known; claims about improved trust require evidence for that additional step.
+
+Specify what an explanation must account for. Two recommendations can agree on
+disclosure while differing in whether they protect a confidential source. Test
+those distinctions alongside the headline choice, with predictions recorded
+before held-out cases. Low average error or small activation magnitude does not
+establish that an omitted distinction is unimportant. A faithful explanation
+may reveal that the model ignores a constraint; it need not vindicate the model.
+
+Investigators should compare direct study of native neurons, attention paths,
+and circuits with probes, sparse dictionaries, and other suitable methods.
+Method choice is an empirical question. Preserve the original model as a
+reference and disclose approximation errors, omitted computations, and model
+access requirements. Useful explanations may span several components and need
+not share the boundaries of human concepts such as honesty or character.
+
+For a first source-use study, distinguish answering without retrieval, deciding
+to check, integrating retrieved evidence, and revising an earlier claim. Define
+when consultation is required before labeling its absence a failure; correctness
+on a familiar passage alone does not identify a memory-based mechanism. Use
+familiar and newly constructed texts, valid and misleading sources, and cases
+where retrieval is unnecessary. Make predictions before testing new examples;
+compare mechanism-informed remedies with ordinary training, prompting, and
+system improvements. Capability damage and indiscriminate compliance count
+against a proposed improvement.
+
+## A continuing agenda with independent studies
+
+The five calls remain independently actionable. FID-097 offers a concrete
+starting point, but no contributor must wait for it before investigating moral
+judgment, training changes, correction, or audit usefulness. We are strengthening
+these existing calls rather than creating a separate call for each new tool.
+
+Completed studies should preserve the protocol, source and model revisions,
+competing explanations, predictions made before final testing, intervention
+costs, and failures to replicate. Later evidence should be published as a new
+result or explicit correction. The program map and call briefs can change as
+methods improve; individual papers should remain understandable without a
+future follow-up. Dates do not imply funded work or a promised release schedule.
+
+The [direct-mechanisms source note](reviews/direct-mechanisms-and-warranted-trust-2026.md)
+records the current methodological debate and its implications. No call depends
+on accepting a general claim that all networks are readily interpretable.
+
 ## Character, motivations, and moral reasoning
 
 We use **behavioral dispositions** for patterns that persist across contexts,
@@ -61,9 +112,25 @@ incentives or instructions conflict. A model's stated motive is evidence to
 investigate, not proof of a subjective desire.
 
 For **moral reasoning**, researchers must state the ethical frameworks and
-reviewer assumptions shaping a task. A change in moral vocabulary, an internal
-representation of a concept, and a change in consequential action are different
-outcomes. Disagreement between qualified reviewers should remain visible.
+reviewer assumptions shaping a task before specifying causal predictions. A
+change in moral vocabulary, an internal representation of a concept, and a
+change in consequential action are different outcomes. Disagreement between
+qualified reviewers should remain visible.
+
+Include conflicts where an outweighed reason still constrains the response.
+For example, a proposed exception to confidentiality for harm prevention may
+still require limiting disclosure to protect the source. Source protection alone
+does not identify confidentiality sensitivity; FID-098 tests it against retaliation
+avoidance, automatic anonymization, and consent cues using cases with explicit
+benefits, risks, and differing predictions. Test dependencies in
+scope, timing, and uncertainty as well as the final choice. Stability means
+appropriate responsiveness under the stated account, not always giving the
+same answer. Whether a model implements that account and whether the account
+is ethically justified are separate questions; no shared moral answer key is
+assumed. FID-098 compares competing explanations of these dependencies, FID-099 tests
+whether they survive training changes, and FID-101 measures whether explanations
+help identify failures that a headline score misses. Each call can be tested
+independently, including when a simple cue-based account explains the model best.
 
 This program concerns mechanisms of behavior. Related questions about
 consciousness and welfare retain their separate evidence requirements in the
@@ -77,9 +144,13 @@ consciousness and welfare retain their separate evidence requirements in the
    can suggest a mechanism without showing that the model uses it.
 3. Test interventions for selectivity, collateral damage, and unusual activation
    states. Use matched controls and, where feasible, restoration experiments.
+   A changed or restored output does not alone validate a feature label or the
+   complete account of ordinary behavior; test competing explanations in the
+   original model.
 4. Separate discovery, tuning, and final evaluation. Report uncertainty, null
    results, and unsuccessful replications across tasks and model families.
-5. Measure the practical contribution. Internal evidence should earn its place
+   Separate an inconclusive result from evidence ruling out a meaningful benefit.
+5. When claiming practical benefit, measure the contribution. Internal evidence should earn its place
    through better predictions, remedies, or decisions under stated conditions.
 
 API-only models can supply behavioral comparisons. Internal causal studies
