@@ -10,6 +10,8 @@ Application domains: `faith-and-religious-life`
 
 Primary need: comparative theology, moral status, AI welfare governance, public reasoning
 
+[Start a call discussion / offer to help](https://github.com/FideAI/fide-research/issues/new?template=call-discussion.yml&title=Discussion%3A+FID-073+%E2%80%94+Religious+Accounts+of+Digital+Moral+Status+and+AI+Welfare&call=FID-073%0ABrief%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fblob%2Fmain%2Fideas%2FFID-073-religious-accounts-digital-moral-status.md%0AExisting+threads%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fissues%3Fq%3Dis%253Aissue%2B%2522FID-073%2522%2Bin%253Atitle) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-073%22+in%3Atitle)
+
 ## Question
 
 What can Christian and cross-faith accounts of personhood, creaturehood,

@@ -10,6 +10,8 @@ Application domains: `faith-and-religious-life`
 
 Primary need: eval engineering
 
+[Start a call discussion / offer to help](https://github.com/FideAI/fide-research/issues/new?template=call-discussion.yml&title=Discussion%3A+FID-001+%E2%80%94+Faith-Facing+Model+Comparison+Platform&call=FID-001%0ABrief%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fblob%2Fmain%2Fideas%2FFID-001-faith-facing-model-comparison-platform.md%0AExisting+threads%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fissues%3Fq%3Dis%253Aissue%2B%2522FID-001%2522%2Bin%253Atitle) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-001%22+in%3Atitle)
+
 ## Question
 
 Can a continuously maintained faith-facing evaluation platform produce reliable,

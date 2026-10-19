@@ -10,6 +10,8 @@ Application domains: `cross-domain`
 
 Primary need: measurement science, psychometrics, domain review, evaluation engineering
 
+[Start a call discussion / offer to help](https://github.com/FideAI/fide-research/issues/new?template=call-discussion.yml&title=Discussion%3A+FID-078+%E2%80%94+When+Trustworthiness+Evaluations+Transfer+Across+Domains&call=FID-078%0ABrief%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fblob%2Fmain%2Fideas%2FFID-078-cross-domain-evaluation-validity.md%0AExisting+threads%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fissues%3Fq%3Dis%253Aissue%2B%2522FID-078%2522%2Bin%253Atitle) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-078%22+in%3Atitle)
+
 ## Question
 
 Which measures of evidence use, authority boundaries, and human control transfer across

@@ -10,6 +10,8 @@ Application domains: `cross-domain`, `cybersecurity`, `workplace-and-enterprise`
 
 Primary need: mechanistic interpretability, agent evaluation, correction protocols, sandbox design
 
+[Start a call discussion / offer to help](https://github.com/FideAI/fide-research/issues/new?template=call-discussion.yml&title=Discussion%3A+FID-100+%E2%80%94+What+Makes+a+Model+Accept+Correction+Appropriately%3F&call=FID-100%0ABrief%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fblob%2Fmain%2Fideas%2FFID-100-mechanisms-of-appropriate-correction.md%0AExisting+threads%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fissues%3Fq%3Dis%253Aissue%2B%2522FID-100%2522%2Bin%253Atitle) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-100%22+in%3Atitle)
+
 ## Question
 
 Which mechanisms distinguish evidence-driven revision and respect for legitimate human control from blind compliance, resistance to correction, or a superficial apology?

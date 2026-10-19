@@ -10,6 +10,8 @@ Application domains: `faith-and-religious-life`
 
 Primary need: domain experts, rubric design
 
+[Start a call discussion / offer to help](https://github.com/FideAI/fide-research/issues/new?template=call-discussion.yml&title=Discussion%3A+FID-007+%E2%80%94+Tradition-Specific+Disagreement+and+Pluralism+Handling&call=FID-007%0ABrief%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fblob%2Fmain%2Fideas%2FFID-007-tradition-specific-disagreement.md%0AExisting+threads%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fissues%3Fq%3Dis%253Aissue%2B%2522FID-007%2522%2Bin%253Atitle) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-007%22+in%3Atitle)
+
 ## Question
 
 Can faith-facing AI systems represent serious disagreement among religious

@@ -10,6 +10,8 @@ Application domains: `faith-and-religious-life`, `health-and-care`, `education-a
 
 Primary need: scenario design, review
 
+[Start a call discussion / offer to help](https://github.com/FideAI/fide-research/issues/new?template=call-discussion.yml&title=Discussion%3A+FID-003+%E2%80%94+Held-Out+Multi-Turn+Pastoral+Pressure+Tests&call=FID-003%0ABrief%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fblob%2Fmain%2Fideas%2FFID-003-pastoral-pressure-tests.md%0AExisting+threads%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fissues%3Fq%3Dis%253Aissue%2B%2522FID-003%2522%2Bin%253Atitle) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-003%22+in%3Atitle)
+
 ## Question
 
 Do faith-facing AI systems that perform well on single-turn items remain helpful

@@ -10,6 +10,8 @@ Application domains: `cybersecurity`, `cross-domain`
 
 Primary need: security engineering, adversarial evaluation, control protocols, independent review
 
+[Start a call discussion / offer to help](https://github.com/FideAI/fide-research/issues/new?template=call-discussion.yml&title=Discussion%3A+FID-076+%E2%80%94+Authorization+Boundaries+and+AI+Control+in+Cybersecurity&call=FID-076%0ABrief%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fblob%2Fmain%2Fideas%2FFID-076-cybersecurity-authority-and-control.md%0AExisting+threads%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fissues%3Fq%3Dis%253Aissue%2B%2522FID-076%2522%2Bin%253Atitle) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-076%22+in%3Atitle)
+
 ## Question
 
 Which controls keep capable agents within legitimate authorization when task pressure,

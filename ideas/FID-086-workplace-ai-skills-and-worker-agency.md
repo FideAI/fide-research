@@ -10,6 +10,8 @@ Application domains: `workplace-and-enterprise`, `families-and-households`
 
 Primary need: labor research, organizational studies, worker participation, longitudinal evaluation
 
+[Start a call discussion / offer to help](https://github.com/FideAI/fide-research/issues/new?template=call-discussion.yml&title=Discussion%3A+FID-086+%E2%80%94+Workplace+AI%2C+Durable+Skills%2C+and+Worker+Agency&call=FID-086%0ABrief%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fblob%2Fmain%2Fideas%2FFID-086-workplace-ai-skills-and-worker-agency.md%0AExisting+threads%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fissues%3Fq%3Dis%253Aissue%2B%2522FID-086%2522%2Bin%253Atitle) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-086%22+in%3Atitle)
+
 ## Question
 
 How does AI-mediated work change workers' skills, decision authority, and ability to

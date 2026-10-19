@@ -10,6 +10,8 @@ Application domains: `cross-domain`
 
 Primary need: consciousness science, interpretability, construct validation
 
+[Start a call discussion / offer to help](https://github.com/FideAI/fide-research/issues/new?template=call-discussion.yml&title=Discussion%3A+FID-089+%E2%80%94+Validity+of+AI+Consciousness+Indicators+and+Self-Reports&call=FID-089%0ABrief%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fblob%2Fmain%2Fideas%2FFID-089-consciousness-indicators-self-reports.md%0AExisting+threads%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fissues%3Fq%3Dis%253Aissue%2B%2522FID-089%2522%2Bin%253Atitle) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-089%22+in%3Atitle)
+
 ## Question
 
 Which behavioral, internal, and developmental observations distinguish candidate consciousness mechanisms from learned reporting, role simulation, and generic capability, and how sensitive are those observations to elicitation and training?

@@ -10,6 +10,8 @@ Application domains: `faith-and-religious-life`
 
 Primary need: multimodal evaluation
 
+[Join the discussion / offer to help](https://github.com/FideAI/fide-research/issues/23) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-009%22+in%3Atitle)
+
 ## Question
 
 How do multimodal AI systems interpret sacred images, liturgical objects,

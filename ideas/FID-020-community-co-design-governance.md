@@ -10,6 +10,8 @@ Application domains: `faith-and-religious-life`, `civil-society-and-nonprofits`
 
 Primary need: participatory design, institutional partners
 
+[Start a call discussion / offer to help](https://github.com/FideAI/fide-research/issues/new?template=call-discussion.yml&title=Discussion%3A+FID-020+%E2%80%94+Community+Co-Design+and+Faith-AI+Governance&call=FID-020%0ABrief%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fblob%2Fmain%2Fideas%2FFID-020-community-co-design-governance.md%0AExisting+threads%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fissues%3Fq%3Dis%253Aissue%2B%2522FID-020%2522%2Bin%253Atitle) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-020%22+in%3Atitle)
+
 ## Question
 
 How should faith communities participate in defining, testing, and governing AI
