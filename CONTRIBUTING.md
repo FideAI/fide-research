@@ -5,6 +5,35 @@ systems. We welcome research ideas, methodology comments, replication plans,
 reviewer interest, implementation help, and institutional use cases across
 consequential domains, including faith and religious life.
 
+## Start here: join a research call
+
+You can lead or co-lead work, join a project, review, or find collaborators.
+A complete research proposal or institutional affiliation is not required.
+
+1. **Introduce yourself once.** Use the [Fide AI Contributor Network interest form](https://forms.gle/XbpAFAy6No8WKcRMA)
+   to share your contact details privately, background, interests, and availability.
+   Include your GitHub profile under professional links so we can connect your
+   introduction with your research contributions. If you already have a contributor
+   record or have introduced yourself directly, confirm or update those details
+   through [Participate](https://fideai.org/participate/) rather than submitting a
+   duplicate. A GitHub comment alone does not register your contributor details.
+2. **Choose a starting point.** Browse [tasks needing help](https://github.com/FideAI/fide-research/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22)
+   or [small first contributions](https://github.com/FideAI/fide-research/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22good%20first%20issue%22).
+   Comment on a matching task with the part you can help with and your rough
+   availability. To lead new work on a call, [propose a contribution](https://github.com/FideAI/fide-research/issues/new?template=claim-research-idea.yml)
+   with its FID ID and a small first output. Still exploring? Introduce your
+   interests in [Start here](https://github.com/FideAI/fide-research/issues/1)
+   to ask for a project or collaborators.
+3. **Agree one first output.** A maintainer or coordinator checks overlapping
+   work and confirms scope, support, and the next step. Coordinate public task
+   decisions and outputs in that issue; keep contact details and private terms
+   in the private introduction route.
+
+You can browse and discuss public tasks while making your introduction. The form
+records your interest; it does not automatically grant Discord access, a project
+placement, or funding. Discord is optional and invitations follow a review of fit.
+The detailed contribution paths below explain how to scope and share the work.
+
 This repository maintains research calls and a catalog of released work. Calls
 remain hypotheses and collaboration invitations until a report, benchmark,
 paper or evidence artifact supports specific findings. Catalog entries link to
