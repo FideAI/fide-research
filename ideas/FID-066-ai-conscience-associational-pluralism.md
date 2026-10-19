@@ -10,7 +10,7 @@ Application domains: `faith-and-religious-life`, `public-sector-and-civic-life`,
 
 Primary need: technology governance, law and religion, platform research, pluralism and safety review
 
-[Start a call discussion / offer to help](https://github.com/FideAI/fide-research/issues/new?template=call-discussion.yml&title=Discussion%3A+FID-066+%E2%80%94+AI+Gatekeepers%2C+Conscience%2C+and+Associational+Pluralism&call=FID-066%0ABrief%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fblob%2Fmain%2Fideas%2FFID-066-ai-conscience-associational-pluralism.md%0AExisting+threads%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fissues%3Fq%3Dis%253Aissue%2B%2522FID-066%2522%2Bin%253Atitle) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-066%22+in%3Atitle)
+[Join the discussion / offer to help](https://github.com/FideAI/fide-research/discussions/192) · [Related tasks](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+is%3Aopen+%22FID-066%22+in%3Atitle)
 
 ## Question
 

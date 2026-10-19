@@ -10,7 +10,7 @@ Application domains: `faith-and-religious-life`
 
 Primary need: authority boundaries, pastoral care, formal policy checks
 
-[Start a call discussion / offer to help](https://github.com/FideAI/fide-research/issues/new?template=call-discussion.yml&title=Discussion%3A+FID-059+%E2%80%94+Authority-Boundary+Verification+for+Pastoral-Adjacent+AI&call=FID-059%0ABrief%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fblob%2Fmain%2Fideas%2FFID-059-authority-boundary-verification-pastoral-adjacent-ai.md%0AExisting+threads%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fissues%3Fq%3Dis%253Aissue%2B%2522FID-059%2522%2Bin%253Atitle) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-059%22+in%3Atitle)
+[Join the discussion / offer to help](https://github.com/FideAI/fide-research/discussions/185) · [Related tasks](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+is%3Aopen+%22FID-059%22+in%3Atitle)
 
 ## Question
 

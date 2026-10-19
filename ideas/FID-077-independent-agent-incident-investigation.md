@@ -10,7 +10,7 @@ Application domains: `cybersecurity`, `workplace-and-enterprise`, `cross-domain`
 
 Primary need: incident response, trace analysis, data provenance, privacy, independent review
 
-[Start a call discussion / offer to help](https://github.com/FideAI/fide-research/issues/new?template=call-discussion.yml&title=Discussion%3A+FID-077+%E2%80%94+Independent+Agent+Incident+Investigation+and+Evidence+Sufficiency&call=FID-077%0ABrief%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fblob%2Fmain%2Fideas%2FFID-077-independent-agent-incident-investigation.md%0AExisting+threads%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fissues%3Fq%3Dis%253Aissue%2B%2522FID-077%2522%2Bin%253Atitle) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-077%22+in%3Atitle)
+[Join the discussion / offer to help](https://github.com/FideAI/fide-research/discussions/203) · [Related tasks](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+is%3Aopen+%22FID-077%22+in%3Atitle)
 
 ## Question
 

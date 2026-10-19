@@ -6,7 +6,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        First check the [open tasks](https://github.com/FideAI/fide-research/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22). Comment on a matching task rather than opening a duplicate.
+        For questions or an initial offer to help, start in the call's [GitHub Discussion](https://github.com/FideAI/fide-research/discussions/categories/research-calls). Use this form when you have a specific contribution and first output in mind.
+        Check the [open tasks](https://github.com/FideAI/fide-research/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22) and comment on a matching task rather than opening a duplicate.
+        Include the related FID-### IDs in the issue title so the call's related-tasks link can find your contribution.
         A claim is nonexclusive. Alex Chao (@alexchaomander) or the coordinator will help check overlaps and agree scope before substantive work. Do not post private contact details or confidential material.
   - type: input
     id: idea
@@ -35,8 +37,8 @@ body:
   - type: input
     id: related-issue
     attributes:
-      label: Related issue or existing work
-      description: Optional. Link work we should coordinate with.
+      label: Related Discussion, issue, or existing work
+      description: Optional. Link the call's conversation or work we should coordinate with.
   - type: input
     id: timeline
     attributes:

@@ -6,6 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
+        Include the related FID-### IDs in the issue title so the call's related-tasks link can find this task.
         Keep the first contribution small. A maintainer will confirm scope and support before marking this task help wanted. Do not include private data or unconfirmed funding, reviewer, or contributor commitments.
   - type: input
     id: calls

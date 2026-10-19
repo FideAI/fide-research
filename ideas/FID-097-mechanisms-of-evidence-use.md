@@ -10,7 +10,7 @@ Application domains: `cross-domain`, `faith-and-religious-life`
 
 Primary need: mechanistic interpretability, source-use evaluation, activation experiments, replication
 
-[Join the discussion / offer to help](https://github.com/FideAI/fide-research/issues/24) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-097%22+in%3Atitle)
+[Join the discussion / offer to help](https://github.com/FideAI/fide-research/discussions/223) · [Related tasks](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+is%3Aopen+%22FID-097%22+in%3Atitle)
 
 ## Question
 

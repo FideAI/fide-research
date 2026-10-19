@@ -12,7 +12,7 @@ Specific context:
 
 Primary need:
 
-[Start a call discussion / offer to help](https://github.com/FideAI/fide-research/issues/new?template=call-discussion.yml&title=Discussion%3A+FID-000&call=FID-000) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-000%22+in%3Atitle)
+[Find or create the call discussion](https://github.com/FideAI/fide-research/discussions/categories/research-calls) · [Related tasks](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+is%3Aopen+%22FID-000%22+in%3Atitle)
 
 ## Question
 

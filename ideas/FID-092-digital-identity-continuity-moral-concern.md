@@ -10,7 +10,7 @@ Application domains: `cross-domain`, `faith-and-religious-life`
 
 Primary need: identity, memory, copying, moral aggregation, lifecycle scenarios
 
-[Start a call discussion / offer to help](https://github.com/FideAI/fide-research/issues/new?template=call-discussion.yml&title=Discussion%3A+FID-092+%E2%80%94+Digital+Identity%2C+Continuity%2C+Copying%2C+and+the+Unit+of+Moral+Concern&call=FID-092%0ABrief%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fblob%2Fmain%2Fideas%2FFID-092-digital-identity-continuity-moral-concern.md%0AExisting+threads%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fissues%3Fq%3Dis%253Aissue%2B%2522FID-092%2522%2Bin%253Atitle) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-092%22+in%3Atitle)
+[Join the discussion / offer to help](https://github.com/FideAI/fide-research/discussions/218) · [Related tasks](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+is%3Aopen+%22FID-092%22+in%3Atitle)
 
 ## Question
 

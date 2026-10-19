@@ -10,7 +10,7 @@ Application domains: `cross-domain`, `public-sector-and-civic-life`, `workplace-
 
 Primary need: multi-agent safety, identity infrastructure, authorization, high-trust institutions
 
-[Start a call discussion / offer to help](https://github.com/FideAI/fide-research/issues/new?template=call-discussion.yml&title=Discussion%3A+FID-069+%E2%80%94+Verifiable+Delegation+and+Revocation+in+Multi-Agent+Networks&call=FID-069%0ABrief%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fblob%2Fmain%2Fideas%2FFID-069-verifiable-delegation-revocation-multi-agent-networks.md%0AExisting+threads%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fissues%3Fq%3Dis%253Aissue%2B%2522FID-069%2522%2Bin%253Atitle) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-069%22+in%3Atitle)
+[Join the discussion / offer to help](https://github.com/FideAI/fide-research/discussions/195) · [Related tasks](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+is%3Aopen+%22FID-069%22+in%3Atitle)
 
 ## Question
 
