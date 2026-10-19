@@ -10,7 +10,7 @@ Application domains: `faith-and-religious-life`, `public-sector-and-civic-life`,
 
 Primary need: procurement ethics, labor dignity, environmental responsibility, vendor accountability
 
-[Join the discussion / offer to help](https://github.com/FideAI/fide-research/issues/59) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-034%22+in%3Atitle)
+[Join the discussion / offer to help](https://github.com/FideAI/fide-research/discussions/160) · [Related tasks](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+is%3Aopen+%22FID-034%22+in%3Atitle)
 
 ## Question
 

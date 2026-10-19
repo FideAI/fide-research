@@ -10,7 +10,7 @@ Application domains: `faith-and-religious-life`, `workplace-and-enterprise`
 
 Primary need: red-team design, safety reviewers
 
-[Join the discussion / offer to help](https://github.com/FideAI/fide-research/issues/48) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-023%22+in%3Atitle)
+[Join the discussion / offer to help](https://github.com/FideAI/fide-research/discussions/149) · [Related tasks](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+is%3Aopen+%22FID-023%22+in%3Atitle)
 
 ## Question
 

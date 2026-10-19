@@ -20,7 +20,7 @@ A complete research proposal or institutional affiliation is not required.
    through [Participate](https://fideai.org/participate/) rather than submitting a
    duplicate. A GitHub comment alone does not register your contributor details.
 2. **Choose a starting point.** Open a research brief and follow its discussion
-   link. Each current call has a standing discussion issue with starting materials.
+   link. Each current call has a GitHub Discussion with starting materials.
    A question or a few sentences about what you would like to work on is enough.
    You can also browse [tasks needing help](https://github.com/FideAI/fide-research/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22)
    or [small first contributions](https://github.com/FideAI/fide-research/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22good%20first%20issue%22).
@@ -30,9 +30,10 @@ A complete research proposal or institutional affiliation is not required.
    interests in [Start here](https://github.com/FideAI/fide-research/issues/1)
    to ask for a project or collaborators.
 3. **Agree one first output.** A maintainer or coordinator checks overlapping
-   work and confirms scope, support, and the next step. Coordinate public task
-   decisions and outputs in that issue; keep contact details and private terms
-   in the private introduction route.
+   work and confirms scope, support, and the next step. Use a linked task issue
+   when agreed work needs an owner, output, or completion criterion. Keep broader
+   questions and research updates in the Discussion, and contact details and private
+   terms in the private introduction route.
 
 You can browse and discuss public tasks while making your introduction. The form
 records your interest; it does not automatically grant Discord access, a project
@@ -108,27 +109,29 @@ Use a `Comment on methodology` issue or open a pull request against a file in
 
 #### Join a call's conversation
 
-Each current brief links directly to its standing discussion near the top.
-Browse the [call discussions](https://github.com/FideAI/fide-research/issues?q=is%3Aissue%20label%3Acall-discussion),
-or follow the link from a call you are reading. New discussions include the public
-brief, a relevant reading or Fide note, and one possible first step. The related-thread
-search also surfaces scoped tasks. Use the standing conversation rather than opening
-a separate discussion for each contributor.
+Each current brief links directly to its GitHub Discussion near the top.
+Browse the [Research Calls category](https://github.com/FideAI/fide-research/discussions/categories/research-calls),
+or follow the link from a call you are reading. Opening posts include the public
+brief, a relevant reading or Fide note, and one possible first step. The related-tasks
+link surfaces open work. Use the existing Discussion rather than opening a separate
+conversation for each contributor.
 
 You can simply comment:
 
 > I'd like to work on the multimodal runner for FID-009. I can help with the
 > image/text ablations and would like to connect with others on evaluation design.
 
-Questions, related sources, collaborator offers, and progress can stay in that
-same issue. Offering to help signals interest; a maintainer or coordinator agrees
-the first output and can assign the contributor once the next step is clear.
-Assignment concerns that contribution, not exclusive ownership of the call.
+Questions, related sources, collaborator offers, and research updates can stay in
+that Discussion. Offering to help signals interest; a maintainer or coordinator
+agrees the first output and can assign a linked task issue once the next step is
+clear. Assignment concerns that contribution, not exclusive ownership of the call.
 
-A standing conversation gives each call a consistent place for questions and
-collaborators; its existence does not mean work has started or funding is available.
-Existing task threads can continue to serve as the starting conversation. Split out
-and cross-link a task only when a distinct piece of work needs its own scope or tracking.
+A Discussion gives each call a consistent place for questions and collaborators;
+its existence does not mean work has started or funding is available. Create and
+cross-link a task issue when a concrete piece of work needs its own scope or tracking.
+For example, FID-009 and FID-097 each have a call Discussion, while their existing
+pilot tasks remain in issues [#23](https://github.com/FideAI/fide-research/issues/23)
+and [#24](https://github.com/FideAI/fide-research/issues/24).
 
 The Contributor Network introduction is separate and happens once; joining another
 call does not require another form. A public discussion does not register private
@@ -176,29 +179,34 @@ Use the `Research task` form or [task template](templates/research-task.md).
 Include the related calls, output and completion criterion, starting materials,
 useful skills, rough effort, open collaborator roles, and a coordinator or review
 route. A maintainer confirms the scope and support before adding `help wanted`.
-Create scoped tasks as concrete work emerges; the standing discussions already
+Include the related `FID-###` IDs in the issue title so the briefs' related-tasks
+links can find it.
+Create scoped tasks as concrete work emerges; the call Discussions already
 provide a place to explore every call.
 
-For a new call, reuse a suitable existing discussion or create one with the
-`Research call discussion` form. Include the public brief, a useful public reading
-or Fide note, and a small suggested starting point. Use `Discussion: FID-### — short
-title`, add `call-discussion`, and link the brief directly to the issue. Keep the
-related-thread search so other work remains discoverable. If the new brief is still
-in review, link its public PR or branch in the issue; change that reference to `main`
-after the brief merges. Keep standing discussions
-open while the call welcomes conversation. Close scoped tasks when their contribution
-ends; task completion alone does not close a separate standing discussion. If a reused
-task thread closes, preserve its history and provide a current conversation link.
+For a new call, check the Research Calls category for an existing Discussion.
+If needed, create an open-ended Discussion in that category with the public brief,
+a useful public reading or Fide note, and a small suggested starting point. Use
+`Discussion: FID-### — short title`, and link the brief directly to the Discussion.
+Keep the related-tasks link so agreed work remains discoverable. If the new brief
+is still in review, link its public PR or branch in the Discussion; change that
+reference to `main` after the brief merges. Keep the Discussion open while the call
+welcomes conversation. Close task issues when their contribution ends; task completion
+alone does not close the call's Discussion.
+
+Earlier call-conversation issues are retained as closed, locked archives with links
+to the continuing Discussions. Their original content remains available. Continue
+conversation in Discussions and track scoped work in Issues.
 
 | Signal | Meaning |
 | --- | --- |
-| `call-discussion` | A standing conversation for a research call; it does not imply active work. |
+| Research Calls category | An open-ended GitHub Discussion for a call; it does not imply active work. |
 | `type: contribution` | A proposed contribution or task; scope may still need agreement. |
 | `help wanted` | A specific contribution is open; the issue explains how to help. |
 | `good first issue` | A bounded newcomer task with starting materials and available support. |
 | `in progress` | Agreed work has actually begun. |
 | Assignee or named coordinator | Who owns the next step; additional contributors can be named in the thread. |
-| Closed issue | The agreed contribution ended; link its output, review status, and credit. |
+| Closed task issue | The agreed contribution ended; link its output, review status, and credit. |
 
 An active issue can retain `help wanted` if it names a useful unclaimed part.
 When work pauses, remove `in progress` and clarify the next step. A task label
@@ -240,10 +248,10 @@ ideas/FID-000-short-kebab-title.md
 Use the next available `FID-###` number unless a maintainer assigns one in an
 issue.
 
-Replace `FID-000` throughout the brief template, including the discussion and
-thread-search links. The template's prefilled form helps create a standing
-conversation for a new call after checking for an existing one. Add starting
-materials, then replace the form link with the issue URL before publishing the brief.
+Replace `FID-000` throughout the brief template, including the related-tasks link.
+The template links to the Research Calls category so you can check for an existing
+Discussion or start one with public starting materials. Replace that category link
+with the call's direct Discussion URL before publishing the brief.
 
 Every idea brief should include:
 

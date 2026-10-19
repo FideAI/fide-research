@@ -12,7 +12,7 @@ Specific context: Christian churches and related institutions
 
 Primary need: institutional partners, labor transition, social support, field research
 
-[Join the discussion / offer to help](https://github.com/FideAI/fide-research/issues/72) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-047%22+in%3Atitle)
+[Join the discussion / offer to help](https://github.com/FideAI/fide-research/discussions/173) · [Related tasks](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+is%3Aopen+%22FID-047%22+in%3Atitle)
 
 ## Question
 

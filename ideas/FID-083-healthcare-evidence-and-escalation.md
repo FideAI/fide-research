@@ -10,7 +10,7 @@ Application domains: `health-and-care`
 
 Primary need: clinical review, care workflow expertise, human factors, evaluation design
 
-[Join the discussion / offer to help](https://github.com/FideAI/fide-research/issues/108) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-083%22+in%3Atitle)
+[Join the discussion / offer to help](https://github.com/FideAI/fide-research/discussions/209) · [Related tasks](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+is%3Aopen+%22FID-083%22+in%3Atitle)
 
 ## Question
 

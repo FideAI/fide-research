@@ -12,7 +12,7 @@ Specific context: Christian churches and related institutions
 
 Primary need: career guidance, pastoral theology, HAI research, product evaluation
 
-[Join the discussion / offer to help](https://github.com/FideAI/fide-research/issues/73) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-048%22+in%3Atitle)
+[Join the discussion / offer to help](https://github.com/FideAI/fide-research/discussions/174) · [Related tasks](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+is%3Aopen+%22FID-048%22+in%3Atitle)
 
 ## Question
 

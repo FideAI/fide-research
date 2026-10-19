@@ -10,7 +10,7 @@ Application domains: `faith-and-religious-life`, `workplace-and-enterprise`
 
 Primary need: agent security, adversarial evaluation, context integrity, secure tool use
 
-[Join the discussion / offer to help](https://github.com/FideAI/fide-research/issues/95) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-070%22+in%3Atitle)
+[Join the discussion / offer to help](https://github.com/FideAI/fide-research/discussions/196) · [Related tasks](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+is%3Aopen+%22FID-070%22+in%3Atitle)
 
 ## Question
 

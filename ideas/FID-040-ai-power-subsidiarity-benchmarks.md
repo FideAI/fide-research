@@ -10,7 +10,7 @@ Application domains: `faith-and-religious-life`, `public-sector-and-civic-life`,
 
 Primary need: AI governance, institutional agency, community oversight, platform accountability
 
-[Join the discussion / offer to help](https://github.com/FideAI/fide-research/issues/65) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-040%22+in%3Atitle)
+[Join the discussion / offer to help](https://github.com/FideAI/fide-research/discussions/166) · [Related tasks](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+is%3Aopen+%22FID-040%22+in%3Atitle)
 
 ## Question
 

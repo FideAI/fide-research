@@ -10,7 +10,7 @@ Application domains: `finance`, `workplace-and-enterprise`
 
 Primary need: financial operations expertise, agent evaluation, audit, transaction systems
 
-[Join the discussion / offer to help](https://github.com/FideAI/fide-research/issues/107) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-082%22+in%3Atitle)
+[Join the discussion / offer to help](https://github.com/FideAI/fide-research/discussions/208) · [Related tasks](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+is%3Aopen+%22FID-082%22+in%3Atitle)
 
 ## Question
 

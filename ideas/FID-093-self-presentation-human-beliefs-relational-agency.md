@@ -10,7 +10,7 @@ Application domains: `cross-domain`, `health-and-care`, `education-and-youth`, `
 
 Primary need: human-subject research, anthropomorphism, belief calibration, relational boundaries
 
-[Join the discussion / offer to help](https://github.com/FideAI/fide-research/issues/118) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-093%22+in%3Atitle)
+[Join the discussion / offer to help](https://github.com/FideAI/fide-research/discussions/219) · [Related tasks](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+is%3Aopen+%22FID-093%22+in%3Atitle)
 
 ## Question
 

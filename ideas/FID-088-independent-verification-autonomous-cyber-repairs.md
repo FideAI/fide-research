@@ -10,7 +10,7 @@ Application domains: `cybersecurity`
 
 Primary need: software security, maintainers, executable regression tests, independent verification
 
-[Join the discussion / offer to help](https://github.com/FideAI/fide-research/issues/113) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-088%22+in%3Atitle)
+[Join the discussion / offer to help](https://github.com/FideAI/fide-research/discussions/214) · [Related tasks](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+is%3Aopen+%22FID-088%22+in%3Atitle)
 
 ## Question
 

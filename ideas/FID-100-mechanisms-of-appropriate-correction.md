@@ -10,7 +10,7 @@ Application domains: `cross-domain`, `cybersecurity`, `workplace-and-enterprise`
 
 Primary need: mechanistic interpretability, agent evaluation, correction protocols, sandbox design
 
-[Join the discussion / offer to help](https://github.com/FideAI/fide-research/issues/124) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-100%22+in%3Atitle)
+[Join the discussion / offer to help](https://github.com/FideAI/fide-research/discussions/226) · [Related tasks](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+is%3Aopen+%22FID-100%22+in%3Atitle)
 
 ## Question
 

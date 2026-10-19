@@ -12,7 +12,7 @@ Specific context: Christian churches and related institutions
 
 Primary need: labor dignity, ministry workflows, education, organizational policy
 
-[Join the discussion / offer to help](https://github.com/FideAI/fide-research/issues/62) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-037%22+in%3Atitle)
+[Join the discussion / offer to help](https://github.com/FideAI/fide-research/discussions/163) · [Related tasks](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+is%3Aopen+%22FID-037%22+in%3Atitle)
 
 ## Question
 

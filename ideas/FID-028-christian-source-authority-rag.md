@@ -12,7 +12,7 @@ Specific context: Christian churches and related institutions
 
 Primary need: theological librarianship, RAG evaluation, denominational experts
 
-[Join the discussion / offer to help](https://github.com/FideAI/fide-research/issues/53) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-028%22+in%3Atitle)
+[Join the discussion / offer to help](https://github.com/FideAI/fide-research/discussions/154) · [Related tasks](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+is%3Aopen+%22FID-028%22+in%3Atitle)
 
 ## Question
 

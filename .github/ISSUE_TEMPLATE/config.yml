@@ -1,5 +1,8 @@
 blank_issues_enabled: true
 contact_links:
+  - name: Join a research call discussion
+    url: https://github.com/FideAI/fide-research/discussions/categories/research-calls
+    about: Ask questions, share reading notes, or find collaborators in a call's existing GitHub Discussion. Use issues for scoped tasks.
   - name: Find a fit or collaborators
     url: https://github.com/FideAI/fide-research/issues/1
     about: Introduce your interests and the help you can offer without a complete proposal.

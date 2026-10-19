@@ -12,7 +12,7 @@ Specific context: Christian churches and related institutions
 
 Primary need: youth and young-adult ministry, practical theology, developmental research, ethics review, HAI research
 
-[Join the discussion / offer to help](https://github.com/FideAI/fide-research/issues/93) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-068%22+in%3Atitle)
+[Join the discussion / offer to help](https://github.com/FideAI/fide-research/discussions/194) · [Related tasks](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+is%3Aopen+%22FID-068%22+in%3Atitle)
 
 ## Question
 
