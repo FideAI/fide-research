@@ -1,5 +1,9 @@
 # Research task
 
+This template is for a public issue. Use public starting materials and keep private
+Fide or partner information out. State only whether the work is paid or volunteer;
+use [Participate](https://fideai.org/participate/) for private terms or constraints.
+
 Related calls:
 
 First output:

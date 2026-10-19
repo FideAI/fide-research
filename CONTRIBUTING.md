@@ -87,7 +87,9 @@ review, tool, or contribution within one or more calls.
    scope and support in the issue. Before substantive work, agree the time
    boundary, paid or volunteer arrangement, credit, and relevant ownership,
    licensing, confidentiality, and publication expectations. Opening an issue
-   does not commit Fide to funding or supervision.
+   does not commit Fide to funding or supervision. Keep private compensation
+   terms and institutional constraints in [Participate](https://fideai.org/participate/);
+   record only the non-sensitive scope and arrangement in the issue.
 4. **Coordinate and share:** use the same issue for scope decisions and outputs.
    Link it from Discord if useful; a duplicate proposal or status report is not
    required. Code and scientific artifacts belong in the appropriate study

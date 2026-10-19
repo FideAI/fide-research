@@ -1,5 +1,9 @@
 # Contribution Proposal
 
+This template is for a public issue. Keep private contact details and non-public
+Fide or partner material out; use [Participate](https://fideai.org/participate/)
+for sensitive context.
+
 Related call IDs:
 
 Related issue or existing work:
