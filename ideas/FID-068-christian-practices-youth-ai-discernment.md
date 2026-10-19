@@ -12,7 +12,7 @@ Specific context: Christian churches and related institutions
 
 Primary need: youth and young-adult ministry, practical theology, developmental research, ethics review, HAI research
 
-[Start a call discussion / offer to help](https://github.com/FideAI/fide-research/issues/new?template=call-discussion.yml&title=Discussion%3A+FID-068+%E2%80%94+Christian+Practices+for+AI-Era+Youth+Discernment&call=FID-068%0ABrief%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fblob%2Fmain%2Fideas%2FFID-068-christian-practices-youth-ai-discernment.md%0AExisting+threads%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fissues%3Fq%3Dis%253Aissue%2B%2522FID-068%2522%2Bin%253Atitle) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-068%22+in%3Atitle)
+[Join the discussion / offer to help](https://github.com/FideAI/fide-research/issues/93) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-068%22+in%3Atitle)
 
 ## Question
 

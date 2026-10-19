@@ -20,9 +20,9 @@ A complete research proposal or institutional affiliation is not required.
    through [Participate](https://fideai.org/participate/) rather than submitting a
    duplicate. A GitHub comment alone does not register your contributor details.
 2. **Choose a starting point.** Open a research brief and follow its discussion
-   link. Comment in the existing issue, or check for related threads before using
-   the prefilled form to start one. A question or a few sentences about what you
-   would like to work on is enough. You can also browse [tasks needing help](https://github.com/FideAI/fide-research/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22)
+   link. Each current call has a standing discussion issue with starting materials.
+   A question or a few sentences about what you would like to work on is enough.
+   You can also browse [tasks needing help](https://github.com/FideAI/fide-research/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22)
    or [small first contributions](https://github.com/FideAI/fide-research/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22good%20first%20issue%22).
    Comment on a matching task with the part you can help with and your rough
    availability. To lead new work on a call, [propose a contribution](https://github.com/FideAI/fide-research/issues/new?template=claim-research-idea.yml)
@@ -108,11 +108,12 @@ Use a `Comment on methodology` issue or open a pull request against a file in
 
 #### Join a call's conversation
 
-Each brief has a discussion link near the top. Calls with an existing starting
-thread link there directly. Other briefs offer a prefilled `Research call
-discussion` form and a search for existing threads. Check the search first: a
-new thread may have appeared since the brief was last updated. Use a matching
-thread rather than opening a separate issue for each contributor.
+Each current brief links directly to its standing discussion near the top.
+Browse the [call discussions](https://github.com/FideAI/fide-research/issues?q=is%3Aissue%20label%3Acall-discussion),
+or follow the link from a call you are reading. New discussions include the public
+brief, a relevant reading or Fide note, and one possible first step. The related-thread
+search also surfaces scoped tasks. Use the standing conversation rather than opening
+a separate discussion for each contributor.
 
 You can simply comment:
 
@@ -124,10 +125,10 @@ same issue. Offering to help signals interest; a maintainer or coordinator agree
 the first output and can assign the contributor once the next step is clear.
 Assignment concerns that contribution, not exclusive ownership of the call.
 
-Create a call conversation when someone has something to discuss, not an empty
-issue for every brief. An existing task can serve as the starting conversation
-while the work is small. Split out and cross-link a task only when a distinct
-piece of work needs its own scope or tracking.
+A standing conversation gives each call a consistent place for questions and
+collaborators; its existence does not mean work has started or funding is available.
+Existing task threads can continue to serve as the starting conversation. Split out
+and cross-link a task only when a distinct piece of work needs its own scope or tracking.
 
 The Contributor Network introduction is separate and happens once; joining another
 call does not require another form. A public discussion does not register private
@@ -175,16 +176,23 @@ Use the `Research task` form or [task template](templates/research-task.md).
 Include the related calls, output and completion criterion, starting materials,
 useful skills, rough effort, open collaborator roles, and a coordinator or review
 route. A maintainer confirms the scope and support before adding `help wanted`.
-Start with a few useful tasks rather than creating an issue for every call.
+Create scoped tasks as concrete work emerges; the standing discussions already
+provide a place to explore every call.
 
-When a call gets its first useful discussion or task issue, update the discussion
-link near the top of its brief to that issue. Keep the related-thread search link
-so other work remains discoverable. Use the FID ID in issue titles; for a new
-conversation, use `Discussion: FID-### — short title`. If the linked thread closes,
-keep it as context and point the brief to a current thread when work resumes.
+For a new call, reuse a suitable existing discussion or create one with the
+`Research call discussion` form. Include the public brief, a useful public reading
+or Fide note, and a small suggested starting point. Use `Discussion: FID-### — short
+title`, add `call-discussion`, and link the brief directly to the issue. Keep the
+related-thread search so other work remains discoverable. If the new brief is still
+in review, link its public PR or branch in the issue; change that reference to `main`
+after the brief merges. Keep standing discussions
+open while the call welcomes conversation. Close scoped tasks when their contribution
+ends; task completion alone does not close a separate standing discussion. If a reused
+task thread closes, preserve its history and provide a current conversation link.
 
 | Signal | Meaning |
 | --- | --- |
+| `call-discussion` | A standing conversation for a research call; it does not imply active work. |
 | `type: contribution` | A proposed contribution or task; scope may still need agreement. |
 | `help wanted` | A specific contribution is open; the issue explains how to help. |
 | `good first issue` | A bounded newcomer task with starting materials and available support. |
@@ -233,8 +241,9 @@ Use the next available `FID-###` number unless a maintainer assigns one in an
 issue.
 
 Replace `FID-000` throughout the brief template, including the discussion and
-thread-search links. Point the discussion link to an existing issue when one
-fits; otherwise retain the prefilled form link. No empty issue is needed.
+thread-search links. The template's prefilled form helps create a standing
+conversation for a new call after checking for an existing one. Add starting
+materials, then replace the form link with the issue URL before publishing the brief.
 
 Every idea brief should include:
 

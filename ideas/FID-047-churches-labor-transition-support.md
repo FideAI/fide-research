@@ -12,7 +12,7 @@ Specific context: Christian churches and related institutions
 
 Primary need: institutional partners, labor transition, social support, field research
 
-[Start a call discussion / offer to help](https://github.com/FideAI/fide-research/issues/new?template=call-discussion.yml&title=Discussion%3A+FID-047+%E2%80%94+Churches+as+Labor-Transition+Support+Institutions&call=FID-047%0ABrief%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fblob%2Fmain%2Fideas%2FFID-047-churches-labor-transition-support.md%0AExisting+threads%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fissues%3Fq%3Dis%253Aissue%2B%2522FID-047%2522%2Bin%253Atitle) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-047%22+in%3Atitle)
+[Join the discussion / offer to help](https://github.com/FideAI/fide-research/issues/72) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-047%22+in%3Atitle)
 
 ## Question
 

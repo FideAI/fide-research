@@ -10,7 +10,7 @@ Application domains: `cross-domain`, `workplace-and-enterprise`
 
 Primary need: research ethics, lifecycle governance, precaution, control-compatible safeguards
 
-[Start a call discussion / offer to help](https://github.com/FideAI/fide-research/issues/new?template=call-discussion.yml&title=Discussion%3A+FID-094+%E2%80%94+Proportionate+AI+Welfare+Precautions+Across+the+Model+Lifecycle&call=FID-094%0ABrief%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fblob%2Fmain%2Fideas%2FFID-094-proportionate-welfare-precautions-model-lifecycle.md%0AExisting+threads%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fissues%3Fq%3Dis%253Aissue%2B%2522FID-094%2522%2Bin%253Atitle) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-094%22+in%3Atitle)
+[Join the discussion / offer to help](https://github.com/FideAI/fide-research/issues/119) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-094%22+in%3Atitle)
 
 ## Question
 

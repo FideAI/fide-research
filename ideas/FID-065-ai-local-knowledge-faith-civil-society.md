@@ -12,7 +12,7 @@ Specific context: Christian churches and related institutions
 
 Primary need: civil-society research, organizational studies, political economy, faith-based partners
 
-[Start a call discussion / offer to help](https://github.com/FideAI/fide-research/issues/new?template=call-discussion.yml&title=Discussion%3A+FID-065+%E2%80%94+AI%2C+Local+Knowledge%2C+and+Faith-Based+Civil+Society&call=FID-065%0ABrief%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fblob%2Fmain%2Fideas%2FFID-065-ai-local-knowledge-faith-civil-society.md%0AExisting+threads%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fissues%3Fq%3Dis%253Aissue%2B%2522FID-065%2522%2Bin%253Atitle) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-065%22+in%3Atitle)
+[Join the discussion / offer to help](https://github.com/FideAI/fide-research/issues/90) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-065%22+in%3Atitle)
 
 ## Question
 

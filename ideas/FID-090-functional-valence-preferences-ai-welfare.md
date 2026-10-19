@@ -10,7 +10,7 @@ Application domains: `cross-domain`
 
 Primary need: preference measurement, affect representations, welfare construct validity
 
-[Start a call discussion / offer to help](https://github.com/FideAI/fide-research/issues/new?template=call-discussion.yml&title=Discussion%3A+FID-090+%E2%80%94+Functional+Valence%2C+Preferences%2C+and+Possible+AI+Welfare&call=FID-090%0ABrief%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fblob%2Fmain%2Fideas%2FFID-090-functional-valence-preferences-ai-welfare.md%0AExisting+threads%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fissues%3Fq%3Dis%253Aissue%2B%2522FID-090%2522%2Bin%253Atitle) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-090%22+in%3Atitle)
+[Join the discussion / offer to help](https://github.com/FideAI/fide-research/issues/115) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-090%22+in%3Atitle)
 
 ## Question
 

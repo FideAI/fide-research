@@ -12,7 +12,7 @@ Specific context: Christian churches and related institutions
 
 Primary need: educators, youth ministry, career preparation, longitudinal study design
 
-[Start a call discussion / offer to help](https://github.com/FideAI/fide-research/issues/new?template=call-discussion.yml&title=Discussion%3A+FID-050+%E2%80%94+Youth+Career+Formation+in+an+AI+Economy&call=FID-050%0ABrief%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fblob%2Fmain%2Fideas%2FFID-050-youth-career-formation-ai-economy.md%0AExisting+threads%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fissues%3Fq%3Dis%253Aissue%2B%2522FID-050%2522%2Bin%253Atitle) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-050%22+in%3Atitle)
+[Join the discussion / offer to help](https://github.com/FideAI/fide-research/issues/75) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-050%22+in%3Atitle)
 
 ## Question
 

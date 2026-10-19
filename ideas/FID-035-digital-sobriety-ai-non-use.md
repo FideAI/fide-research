@@ -12,7 +12,7 @@ Specific context: Christian churches and related institutions
 
 Primary need: formation, education, user agency, attention, pastoral boundaries
 
-[Start a call discussion / offer to help](https://github.com/FideAI/fide-research/issues/new?template=call-discussion.yml&title=Discussion%3A+FID-035+%E2%80%94+Digital+Sobriety+and+AI+Non-Use+Recommendations&call=FID-035%0ABrief%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fblob%2Fmain%2Fideas%2FFID-035-digital-sobriety-ai-non-use.md%0AExisting+threads%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fissues%3Fq%3Dis%253Aissue%2B%2522FID-035%2522%2Bin%253Atitle) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-035%22+in%3Atitle)
+[Join the discussion / offer to help](https://github.com/FideAI/fide-research/issues/60) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-035%22+in%3Atitle)
 
 ## Question
 

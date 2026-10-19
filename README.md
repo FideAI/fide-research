@@ -50,6 +50,7 @@ of whether an intervention improves behavior or reliance decisions.
 ## Current Snapshot
 
 - **101 open research ideas**
+- **[A discussion for every call](https://github.com/FideAI/fide-research/issues?q=is%3Aissue%20label%3Acall-discussion)** with public starting materials; follow the link in each brief
 - **9 research areas** organized around the question being investigated
 - **11 application domains** spanning cross-domain work and consequential settings
 - **6 public issue paths** for discussing calls, proposing ideas, offering
@@ -79,7 +80,7 @@ Start with the [contributor guide](CONTRIBUTING.md#start-here-join-a-research-ca
 for a short Contributor Network introduction and a first research contribution.
 Only name, email, and a brief introduction are required; further detail is optional.
 
-- **Join a call's conversation:** open its [brief](#idea-index) and follow the discussion link near the top. Comment in the existing issue or check for related threads before starting one; a question or offer to help is enough.
+- **Join a call's conversation:** open its [brief](#idea-index) and follow the discussion link near the top. Each call has a standing issue with starting materials; a question or offer to help is enough. Use the related-thread search to find scoped tasks too.
 - **[Find a task](https://github.com/FideAI/fide-research/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22):** browse concrete contributions with an output and support needs.
 - **[Start small](https://github.com/FideAI/fide-research/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22good%20first%20issue%22):** find bounded first contributions with starting materials.
 - **[Propose a contribution](https://github.com/FideAI/fide-research/issues/new?template=claim-research-idea.yml):** suggest work on a call when no matching task exists.

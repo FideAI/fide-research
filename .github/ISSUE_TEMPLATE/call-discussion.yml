@@ -1,12 +1,12 @@
 name: Research call discussion
 description: Ask a question, say you are exploring a call, or find collaborators.
 title: "Discussion: FID-"
-labels: ["question"]
+labels: ["call-discussion"]
 body:
   - type: markdown
     attributes:
       value: |
-        Check for existing threads for the call before starting another. If one fits, comment there instead. A question or a few sentences about what you would like to work on is enough; no project proposal is required.
+        Follow the discussion link in the call's brief before starting another thread. Current calls already have standing discussions. If you are opening the conversation for a new call, include its public brief, a useful public reading or Fide note, and a small suggested starting point. No complete project proposal is required.
         Participation is nonexclusive and does not reserve the call or commit funding. Keep contact details and confidential material out of this public issue; use [Participate](https://fideai.org/participate/) for private context.
   - type: textarea
     id: call

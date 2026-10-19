@@ -10,7 +10,7 @@ Application domains: `faith-and-religious-life`, `health-and-care`, `workplace-a
 
 Primary need: sociology of religion, pastoral care, UX research, aggregate and field measurement
 
-[Start a call discussion / offer to help](https://github.com/FideAI/fide-research/issues/new?template=call-discussion.yml&title=Discussion%3A+FID-053+%E2%80%94+AI+as+Bridge+or+Substitute+for+Faith+Community&call=FID-053%0ABrief%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fblob%2Fmain%2Fideas%2FFID-053-ai-bridge-or-substitute-for-faith-community.md%0AExisting+threads%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fissues%3Fq%3Dis%253Aissue%2B%2522FID-053%2522%2Bin%253Atitle) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-053%22+in%3Atitle)
+[Join the discussion / offer to help](https://github.com/FideAI/fide-research/issues/78) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-053%22+in%3Atitle)
 
 ## Question
 

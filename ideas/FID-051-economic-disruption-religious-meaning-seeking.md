@@ -10,7 +10,7 @@ Application domains: `faith-and-religious-life`, `workplace-and-enterprise`, `fa
 
 Primary need: sociology of religion, labor economics, privacy-preserving measurement, aggregate usage analysis
 
-[Start a call discussion / offer to help](https://github.com/FideAI/fide-research/issues/new?template=call-discussion.yml&title=Discussion%3A+FID-051+%E2%80%94+Economic+Disruption+and+Religious+Meaning-Seeking&call=FID-051%0ABrief%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fblob%2Fmain%2Fideas%2FFID-051-economic-disruption-religious-meaning-seeking.md%0AExisting+threads%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fissues%3Fq%3Dis%253Aissue%2B%2522FID-051%2522%2Bin%253Atitle) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-051%22+in%3Atitle)
+[Join the discussion / offer to help](https://github.com/FideAI/fide-research/issues/76) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-051%22+in%3Atitle)
 
 ## Question
 

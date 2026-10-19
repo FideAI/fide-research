@@ -12,7 +12,7 @@ Specific context: Christian churches and related institutions
 
 Primary need: agent evaluation, institutional operators
 
-[Start a call discussion / offer to help](https://github.com/FideAI/fide-research/issues/new?template=call-discussion.yml&title=Discussion%3A+FID-017+%E2%80%94+Agentic+Ministry+and+Institutional+Workflow+Risk&call=FID-017%0ABrief%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fblob%2Fmain%2Fideas%2FFID-017-agentic-ministry-workflows.md%0AExisting+threads%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fissues%3Fq%3Dis%253Aissue%2B%2522FID-017%2522%2Bin%253Atitle) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-017%22+in%3Atitle)
+[Join the discussion / offer to help](https://github.com/FideAI/fide-research/issues/42) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-017%22+in%3Atitle)
 
 ## Question
 

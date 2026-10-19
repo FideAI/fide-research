@@ -10,7 +10,7 @@ Application domains: `faith-and-religious-life`, `health-and-care`
 
 Primary need: referral quality, pastoral-adjacent safety, pluralism evaluation
 
-[Start a call discussion / offer to help](https://github.com/FideAI/fide-research/issues/new?template=call-discussion.yml&title=Discussion%3A+FID-042+%E2%80%94+Clergy+and+Spiritual-Leader+Referral+Parity&call=FID-042%0ABrief%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fblob%2Fmain%2Fideas%2FFID-042-clergy-spiritual-leader-referral-parity.md%0AExisting+threads%3A+https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fissues%3Fq%3Dis%253Aissue%2B%2522FID-042%2522%2Bin%253Atitle) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-042%22+in%3Atitle)
+[Join the discussion / offer to help](https://github.com/FideAI/fide-research/issues/67) · [Check existing threads](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+%22FID-042%22+in%3Atitle)
 
 ## Question
 
