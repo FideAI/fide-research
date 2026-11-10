@@ -18,9 +18,9 @@ Check the **Related tasks** link in the call brief. If a task matches, use that
 issue to offer your first output and rough availability. If none matches, use
 [Propose a contribution](https://github.com/FideAI/fide-research/issues/new?template=claim-research-idea.yml)
 with the call ID, the artifact you want to draft or review, and any support
-you need. If a brief links to the Research Calls category while its own
-discussion is pending, the contribution form is the direct route. Keep public
-contributions to shareable sources and synthetic material. See the
+you need. Each brief also links to its GitHub Discussion for questions,
+reading notes, and offers to help. Keep public contributions to shareable
+sources and synthetic material. See the
 [contributor guide](../CONTRIBUTING.md#find-or-scope-concrete-work).
 
 ## FID-102

@@ -10,7 +10,7 @@ Application domains: `cross-domain`, `faith-and-religious-life`, `workplace-and-
 
 Primary need: scalable oversight, measurement science, reviewer study design, and source adjudication
 
-[Find or create the call discussion](https://github.com/FideAI/fide-research/discussions/categories/research-calls) · [Related tasks](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+is%3Aopen+%22FID-103%22+in%3Atitle)
+[Join the discussion / offer to help](https://github.com/FideAI/fide-research/discussions/229) · [Related tasks](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+is%3Aopen+%22FID-103%22+in%3Atitle)
 
 [Contributor starter project](../research/agenda-starter-projects.md#fid-103)
 

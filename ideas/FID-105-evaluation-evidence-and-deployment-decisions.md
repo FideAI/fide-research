@@ -10,7 +10,7 @@ Application domains: `cross-domain`, `cybersecurity`, `public-sector-and-civic-l
 
 Primary need: technical governance, case study methods, evaluation policy, and independent evidence review
 
-[Find or create the call discussion](https://github.com/FideAI/fide-research/discussions/categories/research-calls) · [Related tasks](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+is%3Aopen+%22FID-105%22+in%3Atitle)
+[Join the discussion / offer to help](https://github.com/FideAI/fide-research/discussions/231) · [Related tasks](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+is%3Aopen+%22FID-105%22+in%3Atitle)
 
 [Contributor starter project](../research/agenda-starter-projects.md#fid-105)
 
