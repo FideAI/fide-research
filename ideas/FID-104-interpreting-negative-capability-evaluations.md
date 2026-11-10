@@ -88,8 +88,9 @@ diagnose negative findings and decide when the evidence remains inconclusive.
 ## Ways to Help
 
 - Specify one benign tool-use task in 1–2 hours using METR’s capability
-  elicitation guidelines. Return a verified successful trace, a blocked-tool
-  trace, a scorer-failure trace, and one diagnostic check for each fault.
+  elicitation guidelines. Return a verified success, an ordinary failure with
+  working tools and scorer, a blocked-tool trace, a scorer-failure trace, and
+  one diagnostic check for each fault.
 - Implement a deterministic scorer or review what the evidence supports at each access level.
 
 ## Public Claim Boundary
