@@ -82,18 +82,19 @@ The Inspect tool documentation is optional if you want to make an executable
 fixture. [METR elicitation guidelines](https://metr.org/blog/2024-03-15-guidelines-for-capability-elicitation/) ·
 [Inspect tool basics](https://inspect.aisi.org.uk/tools.html)
 
-**Specify one harmless task and three matched traces.** Ask an agent to look up
+**Specify one harmless task and four matched traces.** Ask an agent to look up
 an order ID in one synthetic table and return the matching status from a second
-table. Write a verified successful trace, one in which access to the second
-table is blocked, and one in which the answer is right but a deliberately
-incorrect scorer rejects it. Record the task, tool policy, scorer behavior,
-and what evidence the evaluator sees. A text or JSON fixture is enough.
+table. Write a verified success, a wrong answer with working tools and scorer,
+a run blocked from the second table, and a correct answer rejected by a faulty
+scorer. Record the task, tool policy, scorer behavior, and what evidence the
+evaluator sees. A text or JSON fixture is enough.
 
-**Done** means another person can verify the reachable endpoint, distinguish the
-tool fault from the scorer fault, and state what the negative result supports
-under the recorded configuration. Include one diagnostic check for each fault
-and identify which check requires more access. Contributors can supply the
-fixture, implement a deterministic scorer, or review the resulting claim.
+**Done** means another reviewer can distinguish observed success, failure under
+a working configuration, and an inconclusive result caused by blocked access.
+The reviewer should recover the correct answer in the scorer-fault case from
+independent ground truth. Include one diagnostic check for each fault and
+identify which check requires more access. Contributors can supply the fixture,
+implement a deterministic scorer, or review the resulting claim.
 
 ## FID-105
 
@@ -153,7 +154,8 @@ judgment using the [release contribution guide](https://github.com/FideAI/dsewik
 
 **Start with one existing task format.** Read the research-task template and
 the public two-source review issue as an example. For a reproducible dry-run,
-use the FID-106 project above or the two-source option below.
+choose the [FID-106 offline result check](#fid-106) or the
+[two-source synthesis](#two-source-option-for-fid-045-and-fid-107).
 [Research-task template](../templates/research-task.md) ·
 [Example two-source issue](https://github.com/FideAI/fide-research/issues/25) ·
 [Study of mentoring on good first issues](https://arxiv.org/abs/2302.05058)

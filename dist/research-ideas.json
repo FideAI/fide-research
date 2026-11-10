@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-10T19:07:51.968Z",
+  "generated_at": "2026-11-10T21:47:52.018Z",
   "source_repo": "https://github.com/FideAI/fide-research",
   "source_branch": "main",
   "idea_count": 107,
@@ -5805,7 +5805,7 @@
       "summary": "What should an independent evaluator check before using a model's failure to demonstrate a capability as evidence for a bounded deployment decision?",
       "why_it_matters": "A failed attempt can reflect an incapable system, inadequate tools or time, a broken harness, a scorer error, or underperformance tied to the evaluation context. These imply different decisions about retesting, access, and safeguards. An evaluator often has less access than the developer and must show what the available evidence actually excludes.",
       "ways_to_help": [
-        "Specify one benign tool-use task in 1–2 hours using METR’s capability elicitation guidelines. Return a verified successful trace, a blocked-tool trace, a scorer-failure trace, and one diagnostic check for each fault.",
+        "Specify one benign tool-use task in 1–2 hours using METR’s capability elicitation guidelines. Return a verified success, an ordinary failure with working tools and scorer, a blocked-tool trace, a scorer-failure trace, and one diagnostic check for each fault.",
         "Implement a deterministic scorer or review what the evidence supports at each access level."
       ],
       "hypothesis": "A fixed-budget audit using known-solvable positive controls and a versioned record of elicitation will diagnose more false negatives than repetition of the original test. Some negative results will remain inconclusive across every available access condition.",
