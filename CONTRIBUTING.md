@@ -20,7 +20,7 @@ A complete research proposal or institutional affiliation is not required.
    through [Participate](https://fideai.org/participate/) rather than submitting a
    duplicate. A GitHub comment alone does not register your contributor details.
 2. **Choose a starting point.** Open a research brief and follow its discussion
-   link. Each current call has a GitHub Discussion with starting materials.
+   link, or browse the [starter projects for FID-102 through FID-107](research/agenda-starter-projects.md).
    A question or a few sentences about what you would like to work on is enough.
    You can also browse [tasks needing help](https://github.com/FideAI/fide-research/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22)
    or [small first contributions](https://github.com/FideAI/fide-research/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22good%20first%20issue%22).
@@ -109,12 +109,14 @@ Use a `Comment on methodology` issue or open a pull request against a file in
 
 #### Join a call's conversation
 
-Each current brief links directly to its GitHub Discussion near the top.
+Follow the discussion link near the top of the brief.
 Browse the [Research Calls category](https://github.com/FideAI/fide-research/discussions/categories/research-calls),
 or follow the link from a call you are reading. Opening posts include the public
 brief, a relevant reading or Fide note, and one possible first step. The related-tasks
-link surfaces open work. Use the existing Discussion rather than opening a separate
-conversation for each contributor.
+link surfaces open work. Use the existing Discussion for questions about the call.
+If a seed brief links to the category while its discussion is pending, use the
+[contribution form](https://github.com/FideAI/fide-research/issues/new?template=claim-research-idea.yml)
+for a specific offer of help.
 
 You can simply comment:
 
@@ -181,8 +183,8 @@ useful skills, rough effort, open collaborator roles, and a coordinator or revie
 route. A maintainer confirms the scope and support before adding `help wanted`.
 Include the related `FID-###` IDs in the issue title so the briefs' related-tasks
 links can find it.
-Create scoped tasks as concrete work emerges; the call Discussions already
-provide a place to explore every call.
+Create scoped tasks as concrete work emerges. Use each call's Discussion
+for exploratory conversation once it is available.
 
 For a new call, check the Research Calls category for an existing Discussion.
 If needed, create an open-ended Discussion in that category with the public brief,
