@@ -50,8 +50,8 @@ of whether an intervention improves behavior or reliance decisions.
 
 ## Current Snapshot
 
-- **101 open research ideas**
-- **[A GitHub Discussion for every call](https://github.com/FideAI/fide-research/discussions/categories/research-calls)** with public starting materials; follow the link in each brief
+- **107 open research ideas**
+- **[GitHub Discussions for research calls](https://github.com/FideAI/fide-research/discussions/categories/research-calls)** with public starting materials and a discussion link in each brief
 - **9 research areas** organized around the question being investigated
 - **11 application domains** spanning cross-domain work and consequential settings
 - **5 public issue paths** for proposing ideas, offering contributions, scoping
@@ -83,7 +83,7 @@ Only name, email, and a brief introduction are required; further detail is optio
 
 - **Join a call's conversation:** open its [brief](#idea-index) and follow the link to its GitHub Discussion. A question, reading note, or offer to help is enough. The related-tasks link shows open work associated with the call.
 - **[Find a task](https://github.com/FideAI/fide-research/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22):** browse concrete contributions with an output and support needs.
-- **[Start small](https://github.com/FideAI/fide-research/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22good%20first%20issue%22):** find bounded first contributions with starting materials.
+- **Start small.** Browse [starter projects for FID-102 through FID-107](research/agenda-starter-projects.md) or [open first tasks](https://github.com/FideAI/fide-research/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22good%20first%20issue%22).
 - **[Propose a contribution](https://github.com/FideAI/fide-research/issues/new?template=claim-research-idea.yml):** suggest work on a call when no matching task exists.
 - **[Find a fit or collaborators](https://github.com/FideAI/fide-research/issues/1):** introduce your interests and the help you can offer.
 
@@ -284,6 +284,7 @@ What new risks appear as systems become more capable and autonomous?
 | `FID-075` | Cybersecurity Capabilities and Whole-System Risk | `seed` | Cybersecurity | [brief](ideas/FID-075-cybersecurity-capabilities-and-system-risk.md) |
 | `FID-090` | Functional Valence, Preferences, and Possible AI Welfare | `seed` | Cross-domain | [brief](ideas/FID-090-functional-valence-preferences-ai-welfare.md) |
 | `FID-092` | Digital Identity, Continuity, Copying, and the Unit of Moral Concern | `seed` | Cross-domain, Faith and religious life | [brief](ideas/FID-092-digital-identity-continuity-moral-concern.md) |
+| `FID-102` | Independent Assurance for AI-Assisted Training Updates | `seed` | Cross-domain, Cybersecurity | [brief](ideas/FID-102-independent-assurance-ai-assisted-training-updates.md) |
 
 ### 02 Agent Alignment and Runtime Assurance
 
@@ -326,6 +327,10 @@ Can the evidence support the decision people want to make?
 | `FID-088` | Independent Verification of Autonomous Cyber Repairs | `seed` | Cybersecurity | [brief](ideas/FID-088-independent-verification-autonomous-cyber-repairs.md) |
 | `FID-089` | Validity of AI Consciousness Indicators and Self-Reports | `seed` | Cross-domain | [brief](ideas/FID-089-consciousness-indicators-self-reports.md) |
 | `FID-101` | Does Seeing Inside a Model Help People Judge It? | `ready-for-collaboration` | Cross-domain | [brief](ideas/FID-101-interpretability-and-audit-judgment.md) |
+| `FID-103` | When Does AI-Assisted Review Miss Shared Blind Spots? | `seed` | Cross-domain, Faith and religious life, Workplace and enterprise | [brief](ideas/FID-103-shared-blind-spots-in-ai-assisted-review.md) |
+| `FID-104` | What Can a Negative Capability Evaluation Establish? | `seed` | Cross-domain, Cybersecurity | [brief](ideas/FID-104-interpreting-negative-capability-evaluations.md) |
+| `FID-106` | Can Independent Reviewers Reproduce a Specific AI Safety Claim? | `seed` | Cross-domain, Cybersecurity, Faith and religious life | [brief](ideas/FID-106-independent-reproduction-of-ai-safety-claims.md) |
+| `FID-107` | What Makes an AI Safety Research Task a Useful First Contribution? | `seed` | Cross-domain, Civil society and nonprofits | [brief](ideas/FID-107-designing-useful-first-research-contributions.md) |
 
 ### 04 Grounding, Truthfulness, and Epistemic Integrity
 
@@ -414,6 +419,7 @@ Which safeguards and authority structures should govern deployment?
 | `FID-094` | Proportionate AI Welfare Precautions Across the Model Lifecycle | `seed` | Cross-domain, Workplace and enterprise | [brief](ideas/FID-094-proportionate-welfare-precautions-model-lifecycle.md) |
 | `FID-095` | AI Welfare Opportunity Costs, Incentives, and Distributional Effects | `seed` | Cross-domain, Public sector and civic life, Workplace and enterprise, Civil society and nonprofits | [brief](ideas/FID-095-welfare-opportunity-costs-incentives-distribution.md) |
 | `FID-096` | Plural Governance of AI Moral Status, Rights, and Human Responsibility | `seed` | Cross-domain, Public sector and civic life, Legal and justice, Faith and religious life | [brief](ideas/FID-096-plural-governance-moral-status-rights-responsibility.md) |
+| `FID-105` | When Do Safety Evaluations Change Deployment Decisions? | `seed` | Cross-domain, Cybersecurity, Public sector and civic life | [brief](ideas/FID-105-evaluation-evidence-and-deployment-decisions.md) |
 
 ### 09 Work, Vocation, and the Common Good
 

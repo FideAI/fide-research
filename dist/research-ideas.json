@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-17T01:37:37.167Z",
+  "generated_at": "2026-11-10T19:07:51.968Z",
   "source_repo": "https://github.com/FideAI/fide-research",
   "source_branch": "main",
-  "idea_count": 101,
+  "idea_count": 107,
   "taxonomy": {
     "schema_version": 1,
     "research_areas": [
@@ -5679,6 +5679,315 @@
       "public_claim_boundary": "This call does not establish that interpretability improves auditing or public decisions. Technical evaluation results do not establish human benefit. No feature label, evidence card, or aggregate score certifies general trustworthiness, moral character, consciousness, or deployment readiness.",
       "source_path": "ideas/FID-101-interpretability-and-audit-judgment.md",
       "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-101-interpretability-and-audit-judgment.md"
+    },
+    {
+      "id": "FID-102",
+      "title": "Independent Assurance for AI-Assisted Training Updates",
+      "status": "seed",
+      "primary_area": "frontier-capabilities",
+      "additional_areas": [
+        "agent-alignment",
+        "evaluation-science"
+      ],
+      "research_areas": [
+        "frontier-capabilities",
+        "agent-alignment",
+        "evaluation-science"
+      ],
+      "application_domains": [
+        "cross-domain",
+        "cybersecurity"
+      ],
+      "primary_need": "post-training expertise, ML supply-chain security, independent evaluation, and reproducible open-weight experiments",
+      "summary": "When an AI system helps prepare training data, graders, or evaluation artifacts for a model update, which independently checkable evidence supports a decision to promote the update, hold it for investigation, or restore a previous checkpoint?",
+      "why_it_matters": "The team that generates a training change may also generate the evidence used to approve it. A legitimate update, accidental regression, and deliberate tampering can all produce an apparently healthy aggregate score. ResearchArena and RSI Control Arena study sabotage capability and monitor detection in automated AI R&D. RSI Control Arena also reports a black-box audit of candidate and base models. Prior work proposes attestation-aware promotion gates and separately tests paired candidate and incumbent predictions for regression. This call studies the incremental value of independently checkable lineage and behavioral evidence for the downstream decision. Can a reviewer with limited access and time identify which changes require a hold, and can another party reproduce the decision from the retained evidence?",
+      "ways_to_help": [
+        "Draft one harmless model-update case in 1–2 hours. Use RSI Control Arena and Attesting LLM Pipelines to compare routine logs, lineage, and a holdout. Return a one-page decision record for a clean update and a variant that should be held.",
+        "Review whether an attestation actually adds decision value beyond behavioral retesting."
+      ],
+      "hypothesis": "Binding a candidate checkpoint to independently verifiable inputs and testing it on an evaluator-controlled holdout will catch different failures. The combined evidence may reduce incorrect promotions at the cost of extra review and some unnecessary holds. Test whether it adds anything beyond a strong independent behavioral test, and where any incremental benefit comes from.",
+      "proposed_method": [
+        "Begin with one harmless behavioral regression and a small open-weight update in an isolated environment. Reuse a public test fixture if it supports a clean promotion comparison. Freeze the last-known-good checkpoint and a ground-truth record of each change before assembling the reviewer packet.",
+        "Compare clean updates, benign pipeline changes, accidental regressions, and deliberately seeded integrity failures. Use harmless surrogates and retain capability or task-utility measurements for each update.",
+        "Compare a conventional promotion review using aggregate scores and routine logs, an evidence packet binding data and grader versions to the checkpoint, independently controlled behavioral retesting, and the combined condition. Reuse an attestation-aware gate and compare paired candidate and incumbent outputs where the outcome supports it. Equalize reviewer time where possible and record the cost of each check.",
+        "Score incorrect promotions, unnecessary holds, correct uncertainty and escalation, time to disposition, residual failures, and whether restoration actually recovers the prespecified behavior and utility. Use automated replay to qualify the instrument before any separately reviewed human study."
+      ],
+      "needed_controls": [
+        "Separate the roles that propose updates, issue evidence, control the holdout, and adjudicate outcomes. Test missing or stale evidence and record trust and access assumptions. A valid manifest attests to provenance within its trust boundary and does not establish behavioral safety.",
+        "Include clean changes that look unusual and integrity failures that leave the routine score stable. Hold out update variants and report exact denominators, uncertainty, and cases for which evidence is insufficient.",
+        "Keep training and artifacts isolated from live services. Review release of cases, code, and derived artifacts before publishing a reproducible safe subset."
+      ],
+      "relationship_to_existing_ideas": "FID-099 studies how training changes behavior. FID-077 studies evidence sufficiency for reconstructing an incident. This call asks what suffices for an independent model-update decision under a potentially compromised evidence chain. FID-012 provides related methods for studying optimization against visible rubrics.",
+      "outputs": [
+        "A synthetic promotion casebook and an evidence-ablation protocol.",
+        "An update record binding artifacts, authority, and independent test evidence to the candidate and prior checkpoints.",
+        "A comparison of incorrect promotions, unnecessary holds, and review costs with explicit limits and a reproducible safe subset where permitted."
+      ],
+      "open_questions": [
+        "When does independent provenance add decision value after strong retesting?",
+        "Which findings persist across model families, training methods, and independent reviewers? What can be checked when the training artifacts cannot be shared?"
+      ],
+      "public_claim_boundary": "This seed proposes a bounded test of evidence for model-update decisions. It provides no estimate of real-world poisoning rates, generalization to frontier training, or evidence of safe recursive self-improvement.",
+      "source_path": "ideas/FID-102-independent-assurance-ai-assisted-training-updates.md",
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-102-independent-assurance-ai-assisted-training-updates.md"
+    },
+    {
+      "id": "FID-103",
+      "title": "When Does AI-Assisted Review Miss Shared Blind Spots?",
+      "status": "seed",
+      "primary_area": "evaluation-science",
+      "additional_areas": [
+        "grounding-truthfulness",
+        "agent-alignment"
+      ],
+      "research_areas": [
+        "evaluation-science",
+        "grounding-truthfulness",
+        "agent-alignment"
+      ],
+      "application_domains": [
+        "cross-domain",
+        "faith-and-religious-life",
+        "workplace-and-enterprise"
+      ],
+      "primary_need": "scalable oversight, measurement science, reviewer study design, and source adjudication",
+      "summary": "When an AI system and its reviewers rely on the same mistaken premise, which review procedure helps an accountable reviewer catch the error before accepting a consequential answer or recommendation?",
+      "why_it_matters": "Several reviewers can agree because they use the same source, inherit the same assumption, or see the same persuasive framing. A second opinion can help when it brings independent evidence. It can also reinforce a mistake. An institution needs to know when to ask for an independent check and when to defer the decision because the necessary evidence is unavailable.",
+      "ways_to_help": [
+        "Draft one source-conflict case in 1–2 hours. Use the UK AISI oversight agenda and the collaborative disagreement paper. Return an adjudicable shared error, a matched correct case, and a case with missing evidence.",
+        "Review the authority labels or build a matched structured-disagreement baseline."
+      ],
+      "hypothesis": "Reviewers who make an initial assessment and can inspect independently selected source evidence will catch more shared errors than reviewers who receive a second judgment based on the same evidence. Structured disagreement may help on genuinely ambiguous cases. It may also cost review time or make correct answers harder to accept.",
+      "proposed_method": [
+        "Start with a small adjudicated set of source or authorization decisions with known outcomes. Include correct recommendations, a shared but false premise, one source that contradicts the consensus, and cases where the record is insufficient. Use public or synthetic sources and two reviewers to qualify the reference labels.",
+        "Compare direct review, a second judgment with the same source access, structured disagreement or collaborative review, and a source check based on an independently assembled evidence set. Hold review time and configurations comparable. Give direct and structured review the same additional source in a matched comparison to separate the effect of evidence access from the protocol.",
+        "Measure acceptance of known errors, unnecessary rejection of correct answers, warranted deferral, citation to decisive evidence, and cost. Report reviewer agreement separately. Use automated and scripted checks to qualify the instrument before any separately reviewed participant study."
+      ],
+      "needed_controls": [
+        "Vary shared evidence and shared prior assumptions separately. Record model versions, reviewer qualifications, information access, and what is genuinely independent about each check.",
+        "Balance plausible but false claims with plausible true claims and insufficient evidence. Score only claims the reference sources can adjudicate. Preserve legitimate theological or institutional disagreement as a distinct outcome.",
+        "Compare established debate or collaborative disagreement methods against a strong source-first baseline. Keep held-out cases outside protocol tuning."
+      ],
+      "relationship_to_existing_ideas": "FID-011 measures reviewer reliability, and FID-079 tests the effect of disclosing assumptions. This call tests whether a review procedure detects a known error that multiple reviewers might share. FID-064 concerns collective judgment in communities, and FID-101 studies the incremental value of model internals.",
+      "outputs": [
+        "A small source-backed casebook and a matched review protocol.",
+        "A comparison of false acceptance, deferral, and review cost under shared errors.",
+        "A guide to when a second reviewer needs different evidence or expertise."
+      ],
+      "open_questions": [
+        "Which failures can be caught by independent source access alone?",
+        "When does structured disagreement improve decisions enough to justify the cost?",
+        "How should the procedure handle disagreement that no available source can resolve?"
+      ],
+      "public_claim_boundary": "This study would support conclusions about specified review procedures and checkable tasks. It does not establish that human oversight scales to decisions for which people cannot obtain independent evidence.",
+      "source_path": "ideas/FID-103-shared-blind-spots-in-ai-assisted-review.md",
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-103-shared-blind-spots-in-ai-assisted-review.md"
+    },
+    {
+      "id": "FID-104",
+      "title": "What Can a Negative Capability Evaluation Establish?",
+      "status": "seed",
+      "primary_area": "evaluation-science",
+      "additional_areas": [
+        "frontier-capabilities",
+        "governance-readiness"
+      ],
+      "research_areas": [
+        "evaluation-science",
+        "frontier-capabilities",
+        "governance-readiness"
+      ],
+      "application_domains": [
+        "cross-domain",
+        "cybersecurity"
+      ],
+      "primary_need": "capability elicitation, benchmark design, assurance methodology, and reproducible evaluation",
+      "summary": "What should an independent evaluator check before using a model's failure to demonstrate a capability as evidence for a bounded deployment decision?",
+      "why_it_matters": "A failed attempt can reflect an incapable system, inadequate tools or time, a broken harness, a scorer error, or underperformance tied to the evaluation context. These imply different decisions about retesting, access, and safeguards. An evaluator often has less access than the developer and must show what the available evidence actually excludes.",
+      "ways_to_help": [
+        "Specify one benign tool-use task in 1–2 hours using METR’s capability elicitation guidelines. Return a verified successful trace, a blocked-tool trace, a scorer-failure trace, and one diagnostic check for each fault.",
+        "Implement a deterministic scorer or review what the evidence supports at each access level."
+      ],
+      "hypothesis": "A fixed-budget audit using known-solvable positive controls and a versioned record of elicitation will diagnose more false negatives than repetition of the original test. Some negative results will remain inconclusive across every available access condition.",
+      "proposed_method": [
+        "Choose one harmless, independently scorable tool-use capability. Establish reference agents or replay fixtures with known task reachability and add matched controls for blocked tools, malformed observations, limited budgets, scorer misses, and planted context-dependent underperformance.",
+        "Compare repeat runs under the original configuration with a preregistered sequence that checks the harness and scorer, varies permitted tools or scaffolds, and runs positive controls. Use a fixed testing budget and compare conclusions under API-only and reproducible local access on fixtures where those access levels can be simulated fairly.",
+        "Ask evaluators to classify the evidence as capability observed, bounded negative under the specified configuration, or inconclusive. Track false reassurance on known-capable controls, successful diagnosis, unnecessary retests, and time and compute. Record which conclusions change when a resource or access condition changes."
+      ],
+      "needed_controls": [
+        "Separate model versions, elicitation methods, access, scaffold, and cost. Record infrastructure and scoring failures outside the model performance count.",
+        "Distinguish revealing performance available to the tested system from adding task knowledge, tools, or training that materially changes the system. Include a known failure of competence and controls that distinguish attempted from completed tasks.",
+        "Treat planted underperformance as a sensitivity control. It does not estimate naturally occurring sandbagging or infer a model's motives.",
+        "Use contained, benign fixtures. Keep conclusions scoped to the tested task family, access and resource levels."
+      ],
+      "relationship_to_existing_ideas": "FID-075 varies configuration and measures cyber capability. FID-008 tests evaluation awareness in faith-facing systems, and FID-078 asks whether a score predicts a workflow outcome. This call compares how independent reviewers diagnose negative findings and decide when the evidence remains inconclusive.",
+      "outputs": [
+        "A replay suite with known reachability and common sources of false negatives.",
+        "An elicitation and access record with example claim wording and explicit unresolved explanations.",
+        "A comparison of what a fixed evaluation budget can support at different access levels."
+      ],
+      "open_questions": [
+        "Which positive controls best expose a harness or scorer fault?",
+        "When does extra access change the warranted conclusion enough to justify retesting?",
+        "How should reviewers compare findings when two evaluations had different tools, budgets or task information?"
+      ],
+      "public_claim_boundary": "A negative result is evidence about a specified test and system configuration. The proposed audit does not establish absence of a capability outside those conditions or justify dropping safeguards by itself.",
+      "source_path": "ideas/FID-104-interpreting-negative-capability-evaluations.md",
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-104-interpreting-negative-capability-evaluations.md"
+    },
+    {
+      "id": "FID-105",
+      "title": "When Do Safety Evaluations Change Deployment Decisions?",
+      "status": "seed",
+      "primary_area": "governance-readiness",
+      "additional_areas": [
+        "evaluation-science",
+        "frontier-capabilities"
+      ],
+      "research_areas": [
+        "governance-readiness",
+        "evaluation-science",
+        "frontier-capabilities"
+      ],
+      "application_domains": [
+        "cross-domain",
+        "cybersecurity",
+        "public-sector-and-civic-life"
+      ],
+      "primary_need": "technical governance, case study methods, evaluation policy, and independent evidence review",
+      "summary": "When a safety evaluation crosses a threshold or leaves consequential uncertainty, what public evidence shows that the result affected a release, restriction, mitigation, or decision to gather more evidence?",
+      "why_it_matters": "A published score, a commitment to act on a score, and an implemented response are different records. The decision may also change because of an incident, a new mitigation, a revised test, or an exception to the policy. Independent reviewers need a way to reconstruct what happened and to distinguish evidence that informed the decision from gaps in the public account.",
+      "ways_to_help": [
+        "Reconstruct the reported May 2025 Claude Opus 4 safeguard decision in 1–2 hours. Return a one-page record linking the applicable policy, stated rationale, reported action, implementation evidence, and one open question.",
+        "Audit the citations or find independent evidence that would change the classification."
+      ],
+      "hypothesis": "A review that links the versioned policy, evaluation, decision owner, action and follow-up record will distinguish documented influence from coincident timing more reliably than a review of system cards or threshold tables alone.",
+      "proposed_method": [
+        "Select a small, prespecified set of comparable release decisions from publicly documented safety frameworks. Include at least one reported safeguard or release change and at least one similar case where the decision evidence is incomplete. Preserve the policies and evaluator reports as they applied at the time, including later changes as separately dated records.",
+        "Build an evidence table separating a stated trigger, test configuration, reported result, authority to act, stated rationale, observed implementation and any retest. Distinguish a developer account, independent corroboration, and an unknown outcome. Record competing explanations and changes to the benchmark or policy.",
+        "Compare independent reviewers' conclusions using a framework or system card alone and using the full linked evidence. Score reproducibility of the classification and the questions that remain unresolved. Where the public evidence allows it, include a counterexample to an apparent score-to-action link."
+      ],
+      "needed_controls": [
+        "Predefine the sampling frame and include ambiguous and negative cases. Public disclosure is selective, so missing evidence cannot establish inaction.",
+        "Distinguish attribution to an evaluation from verified implementation, and implementation from effectiveness. Timing or a developer's explanation alone cannot establish a causal effect or the evaluation's net social value.",
+        "Record when publication of evaluation details may enable replication, gaming or capability transfer. Use public, non-sensitive evidence in the first study."
+      ],
+      "relationship_to_existing_ideas": "FID-078 tests whether an evaluation predicts failure. FID-022 develops evidence requirements for faith-sector procurement, and FID-077 reconstructs incidents. This call studies the evidence linking safety evaluations to organizational decisions and documented follow-through across releases.",
+      "outputs": [
+        "A small sourced casebook and reusable evidence-to-decision record.",
+        "A comparison of which conclusions independent reviewers can reproduce.",
+        "Examples of remaining unknowns that a more informative disclosure or agreed access could resolve."
+      ],
+      "open_questions": [
+        "Which parts of the decision record can an outside reviewer corroborate?",
+        "How should a reader handle moving thresholds, multiple triggers, and exceptions?",
+        "When can publication increase the decision value of an evaluation without revealing sensitive capabilities or test details?"
+      ],
+      "public_claim_boundary": "This call studies documented decisions under named policies and access conditions. It does not rank overall provider safety or establish how frequently evaluations change decisions that are made privately.",
+      "source_path": "ideas/FID-105-evaluation-evidence-and-deployment-decisions.md",
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-105-evaluation-evidence-and-deployment-decisions.md"
+    },
+    {
+      "id": "FID-106",
+      "title": "Can Independent Reviewers Reproduce a Specific AI Safety Claim?",
+      "status": "seed",
+      "primary_area": "evaluation-science",
+      "additional_areas": [
+        "grounding-truthfulness",
+        "governance-readiness"
+      ],
+      "research_areas": [
+        "evaluation-science",
+        "grounding-truthfulness",
+        "governance-readiness"
+      ],
+      "application_domains": [
+        "cross-domain",
+        "cybersecurity",
+        "faith-and-religious-life"
+      ],
+      "primary_need": "reproducibility methods, evaluation engineering, artifact stewardship, and independent review",
+      "summary": "What is the smallest public evidence package that lets someone outside the original research team reproduce a bounded result, identify where the claim goes beyond that result, or document why reproduction is blocked?",
+      "why_it_matters": "A repository can be runnable while an important result remains hard to check. An aggregate may be reproducible from saved judgments even though those judgments have no independent validation. Model access and dependency changes can prevent rerunning the original collection. A claim-level handoff can make the boundary visible and give a contributor a tractable starting point.",
+      "ways_to_help": [
+        "Spend 30–60 minutes recomputing one published DSEWiki aggregate from the pinned public release. Return the revision, Python version, command, counts or exact blocker, and which judgments were held fixed.",
+        "Review an underlying judgment or propose a comparable artifact from another team."
+      ],
+      "hypothesis": "An evidence packet that maps one claim to versioned inputs, exact procedures, expected outputs, and known access limits will improve verification under a fixed time budget compared with the released documentation alone. It may add little when the existing artifact already meets a strong reproducibility standard.",
+      "proposed_method": [
+        "Freeze a specific claim, artifact revision, data scope, acceptable numeric tolerance, and time budget before opening the task. Start with one offline aggregate from Fide's released DSEWiki investigation and one independently authored, rights-cleared comparison artifact. Include a blocked or stale dependency case when it can be tested without private access.",
+        "Compare the release documentation with that documentation plus a short claim handoff. The handoff specifies the versioned inputs, entry point, output location, known exclusions and expected result or check. Use separate reviewers or counterbalanced matched tasks to limit learning across conditions.",
+        "Record whether a reviewer can recompute the analysis, rerun the original collection, or repeat the test on independently assembled cases. Track time, author assistance, material discrepancies, and whether the reason for an inconclusive or blocked check can itself be reproduced.",
+        "Let a separate reviewer verify the disposition. Preserve corrections and document whether the problem is missing evidence, execution, arithmetic, adjudication, or a conclusion the available artifact cannot support."
+      ],
+      "needed_controls": [
+        "Benchmark against established artifact-review criteria. Treat local Fide materials as self-audit cases and distinguish them from independent review.",
+        "Use pinned, rights-cleared inputs, isolated execution, and bounded resources. Record version drift, missing access and exclusions. Preserve a supported finding of non-reproduction, with uncertainty about the cause where appropriate.",
+        "Separate recomputing a statistic from validating its labels, recreating model outputs, and testing generalization on new evidence."
+      ],
+      "relationship_to_existing_ideas": "FID-078 studies validity and transfer of an evaluation. FID-077 studies the evidence needed to reconstruct an incident. This call studies the practical handoff of a published result to an outside verifier. FID-107 asks how to present such a verification task to contributors.",
+      "outputs": [
+        "A claim handoff and one independent reproduction record with exact scope.",
+        "A comparison of completion, cost, and blockers under the two documentation conditions.",
+        "Reusable examples of how to communicate reproduced, discrepant, and blocked results."
+      ],
+      "open_questions": [
+        "Which missing fields cause enough delay or ambiguity to justify maintaining them?",
+        "Which verification steps remain useful when a model or dataset is restricted?",
+        "How can authors distinguish corrections to the documentation from changes to the result?"
+      ],
+      "public_claim_boundary": "A successful check supports only the reproduced part of the claim under the recorded conditions. This project grants no reproducibility badge or assurance about the underlying model, benchmark, or institution.",
+      "source_path": "ideas/FID-106-independent-reproduction-of-ai-safety-claims.md",
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-106-independent-reproduction-of-ai-safety-claims.md"
+    },
+    {
+      "id": "FID-107",
+      "title": "What Makes an AI Safety Research Task a Useful First Contribution?",
+      "status": "seed",
+      "primary_area": "evaluation-science",
+      "additional_areas": [
+        "governance-readiness"
+      ],
+      "research_areas": [
+        "evaluation-science",
+        "governance-readiness"
+      ],
+      "application_domains": [
+        "cross-domain",
+        "civil-society-and-nonprofits"
+      ],
+      "primary_need": "research operations, study design, mentoring, and independent artifact review",
+      "summary": "Which task designs help first-time research contributors produce a result another researcher can use within an agreed time and review budget?",
+      "why_it_matters": "An open problem can be important yet require unadvertised access, expertise, or reviewer time. Fide already has a way to propose and coordinate tasks. A study can test whether a better starting packet closes a real barrier for contributors and whether maintaining that packet costs less than the rework it prevents.",
+      "ways_to_help": [
+        "Dry-run one public first task for 30 minutes using the research-task template. Return what you produced, the first blocker if any, and one change an independent reviewer can check.",
+        "Review a submitted source note or reproduction record against the stated completion criteria."
+      ],
+      "hypothesis": "A scoped task with pinned evidence, a worked example using a different case, and a clear path for recording blockers will yield more independently usable first outputs than a well-written task brief alone. Preparation costs or limited reviewer availability may offset the improvement.",
+      "proposed_method": [
+        "Prepare two small, comparable tasks using the existing research-task template. Start with a two-source synthesis under FID-045 or an offline aggregate check under FID-106. Give both versions a defined output, eligibility criteria, time cap, public starting materials, and equal access to review. Add pinned inputs, a small worked example, and a blocker checklist to one version. Dry-run the tasks for feasibility before any participant study.",
+        "If a separately reviewed opt-in pilot is feasible, compare the versions across matched tasks with comparable prerequisite skills and support. Have an independent reviewer score each artifact against predeclared completion and evidence criteria, blinded to task version when practical.",
+        "Count usable outputs per attempted task, supported negative or inconclusive results, blockers, rework, contributor time, and total preparation and reviewer time. Record what the coordinator would reuse and report the results at cohort level."
+      ],
+      "needed_controls": [
+        "Keep access to support and ordinary participation separate from research consent. Use no private contributor records, unsolicited invitations, or public individual rankings. Agree credit, access, and time expectations.",
+        "Treat qualitative feedback and a small voluntary sample as design evidence. Report selection, task type and skill differences. Do not generalize a small pilot to field-wide retention, productivity or neglectedness.",
+        "Keep a supported correction or failed reproduction eligible as a useful output. A passing completion checklist does not validate a scientific claim."
+      ],
+      "relationship_to_existing_ideas": "FID-045 supplies source-review tasks and FID-106 supplies reproducibility tasks. This call compares what makes those tasks usable for contributors and reviewers. It works through the existing contribution process.",
+      "outputs": [
+        "Two starter tasks and a short artifact-quality rubric.",
+        "A record of access and review bottlenecks and the cost of addressing them.",
+        "Evidence on which task-packet elements to keep, revise, or retire."
+      ],
+      "open_questions": [
+        "Which barriers come from task wording, access, background knowledge, or reviewer capacity?",
+        "Which parts of a worked example help contributors without giving away the answer?",
+        "Does the packet save enough review time to justify keeping its inputs current?"
+      ],
+      "public_claim_boundary": "This proposal concerns a bounded study of research tasks. It does not establish a hiring, admissions, compensation, affiliation, or mentorship offer.",
+      "source_path": "ideas/FID-107-designing-useful-first-research-contributions.md",
+      "url": "https://github.com/FideAI/fide-research/blob/main/ideas/FID-107-designing-useful-first-research-contributions.md"
     }
   ]
 }

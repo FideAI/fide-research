@@ -2482,3 +2482,329 @@ sources:
     added_by: fide-ai
     added_at: "2026-10-16"
     last_reviewed_at: "2026-10-16"
+
+  - id: aisi-alignment-agenda-2025
+    title: "UK AISI's Alignment Team: Research Agenda"
+    authors: ["Benjamin Hilton", "Jacob Pfau", "Marie DB", "Geoffrey Irving"]
+    year: 2025
+    type: article
+    venue: "LessWrong"
+    url: https://www.lesswrong.com/posts/tbnw7LbNApvxNLAg8/uk-aisi-s-alignment-team-research-agenda
+    status: reviewed
+    relevance: ["benchmark-validity", "human-calibration", "agentic-safety"]
+    related_ideas: ["FID-008", "FID-011", "FID-063", "FID-101", "FID-103"]
+    summary: >
+      Proposes safety cases for honesty and studies of debate, stability, systematic oversight error, and human adjudication.
+    limitations:
+      - The agenda distinguishes proposed theoretical guarantees from validation on current models.
+    added_by: fide-ai
+    added_at: "2026-11-10"
+    last_reviewed_at: "2026-11-10"
+
+  - id: evans-training-data-poisoning-rsi-2026
+    title: "Data poisoning during RSI: risks and mitigations"
+    authors: ["Owain Evans"]
+    year: 2026
+    type: article
+    venue: "Author post on X"
+    url: https://x.com/OwainEvans_UK/status/2119521303870972043
+    status: reviewed
+    relevance: ["agentic-safety", "data-stewardship", "benchmark-validity"]
+    related_ideas: ["FID-099", "FID-102"]
+    summary: >
+      Proposes research on how agent involvement in successor training could change data integrity, coordination and unintended transfer risks.
+    limitations:
+      - The author labels the post a brainstorm. The proposed threat mechanisms are not established by it.
+    added_by: fide-ai
+    added_at: "2026-11-10"
+    last_reviewed_at: "2026-11-10"
+
+  - id: arxiv-2607-19321-researcharena
+    title: "ResearchArena: Evaluating Sabotage and Monitoring in Automated AI R&D"
+    authors: ["Lena Libon et al."]
+    year: 2026
+    type: preprint
+    venue: "arXiv"
+    url: https://arxiv.org/abs/2607.19321
+    status: reviewed
+    relevance: ["agentic-safety", "benchmark-validity", "data-stewardship"]
+    related_ideas: ["FID-074", "FID-099", "FID-102"]
+    summary: >
+      Compares monitor access to traces and produced artifacts in controlled automated R&D tasks, including sabotage through training data.
+    limitations:
+      - The staged tasks measure specified sabotage and monitoring conditions rather than frequencies in real pipelines.
+    added_by: fide-ai
+    added_at: "2026-11-10"
+    last_reviewed_at: "2026-11-10"
+
+  - id: arxiv-2610-27735-rsi-control
+    title: "RSI Control: Can AI Models Perform Covert Sabotage in the Self-Improvement Process?"
+    authors: ["Kaiwen Zhou", "Udari Madhushani Sehwag"]
+    year: 2026
+    type: preprint
+    venue: "arXiv"
+    url: https://arxiv.org/abs/2610.27735
+    status: reviewed
+    relevance: ["agentic-safety", "benchmark-validity", "data-stewardship"]
+    related_ideas: ["FID-074", "FID-099", "FID-102"]
+    summary: >
+      Tests covert side tasks and monitoring in successor training. Appendix G also compares candidate and base behavior using a black-box successor audit.
+    limitations:
+      - The staged tasks and audit conditions bound the evidence. FID-102 studies incremental decision value from verified lineage and independent tests, including hold and rollback.
+    added_by: fide-ai
+    added_at: "2026-11-10"
+    last_reviewed_at: "2026-11-10"
+
+  - id: arxiv-2603-28988-attesting-llm-pipelines
+    title: "Attesting LLM Pipelines: Enforcing Verifiable Training and Release Claims"
+    authors: ["Zhuoran Tan", "Jeremy Singer", "Christos Anagnostopoulos"]
+    year: 2026
+    type: preprint
+    venue: arXiv
+    url: https://arxiv.org/abs/2603.28988
+    status: reviewed
+    relevance: ["data-stewardship", "ai-governance"]
+    related_ideas: ["FID-077", "FID-102"]
+    summary: >
+      Proposes an attestation-aware admission gate for model artifacts with
+      signed training and release claims and optional runtime signals.
+    limitations:
+      - The evaluation is a blueprint. The preprint does not establish incremental benefit over a strong independent behavioral audit.
+    added_by: fide-ai
+    added_at: "2026-11-10"
+    last_reviewed_at: "2026-11-10"
+
+  - id: arxiv-2609-17560-model-update-no-regression
+    title: "Pay Only for Disagreement: Certified No-Regression Verdicts for Model Updates with Matching Label-Complexity Bounds"
+    authors: ["Vishnu Bindu Balachandran"]
+    year: 2026
+    type: preprint
+    venue: arXiv
+    url: https://arxiv.org/abs/2609.17560
+    status: reviewed
+    relevance: ["benchmark-validity", "human-calibration"]
+    related_ideas: ["FID-078", "FID-102"]
+    summary: >
+      Uses paired incumbent and candidate predictions to reduce adjudication
+      costs and emit statistical evidence for model update decisions.
+    limitations:
+      - The bound applies to the specified loss and sampling assumptions. It does not establish artifact integrity or cover unobserved failure modes.
+    added_by: fide-ai
+    added_at: "2026-11-10"
+    last_reviewed_at: "2026-11-10"
+
+  - id: jiang-collaborative-disagreement-2026
+    title: "Collaborative Disagreement Resolution for Scalable Oversight"
+    authors: ["Yuyang Jiang et al."]
+    year: 2026
+    type: paper
+    venue: "ICML / PMLR"
+    url: https://proceedings.mlr.press/v306/jiang26d.html
+    status: reviewed
+    relevance: ["benchmark-validity", "human-calibration"]
+    related_ideas: ["FID-011", "FID-103"]
+    summary: >
+      Compares a collaborative disagreement-resolution protocol with debate and other oversight approaches.
+    limitations:
+      - The reported tasks do not establish that agreement resolves errors caused by the same incomplete or incorrect evidence.
+    added_by: fide-ai
+    added_at: "2026-11-10"
+    last_reviewed_at: "2026-11-10"
+
+  - id: metr-capability-elicitation-2024
+    title: "Guidelines for capability elicitation"
+    authors: ["METR"]
+    year: 2024
+    type: report
+    venue: "METR"
+    url: https://metr.org/blog/2024-03-15-guidelines-for-capability-elicitation/
+    status: reviewed
+    relevance: ["benchmark-validity", "agentic-safety"]
+    related_ideas: ["FID-075", "FID-104"]
+    summary: >
+      Describes evaluator effort, spurious failures, scaffold changes and checks for getting an informative measurement of capability.
+    limitations:
+      - Qualitative guidance based on evaluator experience does not specify a generally adequate elicitation budget.
+    added_by: fide-ai
+    added_at: "2026-11-10"
+    last_reviewed_at: "2026-11-10"
+
+  - id: metr-covert-capability-risk-report-review-2026
+    title: "Review of the \"Misalignment in high-stakes settings\" section in Anthropic's Risk Report (August 2026)"
+    authors: ["METR"]
+    year: 2026
+    type: report
+    venue: "METR"
+    url: https://metr.org/blog/2026-10-20-misalignment-risk-report-august-2026-review/
+    status: reviewed
+    relevance: ["benchmark-validity", "agentic-safety"]
+    related_ideas: ["FID-008", "FID-104", "FID-105"]
+    summary: >
+      An independent critique of the evidence used to support a bounded negative claim about covert capabilities and of the strength of elicitation.
+    limitations:
+      - The assessment concerns the named report and the evidence METR could inspect. It does not establish that hidden capabilities were present.
+    added_by: fide-ai
+    added_at: "2026-11-10"
+    last_reviewed_at: "2026-11-10"
+
+  - id: metr-frontier-policy-common-elements-2025
+    title: "Common Elements of Frontier AI Safety Policies"
+    authors: ["METR"]
+    year: 2025
+    type: report
+    venue: "METR"
+    url: https://metr.org/common-elements
+    status: reviewed
+    relevance: ["ai-governance", "benchmark-validity"]
+    related_ideas: ["FID-022", "FID-105"]
+    summary: >
+      Compares named frontier safety policies by common elements, including evaluation triggers, thresholds, mitigations, and transparency.
+    limitations:
+      - The policy comparison describes commitments. Separate evidence is needed to establish what happened in a specific release.
+    added_by: fide-ai
+    added_at: "2026-11-10"
+    last_reviewed_at: "2026-11-10"
+
+  - id: anthropic-opus4-asl3-activation-2025
+    title: "Activating AI Safety Level 3 protections"
+    authors: ["Anthropic"]
+    year: 2025
+    type: article
+    venue: "Anthropic"
+    url: https://www.anthropic.com/news/activating-asl3-protections
+    status: reviewed
+    relevance: ["ai-governance", "benchmark-validity"]
+    related_ideas: ["FID-105"]
+    summary: >
+      Reports that uncertainty about capability risk informed a decision to release Claude Opus 4 under ASL-3 safeguards.
+    limitations:
+      - This is the developer account of the decision. Corroboration and evidence about effectiveness are separate questions.
+    added_by: fide-ai
+    added_at: "2026-11-10"
+    last_reviewed_at: "2026-11-10"
+
+  - id: openai-astra-critical-capabilities-2026
+    title: "Path to Astra: critical capabilities and frontier safeguards"
+    authors: ["OpenAI"]
+    year: 2026
+    type: article
+    venue: "OpenAI"
+    url: https://openai.com/index/path-to-astra/
+    status: reviewed
+    relevance: ["ai-governance", "agentic-safety"]
+    related_ideas: ["FID-075", "FID-105"]
+    summary: >
+      Reports the provider’s earlier critical-capability assessment, changes to development and release pacing, and work on cyber safeguards.
+    limitations:
+      - Treat the account as a dated decision record. The subsequent system card describes revised evaluations and a later decision.
+    added_by: fide-ai
+    added_at: "2026-11-10"
+    last_reviewed_at: "2026-11-10"
+
+  - id: openai-astra-system-card-2026
+    title: "GPT-6 Astra System Card"
+    authors: ["OpenAI"]
+    year: 2026
+    type: report
+    venue: "OpenAI Deployment Safety Hub"
+    url: https://deploymentsafety.openai.com/gpt-6-astra/sec:appendix-210154
+    status: reviewed
+    relevance: ["ai-governance", "benchmark-validity"]
+    related_ideas: ["FID-104", "FID-105"]
+    summary: >
+      The system card records revisions to cyber evaluations and reports retaining High safeguards after the revised tests.
+    limitations:
+      - This source documents the provider’s reported assessment. A different test set changes what comparisons with the earlier assessment support.
+    added_by: fide-ai
+    added_at: "2026-11-10"
+    last_reviewed_at: "2026-11-10"
+
+  - id: hazell-ten-safety-projects-2025
+    title: "Ten AI safety projects I’d like people to work on"
+    authors: ["Julian Hazell"]
+    year: 2025
+    type: article
+    venue: "LessWrong"
+    url: https://www.lesswrong.com/posts/vxA2BnCPTaPfnJjti/ten-ai-safety-projects-i-d-like-people-to-work-on
+    status: reviewed
+    relevance: ["faith-ai-gap-map", "agentic-safety", "ai-governance"]
+    related_ideas: ["FID-045", "FID-077", "FID-086", "FID-106", "FID-107"]
+    summary: >
+      Proposes project-level work on field-building, tracking real agent behavior and economic impacts, living reviews, and independent auditing.
+    limitations:
+      - These are suggested initiatives. They provide no measured program outcomes or evidence of current neglectedness.
+    added_by: fide-ai
+    added_at: "2026-11-10"
+    last_reviewed_at: "2026-11-10"
+
+  - id: chen-sixteen-safety-schemes-2026
+    title: "Sixteen schemes for AI safety"
+    authors: ["Austin Chen"]
+    year: 2026
+    type: article
+    venue: "LessWrong"
+    url: https://www.lesswrong.com/posts/jTyfbs7GW5rf78adK/sixteen-schemes-for-ai-safety
+    status: reviewed
+    relevance: ["faith-ai-gap-map", "ai-governance"]
+    related_ideas: ["FID-080", "FID-107"]
+    summary: >
+      Suggests field-building infrastructure and wider use of tabletop exercises, among other organization-level ideas.
+    limitations:
+      - This brainstorming post does not establish demand, efficacy, or a case for creating a new institution.
+    added_by: fide-ai
+    added_at: "2026-11-10"
+    last_reviewed_at: "2026-11-10"
+
+  - id: acm-ccs-artifact-evaluation-2026
+    title: "CCS 2026 Call for Artifacts"
+    authors: ["ACM CCS Artifact Evaluation Committee"]
+    year: 2026
+    type: article
+    venue: "ACM CCS"
+    url: https://www.sigsac.org/ccs/CCS2026/call-for/call-for-artifacts.html
+    status: reviewed
+    relevance: ["benchmark-validity"]
+    related_ideas: ["FID-106", "FID-107"]
+    summary: >
+      Separates artifact availability, artifact evaluation and validation of results. It supplies criteria for the reproduction comparison.
+    limitations:
+      - Artifact availability and usability do not independently validate every claim attached to a paper.
+    added_by: fide-ai
+    added_at: "2026-11-10"
+    last_reviewed_at: "2026-11-10"
+
+  - id: arxiv-2302-05058-good-first-issue-mentoring
+    title: "Is It Enough to Recommend Tasks to Newcomers? Understanding Mentoring on Good First Issues"
+    authors: ["Xin Tan et al."]
+    year: 2023
+    type: preprint
+    venue: "arXiv"
+    url: https://arxiv.org/abs/2302.05058
+    status: reviewed
+    relevance: ["human-calibration", "faith-ai-gap-map"]
+    related_ideas: ["FID-107"]
+    summary: >
+      Empirically studies newcomer tasks and mentoring practices in open-source software communities.
+    limitations:
+      - Findings from software contributions do not automatically transfer to volunteer scientific replication or evidence review.
+    added_by: fide-ai
+    added_at: "2026-11-10"
+    last_reviewed_at: "2026-11-10"
+
+  - id: arxiv-2407-04159-oss-onboarding
+    title: "From First Patch to Long-Term Contributor: Evaluating Onboarding Recommendations for OSS Newcomers"
+    authors: ["Asif Kamal Turzo", "Sayma Sultana", "Amiangshu Bosu"]
+    year: 2024
+    type: preprint
+    venue: "arXiv"
+    url: https://arxiv.org/abs/2407.04159
+    status: reviewed
+    relevance: ["human-calibration", "faith-ai-gap-map"]
+    related_ideas: ["FID-107"]
+    summary: >
+      Uses a literature review and project data to assess task-related recommendations for open-source onboarding.
+    limitations:
+      - The population and outcomes differ from Fide’s proposed study of independently usable first research artifacts.
+    added_by: fide-ai
+    added_at: "2026-11-10"
+    last_reviewed_at: "2026-11-10"
