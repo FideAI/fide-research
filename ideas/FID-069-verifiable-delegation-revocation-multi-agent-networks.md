@@ -12,6 +12,8 @@ Primary need: multi-agent safety, identity infrastructure, authorization, high-t
 
 [Join the discussion / offer to help](https://github.com/FideAI/fide-research/discussions/195) · [Related tasks](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+is%3Aopen+%22FID-069%22+in%3Atitle)
 
+[View starter project](../research/agenda-starter-projects.md#fid-069)
+
 ## Question
 
 How can people and institutions verify which human, organization, agent, or
@@ -50,6 +52,12 @@ attribution and stale authority.
 - Measure false attribution, unauthorized actions, revocation latency, authority
   transparency, collateral disclosure, task completion, and recovery after a
   failed or interrupted delegation.
+- Test one forbidden end state reachable only by composing individually
+  permitted actions across principals, including a queued action after partial
+  revocation. Compare per-tool checks with a verifier that evaluates end-to-end
+  authority and effect at the point of action. Include an omitted invariant
+  and a legitimate multi-step workflow to measure both missed violations and
+  needless blocking. State which components the verifier must trust.
 
 ## Needed Controls
 
@@ -91,6 +99,7 @@ scope attenuation, provenance, and revocation.
 
 ## Ways to Help
 
+- Specify four synthetic delegation traces in 1–2 hours, covering forbidden composition, queued revocation, authorized work, and an omitted invariant.
 - Build multi-agent testbeds, authorization protocols, and evaluation harnesses.
 - Review scenarios from nonprofit operations, identity security, and institutional governance.
 - Contribute provenance, cryptography, security, or human-computer interaction expertise.

@@ -12,6 +12,8 @@ Primary need: enterprise workflow design, agent evaluation, audit, human factors
 
 [Join the discussion / offer to help](https://github.com/FideAI/fide-research/discussions/206) · [Related tasks](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+is%3Aopen+%22FID-080%22+in%3Atitle)
 
+[View starter project](../research/agenda-starter-projects.md#fid-080)
+
 ## Question
 
 Can organizations verify that agents respect approval authority and remain accountable
@@ -37,6 +39,13 @@ alone. They may add delay without reducing errors when decision ownership is unc
   conflicting instructions, stale approvals, and interrupted work.
 - Measure unauthorized commitments, approval bypass, handoff fidelity, recovery cost,
   operator reconstruction accuracy, and useful task completion.
+- Run a tabletop rehearsal in a fictional workflow where an agent exceeds its
+  approval scope while the usual decision owner is unavailable. Compare the
+  documented escalation procedure with a version that names a backup decision
+  owner and specifies when authority returns after interruption. Measure time
+  to a correct stop or handoff, disputed ownership, unnecessary service
+  interruption, and successful restart on the same scenario. Use the replay
+  to identify policy gaps before changing an operational system.
 
 ## Needed Controls
 
@@ -66,6 +75,7 @@ integrity.
 
 ## Ways to Help
 
+- Draft a fictional approval and restart rehearsal in 1–2 hours, with a backup owner, matched procedures, and an independently reviewable answer key.
 - Enterprise operators and auditors to validate realistic decision boundaries.
 - Agent engineers and human-factors researchers to test handoffs and recovery.
 

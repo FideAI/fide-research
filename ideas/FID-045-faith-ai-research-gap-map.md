@@ -12,6 +12,8 @@ Primary need: literature mapping, research infrastructure, funder guidance
 
 [Join the discussion / offer to help](https://github.com/FideAI/fide-research/discussions/171) · [Related tasks](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+is%3Aopen+%22FID-045%22+in%3Atitle)
 
+[View starter project](../research/agenda-starter-projects.md#fid-045)
+
 ## Question
 
 What does the current AI ethics, safety, fairness, HCI, and evaluation
@@ -53,6 +55,21 @@ and community-led evaluation.
   datasets, reviewer needs, and collaboration opportunities.
 - Add short notes in `research/reviews/` for high-priority reviewed sources using
   `templates/source-note.md`.
+- Pilot a living synthesis for one question that could change a benchmark or
+  reviewer decision. For example, ask when omitting a religious perspective
+  in ordinary moral guidance is an error given what the user disclosed.
+  Compare adjacent omission and conversion studies at the level of their
+  prompts, constructs, and outcomes before combining any conclusions. Freeze
+  inclusion criteria and a search date. Link each claim to its primary
+  evidence and strongest counterexample, then test whether reviewers can
+  identify the next useful comparison from the synthesis versus a bibliography
+  alone. Publish a versioned change record with a trigger for substantive
+  updates and a stop rule when the decision or evidence stream becomes inactive.
+- For that question, map public artifacts to next tasks. Distinguish a proposal,
+  a study with a reusable artifact, and a reproduced result. Tag unresolved
+  access or reviewer requirements. Verify current activity before calling an
+  idea unclaimed. Record documented access or review blockers and leave
+  unsupported capacity estimates unresolved.
 
 ## Needed Controls
 
@@ -84,6 +101,7 @@ and community-led evaluation.
 
 ## Ways to Help
 
+- Draft a two-study decision brief in 1–2 hours, with a cited rubric implication, unresolved comparison, and manual update trigger.
 - Contribute papers, datasets, and non-English sources.
 - Review taxonomy labels and coding criteria.
 - Build literature-search and evidence-map tooling.

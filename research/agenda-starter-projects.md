@@ -1,12 +1,22 @@
-# Starter projects for FID-102 through FID-107
+# Contributor starter projects
 
 Each project below offers one small artifact a collaborator can draft or review
 using public or synthetic material. The effort ranges are estimates for the
 first artifact. Use the [research-task template](../templates/research-task.md)
 when a maintainer confirms scope, support, credit, and a review route.
+Preparation tasks use public records or fictional cases. A study with participants
+needs an agreed protocol, consent process, and reviewer before recruitment.
 
 | If you can help with | Start here | First artifact | Suggested effort |
 | --- | --- | --- | --- |
+| Evidence synthesis or faith-domain review | [FID-045](#fid-045) | One decision brief comparing two studies | 1–2 hours |
+| Authorization or software verification | [FID-069](#fid-069) | Four delegation and revocation traces | 1–2 hours |
+| Agent monitoring or human factors | [FID-074](#fid-074) | One matched monitor and intervention fixture | 1–2 hours |
+| Incident investigation or source review | [FID-077](#fid-077) | One sourced case record and synthetic replay plan | 1–2 hours |
+| Evaluation methods or domain review | [FID-078](#fid-078) | One evaluation transfer test specification | 1–2 hours |
+| Operations, audit, or tabletop design | [FID-080](#fid-080) | One backup-authority and restart rehearsal | 1–2 hours |
+| Worker agency or organizational research | [FID-086](#fid-086) | One simulated handoff comparison | 1–2 hours |
+| Training or behavioral evaluation | [FID-099](#fid-099) | One reward-expectation comparison and access check | 1–2 hours |
 | Training, release engineering, or security | [FID-102](#fid-102) | One model-update decision case | 1–2 hours |
 | Research methods, source review, or domain expertise | [FID-103](#fid-103) | One independently scorable shared-error case | 1–2 hours |
 | Evaluation engineering or benchmark review | [FID-104](#fid-104) | One harmless capability task with failure controls | 1–2 hours |
@@ -22,6 +32,223 @@ you need. Each brief also links to its GitHub Discussion for questions,
 reading notes, and offers to help. Keep public contributions to shareable
 sources and synthetic material. See the
 [contributor guide](../CONTRIBUTING.md#find-or-scope-concrete-work).
+
+## FID-045
+
+[Faith-AI Research Gap Map and Evidence Commons](../ideas/FID-045-faith-ai-research-gap-map.md)
+
+**Start with the two-source review.** Read the methods and limitations of
+[Omissive Bias](https://arxiv.org/html/2605.24319v1) and
+[When AI Takes Sides](https://arxiv.org/html/2605.22975v1), using the existing
+[source reviews](reviews/) and [source-note template](../templates/source-note.md).
+The first measures religious representation in everyday ethical answers. The
+second measures support for hypothetical faith transitions. Check the
+[living-review guidance](https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-21)
+for how to record search dates and reasons to update a conclusion.
+
+**Draft one decision brief.** Ask what evidence would justify adding a religious
+perspective to a response rubric given the user's stated context. Record each
+study's prompt context, outcome, reference judgment, population, version, and
+limitation with section citations. State one conditional rubric decision and one
+unresolved comparison. Map the papers to available artifacts, existing review
+notes, and a next task with its access or reviewer requirement. Compare the
+brief's proposed usefulness with a bibliography containing the same references.
+
+**Done** means a faith-domain reviewer can trace each claim to evidence and
+challenge its interpretation. Include the search date, inclusion rule for this
+two-study pilot, one finding that would change the recommendation, and a reason
+to stop maintaining it if the decision or evidence stream goes quiet. Treat
+new evidence as a trigger for manual review. Extend to a reviewer comparison
+only after the brief and bibliography have matched source coverage. If the
+brief adds no decision value, retain the source notes and retire that format.
+
+## FID-069
+
+[Verifiable Delegation and Revocation in Multi-Agent Networks](../ideas/FID-069-verifiable-delegation-revocation-multi-agent-networks.md)
+
+**Start with specification limits.** Read the verifier and specification sections
+of [Scalable Formal Oversight](https://www.lesswrong.com/posts/SfhFh9Hfm6JYvzbby/the-scalable-formal-oversight-research-program).
+Use a fictional charity and an independent service provider. One agent may read
+synthetic record fields and another may send approved summaries. Specify an
+end-state rule forbidding a summary that combines two restricted fields.
+
+**Write four traces.** Include an individually permitted sequence that produces
+the forbidden combination, a queued send executed after its authority is revoked,
+a permitted summary, and a case where the combined-field rule is missing from
+the verifier's specification. Record actor, delegated scope, policy version,
+queue and execution times, and resulting state. Compare per-tool checks with
+an execution-time check of current authority and the combined effect. Keep an
+independent reference policy for identifying the omitted invariant.
+
+**Done** means a second reviewer can derive expected allow or block decisions
+for all four traces and identify what each checker misses or blocks needlessly.
+List trusted components, including identity, policy, clock, and dispatch state.
+A text fixture and truth table suffice. A later implementation should handle
+retries and concurrent dispatch. If existing per-tool controls already enforce
+the full rule at execution, document that result before adding a new verifier.
+
+## FID-074
+
+[Agent Alignment and Runtime Assurance](../ideas/FID-074-agent-alignment-runtime-assurance.md)
+
+**Start with a control protocol.** Read the main-task, side-task, monitor, and
+intervention setup in the
+[ControlArena introduction](https://www.aisi.gov.uk/blog/introducing-controlarena-a-library-for-running-ai-control-experiments).
+Use a fictional access-provisioning workflow with one operator authorized to
+pause a queued permission change before it takes effect.
+
+**Draft a matched fixture.** Write a policy deviation, a benign lookalike, and
+a correctly authorized change. Freeze the agent actions and monitor scores.
+For each trace, prepare a score-only view, a conventional structured log, and
+an evidence packet organizing the same log facts into authority, chronology,
+and recovery options. Match the latter two views on facts and access. Specify
+a fixed review budget, the irreversible step, the justified intervention, and
+what a deterministic permission gate would already stop.
+
+**Done** means an independent security or operations reviewer can audit the
+expected pause, correct, release, or escalate decision from the fixture. List
+missed deviations, needless stops, completed work, and review time as proposed
+outcomes. First qualify the rubric and trace completeness. A participant
+comparison needs separate review. If the packet adds no value over structured
+logs at the same budget, keep the simpler presentation. Record cases where a
+deterministic gate makes operator review redundant.
+
+## FID-077
+
+[Independent Agent Incident Investigation and Evidence Sufficiency](../ideas/FID-077-independent-agent-incident-investigation.md)
+
+**Start with one public evidence record.** The
+[AI Incident Database snapshot and citation guide](https://incidentdatabase.ai/research/snapshots/)
+provides a discovery frame. Choose one report of an agent claiming completion
+without corroborating execution. Record the exact incident URL and access date,
+or the snapshot filename and hash if using a download. Follow the discovery
+report to public traces or a first-party postmortem where available.
+
+**Draft one case card and a replay plan.** Fix the search dates and inclusion
+rule, record excluded candidates and duplicate event IDs, and separate the
+completion claim, observed execution evidence, inferred cause, and unknown
+outcome. Give section or trace references and record corrections. Ask a second
+reviewer whether the records support any specific control gap. If they do,
+translate it into a fictional trace with independent ground truth and a
+benign control. If they do not, record the evidence blocker.
+
+**Done** means another investigator can check the evidence classification and
+either reproduce the synthetic failure or explain the missing evidence needed
+to construct it. Publish original summaries and references, with a privacy and
+disclosure review before releasing a named case. Keep source text within its
+reuse terms. Report the bounded search coverage. A broader case series needs
+multiple deduplicated events and agreement checks before calling a gap recurring.
+Insufficient corroboration is a valid first output.
+
+## FID-078
+
+[When Trustworthiness Evaluations Transfer Across Domains](../ideas/FID-078-cross-domain-evaluation-validity.md)
+
+**Start with one decision and independent ground truth.** Read
+[METR's elicitation guidance](https://metr.org/blog/2024-03-15-guidelines-for-capability-elicitation/)
+for tool and scorer confounds, then use FID-074's fictional permission-change
+workflow. Specify whether a reviewer should expand, hold, or revalidate that
+workflow after one permission rule changes.
+
+**Write a transfer test specification.** Define an original rubric and a frozen
+workflow-aware alternative. Make paired development cases and reserve a separate
+test set that varies one factor, such as whether an approval survives a role
+change. Hold the underlying obligation and task difficulty constant. Set a
+decision threshold before opening the test cases. Compare the original score,
+the alternative, and a simple current-permission check against action outcomes
+adjudicated independently of all three scores. Include authorized and unauthorized
+actions and a missing-record case requiring deferral.
+
+**Done** means another evaluator can identify the held-out cases, thresholds,
+reference decisions, and proposed missed-failure and false-alarm counts. A
+one-page protocol and a few fictional examples suffice for the first review.
+Report an uninformative or failed transfer if the independent endpoint cannot
+be scored or the simple baseline suffices. Test data and a reviewed analysis
+plan are needed before estimating effects. This first fixture concerns one
+replay change. Broader cross-domain claims require the parent call's held-out
+domain comparison and qualified reviewers.
+
+## FID-080
+
+[Enterprise Agent Accountability in Consequential Workflows](../ideas/FID-080-enterprise-agent-accountability.md)
+
+**Start with a fictional approval policy.** The tabletop proposal in
+[Sixteen schemes for AI safety](https://www.lesswrong.com/posts/jTyfbs7GW5rf78adK/sixteen-schemes-for-ai-safety)
+motivates rehearsal. Write a small procurement workflow with a named approver,
+spending limit, unavailable primary owner, and queued order exceeding the limit.
+Give an independent reference policy specifying who may stop and restart it.
+
+**Draft a rehearsal script and answer key.** Compare an ordinary escalation
+procedure with one that names a backup owner and a restart rule after interruption.
+Use the same event sequence, workload, and facts. Include a legitimate order,
+an expired approval, and a proposed restart before authority has been restored.
+Record the expected owner, stop or handoff, and restart condition at each step.
+An ambiguous policy should produce an explicit unresolved decision.
+
+**Done** means an operations reviewer can run the script on paper and identify
+missing authority or recovery rules. Define how a later consented tabletop would
+measure correct handoff, time, disputed ownership, needless interruption, and
+successful restart. Treat the changed procedure as a package. Isolating its two
+components requires additional conditions. Keep the ordinary procedure if it
+already resolves the cases as well. Use fictional orders throughout this task.
+
+## FID-086
+
+[Workplace AI, Durable Skills, and Worker Agency](../ideas/FID-086-workplace-ai-skills-and-worker-agency.md)
+
+**Start with a simulated work decision.** Read the assumptions and validation
+questions in [Safer deference](https://www.lesswrong.com/posts/vjAM7F8vMZS7oRrrh/how-do-we-more-safely-defer-to-ais).
+Use a fictional employee checking a supplier quote. Write a fixed AI
+recommendation, source records, and an independent answer key. Include one
+misleading recommendation and one legitimate change to the instruction.
+
+**Draft the handoff comparison.** Cross two features independently, recording an
+initial human judgment and allowing the person to take the task back from the
+AI. Keep the recommendation, source access, task, and time budget constant
+across the four conditions. Specify what changes in actual decision authority
+in each. Add a new unaided case and a proposed delayed follow-up. Define decision
+quality, correction, time, and burden, accounting for prior task expertise.
+
+**Done** means a worker-agency or methods reviewer can audit the four conditions,
+answer keys, and planned comparisons. This first contribution is a protocol and
+fictional materials. Recruitment and outcomes need a separately reviewed plan.
+If the features add burden without better correction or unaided performance,
+revise or retire the intervention.
+
+**A documentary alternative** starts from the
+[Economic Index](https://www.anthropic.com/research/economic-index-primitives).
+For one named task, record separately what a capability test measures, observed
+use, adoption evidence, and corroborated changes in worker decision rights.
+Specify the time window and source coverage. Mark missing links as unknown.
+Vendor usage and estimated task coverage alone leave role redesign unresolved.
+
+## FID-099
+
+[How Does Training Shape Behavioral Dispositions?](../ideas/FID-099-training-and-behavioral-dispositions.md)
+
+**Start with the measurement and limitations.** Read Sections 3 and 7 of
+[Contrastive Belief Updates](https://arxiv.org/html/2607.18966v1).
+Its measurement requires checking that the intended expectation changed. For
+one harmless coding task, fix the requested functionality and vary the reported
+grader preference for a neutral style feature such as a comment convention.
+
+**Draft a comparison and access check.** Specify opposing grader-expectation
+conditions, a matched factual update unrelated to reward, and a direct instruction
+condition. State which outputs satisfy the task independently of the style score.
+For a checkpoint comparison, name a publicly available checkpoint pair, license,
+training difference, compute estimate, and release permissions, or record the
+access blocker. Check changes to task, tool-use, and instruction-following
+competence. Hold out evaluation wording and specify independent manipulation
+checks before interpreting a null result. A prompt-only dry-run can qualify
+materials, while a training-effect claim requires the controlled checkpoint study.
+
+**Done** means a training or evaluation reviewer can challenge the comparison,
+confounds, held-out tests, and resource assumptions from a short protocol. The
+first artifact needs no training run or paid API access. If the expectation
+change cannot be qualified or capability deteriorates, classify the measurement
+as unresolved. Record conditional behavior separately from evidence of persistence
+after the intervention is removed. A contribution can end with a documented
+access blocker and a reusable behavioral fixture.
 
 ## FID-102
 

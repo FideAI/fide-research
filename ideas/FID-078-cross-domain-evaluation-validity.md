@@ -12,6 +12,8 @@ Primary need: measurement science, psychometrics, domain review, evaluation engi
 
 [Join the discussion / offer to help](https://github.com/FideAI/fide-research/discussions/204) · [Related tasks](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+is%3Aopen+%22FID-078%22+in%3Atitle)
 
+[View starter project](../research/agenda-starter-projects.md#fid-078)
+
 ## Question
 
 Which measures of evidence use, authority boundaries, and human control transfer across
@@ -31,6 +33,16 @@ constructs fail to support comparison at all.
 
 ## Proposed Method
 
+- Choose one decision about whether to expand, hold, or revalidate a narrowly
+  specified AI workflow. Freeze the original evaluation and select one endpoint
+  that an independent reviewer can adjudicate from observed actions and outcomes.
+  Use paired synthetic or authorized replay cases that preserve the underlying
+  obligation while varying a deployment-relevant factor such as permissions, task
+  sequence, source availability, or model version. Compare the original score and
+  a workflow-based score against a simple baseline. Report missed severe failures,
+  false alarms, uncertainty, and decision changes at a threshold set in advance.
+  A synthetic pilot tests transfer to the specified replay. A claim about deployment
+  requires separately obtained evidence from that setting.
 - Co-design matched task families in at least three settings with different authority
   structures. Start with synthetic cases and identify the intended decision each measure
   supports.
@@ -67,6 +79,7 @@ validation methods for FID-075 and FID-080 through FID-086.
 
 ## Ways to Help
 
+- Specify a bounded replay transfer test in 1–2 hours, with held-out cases, independent outcomes, a fixed threshold, and a simple permission-check baseline.
 - Measurement researchers and domain practitioners to define and challenge constructs.
 - Engineers to implement held-out evaluation and reproducibility checks.
 

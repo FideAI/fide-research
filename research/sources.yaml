@@ -2620,7 +2620,7 @@ sources:
     url: https://metr.org/blog/2024-03-15-guidelines-for-capability-elicitation/
     status: reviewed
     relevance: ["benchmark-validity", "agentic-safety"]
-    related_ideas: ["FID-075", "FID-104"]
+    related_ideas: ["FID-075", "FID-078", "FID-104"]
     summary: >
       Describes evaluator effort, spurious failures, scaffold changes and checks for getting an informative measurement of capability.
     limitations:
@@ -2842,3 +2842,131 @@ sources:
       - "Simulated deployments, not real incidents; per-model rates reflect scenario iteration, evaluation awareness is a stated confound, and the report offers no mechanistic analysis."
     added_by: fide-ai
     added_at: "2026-11-12"
+
+  - id: aisi-controlarena-2025
+    title: "Introducing ControlArena: A library for running AI control experiments"
+    authors: ["UK AI Security Institute"]
+    year: 2025
+    type: article
+    venue: "UK AI Security Institute"
+    url: https://www.aisi.gov.uk/blog/introducing-controlarena-a-library-for-running-ai-control-experiments
+    status: reviewed
+    relevance: ["agentic-safety", "benchmark-validity"]
+    related_ideas: ["FID-074", "FID-076", "FID-077"]
+    summary: >
+      Describes a reusable control evaluation library and analyses of task-level and deployment-level intervention protocols.
+    limitations:
+      - A benchmark result is conditional on its environment, attack policy and control budget.
+    added_by: fide-ai
+    added_at: "2026-11-13"
+    last_reviewed_at: "2026-11-13"
+
+  - id: arxiv-2607-18966-contrastive-reward-seeking
+    title: "Measuring Reward-Seeking via Contrastive Belief Updates"
+    authors: ["Axel Højmark et al."]
+    year: 2026
+    type: preprint
+    venue: "arXiv"
+    url: https://arxiv.org/abs/2607.18966
+    status: reviewed
+    relevance: ["benchmark-validity", "model-persona"]
+    related_ideas: ["FID-012", "FID-099"]
+    summary: >
+      Uses contrastive changes in beliefs about what receives reward to study behavior under competing objectives.
+    limitations:
+      - The measurement is conditional on specified objectives and credible belief interventions. Off-target behavior and unmeasured objectives limit interpretation.
+    added_by: fide-ai
+    added_at: "2026-11-13"
+    last_reviewed_at: "2026-11-13"
+
+  - id: cochrane-living-review-handbook-2026
+    title: "Chapter 21: Living systematic reviews"
+    authors: ["Rebecca K. Hodder et al."]
+    year: 2026
+    type: article
+    venue: "Cochrane Handbook for Systematic Reviews of Interventions"
+    url: https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-21
+    status: reviewed
+    relevance: ["faith-ai-gap-map", "benchmark-validity"]
+    related_ideas: ["FID-045"]
+    summary: >
+      Guidance on evidence surveillance, explicit update criteria, reporting status and transitioning a review out of living mode.
+    limitations:
+      - FID-045 borrows update and reporting principles. Its bounded AI synthesis is a separate method from a Cochrane systematic review.
+    added_by: fide-ai
+    added_at: "2026-11-13"
+    last_reviewed_at: "2026-11-13"
+
+  - id: aiid-public-snapshots
+    title: "Database Backups and Snapshots"
+    authors: ["AI Incident Database"]
+    year: 2026
+    type: dataset
+    venue: "AI Incident Database"
+    url: https://incidentdatabase.ai/research/snapshots/
+    status: reviewed
+    relevance: ["agentic-safety", "data-stewardship", "ai-governance"]
+    related_ideas: ["FID-024", "FID-077"]
+    summary: >
+      Versioned incident and taxonomy snapshots can define a documented discovery frame for a bounded case series.
+    limitations:
+      - Records reflect observed reports and coverage. They are not an exposure denominator or independent confirmation of every event.
+    added_by: fide-ai
+    added_at: "2026-11-13"
+    last_reviewed_at: "2026-11-13"
+
+  - id: anthropic-economic-index-primitives-2026
+    title: "Economic Index: New building blocks for AI use"
+    authors: ["Anthropic"]
+    year: 2026
+    type: report
+    venue: "Anthropic"
+    url: https://www.anthropic.com/research/economic-index-primitives
+    status: reviewed
+    relevance: ["human-flourishing", "benchmark-validity"]
+    related_ideas: ["FID-046", "FID-086"]
+    summary: >
+      Distinguishes task coverage from estimated effective coverage using usage, task frequency and time, and estimated success.
+    limitations:
+      - Observed Claude use and estimated task coverage do not establish workforce-wide adoption, role redesign, or labor effects.
+    added_by: fide-ai
+    added_at: "2026-11-13"
+    last_reviewed_at: "2026-11-13"
+
+  - id: von-hippel-scalable-formal-oversight-2026
+    title: "The Scalable Formal Oversight Research Program"
+    authors: ["Max von Hippel"]
+    year: 2026
+    type: article
+    venue: LessWrong
+    url: https://www.lesswrong.com/posts/SfhFh9Hfm6JYvzbby/the-scalable-formal-oversight-research-program
+    status: reviewed
+    relevance: ["agentic-safety", "benchmark-validity"]
+    related_ideas: ["FID-069"]
+    summary: >
+      Proposes formal oversight projects and identifies specification gaps and
+      verifier trust as limitations relevant to composing permitted agent actions.
+    limitations:
+      - Review covers the verifier and specification sections. This agenda does not validate Fide's proposed delegation test.
+    added_by: fide-ai
+    added_at: "2026-11-13"
+    last_reviewed_at: "2026-11-13"
+
+  - id: greenblatt-stastny-safer-deference-2026
+    title: "How do we (more) safely defer to AIs?"
+    authors: ["Ryan Greenblatt", "Julian Stastny"]
+    year: 2026
+    type: article
+    venue: LessWrong / Alignment Forum
+    url: https://www.lesswrong.com/posts/vjAM7F8vMZS7oRrrh/how-do-we-more-safely-defer-to-ais
+    status: reviewed
+    relevance: ["agentic-safety", "human-calibration"]
+    related_ideas: ["FID-086"]
+    summary: >
+      Discusses assumptions and validation needs for delegating safety work to
+      capable AI systems. It motivates questions about judgment and handoff.
+    limitations:
+      - Review covers the framing and assumptions. A short workplace simulation cannot validate the broader deference strategy or establish durable human skill.
+    added_by: fide-ai
+    added_at: "2026-11-13"
+    last_reviewed_at: "2026-11-13"

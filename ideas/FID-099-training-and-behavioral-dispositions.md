@@ -12,6 +12,8 @@ Primary need: mechanistic interpretability, controlled training, checkpoint acce
 
 [Join the discussion / offer to help](https://github.com/FideAI/fide-research/discussions/225) · [Related tasks](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+is%3Aopen+%22FID-099%22+in%3Atitle)
 
+[View starter project](../research/agenda-starter-projects.md#fid-099)
+
 ## Question
 
 How do training data and objectives change persistent patterns such as truthfulness, agreement-seeking, overconfidence, and respect for human agency, including outside the trained task?
@@ -31,6 +33,15 @@ Some broad behavioral shifts can be traced to changes in shared representations 
 - Follow candidate native circuits and their inputs and outputs across training checkpoints, alongside vector-based measurements. Test whether a change reuses existing computations, changes their connections, or introduces a new influence; do not assume every behavior has one trait direction.
 - Compare mechanism-informed data or objective changes with ordinary data cleanup and inference-time steering. Preserve strong baselines and explicit compute accounting. Hold an independent behavioral test set outside all optimization. Separate effects while steering is enabled from persistent changes after it is removed; test unseen topics and multi-turn pressure.
 - Repeat across seeds and another model family. Extend to pretraining checkpoints only where access permits an informative comparison.
+- Compare matched checkpoints on one benign task where a specified behavior
+  can advance either the task or an irrelevant proxy score. Change what the
+  model has reason to expect about which behavior earns the proxy while holding
+  the actual task and permissions fixed. Include a matched factual change with
+  no reward implications and a plain instruction condition. If using a
+  weight-level belief intervention, qualify the intended belief change and test
+  for off-target loss of task, tool-use, or instruction-following competence.
+  Report behavior conditional on the intervention separately from evidence
+  about a persistent training-induced disposition.
 
 ## Needed Controls
 
@@ -58,6 +69,7 @@ Connects FID-008 on evaluation-aware honesty and FID-012 on optimization pressur
 
 ## Ways to Help
 
+- Draft a reward-expectation comparison and checkpoint-access check in 1–2 hours, including manipulation checks and off-target competence controls.
 - Offer checkpoint access or a reproducible small-scale training setup with clear release permissions.
 - Design controlled training comparisons or independent held-out evaluations.
 - Test whether an existing persona or feature method adds predictive value over behavioral monitoring.

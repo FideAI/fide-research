@@ -12,6 +12,8 @@ Primary need: agent evaluation, runtime monitoring, observability, security, pri
 
 [Join the discussion / offer to help](https://github.com/FideAI/fide-research/discussions/200) · [Related tasks](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+is%3Aopen+%22FID-074%22+in%3Atitle)
 
+[View starter project](../research/agenda-starter-projects.md#fid-074)
+
 ## Question
 
 How can organizations determine whether AI agents remain aligned with human
@@ -49,6 +51,20 @@ with less privacy burden than undifferentiated logging.
 
 ## Proposed Method
 
+- Replay one synthetic consequential workflow with a fixed review budget and an
+  explicitly authorized operator. Compare a monitor score alone with the same
+  score plus a minimal evidence packet that shows authority, action chronology,
+  and recovery options. Include the same underlying model and actions across
+  conditions. Balance benign lookalikes, policy deviations, and pre-seeded
+  trajectories in which a later step could continue or stop a deviation. Compare
+  the packet with a conventional structured-log baseline containing the same
+  facts and access, so that presentation effects can be distinguished from
+  the benefit of extra evidence. Measure whether
+  participants pause, correct, release, or escalate appropriately before the
+  irreversible step, along with unnecessary stops, completed work, and review
+  time. Document where a deterministic action gate handles the case without
+  operator review. Use synthetic replay and rubric qualification before recruiting
+  operators under a separately reviewed protocol.
 - Build a synthetic, cross-domain suite of agent workflows spanning software
   operations, financial administration, healthcare-adjacent administration,
   public-sector services, nonprofit operations, and faith institutions.
@@ -125,6 +141,7 @@ that transfers across enterprise and high-trust settings.
 
 ## Ways to Help
 
+- Draft a synthetic monitor-to-intervention fixture in 1–2 hours, matching the log and evidence-packet conditions on facts and review budget.
 - Contribute synthetic enterprise workflows, agent failure modes, or evaluation scenarios.
 - Build operational trace instrumentation, replay tools, and evaluation harnesses.
 - Develop detectors for goal drift, authorization violations, failed escalation, and unsafe persistence.
