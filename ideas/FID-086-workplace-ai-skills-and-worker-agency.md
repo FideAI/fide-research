@@ -12,6 +12,8 @@ Primary need: labor research, organizational studies, worker participation, long
 
 [Join the discussion / offer to help](https://github.com/FideAI/fide-research/discussions/212) · [Related tasks](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+is%3Aopen+%22FID-086%22+in%3Atitle)
 
+[View starter project](../research/agenda-starter-projects.md#fid-086)
+
 ## Question
 
 How does AI-mediated work change workers' skills, decision authority, and ability to
@@ -38,6 +40,19 @@ depend on role, prior skill, and how gains are distributed.
 - Scope a separate longitudinal organizational study with worker participation to
   examine role transitions and distribution of benefits; avoid inferring livelihood
   effects from task experiments alone.
+- Test a reversible handoff on one simulated work decision. Give participants
+  the same AI recommendation and vary two features independently: whether they
+  record an initial judgment and whether they can take the task back from the
+  AI. Include misleading evidence and legitimate changes of instruction.
+  Measure immediate decision quality, correction, and performance on a new
+  unaided case, alongside time and burden. Specify a separate delayed follow-up
+  before making claims about durable skills.
+- For one named work task, compare what a capability test measures with
+  publicly documented use in the workflow and independently observable
+  evidence of role redesign where available. Record the time window, coverage,
+  who still exercises judgment, and which tasks were removed or added. Separate
+  vendor usage data, employer accounts, worker evidence, and measured labor
+  outcomes. Missing adoption evidence leaves the relationship unresolved.
 
 ## Needed Controls
 
@@ -65,6 +80,7 @@ questions of useful contribution, durable skills, and worker agency.
 
 ## Ways to Help
 
+- Draft a four-condition simulated handoff protocol in 1–2 hours, with fixed AI advice, actual decision rights, and a new unaided task.
 - Workers, labor researchers, and organizational scholars to co-design outcomes.
 - Employers and public-interest partners willing to support independent, consent-based
   research.

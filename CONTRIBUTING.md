@@ -20,7 +20,7 @@ A complete research proposal or institutional affiliation is not required.
    through [Participate](https://fideai.org/participate/) rather than submitting a
    duplicate. A GitHub comment alone does not register your contributor details.
 2. **Choose a starting point.** Open a research brief and follow its discussion
-   link, or browse the [starter projects for FID-102 through FID-107](research/agenda-starter-projects.md).
+   link, or browse the [contributor starter projects](research/agenda-starter-projects.md).
    A question or a few sentences about what you would like to work on is enough.
    You can also browse [tasks needing help](https://github.com/FideAI/fide-research/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22)
    or [small first contributions](https://github.com/FideAI/fide-research/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22good%20first%20issue%22).

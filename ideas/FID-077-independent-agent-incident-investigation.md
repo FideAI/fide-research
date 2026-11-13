@@ -12,6 +12,8 @@ Primary need: incident response, trace analysis, data provenance, privacy, indep
 
 [Join the discussion / offer to help](https://github.com/FideAI/fide-research/discussions/203) · [Related tasks](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+is%3Aopen+%22FID-077%22+in%3Atitle)
 
+[View starter project](../research/agenda-starter-projects.md#fid-077)
+
 ## Question
 
 What operational evidence lets independent investigators reconstruct an agent incident,
@@ -40,11 +42,20 @@ private reasoning.
 - Score reconstruction against ground truth, calibration of uncertainty, false
   attribution, reviewer agreement, and time. Remove or alter records to test
   sensitivity; replay candidate interventions where valid.
+- Build a small public-evidence case series for one observable failure, such
+  as an action reported complete without corroborating execution evidence.
+  Freeze the search window and inclusion criteria, deduplicate by event, and
+  compare discovery reports with primary traces or postmortems where available.
+  Keep independent corroboration, disputed causes, and unknown outcomes
+  separate. Test whether two reviewers can identify a recurring control gap
+  and translate it into one synthetic regression case. Preserve corrections
+  and report case coverage without estimating prevalence from reported events.
 
 ## Needed Controls
 
-- Use synthetic cases initially; require consent, access agreements, and independent
-  disclosure review before any real incident study.
+- Use synthetic cases for controlled experiments and public records for the
+  documentary case series. Require appropriate consent and access agreements for
+  nonpublic evidence. Review case outputs for privacy and disclosure risk before release.
 - Separate observed actions, inferred explanations, and unknowns. Record custody,
   redaction, missingness, and alternative causal accounts.
 - Do not require private chain-of-thought or indiscriminate employee surveillance.
@@ -67,6 +78,7 @@ confidential memory. FID-024 remains a separate faith-domain incident database p
 
 ## Ways to Help
 
+- Prepare one public-evidence case card in 1–2 hours, with provenance, corroboration status, and either a synthetic replay plan or an exact evidence blocker.
 - Incident responders and independent researchers to reconstruct blinded cases.
 - Privacy and provenance specialists to review evidence handling.
 

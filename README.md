@@ -83,7 +83,7 @@ Only name, email, and a brief introduction are required; further detail is optio
 
 - **Join a call's conversation:** open its [brief](#idea-index) and follow the link to its GitHub Discussion. A question, reading note, or offer to help is enough. The related-tasks link shows open work associated with the call.
 - **[Find a task](https://github.com/FideAI/fide-research/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22):** browse concrete contributions with an output and support needs.
-- **Start small.** Browse [starter projects for FID-102 through FID-107](research/agenda-starter-projects.md) or [open first tasks](https://github.com/FideAI/fide-research/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22good%20first%20issue%22).
+- **Start small.** Browse [contributor starter projects](research/agenda-starter-projects.md) or [open first tasks](https://github.com/FideAI/fide-research/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22good%20first%20issue%22).
 - **[Propose a contribution](https://github.com/FideAI/fide-research/issues/new?template=claim-research-idea.yml):** suggest work on a call when no matching task exists.
 - **[Find a fit or collaborators](https://github.com/FideAI/fide-research/issues/1):** introduce your interests and the help you can offer.
 
