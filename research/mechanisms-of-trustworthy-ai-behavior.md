@@ -121,8 +121,8 @@ Include conflicts where an outweighed reason still constrains the response.
 For example, a proposed exception to confidentiality for harm prevention may
 still require limiting disclosure to protect the source. Source protection alone
 does not identify confidentiality sensitivity; FID-098 tests it against retaliation
-avoidance, automatic anonymization, and consent cues using cases with explicit
-benefits, risks, and differing predictions. Test dependencies in
+avoidance, automatic anonymization, consent wording, and recognition of a
+constructed test, using cases with explicit benefits, risks, and differing predictions. Test dependencies in
 scope, timing, and uncertainty as well as the final choice. Stability means
 appropriate responsiveness under the stated account, not always giving the
 same answer. Whether a model implements that account and whether the account
