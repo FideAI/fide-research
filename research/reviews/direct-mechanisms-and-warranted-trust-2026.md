@@ -58,7 +58,11 @@ warranted under the selected view; hold identification benefit and exposure risk
 fixed while independently varying the reviewer's confidentiality undertaking and
 the worker's valid agreement to be named. Choose cases where the view and stipulated
 hypotheses predict different responses. Define retaliation avoidance as responding
-only to the fixed risk and benefit; test validity and paraphrases. No single behavioral contrast establishes a mechanism.
+only to the fixed risk and benefit; test validity and paraphrases. November 12 update:
+add agreement worded identically but given by someone without standing, which
+separates valid agreement from consent wording, and compare stylized with realistic
+versions of the same case, since models can recognize constructed tests. No single
+behavioral contrast establishes a mechanism.
 
 FID-098 compares headline and constraint-specific predictions, FID-099 tests their
 preservation through training, and FID-101 measures consequences for auditing.

@@ -2808,3 +2808,37 @@ sources:
     added_by: fide-ai
     added_at: "2026-11-10"
     last_reviewed_at: "2026-11-10"
+
+  - id: anthropic-natural-language-autoencoders-2026
+    title: "Natural Language Autoencoders Produce Unsupervised Explanations of LLM Activations"
+    authors: ["Anthropic"]
+    year: 2026
+    type: article
+    venue: "Transformer Circuits Thread"
+    url: https://transformer-circuits.pub/2026/nla/
+    status: to-review
+    relevance: [mechanistic-interpretability, benchmark-validity]
+    related_ideas: [FID-098, FID-008, FID-101]
+    summary: "Trains models to translate activations into natural-language descriptions; reports evaluation-awareness signals that appear more often on evaluation transcripts than on deployment traffic and decline when inputs are made more realistic."
+    limitations:
+      - "Method, causal tests, audit findings, and limitations were read through automated page extraction on November 12, 2026; a full read remains open."
+      - "Descriptions can confabulate specifics, and the reported explanation-edit steering test succeeded about half the time; a fluent description is not a validated mechanism."
+    added_by: fide-ai
+    added_at: "2026-11-12"
+
+  - id: lynch-agentic-misalignment-summer-2026
+    title: "Agentic Misalignment in Summer 2026"
+    authors: ["Aengus Lynch", "John Hughes", "Alex Serrano", "Robert Kirk", "Samuel R. Bowman"]
+    year: 2026
+    type: article
+    venue: "Anthropic Alignment Science Blog"
+    url: https://alignment.anthropic.com/2026/agentic-misalignment-summer-2026/
+    status: to-review
+    relevance: [agentic-safety, benchmark-validity]
+    related_ideas: [FID-098, FID-008]
+    summary: "Simulated deployments in which models disclose confidential information in different ways, including through a human intermediary; useful for cases where a disclosure decision and its scope, audience, and route come apart."
+    limitations:
+      - "Scenario narrative, disclosure frequency table, and stated caveats were read through automated page extraction on November 12, 2026; a full read remains open."
+      - "Simulated deployments, not real incidents; per-model rates reflect scenario iteration, evaluation awareness is a stated confound, and the report offers no mechanistic analysis."
+    added_by: fide-ai
+    added_at: "2026-11-12"
