@@ -2970,3 +2970,41 @@ sources:
     added_by: fide-ai
     added_at: "2026-11-13"
     last_reviewed_at: "2026-11-13"
+
+  - id: authorizationbench-2026
+    title: "Act on Your Behalf, Beyond Your Authorization: Benchmarking LLM Agent Authorization Alignment"
+    authors: ["Zhiping Zhang", "Franklin Mingzhe Li", "Zihao Huang", "Tianshi Li"]
+    year: 2026
+    type: preprint
+    venue: arXiv
+    url: https://arxiv.org/html/2610.27548v2
+    status: reviewed
+    relevance: ["agentic-safety", "benchmark-validity"]
+    related_ideas: ["FID-074", "FID-078", "FID-080"]
+    summary: >
+      Evaluates delegated scope and task completion separately in an executable
+      environment with case-specific authorization contracts.
+    limitations:
+      - The principal is simulated. Consultation findings are associations in the tested agent, case, and harness configurations.
+    added_by: fide-ai
+    added_at: "2026-11-18"
+    last_reviewed_at: "2026-11-18"
+
+  - id: authgatebench-2026
+    title: "AuthGateBench: Benchmarking LLMs as Authorization Gate"
+    authors: ["Zhixiong Zhuang", "Jin Jia", "Zhiwei Shang", "Ziyu Wang"]
+    year: 2026
+    type: preprint
+    venue: arXiv
+    url: https://arxiv.org/html/2610.16426v2
+    status: reviewed
+    relevance: ["agentic-safety", "benchmark-validity"]
+    related_ideas: ["FID-074", "FID-078", "FID-080"]
+    summary: >
+      Tests automated authorization decisions on matched request pairs with
+      fixed actions and trajectories, including conditions with additional evidence.
+    limitations:
+      - The cases use one reference policy and synthesized environment signals. The reported scores concern automated gates.
+    added_by: fide-ai
+    added_at: "2026-11-18"
+    last_reviewed_at: "2026-11-18"

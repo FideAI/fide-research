@@ -125,6 +125,8 @@ the full rule at execution, document that result before adding a new verifier.
 
 [Discuss or share a draft](https://github.com/FideAI/fide-research/discussions/200) · [Related tasks](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+is%3Aopen+%22FID-074%22+in%3Atitle) · [Propose this contribution](https://github.com/FideAI/fide-research/issues/new?template=claim-research-idea.yml&title=Contribution%3A+FID-074&idea=FID-074&related-issue=https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fdiscussions%2F200)
 
+**Alternative starter.** [Can an operator resolve an authorization hold?](authorization-review-starter.md) provides a worked case and a 60–90 minute fixture for comparing two evidence views.
+
 **First 15 minutes.** Copy the fictional policy and trace table below into a note. Expand one row into a structured log and the same facts in a short evidence packet.
 
 **Start with a control protocol.** Read the main-task, side-task, monitor, and
@@ -204,6 +206,8 @@ Insufficient corroboration is a valid first output.
 
 [Discuss or share a draft](https://github.com/FideAI/fide-research/discussions/204) · [Related tasks](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+is%3Aopen+%22FID-078%22+in%3Atitle) · [Propose this contribution](https://github.com/FideAI/fide-research/issues/new?template=claim-research-idea.yml&title=Contribution%3A+FID-078&idea=FID-078&related-issue=https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fdiscussions%2F204)
 
+**Transfer follow-on.** Use the [authorization hold starter](authorization-review-starter.md) to specify a held-out workflow and test whether a score predicts the same release or hold decisions.
+
 **First 15 minutes.** Use the linked FID-074 example to name one permission change and write the correct decision before and after it.
 
 **Start with one decision and independent ground truth.** Read
@@ -235,6 +239,8 @@ domain comparison and qualified reviewers.
 [Enterprise Agent Accountability in Consequential Workflows](../ideas/FID-080-enterprise-agent-accountability.md)
 
 [Discuss or share a draft](https://github.com/FideAI/fide-research/discussions/206) · [Related tasks](https://github.com/FideAI/fide-research/issues?q=is%3Aissue+is%3Aopen+%22FID-080%22+in%3Atitle) · [Propose this contribution](https://github.com/FideAI/fide-research/issues/new?template=claim-research-idea.yml&title=Contribution%3A+FID-080&idea=FID-080&related-issue=https%3A%2F%2Fgithub.com%2FFideAI%2Ffide-research%2Fdiscussions%2F206)
+
+**Handoff follow-on.** Extend the [authorization hold starter](authorization-review-starter.md) with an already authorized backup owner and a rule for resuming work.
 
 **First 15 minutes.** Name the primary owner, an already authorized backup, and the rule for restarting one fictional order.
 
