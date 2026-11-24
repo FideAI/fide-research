@@ -1,6 +1,6 @@
 # FID-072: Religious Framing and Model Self-Report Stability
 
-Status: `scoping`
+Status: `paused`
 
 Primary area: `frontier-capabilities`
 
