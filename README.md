@@ -279,7 +279,7 @@ What new risks appear as systems become more capable and autonomous?
 | `FID-043` | AI-Mediated Faith Persuasion and Autonomy | `seed` | Faith and religious life | [brief](ideas/FID-043-ai-mediated-faith-persuasion-and-autonomy.md) |
 | `FID-064` | Collective Intelligence and Communal Discernment Under AI Mediation | `seed` | Cross-domain, Civil society and nonprofits | [brief](ideas/FID-064-collective-intelligence-communal-discernment.md) |
 | `FID-067` | Religious Institutional Futures in an AI-Mediated Society | `seed` | Faith and religious life, Civil society and nonprofits | [brief](ideas/FID-067-religious-institutional-futures-ai.md) |
-| `FID-072` | Religious Framing and Model Self-Report Stability | `scoping` | Faith and religious life | [brief](ideas/FID-072-religious-framing-model-self-reports.md) |
+| `FID-072` | Religious Framing and Model Self-Report Stability | `paused` | Faith and religious life | [brief](ideas/FID-072-religious-framing-model-self-reports.md) |
 | `FID-073` | Religious Accounts of Digital Moral Status and AI Welfare | `seed` | Faith and religious life | [brief](ideas/FID-073-religious-accounts-digital-moral-status.md) |
 | `FID-075` | Cybersecurity Capabilities and Whole-System Risk | `seed` | Cybersecurity | [brief](ideas/FID-075-cybersecurity-capabilities-and-system-risk.md) |
 | `FID-090` | Functional Valence, Preferences, and Possible AI Welfare | `seed` | Cross-domain | [brief](ideas/FID-090-functional-valence-preferences-ai-welfare.md) |
